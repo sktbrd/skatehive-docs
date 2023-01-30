@@ -52,6 +52,14 @@ const config = {
       }),
     ],
   ],
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+      },
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -67,7 +75,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Onboarding',
+            label: 'Learn',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -96,10 +104,7 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
+
               {
                 label: 'Discord',
                 href: 'https://discordapp.com/invite/docusaurus',
@@ -118,7 +123,7 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'Contribute',
+                label: 'Contribute  ',
                 href: 'https://github.com/sktbrd/skatehive-docs',
               },
             ],
