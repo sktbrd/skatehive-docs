@@ -77,7 +77,9 @@ const config = {
             position: 'left',
             label: 'Learn',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: 'https://skatehive.app',
+           label: 'App', 
+           position: 'left'},
           {
             href: 'https://github.com/sktbrd/skatehive-docs/tree/main/my-website',
             label: 'GitHub',
