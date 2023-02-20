@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Publish your first Skatehive post
+# Publish a post in [Skatehive.app](https://skatehive.app/)
 
 1. Click on the pencil icon (create post) icon at the top right of your screen
 2. Add Post title
