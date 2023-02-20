@@ -11,6 +11,7 @@ sidebar_position: 2
 5. Upload your photos or paste video links*
 6. Preview your post, make sure it looks dope
 7. Click on "Publish"
+8. Congrats, you just published a post in Skatehive. Post pays for 7 days and after that your rewards will go to your wallet.
 
 Read the full posting tutorial : [TUTORIAL : How to post your skateboarding videos/photos on Skatehive.app](https://skatehive.app/hive-173115/@knowhow92/tutorial--how-to-post-your-skateboarding-videosphotos-on-stokenwtf)
 
