@@ -12,6 +12,6 @@ sidebar_position: 2
 You are about to see some orange and blue foxes hanging around. 
 
 
-## ShapeShift Wallet (Bitcoin)
+## ShapeShift Wallet (MultiChain)
 
 Shapeshift is a multichain wallet, you can import your private keys created in step 1) to transform your ETH wallet in a multichain wallet under those same keys
