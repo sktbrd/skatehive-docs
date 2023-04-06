@@ -10,3 +10,5 @@ sidebar_position: 1
 3. Type your Hive username 
 4. Confirm they Keychain transaction
 5. Welcome to Skatehive
+
+![](https://i.imgur.com/4cAMvXU.gif)
