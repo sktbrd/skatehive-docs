@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -34,6 +35,15 @@ export default function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Skatehive Docs 🛹</title>
+        <meta name="description" content="SkateHive App and Community documentation for onboarding savy users" />
+        <meta name="keywords" content="skatehive, skatehive, web" />
+        <meta name="author" content="SkateHive Community" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:image" content="https://thumbnails.odycdn.com/optimize/s:400:0/quality:95/plain/https://spee.ch/8/b416b166fd9dbe4e.png" />
+      </Helmet>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
