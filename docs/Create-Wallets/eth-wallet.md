@@ -12,7 +12,7 @@ sidebar_position: 2
 Shapeshift is a multichain wallet, you can import your private keys created in step 1) to transform your ETH wallet in a multichain wallet under those same keys
 
 
-## Dawn Wallet (Best for IOS (safari) 
+## Dawn Wallet [Best for IOS (safari browser extension)]
 
 Dawn is an iPhone based Ethereum mobile wallet. 
 
