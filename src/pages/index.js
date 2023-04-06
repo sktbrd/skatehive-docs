@@ -38,11 +38,12 @@ export default function Home() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Skatehive Docs 🛹</title>
-        <meta name="description" content="SkateHive App and Community documentation for onboarding savy users" />
-        <meta name="keywords" content="skatehive, skatehive, web" />
-        <meta name="author" content="SkateHive Community" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="Skatehive Docs 🛹" />
+        <meta property="og:description" content="SkateHive App and Community documentation for onboarding savvy users" />
         <meta property="og:image" content="https://thumbnails.odycdn.com/optimize/s:400:0/quality:95/plain/https://spee.ch/8/b416b166fd9dbe4e.png" />
+        <meta property="og:url" content="https://example.com" />
+        <meta name="twitter:card" content="summary_large_image" />
+
       </Helmet>
       <HomepageHeader />
       <main>
