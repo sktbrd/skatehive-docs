@@ -12,6 +12,8 @@ sidebar_position: 2
 6. Preview your post, make sure it looks dope
 7. Click on "Publish"
 
+![](https://i.imgur.com/yxDstgl.gif)
+
 Read the full posting tutorial : [TUTORIAL : How to post your skateboarding videos/photos on Skatehive.app](https://skatehive.app/hive-173115/@knowhow92/tutorial--how-to-post-your-skateboarding-videosphotos-on-stokenwtf)
 
 > *5.You can use 3speak to upload videos directly to Skatehive.app. Sign up on https://3speak.tv/ with your email, connect your Hive account and choose "Skatehive Community" as the community you wanna post in when you're uploading a video.
