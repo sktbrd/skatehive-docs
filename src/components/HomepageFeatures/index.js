@@ -13,12 +13,12 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Ethereum and Skateboarding',
+    title: 'Blockchain and Skateboarding',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Blockchain is built with decentralized principals that enables more fair cimmunity based systems and tools. 
+        Blockchain is better for skateboarding. Daos, for example, are like your local spot community making decisions together.
       </>
     ),
   },
@@ -27,8 +27,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Hive Blockchain allows skatehive to implement a DPOS curation system 
+        which enables monetized curation to all apps backed by skatehive
       </>
     ),
   },

@@ -131,7 +131,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Built with Weed. Copyright is for l00sers`,
       },
       prism: {
         theme: darkCodeTheme,
