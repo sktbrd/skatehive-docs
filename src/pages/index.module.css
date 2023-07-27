@@ -29,7 +29,7 @@
 
 iframe {
   border-radius: 20px;
-  border: limegreen solid 1px
+  border: limegreen solid 1px;
 }
 
 .imageStyle {
@@ -39,4 +39,9 @@ iframe {
   border: limegreen 1px solid;
   border-radius: 20px;
   padding: 5px;
+}
+
+pre{
+  color:rgb(206, 173, 42);
+  border: rgb(206, 173, 42) 1px solid;
 }

@@ -29,10 +29,10 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
+        {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <SkateFrames></SkateFrames>
-        <MendableSearchBar userIcon="https://i.gifer.com/origin/f1/f1a737e4cfba336f974af05abab62c8f_w200.gif" botIcon="https://images.ecency.com/u/hive-173115/avatar/large" cmdShortcutKey="y" dialogPlaceholder="Ask me anything about Skatehive" anon_key='524a2d83-688b-477a-ba99-05131d06138d' style={style} />
+        <MendableSearchBar userIcon="" botIcon="https://images.ecency.com/u/hive-173115/avatar/large" cmdShortcutKey="y" dialogPlaceholder="Ask me anything about Skatehive" anon_key='524a2d83-688b-477a-ba99-05131d06138d' style={style} />
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"

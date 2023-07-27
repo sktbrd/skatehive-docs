@@ -28,9 +28,7 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: black(0, 0, 0, 0.3);
 }
-a {
-  color: var(black);
-}
+
 
 * {
   font-family: 'Courier New', monospace;
@@ -40,7 +38,9 @@ a {
 h1, h2, h3, h4, h5 {
   font-family: 'Courier New', monospace;
 }
-
+h1,h2,h3{
+  color: rgb(206, 173, 42);
+}
 a {
   color: yellow;
 }
@@ -51,7 +51,9 @@ a {
 .navbar__link:hover, .navbar__link--active {
     color: limegreen
 }
-
+.navbar__title {
+  color: rgb(206, 173, 42);
+}
 .breadcrumbs__item--active .breadcrumbs__link {
   color: yellow;
 }
@@ -75,3 +77,4 @@ a {
   background-color: limegreen; /* Change the background color when hovered */
   color: black; /* Change the text color when hovered */
 }
+

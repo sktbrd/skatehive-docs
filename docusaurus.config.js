@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Skatehive Docs',
-  tagline: 'Welcome to the Web3 Skateboarding World, ask anything to our AI',
+  tagline: 'Welcome to the Web3 Skateboarding World, ask anything to our AI in any language',
   url: 'https://docs.skatehive.app',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
