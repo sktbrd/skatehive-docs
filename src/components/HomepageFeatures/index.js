@@ -4,11 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Crypto for Tricks',
+    title: 'Decentralized Governance',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Steve Williams was my favorite skater and I was a punk skateenager. Thats just the truth man - WebGnar
+      SKTHV OG NFTs are your digital passport to anything Skatehive-related! Owning a SKTHV OG NFTs prooves holder’s OG status in our community, allows Skatehive to establish a more decentralized and transparent voting system and give holders the power to propose their own ideas as well as shape the future of Skatehive.
       </>
     ),
   },

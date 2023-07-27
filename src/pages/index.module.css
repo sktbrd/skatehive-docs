@@ -3,6 +3,10 @@
  * and scoped locally.
  */
 
+*{
+  font-family: 'Courier New', monospace;
+}
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -20,8 +24,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: black;
 }
 
 iframe {
   border-radius: 20px;
+  border: limegreen solid 1px
+}
+
+.imageStyle {
+  width: 20%; /* Or any other size */
+  height: auto;
+  border-radius: 5px; /* Optional: if you want rounded corners */
+  border: limegreen 1px solid;
+  border-radius: 20px;
+  padding: 5px;
 }
