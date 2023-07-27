@@ -28,6 +28,9 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: black(0, 0, 0, 0.3);
 }
+a {
+  color: var(black);
+}
 
 * {
   font-family: 'Courier New', monospace;

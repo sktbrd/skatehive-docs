@@ -166,6 +166,7 @@ const config = {
       },
       colorMode: {
         defaultMode: 'dark',
+        respectPrefersColorScheme: false,
       }
     }),
 };

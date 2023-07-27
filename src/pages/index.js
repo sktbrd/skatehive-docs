@@ -50,8 +50,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="SkateHive Docs">
+      title={`${siteConfig.title}`}
+      description="Learn about skateboarding and web3">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Skatehive Docs 🛹</title>
