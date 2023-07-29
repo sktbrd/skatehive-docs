@@ -1,0 +1,38 @@
+{
+  "title": {
+    "message": "Skatehive Docs",
+    "description": "The title in the navbar"
+  },
+  "item.label.Learn": {
+    "message": "Aprenda",
+    "description": "Navbar item with label Learn"
+  },
+  "item.label.App": {
+    "message": "App",
+    "description": "Navbar item with label App"
+  },
+  "item.label.Projects": {
+    "message": "Projetos",
+    "description": "Navbar item with label Projects"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.Quest for Stoken": {
+    "message": "Quest for Stoken",
+    "description": "Navbar item with label Quest for Stoken"
+  },
+  "item.label.PepeSkate": {
+    "message": "PepeSkate",
+    "description": "Navbar item with label PepeSkate"
+  },
+  "item.label.Gnars": {
+    "message": "Gnars",
+    "description": "Navbar item with label Gnars"
+  },
+  "item.label.Settle or Die": {
+    "message": "Settle or Die",
+    "description": "Navbar item with label Settle or Die"
+  }
+}
