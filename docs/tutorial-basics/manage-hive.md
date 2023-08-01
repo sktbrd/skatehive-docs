@@ -6,6 +6,8 @@ sidebar_position: 4
 
 You can manage your Hive tokens at your wallet. By clicking on your wallet you'll notice 5 terms, Hive, Hive Power, Hive Dollars, Savings and Estimated Account Value.
 
+![](https://hackmd.io/_uploads/SJzriJDs3.png)
+
 1. **Hive**
 
 HIVE are tradeable tokens that may be transferred at anytime. HIVE can be converted to Hive Power in a process called powering up
