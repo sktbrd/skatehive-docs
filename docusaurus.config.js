@@ -93,7 +93,7 @@ const config = {
               },
               {
                 label: 'Skatehive App',
-                href: 'https://skatehive.app,
+                href: 'https://skatehive.app',
               },
               {
                 label: 'Gnars',
