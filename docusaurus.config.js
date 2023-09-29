@@ -92,8 +92,8 @@ const config = {
                 href: 'https://stoken.quest',
               },
               {
-                label: 'PepeSkate',
-                href: 'https://pepeskate.vercel.app',
+                label: 'Skatehive App',
+                href: 'https://skatehive.app,
               },
               {
                 label: 'Gnars',
