@@ -160,14 +160,15 @@ const config = {
       customFields:{
         mendableAnonKey: "524a2d83-688b-477a-ba99-05131d06138d",
     },
-      prism: {
-        theme: darkCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-      colorMode: {
-        defaultMode: 'dark',
-        respectPrefersColorScheme: false,
-      }
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,  // Set to true if you want to disable the light/dark switch button
+      respectPrefersColorScheme: true,  // Set to true if you want to respect the user's system setting
+    },      
+    prism: {
+      theme: darkCodeTheme,
+      darkTheme: darkCodeTheme,
+    },
     }),
 };
 

@@ -29,7 +29,6 @@
   --docusaurus-highlighted-code-line-bg: black(0, 0, 0, 0.3);
 }
 
-
 * {
   font-family: 'Courier New', monospace;
   color: limegreen;
@@ -60,6 +59,11 @@ a {
 
 .menu__link--active:not(.menu__link--sublist) {
   color: yellow;
+}
+
+img{
+  border-radius: 20px;
+  border: 1px solid limegreen;
 }
 
 .footer--dark {
