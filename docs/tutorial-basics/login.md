@@ -11,4 +11,4 @@ sidebar_position: 1
 4. Confirm they Keychain transaction
 5. Welcome to Skatehive
 
-![](https://i.imgur.com/4cAMvXU.gif)
+![](https://media.discordapp.net/attachments/1122276204641276105/1158857332583829564/login.gif?ex=651dc57e&is=651c73fe&hm=08af39e4f169f267e22f9cc7573eb86fdd5db23c6bd5fc7fea64984d8422b2d8&=&width=1397&height=662)
