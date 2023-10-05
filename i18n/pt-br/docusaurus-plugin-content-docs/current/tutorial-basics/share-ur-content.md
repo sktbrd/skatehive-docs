@@ -2,17 +2,15 @@
 sidebar_position: 2
 ---
 
-# Publique um post em Skatehive.app
+# Publicar uma postagem na Skatehive.app
 
-1. Click na categoria "Upload" no meio da tela
-2. Adicione um título para a postagem
-3. Adicione tags (logo abaixo do título))
-4. Adicione uma descrição para a postagem
-5. Faça uploads de videos ou textos na postagem
-6. Visualize sua postagem, confira se o seu post esta certo.
-7. Cliquem em "Publish"
+1. Clique no ícone de skate (e escrito upload), no canto superior direito da tela
+2. Adicione o título da postagem
+3. Adicione a descrição da postagem
+4. Envie suas fotos ou cole links de vídeos*
+5. Veja uma pré-visualização da sua postagem e certifique-se de que parece legal
+6. Clique em "Publish"
 
-![](https://i.imgur.com/yxDstgl.gif)
-Leia o tutorial de postagem completo: [TUTORIAL: Como postar seus vídeos/fotos de skate no Skatehive.app](https://skatehive.app/hive-173115/@knowhow92/tutorial--how-to-post-your-skateboarding -videosfotos-em-stokenwtf)
+![](https://cdn.discordapp.com/attachments/1122276204641276105/1158858256349933698/howtopublic.gif?ex=652ee9da&is=651c74da&hm=6638541fe315364015d11811b8ecc953e388959f33d08a87ac3c23a147c7735d&)
 
-> *5.Você pode usar o 3speak para enviar vídeos diretamente para Skatehive.app. Cadastre-se em https://3speak.tv/ com seu e-mail, conecte sua conta Hive e escolha "Comunidade Skatehive" como a comunidade que você deseja postar seu vídeo.
+> *5. Você pode usar o 3speak para enviar vídeos diretamente para Skatehive.app. Cadastre-se em https://3speak.tv/ com seu e-mail, conecte sua conta Hive e escolha "Comunidade Skatehive" como a comunidade na qual você deseja postar quando estiver enviando um vídeo.
