@@ -1,93 +1,89 @@
 ---
-title: Fork Skatehive Guide
+title:  Como fazer um fork da Skatehive
 sidebar_position: 1
 ---
 
-# How to Fork Skatehive 🛹
+# Como fazer um fork da Skatehive 🛹
 
-We are going to make this tutorial to anyone that wants to create his own skatehive powered portal like https://skatehive.app
+Faremos este tutorial para qualquer pessoa que queira criar sua própria comunidade com a tecnologia da skatehive, como https://skatehive.app
 
-You are going to have to install some stuff in your machine to get your development enviroment ready. 
+Você precisará instalar algumas coisas em sua máquina para preparar seu computador para o desenvolvimento do fork.
 
-The code is still a little messy but I invite you to be part of this learning journey with us. This doc will always be updated at: https://docs.skatehive.app
+O código ainda está um pouco confuso, mas convido você a fazer parte do nosso aprendizado. Este documento será sempre atualizado em: https://docs.skatehive.app
 
 ## Index
 
-- Install Git and set Github account
-- Set up Github SSH Keys
-- Forking the Repository 
-- Clone/Download the Repository
-- Download and Install NodeJs
-- Install Yarn 
-- Install Dependencies with `yarn`
-- Change .env variables
-- Run it with `yarn dev`
-- Made some modification just 4 fun
-- Push your changes to github 
-- Putting it online, deploy your version with vercel 
+- Instale o Git e configure a conta do Github
+- Configure suas keys SSH do Github
+- Fork o repositorio
+- Clone/Download o repositorio
+- Faça o Dowload e instale o Node.js
+- Instale o Yarn
+- Instale as dependencias com o comando `yarn`
+- Mude as variaveis .env
+- Execute com o comando `yarn dev`
+- Fiz algumas modificações apenas por diversão
+- Envie suas alterações para o github
+-  Coloque seu fork online, faça deploy com o vercel
 
 
-## Install Git and set Github account
+## Instale o Git e configure a conta do Github
 
-Download and install Git in your local machine. That will enable you to execute git commands in your terminal, like `git clone`  and other wizardlies 
-
+Baixe e instale o Git em sua máquina local. Isso permitirá que você execute comandos git em seu terminal, como `git clone` e outros comandos
 
 [Download Git](https://git-scm.com/downloads)
 [Learn More about git and its instalation](https://www.youtube.com/results?search_query=what+is+git+how+to+install)
 
-## Create a Github Account
+## CCrie sua conta no GitHub
 
-Just sign up 
+Basta se inscrever
 
-## Set up Github SSH keys 
+## Configure suas chaves (Keys) SSH do Github
 
-In order to make the process more smooth we are going to set up an SSH connection by generating SSH keys. 
+Para tornar o processo mais tranquilo, vamos configurar uma conexão SSH gerando chaves SSH.
 
+1. Abra seu terminal
 
-1. Open you terminal 
-
-2. Type the following command
-> use the same email you used to create the github account
+2. Digite o seguinte comando
+> use o mesmo e-mail que você usou para criar a conta no github
 
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ``` 
-> This creates a new SSH key, using the provided email as a label.
+> Isso cria uma nova chave SSH, usando o e-mail fornecido como rótulo.
 
-3. Start the ssh-agent in the background
-
+3. Inicie o agente ssh em segundo plano
 ```
 eval "$(ssh-agent -s)"
 ```
 
-4. Copy the contents of the id_ed25519.pub file to your clipboard
-
-- For Mac users: 
+4. Copie o conteúdo do arquivo id_ed25519.pub para sua área de transferência
+- Para usuarios do Mac: 
 `pbcopy < ~/.ssh/id_ed25519.pub`
 
-- For Windows users: 
+- Para usuarios do Windows: 
 `clip < ~/.ssh/id_ed25519.pub`
 
 
 
-and give it a Title and paste the contet in Key
+ Dê um título e cole o conteúdo em Key
 ![reference link](https://hackmd.io/_uploads/SJfV9vXx6.png)
 
 
 
 > [Full SSH Tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
-## Fork the repository
+## Fork o repositorio
 
  **[Click Fork Button](https://github.com/sktbrd/skateapp)** 
 
 ![reference link](https://hackmd.io/_uploads/rkdbdKXep.png)
 
-This will create your own version of the repo in your account: 
+Isso criará sua própria versão do repositório em sua conta:
 
 ![](https://hackmd.io/_uploads/B1WfhKQl6.png)
 
-Ok, now you are going to clone the repository of files into your machine, which is basically download the app: 
+Pronto, agora você vai clonar o repositório de arquivos na sua máquina, que é basicamente baixar o app:
 
 ```
 git clone git@github.com:<your-username>/<your-fork>.git
@@ -96,132 +92,126 @@ git clone git@github.com:<your-username>/<your-fork>.git
 ![](https://hackmd.io/_uploads/BkQVkq7la.png)
 
 
-Now navigate to the cloned repository by: 
+Agora navegue até o repositório clonado por:
 
 ```
 cd <your-fork>
 ```
 
-In this case, 
+Nesse caso, 
 
 ```
 cd skateapp
 ``` 
 
-For the next step we are going to need to install some more programs in your machine to complete your enviroment and finally install and run the application. 
-
+Para a próxima etapa precisaremos instalar mais alguns programas em seu computador para completar seu ambiente e finalmente instalar e executar o aplicativo.
 
 ## [Download and install Node.Js](https://nodejs.org/en)
 
-> Nothing fancy here, just install and make sure you leave the `add to path` option marked.
+> Nada sofisticado aqui, basta instalar e deixar o `add to path` marcado.
 
 ## [Install Yarn Here](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
 
 > [More ways to install Yarn](https://www.youtube.com/results?search_query=install+yarn)
 
 
-If you got Nodejs, npm, yarn and weed/coffee you can now install and and run it on your local machine. 
+Se você possui Nodejs, npm, yarn e weed/coffee agora você pode instalar e executá-lo em seu computado.
 
-## Back to Terminal... 
+## Voltando ao terminal... 
 
-In the repository folder
-
+Na pasta do repositório
 ```
 yarn
 ```
-> Note: This command will automatically install all the required JavaScript packages and dependencies for your project, as specified in the package.json file. Yarn will download and configure everything needed to run your Skatehive portal.
-This step ensures that you have all the necessary libraries and tools in your development environment to build and run the application.
-
+> Nota: Este comando instalará automaticamente todos os pacotes JavaScript e dependências necessários para o seu projeto, conforme especificado no arquivo package.json. O Yarn irá baixar e configurar tudo o que for necessário para executar a Skatehive.
+Esta etapa garante que você tenha todas as bibliotecas e ferramentas necessárias em seu computador para construir e executar o aplicativo.
 
 ![](https://hackmd.io/_uploads/B1ZZxo7ea.png)
-Wait a little, drink some "coffee"...
+Espere um pouco, tome um "café"...
 
-You should see that when its over: 
+Você deverá ver isso quando acabar:
 ![](https://hackmd.io/_uploads/r1SIlsmea.png)
 
-> If you get an error in any step you can throw it in chat-gpt or ask us in [skatehive discord](https://discord.gg/skatehive) and see which one helps you faster 
+> Se você receber um erro em alguma etapa, você pode jogá-lo no chat-gpt ou perguntar-nos em [skatehive discord](https://discord.gg/skatehive) e ver qual deles ajuda você mais rápido
 
 
-## Rename .env.example to .env 
+## Renomeie .env.example para .env 
 
-Rename .env.example and choose the hive community you want to get/upload content from/to. For example, if you use hive-173115 you get skatehive, if you use hive-141964 in community field you get surfhive 
-
+Renomeie .env.example e escolha a comunidade Hive da qual deseja obter/carregar conteúdo. Por exemplo, se você usar o hive-173115 você obterá o skatehive, se você usar o hive-141964 no campo comunitário você obterá o surfhive
 ![](https://hackmd.io/_uploads/r1as6jQeT.png)
 
 
-Now run the application you just installed: 
-
+Agora execute o aplicativo que você acabou de instalar:
 ```
 yarn dev
 ```
 ![](https://hackmd.io/_uploads/HJ-WzjXla.png)
 
 
-Now open https://localhost:5173 and you are going to see the same app as https://skatehive.app 
+Agora abra https://localhost:5173 e você verá o mesmo aplicativo que https://skatehive.app
 
 ![](https://hackmd.io/_uploads/BJQuMiXea.png)
 
-That means that you are running the app using your own computer as a server through the port 5173 
+Isso significa que você está executando o aplicativo usando seu próprio computador como servidor através da porta 5173
 
-You can now try to edit your code in a code editor, I recommend [VSCode](https://code.visualstudio.com/), but my Jedi Master recommends [JetBrains](https://www.jetbrains.com/) 
+Agora você pode tentar editar seu código em um editor de código, eu recomendo [VSCode](https://code.visualstudio.com/), mas meu Mestre Jedi recomenda [JetBrains](https://www.jetbrains.com/ )
 
-I usually use `code .` command in the terminal folder to easily open the folder I am working in VScode
+Eu costumo usar o comando `code.` na pasta do terminal para abrir facilmente a pasta em que estamos trabalhando no VScode
 
-Make a silly change, like change the footer of it. 
+Faça uma mudança boba, como mudar o rodapé.
 
 ![](https://hackmd.io/_uploads/SkbvLiml6.png)
 
 
-This project is built with TypeScript and incorporates Chakra UI for the frontend. For Hive-related tasks, we rely on the [Keychain SDK](https://play.hive-keychain.com/) and dhive libraries. Additionally, to facilitate interactions with Ethereum, Bitcoin, and various other blockchains, we leverage the capabilities of [Pioneer-React](https://github.com/BitHighlander/pioneer-react#readme).
+Este projeto é construído com TypeScript e incorpora Chakra UI para o frontend. Para tarefas relacionadas ao Hive, contamos com o [Keychain SDK](https://play.hive-keychain.com/) e as bibliotecas dive. Além disso, para facilitar as interações com Ethereum, Bitcoin e vários outros blockchains, aproveitamos os recursos do [Pioneer-React](https://github.com/BitHighlander/pioneer-react#readme).
 
 
 **Stage Changes:**
 ```
 git add .
 ````
-> to prepare your changes for commit.
+> Prepare suas alterações para um commit.
 
 **Commit Changes:**
 
 ```
 git commit -m "Changed header color".
 ```
-> Commit with a message 
+> Commit com uma mensagem
 
 **Push to GitHub:**
 ```
 git push origin main
 ```
-> Push your changes 
+> Envie suas mudanças
 
-Now you can go to your github account and check if the it was updated 
+Agora você pode acessar sua conta do github e verificar se ela foi atualizada
 
-## Putting your website online 
+## Colocando seu website online
 
-## Go to vercel.com 
+##  Va para  vercel.com 
 
-1. Make an account with your github account 
+1. Faça uma conta com sua conta do github 
 ![](https://hackmd.io/_uploads/S1ZD2jXx6.png)
 
-2. Install Github Extension it offers 
-3. Select the repository 
+2.Instale a extensão Github 
+3. Selecione o repositório
 ![](https://hackmd.io/_uploads/SyXanjXga.png)
 
-4. Click in Deploy
+4. Clique em Deploy
 
-You should see something like this: 
+Você deverá ver algo assim:
 
 ![](https://hackmd.io/_uploads/rko1pomxp.png)
  
 
-You can navigate now to: 
+Você pode navegar agora para:
 
 https://your-repo.vercel.app 
 
-and see your own hive community. 
+ Veja sua própria comunidade Hive.
 
-Congrats! That's so cool, you put a permissionless website online! Go show your mama, say that I miss her. 
-
+Parabéns! Que legal, você colocou um site  online! Vá mostrar para sua mãe, diga que estou com saudades dela.
 --- 
 
 
