@@ -2,35 +2,32 @@
 sidebar_position: 4
 ---
 
-# Manage your Hive Tokens
-
-You can manage your Hive tokens at your wallet. By clicking on your wallet you'll notice 5 terms, Hive, Hive Power, Hive Dollars, Savings and Estimated Account Value.
-
+# Gerencie seus tokens Hive
+Você pode gerenciar seus tokens Hive em sua carteira. Ao clicar em sua carteira você notará 5 termos, Hive, Hive Power, Hive Dollars, Savings e Estimated Account Value.
 ![](https://hackmd.io/_uploads/SJzriJDs3.png)
 
 1. **Hive**
 
-HIVE are tradeable tokens that may be transferred at anytime. HIVE can be converted to Hive Power in a process called powering up
+HIVE são tokens negociáveis ​​que podem ser transferidos a qualquer momento. HIVE pode ser convertido em Hive Power em um processo chamado "powering up"
 
 2. **Hive Power**
 
-Always a reward on posts. Exchanging Hive for Hive Power is called "Powering Up" or "Staking".
+Você sempre uma recompensa nas postagens. Trocar Hive por Hive Power é chamado de "Powering Up" ou "Staking".
 
- - Stake/Power up your HIVE tokens to have special abilities on the Hive Blockchain:
- - Larger voting power and increased curation rewards
- - More resource credits to do transactions on Hive Blockchain
- - More stake in Hive governance to support witnesses and projects
+ - Stake/Power up seus tokens HIVE para ter habilidades especiais no Hive Blockchain:
+ - Maior poder de voto e maiores recompensas de curadoria
+ - Mais créditos de recursos para fazer transações no Hive Blockchain
+ - Mais participação na governança do Hive para apoiar testemunhas e projetos
 
 3. **HBD (Hive Backed Dollars)**
 
-Tokens worth about $1.00 of HIVE.
-
+Tokens no valor de cerca de US$ 1,00 em stablecoin da Hive
 4. **SAVINGS**
 
-Transfer your Hive or HBD to savings for bigger safety. Balance is subject to 3 days withdraw waiting period.
+Transfira seu Hive ou HBD para poupança para maior segurança. O saldo está sujeito a um período de espera de retirada de 3 dias.
 
-> HBD in savings increases at 20.00% APR as defined by the witnesses
+> HBD na poupança aumenta em 20,00% APR conforme definido pelas testemunhas
 
 **Estimated account value**
 
-The estimated US dollars value is based on an average value of the tokens in your wallet.
+O valor estimado em dólares americanos é baseado no valor médio dos tokens em sua carteira.
