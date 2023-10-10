@@ -2,8 +2,7 @@
 sidebar_position: 1
 ---
 
-# You need Wallets Yo!
-
+# Necesitas Carteras Yo!
 ## Hive Wallet 
 
 ## ETH Wallet 
