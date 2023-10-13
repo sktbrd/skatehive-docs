@@ -1,4 +1,16 @@
-# Website
+# Skatehive Docs 
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
