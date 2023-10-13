@@ -9,6 +9,7 @@
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/JasperOPR"><img src="https://avatars.githubusercontent.com/u/85296013?v=4?s=100" width="100px;" alt="Jasper"/><br /><sub><b>Jasper</b></sub></a><br /><a href="#translation-JasperOPR" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/VasconsaBR"><img src="https://avatars.githubusercontent.com/u/90463966?v=4?s=100" width="100px;" alt="VasconsaBR"/><br /><sub><b>VasconsaBR</b></sub></a><br /><a href="#translation-VasconsaBR" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
