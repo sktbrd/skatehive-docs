@@ -42,6 +42,9 @@ function CardCategory({item}) {
     return null;
   }
   return (
+    <div 
+    style={{backgroundColor:"black"}}>
+
     <CardLayout
       href={href}
       icon="🗃️"
@@ -51,11 +54,12 @@ function CardCategory({item}) {
           message: '{count} items',
           id: 'theme.docs.DocCard.categoryDescription',
           description:
-            'The default description for a category card in the generated index about how many items this category includes',
+          'The default description for a category card in the generated index about how many items this category includes',
         },
         {count: item.items.length},
-      )}
-    />
+        )}
+        />
+        </div>
   );
 }
 

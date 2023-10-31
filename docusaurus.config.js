@@ -66,6 +66,7 @@ const config = {
     ({
       navbar: {
         title: 'Skatehive Docs',
+        style: 'dark',
         logo: {
           alt: 'Skatehive Logo',
           src: 'img/logo.svg',
@@ -162,7 +163,7 @@ const config = {
     },
     colorMode: {
       defaultMode: 'dark',
-      disableSwitch: true,  // Set to true if you want to disable the light/dark switch button
+      disableSwitch: false,  // Set to true if you want to disable the light/dark switch button
       respectPrefersColorScheme: true,  // Set to true if you want to respect the user's system setting
     },      
     prism: {

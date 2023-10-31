@@ -45,3 +45,21 @@ pre{
   color:rgb(206, 173, 42);
   border: rgb(206, 173, 42) 1px solid;
 }
+
+pre{
+  color:rgb(206, 173, 42);
+  border: rgb(206, 173, 42) 1px solid;
+  background-color: black;
+}
+
+section{
+  background-color: black;
+}
+
+nav {
+  background-color: black;
+}
+
+footer {
+  background-color: black;
+}
