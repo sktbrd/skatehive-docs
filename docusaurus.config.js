@@ -163,7 +163,7 @@ const config = {
     },
     colorMode: {
       defaultMode: 'dark',
-      disableSwitch: false,  // Set to true if you want to disable the light/dark switch button
+      disableSwitch: true,  // Set to true if you want to disable the light/dark switch button
       respectPrefersColorScheme: true,  // Set to true if you want to respect the user's system setting
     },      
     prism: {

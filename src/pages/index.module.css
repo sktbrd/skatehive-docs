@@ -63,3 +63,6 @@ nav {
 footer {
   background-color: black;
 }
+:root {
+  --ifm-color-background: black; /* Replace with your desired color */
+}

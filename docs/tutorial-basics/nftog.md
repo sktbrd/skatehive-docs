@@ -151,9 +151,7 @@ Our ultimate goal is to give 100% of decision power to the community and SKTHV O
 
     
     
-**Accounts eligible for airdrop**
-
-*Comment with your ETH wallet adress bellow to claim yours*
+**Accounts eligible for 1st airdrop**
     
 @knowhow92 , @xvlad , @howweroll, @web-gnar , @stickchumpion , @homelesscrewmx , @davixesk8 , @fmajuniorphoto , @boeltermc , @elvlogxpasta , @gnarip12345, @samuelvelizsk8, @nicolscron, @kike.adventure, @keepskating420, @willdias , @toffer , @dabxs0 , @jucabala , @transtorn0 , @mark0318 , @cinnartmon , @unhurried , @threespeak , @ervin-lemark , @ganjafarmer , @sandymeyer , @nicksmitley , @ocd , @sk8coin , @dikayskate , @zagorisioss , @rxdolo , @ramonsk8 , @sketch17 , @baystreetboards , @matt-a , @fonestreet , @niggyayo , @dylhep , @thejajasper , @damoclesart , @kdkou , @renanmatic92 , @sk8.beast , @tomig , @downhill254 , @brunomaule , @cmplxty , @zoggygivaerts , @mengao , @ezekhiveadict ,@jimkal1992 , @rilo, @slappyerfilms, @illusivelf , @bobburnquist , @adriuff , @mero.chou , @alexjay , @brunomaule, @leofinance , @zonaskatemx , @damnbigboat , @floralshirtguy , @vito , @gabrielpaduan , @coletivoxv , @georgekeremoglou , @derangedvisions , @thefew.studio , @skaters , @vcclothing , @tibfox , @sktbr , @gnars , @tomrohrer
 

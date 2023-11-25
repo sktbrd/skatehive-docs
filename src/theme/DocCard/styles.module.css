@@ -34,3 +34,7 @@
 }
 
 *{ font-family: 'Courier New', monospace;}
+
+:root {
+  --ifm-color-background: black; /* Replace with your desired color */
+}
