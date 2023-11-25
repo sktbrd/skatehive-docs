@@ -115,7 +115,11 @@ For the next step we are going to need to install some more programs in your mac
 
 > Nothing fancy here, just install and make sure you leave the `add to path` option marked.
 
-## [Install Yarn Here](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
+## [Install pnpm Here](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable) or 
+
+```
+npm install -g pnpm
+```
 
 > [More ways to install Yarn](https://www.youtube.com/results?search_query=install+yarn)
 
@@ -127,7 +131,7 @@ If you got Nodejs, npm, yarn and weed/coffee you can now install and and run it 
 In the repository folder
 
 ```
-yarn
+pnpm i
 ```
 > Note: This command will automatically install all the required JavaScript packages and dependencies for your project, as specified in the package.json file. Yarn will download and configure everything needed to run your Skatehive portal.
 This step ensures that you have all the necessary libraries and tools in your development environment to build and run the application.
@@ -152,7 +156,7 @@ Rename .env.example and choose the hive community you want to get/upload content
 Now run the application you just installed: 
 
 ```
-yarn dev
+pnpm dev
 ```
 ![](https://hackmd.io/_uploads/HJ-WzjXla.png)
 
@@ -176,6 +180,15 @@ This project is built with TypeScript and incorporates Chakra UI for the fronten
 
 
 **Stage Changes:**
+
+Before sending to github its good to: 
+
+```
+pnpm build:turbo 
+```
+
+and test its build locally !
+
 ```
 git add .
 ````
