@@ -1,5 +1,5 @@
 ---
-title: Skatehive OG NFTs Airdrop está AO VIVO - Um experimento de governança
+title: Skatehive OG NFTs Airdrop está online - Um experimento de governança
 sidebar_position: 5
 ---
 
