@@ -8,30 +8,14 @@
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%">
-        <a href="https://github.com/JasperOPR">
-          <img src="https://avatars.githubusercontent.com/u/85296013?v=4?s=100" style="width: 100px; height: 100px; object-fit: cover; border-radius: 100%;" alt="Jasper" /><br />
-          <sub><b>Jasper</b></sub>
-        </a><br />
-        <a href="#translation-JasperOPR" title="Translation">🌍</a>
-      </td>
-      <td align="center" valign="top" width="14.28%">
-        <a href="https://github.com/VasconsaBR">
-          <img src="https://avatars.githubusercontent.com/u/90463966?v=4?s=100" style="width: 100px; height: 100px; object-fit: cover; border-radius: 50%;" alt="VasconsaBR" /><br />
-          <sub><b>VasconsaBR</b></sub>
-        </a><br />
-        <a href="#translation-VasconsaBR" title="Translation">🌍</a>
-      </td>
-      <td align="center" valign="top" width="14.28%">
-        <a href="https://github.com/knowhow92">
-          <img src="https://avatars.githubusercontent.com/u/124047824?v=4?s=100" style="width: 100px; height: 100px; object-fit: cover; border-radius: 50%;" alt="knowhow92" /><br />
-          <sub><b>knowhow92</b></sub>
-        </a><br />
-        <a href="#review-knowhow92" title="Reviewed Pull Requests">👀</a>
-      </td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/JasperOPR"><img src="https://avatars.githubusercontent.com/u/85296013?v=4?s=100" width="100px;" alt="Jasper"/><br /><sub><b>Jasper</b></sub></a><br /><a href="#translation-JasperOPR" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/VasconsaBR"><img src="https://avatars.githubusercontent.com/u/90463966?v=4?s=100" width="100px;" alt="VasconsaBR"/><br /><sub><b>VasconsaBR</b></sub></a><br /><a href="#translation-VasconsaBR" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/knowhow92"><img src="https://avatars.githubusercontent.com/u/124047824?v=4?s=100" width="100px;" alt="knowhow92"/><br /><sub><b>knowhow92</b></sub></a><br /><a href="#review-knowhow92" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/BeagleXV"><img src="https://avatars.githubusercontent.com/u/146370309?v=4?s=100" width="100px;" alt="BeagleXV"/><br /><sub><b>BeagleXV</b></sub></a><br /><a href="#content-BeagleXV" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
+
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 

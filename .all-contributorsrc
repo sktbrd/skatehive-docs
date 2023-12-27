@@ -1,6 +1,6 @@
 {
   "projectName": "skatehive-docs",
-  "projectOwner": "skatehive community",
+  "projectOwner": "sktbrd",
   "files": [
     "README.md"
   ],
@@ -34,8 +34,15 @@
       "contributions": [
         "review"
       ]
-
+    },
+    {
+      "login": "BeagleXV",
+      "name": "BeagleXV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/146370309?v=4",
+      "profile": "https://github.com/BeagleXV",
+      "contributions": [
+        "content"
+      ]
     }
-
   ]
 }
