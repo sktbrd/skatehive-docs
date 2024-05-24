@@ -9,7 +9,7 @@ sidebar_position: 2
 
 ## ShapeShift Wallet (MultiChain)
 
-Shapeshift is a multichain wallet, you can import your private keys created in step 1) to transform your ETH wallet in a multichain wallet under those same keys
+[ShapeShift](https://www.shapeshift.com) is a multichain wallet, you can import your private keys created in step 1) to transform your ETH wallet in a multichain wallet under those same keys
 
 
 ## Dawn Wallet [Best for IOS (safari browser extension)]
@@ -22,7 +22,7 @@ Download here: https://apps.apple.com/us/app/dawn-ethereum-wallet/id1673143782
 
 To use, you would go to the Gnars dapp (`gnars.wtf`) on Safari, and then when you click "Connect", "Settle Transaction" etc. a popup will appear which allows you to connect your wallet and interact with Gnars.
 
-A demo of how to use Dawn is here: ![Gnars Demo](https://youtube.com/shorts/GFpCSmBmxx0)
+A demo of how to use Dawn is here: [Gnars + Dawn Demo](https://youtube.com/shorts/GFpCSmBmxx0)
 
 
 ## Backup
