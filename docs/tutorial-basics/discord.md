@@ -5,9 +5,9 @@ sidebar_position: 6
 
 # Discord, here we go... 
 
-Ok, folks listen up! We know you cant stop gossiping in whatsapp, but the best app to connect community around the world and that are trying to coordinate themselves towards a common goal is discord. 
+Ok, folks listen up! We know you cant stop gossiping in whatsapp, but the best app to connect community around the world for those who are trying to coordinate themselves towards a common goal is discord. 
 
-## Why is good? 
+## Why is it good? 
 
 In discord we can have separated rooms and roles, roles are like tags you can give to an user that will enable the user more features or more access 
 
@@ -85,7 +85,7 @@ This is one of the best BOTs on the server, it allows us to give rewards to our 
 
 you can send tips with the following command
 
-"$tip @user 10 (coin)"
+```$tip @user 10 (coin)```
 
 **There are many coins that you can use such as Hive and xFOX which is a governance token used in the ShapeShift DEX**
 
