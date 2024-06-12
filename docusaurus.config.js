@@ -92,10 +92,7 @@ const config = {
                 label: 'Quest for Stoken',
                 href: 'https://stoken.quest',
               },
-              {
-                label: 'Skatehive App',
-                href: 'https://skatehive.app',
-              },
+             
               {
                 label: 'Gnars',
                 href: 'https://gnars.wtf',
@@ -107,7 +104,7 @@ const config = {
             ],
           },
           {
-            href: 'https://github.com/sktbrd/skatehive-docs/tree/main/my-website',
+            href: 'https://github.com/sktbrd/skatehive-docs/tree/main',
             label: 'GitHub',
             position: 'right',
           },

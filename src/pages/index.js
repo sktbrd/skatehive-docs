@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import { Helmet } from 'react-helmet';
-import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import Layout from '@theme/Layout';
+import clsx from 'clsx';
+import React, { useEffect, useState } from 'react';
+import { Helmet } from 'react-helmet';
 
 import styles from './index.module.css';
 
-import { MendableSearchBar } from "@mendable/search"
+import { MendableSearchBar } from "@mendable/search";
 
 import SkateFrames from './frames.js';
 
@@ -56,6 +56,7 @@ export default function Home() {
     <Layout
       title={`${siteConfig.title}`}
       description="Learn about skateboarding and web3">
+
       <Helmet>
         <meta charSet="utf-8" />
         <title>Skatehive Docs 🛹</title>
