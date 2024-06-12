@@ -12,4 +12,4 @@ sidebar_position: 2
 6. Click on "Publish"
 7. Congrats, you just published a post in Skatehive.app
 
-![da2a2eas](https://github.com/sktbrd/skatehive-docs/assets/124047824/746fb4ce-1086-4061-ae29-6a17a0635374)
+![da2a2eas](https://hackmd.io/_uploads/HJPmXE8B0.png)

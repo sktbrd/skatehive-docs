@@ -19,9 +19,9 @@ The code is still a little messy but I invite you to be part of this learning jo
 - Clone/Download the Repository
 - Download and Install NodeJs
 - Install Yarn 
-- Install Dependencies with `yarn`
+- Install Dependencies with `pnpm`
 - Change .env variables
-- Run it with `yarn dev`
+- Run it with `pnpm dev`
 - Made some modification just 4 fun
 - Push your changes to github 
 - Putting it online, deploy your version with vercel 
@@ -79,13 +79,13 @@ and give it a Title and paste the contet in Key
 
 ## Fork the repository
 
- **[Click Fork Button](https://github.com/sktbrd/skateapp)** 
+ **[Click Fork Button](https://github.com/SkateHive/nextskateapp)** 
 
-![reference link](https://hackmd.io/_uploads/rkdbdKXep.png)
+![reference link](https://hackmd.io/_uploads/S1WrGfUHR.png)
 
 This will create your own version of the repo in your account: 
 
-![](https://hackmd.io/_uploads/B1WfhKQl6.png)
+![](https://hackmd.io/_uploads/SkAJEG8rA.png)
 
 Ok, now you are going to clone the repository of files into your machine, which is basically download the app: 
 
@@ -93,7 +93,7 @@ Ok, now you are going to clone the repository of files into your machine, which 
 git clone git@github.com:<your-username>/<your-fork>.git
 ```
 
-![](https://hackmd.io/_uploads/BkQVkq7la.png)
+![](https://hackmd.io/_uploads/HJxHHzUHC.png)
 
 
 Now navigate to the cloned repository by: 
@@ -105,7 +105,7 @@ cd <your-fork>
 In this case, 
 
 ```
-cd skateapp
+cd nextskateapp
 ``` 
 
 For the next step we are going to need to install some more programs in your machine to complete your enviroment and finally install and run the application. 
@@ -137,11 +137,11 @@ pnpm i
 This step ensures that you have all the necessary libraries and tools in your development environment to build and run the application.
 
 
-![](https://hackmd.io/_uploads/B1ZZxo7ea.png)
+![](https://hackmd.io/_uploads/S1hyUGUH0.png)
 Wait a little, drink some "coffee"...
 
 You should see that when its over: 
-![](https://hackmd.io/_uploads/r1SIlsmea.png)
+![](https://hackmd.io/_uploads/SkrKIMLB0.png)
 
 > If you get an error in any step you can throw it in chat-gpt or ask us in [skatehive discord](https://discord.gg/skatehive) and see which one helps you faster 
 
@@ -150,22 +150,29 @@ You should see that when its over:
 
 Rename .env.example and choose the hive community you want to get/upload content from/to. For example, if you use hive-173115 you get skatehive, if you use hive-141964 in community field you get surfhive 
 
-![](https://hackmd.io/_uploads/r1as6jQeT.png)
-
+## .env.example
+NEXT_PUBLIC_WEBSITE_URL=http://localhost:3000/
+NEXT_PUBLIC_HIVE_COMMUNITY_TAG=xxxxxxxxxxx
+NEXT_PUBLIC_PINATA_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NEXT_PUBLIC_PINATA_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NEXT_PUBLIC_PINATA_GATEWAY_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NEXT_PUBLIC_CRYPTO_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NEXT_PUBLIC_OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NEXT_PUBLIC_ETHERSCAN_API=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 Now run the application you just installed: 
 
 ```
 pnpm dev
 ```
-![](https://hackmd.io/_uploads/HJ-WzjXla.png)
+![](https://hackmd.io/_uploads/rye6Kf8HA.png)
 
 
-Now open https://localhost:5173 and you are going to see the same app as https://skatehive.app 
+Now open https://localhost:3000 and you are going to see the same app as https://skatehive.app 
 
-![](https://hackmd.io/_uploads/BJQuMiXea.png)
+![](https://hackmd.io/_uploads/SJs59zUHA.png)
 
-That means that you are running the app using your own computer as a server through the port 5173 
+That means that you are running the app using your own computer as a server through the port 3000 
 
 You can now try to edit your code in a code editor, I recommend [VSCode](https://code.visualstudio.com/), but my Jedi Master recommends [JetBrains](https://www.jetbrains.com/) 
 
