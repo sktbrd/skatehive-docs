@@ -18,10 +18,10 @@ O código ainda está um pouco confuso, mas convido você a fazer parte do nosso
 - Fork o repositorio
 - Clone/Download o repositorio
 - Faça o Dowload e instale o Node.js
-- Instale o Yarn
-- Instale as dependencias com o comando `yarn`
+- Instale o pnpm
+- Instale as dependencias com o comando `pnpm`
 - Mude as variaveis .env
-- Execute com o comando `yarn dev`
+- Execute com o comando `pnpm dev`
 - Fiz algumas modificações apenas por diversão
 - Envie suas alterações para o github
 -  Coloque seu fork online, faça deploy com o vercel
@@ -77,11 +77,11 @@ eval "$(ssh-agent -s)"
 
  **[Click Fork Button](https://github.com/sktbrd/skateapp)** 
 
-![reference link](https://hackmd.io/_uploads/rkdbdKXep.png)
+![reference link](https://hackmd.io/_uploads/S1WrGfUHR.png)
 
 Isso criará sua própria versão do repositório em sua conta:
 
-![](https://hackmd.io/_uploads/B1WfhKQl6.png)
+![](https://hackmd.io/_uploads/SkAJEG8rA.png)
 
 Pronto, agora você vai clonar o repositório de arquivos na sua máquina, que é basicamente baixar o app:
 
@@ -89,7 +89,7 @@ Pronto, agora você vai clonar o repositório de arquivos na sua máquina, que �
 git clone git@github.com:<your-username>/<your-fork>.git
 ```
 
-![](https://hackmd.io/_uploads/BkQVkq7la.png)
+![](https://hackmd.io/_uploads/HJxHHzUHC.png)
 
 
 Agora navegue até o repositório clonado por:
@@ -126,11 +126,11 @@ yarn
 > Nota: Este comando instalará automaticamente todos os pacotes JavaScript e dependências necessários para o seu projeto, conforme especificado no arquivo package.json. O Yarn irá baixar e configurar tudo o que for necessário para executar a Skatehive.
 Esta etapa garante que você tenha todas as bibliotecas e ferramentas necessárias em seu computador para construir e executar o aplicativo.
 
-![](https://hackmd.io/_uploads/B1ZZxo7ea.png)
+![](https://hackmd.io/_uploads/S1hyUGUH0.png)
 Espere um pouco, tome um "café"...
 
 Você deverá ver isso quando acabar:
-![](https://hackmd.io/_uploads/r1SIlsmea.png)
+![](https://hackmd.io/_uploads/SkrKIMLB0.png)
 
 > Se você receber um erro em alguma etapa, você pode jogá-lo no chat-gpt ou perguntar-nos em [skatehive discord](https://discord.gg/skatehive) e ver qual deles ajuda você mais rápido
 
@@ -138,19 +138,29 @@ Você deverá ver isso quando acabar:
 ## Renomeie .env.example para .env 
 
 Renomeie .env.example e escolha a comunidade Hive da qual deseja obter/carregar conteúdo. Por exemplo, se você usar o hive-173115 você obterá o skatehive, se você usar o hive-141964 no campo comunitário você obterá o surfhive
-![](https://hackmd.io/_uploads/r1as6jQeT.png)
+
+## .env.example
+NEXT_PUBLIC_WEBSITE_URL=http://localhost:3000/
+NEXT_PUBLIC_HIVE_COMMUNITY_TAG=xxxxxxxxxxx
+NEXT_PUBLIC_PINATA_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NEXT_PUBLIC_PINATA_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NEXT_PUBLIC_PINATA_GATEWAY_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NEXT_PUBLIC_CRYPTO_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NEXT_PUBLIC_OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NEXT_PUBLIC_ETHERSCAN_API=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
 
 
 Agora execute o aplicativo que você acabou de instalar:
 ```
-yarn dev
+pnpm dev
 ```
-![](https://hackmd.io/_uploads/HJ-WzjXla.png)
+![](https://hackmd.io/_uploads/rye6Kf8HA.png)
 
 
 Agora abra https://localhost:5173 e você verá o mesmo aplicativo que https://skatehive.app
 
-![](https://hackmd.io/_uploads/BJQuMiXea.png)
+![](https://hackmd.io/_uploads/SJs59zUHA.png)
 
 Isso significa que você está executando o aplicativo usando seu próprio computador como servidor através da porta 5173
 

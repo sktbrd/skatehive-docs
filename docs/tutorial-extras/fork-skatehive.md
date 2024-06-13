@@ -18,7 +18,7 @@ The code is still a little messy but I invite you to be part of this learning jo
 - Forking the Repository 
 - Clone/Download the Repository
 - Download and Install NodeJs
-- Install Yarn 
+- Install pnpm 
 - Install Dependencies with `pnpm`
 - Change .env variables
 - Run it with `pnpm dev`
