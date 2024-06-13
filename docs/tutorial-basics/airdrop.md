@@ -4,7 +4,7 @@ sidebar_position: 8
 ---
 # How to get lucky
 
-1. Go to https://beta.skatehive.app connect your hive AND your ethereum wallet
+1. Go to https://skatehive.app connect your hive AND your ethereum wallet
 2. Go to your profile
 3. Click in Edit Profile Button (the pencil icon)
 ![passo1](https://hackmd.io/_uploads/S16BsjPS0.png)

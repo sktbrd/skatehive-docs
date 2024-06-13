@@ -11,6 +11,6 @@ sidebar_position: 2
 5. Veja uma pré-visualização da sua postagem e certifique-se de que parece legal
 6. Clique em "Publish"
 
-![](https://cdn.discordapp.com/attachments/1122276204641276105/1158858256349933698/howtopublic.gif?ex=652ee9da&is=651c74da&hm=6638541fe315364015d11811b8ecc953e388959f33d08a87ac3c23a147c7735d&)
+![da2a2eas](https://hackmd.io/_uploads/HJPmXE8B0.png)
 
 > *5. Você pode usar o 3speak para enviar vídeos diretamente para Skatehive.app. Cadastre-se em https://3speak.tv/ com seu e-mail, conecte sua conta Hive e escolha "Comunidade Skatehive" como a comunidade na qual você deseja postar quando estiver enviando um vídeo.
