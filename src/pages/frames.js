@@ -1,6 +1,6 @@
 /* eslint-disable no-useless-escape */
 
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const frames = [
     `         discord.gg/skatehive

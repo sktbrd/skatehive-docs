@@ -1,143 +1,119 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@400;500&display=swap');
 
 :root {
-  --ifm-color-primary: #edebeb;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+ 
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
 
-  --ifm-color-primary: black;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: black(0, 0, 0, 0.3);
-}
-[data-theme='light'] {
-  --ifm-color-background: black;
-
-  --ifm-color-primary: black;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: black(0, 0, 0, 0.3);
-}
 
 
 * {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 20px;
-  color: rgb(255, 255, 255);
-    background-color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+ 
 
+  
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Roboto Mono', monospace;
-  background-color: black;
-
-}
-h1,h2,h3,h4{
-  color: rgb(206, 173, 42);
-  background-color: black;
-
+  font-family: 'Merriweather', serif;
 }
 
-
+h1, h2, h3, h4 {
+  color: #b9c0bc; 
+}
 
 .clean-btn {
-  background-color: black;
-  color: limegreen;
+  color: white;
   border-radius: 50%;
 }
 
 .theme-admonition-tip {
-  background-color: rgb(17, 17, 17);
-  border: 1px solid limegreen;
-  border-radius: 20px;
+  
+  border: 1px solid  #9ea09f;
+  border-radius: 10px;
   padding: 20px;
   margin: 20px;
 }
 
-.menu__link
-{
-  color: white;
-  background-color: black;
+.menu__link {
+  color: #fff9f9;
 }
-.table-of-contents__link{
-  color: limegreen;
-  background-color: black;
+
+.table-of-contents__link {
+  color: #ffffff;
 }
 
 a {
-  color: yellow;
+  color: #ffffff;
 }
-.navbar{
-  background-color: black;
+
+.navbar {
+  background-color:  #57875c;
+  align-items: center;
 }
+
+.navbar__logo {
+  height: 60px; 
+  width: 60px; 
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo img {
+  max-height: 100%; 
+  width: auto; 
+}
+
+
 .card {
-  background-color: black;
-  border: 1px solid limegreen;
-  border-radius: 20px;
+  
+  border: 1px solid #080a09;
+  border-radius: 10px;
   padding: 20px;
   margin: 20px;
 }
+
 .menu__list-item-collapsible .menu__link:hover, .menu__list-item-collapsible .menu__link--active {
-  color: limegreen;
+  color: #00ba47;
 }
 
 .navbar__link:hover, .navbar__link--active {
-    color: limegreen
+  color: #02943a;
 }
+
 .navbar__title {
-  color: rgb(206, 173, 42);
+  color: white;
 }
+
 .breadcrumbs__item--active .breadcrumbs__link {
-  color: yellow;
+  color: #00ba47;
 }
 
 .menu__link--active:not(.menu__link--sublist) {
-  color: yellow;
+  color: #00ba47;
 }
 
 img {
   display: block;
   margin: auto;
-  border-radius: 20px;
-  border: 1px solid limegreen;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
 }
 
 
-.footer--dark {
-  background-color: rgb(0, 0, 0);
-}
 
 .button.button--secondary {
-  background-color: black;
-  color: limegreen;
+  background-color: #57875c;
+  color: white;
   margin: 20px;
-  border: limegreen 1px solid;
+  border: 1px solid #00ba47;
 }
 
 .button.button--secondary:hover {
-  background-color: limegreen; /* Change the background color when hovered */
-  color: black; /* Change the text color when hovered */
+  
+    color: white;
 }
-

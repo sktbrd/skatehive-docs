@@ -12,6 +12,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  
 }
 
 @media screen and (max-width: 996px) {
@@ -24,7 +25,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
 }
 
 iframe {
@@ -33,36 +33,27 @@ iframe {
 }
 
 .imageStyle {
-  width: 20%; /* Or any other size */
+  width: 20%; 
   height: auto;
-  border-radius: 5px; /* Optional: if you want rounded corners */
+  border-radius: 5px; 
   border: limegreen 1px solid;
   border-radius: 20px;
   padding: 5px;
 }
 
 pre{
-  color:rgb(206, 173, 42);
-  border: rgb(206, 173, 42) 1px solid;
+  color: #57875c;
+  border:  #57875c 1px solid;
 }
 
 pre{
-  color:rgb(206, 173, 42);
-  border: rgb(206, 173, 42) 1px solid;
-  background-color: black;
+  color: #57875c;
+  border:  #57875c 1px solid;
 }
 
-section{
-  background-color: black;
-}
 
-nav {
-  background-color: black;
-}
 
-footer {
-  background-color: black;
-}
+
 :root {
-  --ifm-color-background: black; /* Replace with your desired color */
+  --ifm-color-background: rgb(180, 180, 180); 
 }

@@ -67,7 +67,7 @@ eval "$(ssh-agent -s)"
 
 
  Dê um título e cole o conteúdo em Key
-![reference link](https://hackmd.io/_uploads/SJfV9vXx6.png)
+![Alt ​​text](../../../../../src/assets/Tuto-Dev/1.png)
 
 
 
@@ -77,11 +77,11 @@ eval "$(ssh-agent -s)"
 
  **[Click Fork Button](https://github.com/sktbrd/skateapp)** 
 
-![reference link](https://hackmd.io/_uploads/S1WrGfUHR.png)
+![Alt ​​text](../../../../../src/assets/Tuto-Dev/2.png)
 
 Isso criará sua própria versão do repositório em sua conta:
 
-![](https://hackmd.io/_uploads/SkAJEG8rA.png)
+![Alt ​​text](../../../../../src/assets/Tuto-Dev/3.png)
 
 Pronto, agora você vai clonar o repositório de arquivos na sua máquina, que é basicamente baixar o app:
 
@@ -89,7 +89,7 @@ Pronto, agora você vai clonar o repositório de arquivos na sua máquina, que �
 git clone git@github.com:<your-username>/<your-fork>.git
 ```
 
-![](https://hackmd.io/_uploads/HJxHHzUHC.png)
+![Alt ​​text](../../../../../src/assets/Tuto-Dev/4.png)
 
 
 Agora navegue até o repositório clonado por:
@@ -126,11 +126,11 @@ yarn
 > Nota: Este comando instalará automaticamente todos os pacotes JavaScript e dependências necessários para o seu projeto, conforme especificado no arquivo package.json. O Yarn irá baixar e configurar tudo o que for necessário para executar a Skatehive.
 Esta etapa garante que você tenha todas as bibliotecas e ferramentas necessárias em seu computador para construir e executar o aplicativo.
 
-![](https://hackmd.io/_uploads/S1hyUGUH0.png)
+![Alt ​​text](../../../../../src/assets/Tuto-Dev/5.png)
 Espere um pouco, tome um "café"...
 
 Você deverá ver isso quando acabar:
-![](https://hackmd.io/_uploads/SkrKIMLB0.png)
+![Alt ​​text](../../../../../src/assets/Tuto-Dev/6.png)
 
 > Se você receber um erro em alguma etapa, você pode jogá-lo no chat-gpt ou perguntar-nos em [skatehive discord](https://discord.gg/skatehive) e ver qual deles ajuda você mais rápido
 
@@ -155,12 +155,12 @@ Agora execute o aplicativo que você acabou de instalar:
 ```
 pnpm dev
 ```
-![](https://hackmd.io/_uploads/rye6Kf8HA.png)
+![Alt ​​text](../../../../../src/assets/Tuto-Dev/7.png)
 
 
 Agora abra https://localhost:5173 e você verá o mesmo aplicativo que https://skatehive.app
 
-![](https://hackmd.io/_uploads/SJs59zUHA.png)
+![Alt ​​text](../../../../../src/assets/Tuto-Dev/8.png)
 
 Isso significa que você está executando o aplicativo usando seu próprio computador como servidor através da porta 5173
 
@@ -170,7 +170,7 @@ Eu costumo usar o comando `code.` na pasta do terminal para abrir facilmente a p
 
 Faça uma mudança boba, como mudar o rodapé.
 
-![](https://hackmd.io/_uploads/SkbvLiml6.png)
+![Alt ​​text](../../../../../src/assets/Tuto-Dev/9.png)
 
 
 Este projeto é construído com TypeScript e incorpora Chakra UI para o frontend. Para tarefas relacionadas ao Hive, contamos com o [Keychain SDK](https://play.hive-keychain.com/) e as bibliotecas dive. Além disso, para facilitar as interações com Ethereum, Bitcoin e vários outros blockchains, aproveitamos os recursos do [Pioneer-React](https://github.com/BitHighlander/pioneer-react#readme).
@@ -202,17 +202,17 @@ Agora você pode acessar sua conta do github e verificar se ela foi atualizada
 ##  Va para  vercel.com 
 
 1. Faça uma conta com sua conta do github 
-![](https://hackmd.io/_uploads/S1ZD2jXx6.png)
+![Alt ​​text](../../../../../src/assets/Tuto-Dev/10.png)
 
 2.Instale a extensão Github 
 3. Selecione o repositório
-![](https://hackmd.io/_uploads/SyXanjXga.png)
+![Alt ​​text](../../../../../src/assets/Tuto-Dev/11.png)
 
 4. Clique em Deploy
 
 Você deverá ver algo assim:
 
-![](https://hackmd.io/_uploads/rko1pomxp.png)
+![Alt ​​text](../../../../../src/assets/Tuto-Dev/12.png)
  
 
 Você pode navegar agora para:
