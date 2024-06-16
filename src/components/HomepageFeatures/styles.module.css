@@ -1,17 +1,49 @@
+
 .features {
   display: flex;
   align-items: center;
-  padding: 0;
-  width: 100%;
+  justify-content: center;
+  padding: 4rem 0;
+
+}
+
+.feature {
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: rgb(39, 35, 35); 
+
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-family: 'Lora', serif;
+  font-size: 1.8rem;
+  color: #777171;
+  margin-bottom: 1rem;
 }
 
 .description {
-  font-family: 'Source Code Pro', monospace;
-  white-space: pre-wrap;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  color: white;
   text-align: justify;
+  line-height: 1.6;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.text--center {
+  text-align: center;
 }

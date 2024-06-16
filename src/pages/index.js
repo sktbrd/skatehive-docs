@@ -2,7 +2,6 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Layout from '@theme/Layout';
-import clsx from 'clsx';
 import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
 
@@ -21,19 +20,18 @@ function HomepageHeader() {
   useEffect(() => {
     const interval = setInterval(() => {
       setFrameIndex((frameIndex + 1) % SkateFrames.length);
-    }, 200); // Change this to adjust the speed of the animation
+    }, 200); 
 
     return () => clearInterval(interval);
   }, [frameIndex]);
 
   const headerStyle = {
-    backgroundColor: 'black', // Set the background color to black
+    
   };
 
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)} style={headerStyle}>
+    <header className={('hero hero--primary', styles.heroBanner)} style={headerStyle}>
       <div className="container">
-        {/* Your existing content */}
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <SkateFrames></SkateFrames>
         <MendableSearchBar placeholder="Ask me anything , in any language, as dumb as might be, dont be shy..." userIcon="https://i.gifer.com/origin/f1/f1a737e4cfba336f974af05abab62c8f_w200.gif" botIcon="https://images.ecency.com/u/hive-173115/avatar/large" cmdShortcutKey="y" dialogPlaceholder="Ask me anything about Skatehive" anon_key='524a2d83-688b-477a-ba99-05131d06138d' style={style} />

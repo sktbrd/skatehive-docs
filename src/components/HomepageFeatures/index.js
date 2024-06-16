@@ -39,28 +39,30 @@ const FeatureList = [
 
 function Feature({Svg, title, description}) {
   return (
-    <div className="col col--4">
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <div className={styles.description}>{description}</div>
-      </div>
+    <div className={styles.feature}>
+    <div className="text--center">
+      <Svg className={styles.featureSvg} role="img" />
     </div>
+    <div className="text--center padding-horiz--md">
+      <h3 className={styles.title}>{title}</h3>
+      <div className={styles.description}>{description}</div>
+    </div>
+  </div>
   );
 }
 
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
+    <div className="container">
+      <div className="row">
+        {FeatureList.map((props, idx) => (
+          <div className="col col--4" key={idx}>
+            <Feature {...props} />
+          </div>
+        ))}
       </div>
-    </section>
+    </div>
+  </section>
   );
 }

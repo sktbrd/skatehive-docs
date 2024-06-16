@@ -6,7 +6,7 @@ sidebar_position: 4
 
 You can manage your Hive tokens at your wallet. By clicking on your wallet you'll notice 5 terms, Hive, Hive Power, Hive Dollars, Savings and Estimated Account Value.
 
-![](https://hackmd.io/_uploads/BJyX448H0.png)
+![Alt ​​text](../../src/assets/Tuto-manage/1.png)
 
 1. **Hive**
 

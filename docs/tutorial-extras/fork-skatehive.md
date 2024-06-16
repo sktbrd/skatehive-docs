@@ -71,7 +71,7 @@ eval "$(ssh-agent -s)"
 
 
 and give it a Title and paste the contet in Key
-![reference link](https://hackmd.io/_uploads/SJfV9vXx6.png)
+![Alt ​​text](../../src/assets/Tuto-Dev/1.png)
 
 
 
@@ -81,11 +81,11 @@ and give it a Title and paste the contet in Key
 
  **[Click Fork Button](https://github.com/SkateHive/nextskateapp)** 
 
-![reference link](https://hackmd.io/_uploads/S1WrGfUHR.png)
+![Alt ​​text](../../src/assets/Tuto-Dev/2.png)
 
 This will create your own version of the repo in your account: 
 
-![](https://hackmd.io/_uploads/SkAJEG8rA.png)
+![Alt ​​text](../../src/assets/Tuto-Dev/3.png)
 
 Ok, now you are going to clone the repository of files into your machine, which is basically download the app: 
 
@@ -93,7 +93,7 @@ Ok, now you are going to clone the repository of files into your machine, which 
 git clone git@github.com:<your-username>/<your-fork>.git
 ```
 
-![](https://hackmd.io/_uploads/HJxHHzUHC.png)
+![Alt ​​text](../../src/assets/Tuto-Dev/4.png)
 
 
 Now navigate to the cloned repository by: 
@@ -137,11 +137,11 @@ pnpm i
 This step ensures that you have all the necessary libraries and tools in your development environment to build and run the application.
 
 
-![](https://hackmd.io/_uploads/S1hyUGUH0.png)
+![Alt ​​text](../../src/assets/Tuto-Dev/5.png)
 Wait a little, drink some "coffee"...
 
 You should see that when its over: 
-![](https://hackmd.io/_uploads/SkrKIMLB0.png)
+![Alt ​​text](../../src/assets/Tuto-Dev/6.png)
 
 > If you get an error in any step you can throw it in chat-gpt or ask us in [skatehive discord](https://discord.gg/skatehive) and see which one helps you faster 
 
@@ -165,12 +165,12 @@ Now run the application you just installed:
 ```
 pnpm dev
 ```
-![](https://hackmd.io/_uploads/rye6Kf8HA.png)
+![Alt ​​text](../../src/assets/Tuto-Dev/7.png)
 
 
 Now open https://localhost:3000 and you are going to see the same app as https://skatehive.app 
 
-![](https://hackmd.io/_uploads/SJs59zUHA.png)
+![Alt ​​text](../../src/assets/Tuto-Dev/8.png)
 
 That means that you are running the app using your own computer as a server through the port 3000 
 
@@ -180,7 +180,7 @@ I usually use `code .` command in the terminal folder to easily open the folder 
 
 Make a silly change, like change the footer of it. 
 
-![](https://hackmd.io/_uploads/SkbvLiml6.png)
+![Alt ​​text](../../src/assets/Tuto-Dev/9.png)
 
 
 This project is built with TypeScript and incorporates Chakra UI for the frontend. For Hive-related tasks, we rely on the [Keychain SDK](https://play.hive-keychain.com/) and dhive libraries. Additionally, to facilitate interactions with Ethereum, Bitcoin, and various other blockchains, we leverage the capabilities of [Pioneer-React](https://github.com/BitHighlander/pioneer-react#readme).
@@ -221,17 +221,17 @@ Now you can go to your github account and check if the it was updated
 ## Go to vercel.com 
 
 1. Make an account with your github account 
-![](https://hackmd.io/_uploads/S1ZD2jXx6.png)
+![Alt ​​text](../../src/assets/Tuto-Dev/10.png)
 
 2. Install Github Extension it offers 
 3. Select the repository 
-![](https://hackmd.io/_uploads/SyXanjXga.png)
+![Alt ​​text](../../src/assets/Tuto-Dev/11.png)
 
 4. Click in Deploy
 
 You should see something like this: 
 
-![](https://hackmd.io/_uploads/rko1pomxp.png)
+![Alt ​​text](../../src/assets/Tuto-Dev/12.png)
  
 
 You can navigate now to: 

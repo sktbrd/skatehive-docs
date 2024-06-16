@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Gerencie seus tokens Hive
 Você pode gerenciar seus tokens Hive em sua carteira. Ao clicar em sua carteira você notará 5 termos, Hive, Hive Power, Hive Dollars, Savings e Estimated Account Value.
-![](https://hackmd.io/_uploads/BJyX448H0.png)
+![Alt ​​text](../../../../../src/assets/Tuto-manage/1.png)
 
 1. **Hive**
 

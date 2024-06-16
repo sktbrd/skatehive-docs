@@ -11,6 +11,6 @@ sidebar_position: 2
 5. Veja uma pré-visualização da sua postagem e certifique-se de que parece legal
 6. Clique em "Publish"
 
-![da2a2eas](https://hackmd.io/_uploads/HJPmXE8B0.png)
+![Alt ​​text](../../../../../src/assets/Tuto--basic/1.png)
 
-> *5. Você pode usar o 3speak para enviar vídeos diretamente para Skatehive.app. Cadastre-se em https://3speak.tv/ com seu e-mail, conecte sua conta Hive e escolha "Comunidade Skatehive" como a comunidade na qual você deseja postar quando estiver enviando um vídeo.
+7. Parabéns, você acabou de publicar uma postagem no Skatehive.app
