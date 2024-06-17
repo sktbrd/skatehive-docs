@@ -1,6 +1,5 @@
-/* eslint-disable no-useless-escape */
-
-import React, { useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
+import React, { useCallback, useEffect, useState } from 'react';
 
 const frames = [
     `discord.gg/skatehive
@@ -459,27 +458,38 @@ const frames = [
 |                                    |
 +------------------------------------+
 `
-   ]
-  
-function SkateFrames() {
-    const [currentFrameIndex, setCurrentFrameIndex] = useState(0);
+];
 
-    useEffect(() => {
-        const intervalId = setInterval(() => {
-            setCurrentFrameIndex((prevIndex) => (prevIndex + 1) % frames.length);
-        }, 180); 
+const Animation = ({ interval = 100, ...props }) => {
+    const [frameIndex, setFrameIndex] = useState(0);
 
-        return () => clearInterval(intervalId); 
+    const updateFrame = useCallback(() => {
+        setFrameIndex((prevFrameIndex) => (prevFrameIndex + 1) % frames.length);
     }, []);
 
+    useEffect(() => {
+        const frameInterval = setInterval(updateFrame, interval);
+        return () => clearInterval(frameInterval);
+    }, [updateFrame, interval]);
+
     return (
-        <div style={{  height: '600px', overflowY: 'auto' }}>
-        <pre style={{ backgroundColor: 'transparent', border: 'none', margin: 0, padding: 0 }}>
-            {frames[currentFrameIndex]}
+        <pre {...props} style={preStyle}>
+            {frames[frameIndex]}
         </pre>
-    </div>
-
     );
-}
+};
 
-export default SkateFrames;
+Animation.propTypes = {
+    interval: PropTypes.number,
+};
+
+const preStyle = {
+ height: '550px', 
+ overflowY: 'auto', 
+ backgroundColor: 'transparent', 
+ border: 'none', 
+ margin: 0, 
+ padding: 0
+};
+
+export default Animation;
