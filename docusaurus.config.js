@@ -38,6 +38,7 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        
       },
     ],
   ],
@@ -46,6 +47,15 @@ module.exports = {
       require.resolve("@easyops-cn/docusaurus-search-local"),
       { hashed: true },
     ],
+  ],
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap',
+      },
+    },
   ],
   themeConfig: {
     navbar: {
