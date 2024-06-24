@@ -1,6 +1,3 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
@@ -21,6 +18,8 @@ module.exports = {
     localeConfigs: {
       en: { label: 'English' },
       'pt-br': { label: 'Português (BR)' },
+      es: { label: 'Español' },
+      fr: { label: 'Français' },
     },
   },
   presets: [
@@ -31,14 +30,10 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/sktbrd/skatehive-docs/docs/',
         },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/sktbrd/skatehive-docs/',
-        },
+       
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        
       },
     ],
   ],
@@ -54,6 +49,20 @@ module.exports = {
       attributes: {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'description',
+        content: 'Skatehive Docs - Welcome to the Web3 Skateboarding World. Explore our documentation and ask anything to our AI in any language.',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'keywords',
+        content: 'Skateboarding, Web3, Skatehive, Documentation, AI, Multilingual',
       },
     },
   ],
@@ -75,13 +84,21 @@ module.exports = {
             { label: 'Settle or Die', href: 'https://chromewebstore.google.com/detail/settle-or-die/ciabjlofbbflnnjocnbgidbhfnddijpm' },
           ],
         },
+        {
+          type: 'dropdown',
+          label: 'Community',
+          position: 'left',
+          items: [
+            // { label: 'Forum', href: 'https://forum.skatehive.app' },
+            { label: 'Discord', href: 'https://discord.gg/skatehive' },
+            { label: 'Twitter', href: 'https://twitter.com/skatehive' },
+          ],
+        },
         { href: 'https://github.com/sktbrd/skatehive-docs/tree/main', label: 'GitHub', position: 'right' },
         { type: 'localeDropdown', position: 'right' },
       ],
     },
-    customFields: {
-      mendableAnonKey: "524a2d83-688b-477a-ba99-05131d06138d",
-    },
+   
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: true,
@@ -89,8 +106,10 @@ module.exports = {
     },
     prism: {
       theme: darkCodeTheme,
-      darkTheme: darkCodeTheme,
+      darkTheme: darkCodeTheme, 
+    },
+    customFields: {
+      mendableAnonKey: "524a2d83-688b-477a-ba99-05131d06138d",
     },
   },
 };
-

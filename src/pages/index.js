@@ -3,9 +3,9 @@ import Layout from '@theme/Layout';
 import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
 
-import styles from './index.module.css';
-
 import { MendableSearchBar } from "@mendable/search";
+import HomepageFeatures from "../components/HomepageFeatures/index.js";
+import styles from './index.module.css';
 
 import Animation from './frames.js';
 
@@ -57,7 +57,7 @@ export default function Home() {
       </Helmet>
       <HomepageHeader />
       <main>
-        {/* <HomepageFeatures /> */}
+        <HomepageFeatures />
       </main>
     </Layout>
   );
