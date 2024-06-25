@@ -28,21 +28,30 @@
 }
 
 .title {
-  font-family: 'Lora', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.8rem;
   color: #777171;
   margin-bottom: 1rem;
 }
 
 .description {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
   color: white;
-  text-align: justify;
-  line-height: 1.6;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  max-width: 800px; 
+  margin: 0 auto 1.5rem auto; 
   padding: 0 1rem;
+  font-weight: 300; 
+}
+.description p {
   margin-bottom: 1rem;
 }
+
+.description strong {
+  font-weight: 700;
+}
+
 
 .text--center {
   text-align: center;

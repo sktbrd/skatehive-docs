@@ -1,15 +1,13 @@
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Layout from '@theme/Layout';
 import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
 
+import { MendableSearchBar } from "@mendable/search";
+import HomepageFeatures from "../components/HomepageFeatures/index.js";
 import styles from './index.module.css';
 
-import { MendableSearchBar } from "@mendable/search";
-
-import SkateFrames from './frames.js';
+import Animation from './frames.js';
 
 const style = { darkMode: true, accentColor: "limegreen" }
 
@@ -19,7 +17,7 @@ function HomepageHeader() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setFrameIndex((frameIndex + 1) % SkateFrames.length);
+      setFrameIndex((frameIndex + 1) % Animation.length);
     }, 200); 
 
     return () => clearInterval(interval);
@@ -33,16 +31,9 @@ function HomepageHeader() {
     <header className={('hero hero--primary', styles.heroBanner)} style={headerStyle}>
       <div className="container">
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <SkateFrames></SkateFrames>
+        <Animation interval={200}  />
         <MendableSearchBar placeholder="Ask me anything , in any language, as dumb as might be, dont be shy..." userIcon="https://i.gifer.com/origin/f1/f1a737e4cfba336f974af05abab62c8f_w200.gif" botIcon="https://images.ecency.com/u/hive-173115/avatar/large" cmdShortcutKey="y" dialogPlaceholder="Ask me anything about Skatehive" anon_key='524a2d83-688b-477a-ba99-05131d06138d' style={style} />
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro"
-            padding="20px">
-            Become a SkateNerd - 5min ⏱️
-          </Link>
-        </div>
+        
       </div>
     </header>
   );
