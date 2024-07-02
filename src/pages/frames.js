@@ -3,7 +3,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 
 const frames = [
     `discord.gg/skatehive
-    +------------------------------------+
++-------------------------------------+
 |        |                      \\    |
 |        |      _                \\   |
 |         '.   | |                 |  |
@@ -26,7 +26,7 @@ const frames = [
 +------------------------------------+
     `,
     `SKATEHIVE
-    +------------------------------------+
++------------------------------------+
 |              /                 |   |
 |             /                  |   |
 |            /                   |   |
@@ -49,7 +49,7 @@ const frames = [
 +------------------------------------+
     `,
     `discord.gg/skatehive
-    +------------------------------------+
++------------------------------------+
 |   \         _.' \           |      |
 |    \     .-'      \         |      |
 |     \   |           \       |      |
@@ -72,7 +72,7 @@ const frames = [
 +------------------------------------+
     `,
     `SKATEHIVE
-    +------------------------------------+
++------------------------------------+
 |\   |              '.     |         |
 | \   \               \    |         |
 |  \   \               \    \        |
@@ -95,7 +95,7 @@ const frames = [
 +------------------------------------+
     `,
     `discord.gg/skatehive
-    +------------------------------------+
++------------------------------------+
 |     _\  \                 |     |  |
 |    /     \                |     |  |
 |   /    .'                 \     |  |
@@ -119,7 +119,7 @@ const frames = [
 
     `,
     `SKATEHIVE
-    +------------------------------------+
++------------------------------------+
 |/""      |                  |  |    |
 |\___..--'                   |   \   |
 |                            |    \  |
@@ -142,7 +142,7 @@ const frames = [
 +------------------------------------+
     `,
     `discord.gg/skatehive
-    +------------------------------------+
++------------------------------------+
 |    \   |            \   |          |
 |    |   |             \  |          |
 |    /    \            |  |          |
@@ -460,7 +460,7 @@ const frames = [
 `
 ];
 
-const Animation = ({ interval = 100, ...props }) => {
+const Animation = ({ interval = 200, ...props }) => {
     const [frameIndex, setFrameIndex] = useState(0);
 
     const updateFrame = useCallback(() => {
@@ -468,9 +468,14 @@ const Animation = ({ interval = 100, ...props }) => {
     }, []);
 
     useEffect(() => {
-        const frameInterval = setInterval(updateFrame, interval);
+        console.log("Interval set to:", interval); 
+        const frameInterval = setInterval(() => {
+            console.log("Updating frame...");
+            updateFrame();
+        }, interval);
         return () => clearInterval(frameInterval);
     }, [updateFrame, interval]);
+    
 
     return (
         <pre {...props} style={preStyle}>

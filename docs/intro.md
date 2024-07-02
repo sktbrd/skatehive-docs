@@ -1,5 +1,6 @@
 ---
-sidebar_position: 1
+position: 1
+title: You need Wallets Yo
 ---
 
 # You need Wallets Yo!

@@ -25,11 +25,12 @@ module.exports = {
   presets: [
     [
       'classic',
-      {
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/sktbrd/skatehive-docs/docs/',
-        },
+      
+        {
+          docs: {
+            sidebarPath: require.resolve('./docs/_category__.json'), 
+            editUrl: 'https://github.com/sktbrd/skatehive-docs/docs/',
+          },
        
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -48,7 +49,7 @@ module.exports = {
       tagName: 'link',
       attributes: {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap',
       },
     },
     {
@@ -89,9 +90,9 @@ module.exports = {
           label: 'Community',
           position: 'left',
           items: [
-            // { label: 'Forum', href: 'https://forum.skatehive.app' },
             { label: 'Discord', href: 'https://discord.gg/skatehive' },
             { label: 'Twitter', href: 'https://twitter.com/skatehive' },
+            { label: 'WarpCast', href: 'https://warpcast.com/~/channel/skateboard'}
           ],
         },
         { href: 'https://github.com/sktbrd/skatehive-docs/tree/main', label: 'GitHub', position: 'right' },
