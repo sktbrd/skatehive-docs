@@ -1,75 +1,49 @@
 ---
 sidebar_position: 1
+title: Intro Skatehive
 ---
 
-## ETH Wallet 
+## Comunidad Skatehive 
 
-- ShapeShift + Metamask
-### Metamask
+### Descripción General
+Skatehive es una comunidad global que une a skaters, creadores de contenido y entusiastas para compartir, aprender y colaborar. Basada en la colaboración y la creatividad, Skatehive fomenta un espacio donde los skaters pueden conectarse sin barreras, celebrar los logros de los demás y crecer juntos. Con un enfoque en la descentralización, Skatehive permite a sus miembros ser contribuyentes activos y dar forma a la dirección de la comunidad a través de su participación.
 
-**Paso 1: Descargar el monedero MetaMask**
+![Image](https://ipfs.skatehive.app/ipfs/QmbzyAq6rBnuNohzddiDQN4w5sENS8sGMUnki2gjbKFN7e)
 
-Lo primero que debes hacer es entrar en https://metamask.io/ y haz clic en «Descargar».
+Lo más importante: **Skatehive no tiene dueño—cada skater es dueño de Skatehive**. Por diseño, esta comunidad existe para sus miembros, sin autoridad central ni control corporativo. Cada participante juega un papel en su evolución, lo que la convierte en una iniciativa verdaderamente dirigida y gestionada por skaters.
 
-Elige tu navegador o aplicación móvil preferida e instala la extensión de MetaMask.
+### Un Historial de Tecnología Revolucionando el Skate
+A lo largo de la historia del skate, ciertos avances tecnológicos han redefinido el deporte. La icónica cámara VX1000 trajo filmaciones de alta calidad a las calles, convirtiéndose en un símbolo de la cultura skate. La llegada del DVD permitió que los videos de skate se distribuyeran a una audiencia más amplia, mientras que las primeras plataformas de internet, como los servidores mIRC, permitieron a los skaters compartir videos raros a nivel mundial. Luego vino la transcodificación de videos, que facilitó la edición y el intercambio de contenido digital, y finalmente, Web 2.0 introdujo las redes sociales y el botón de compartir en plataformas como Instagram, cambiando para siempre la forma en que los skaters se conectan y promueven su contenido.
 
-El wallet MetaMask es compatible con las apps nativas de iOS y Android, así como con las extensiones del navegador Chrome, Firefox, Brave y Edge.
+![Image](https://ipfs.skatehive.app/ipfs/QmSt5VnN6P4k3ja1D723F46GtpEzZnxcaZwMHqpv7saPri)
 
-Si el proceso te parece muy complejo, siempre puedes consultar un gestor de criptomonedas.
+### Llega Skatehive: El Próximo Salto
+Ahora, Skatehive está dando el siguiente paso en esta evolución al introducir una plataforma que no solo permite a los skaters crear y compartir contenido, sino también recompensarlos por sus contribuciones. Con su modelo descentralizado y características innovadoras, Skatehive está revolucionando la forma en que los skaters interactúan con los medios, ofreciendo una nueva manera de interactuar, colaborar y construir juntos.
 
-![image](https://github.com/JasperOPR/skatehive-docs/assets/85296013/4b76921f-c1c8-4df8-9b05-abc42f4a276e)
+### Bienes Públicos y Apoyo Comunitario
+Skatehive está diseñado para beneficiar a todos en la comunidad. Ya seas un skater subiendo tu última maniobra, un videógrafo capturando momentos únicos o un fan compartiendo ideas y retroalimentación, tus contribuciones son valoradas. Cada interacción en la comunidad—desde la creación de contenido hasta el compromiso con otros—agrega valor y ayuda a fortalecer la red de apoyo que mantiene el ecosistema en crecimiento.
 
-### Paso 2: Instalación del monedero MetaMask
+### Patrocinio Descentralizado a través de Recompensas de Publicaciones
+Una de las características más destacadas de Skatehive es su capacidad para ofrecer oportunidades de patrocinio descentralizadas a través de recompensas de publicaciones. Los skaters y creadores de contenido pueden recibir apoyo y reconocimiento directamente de la comunidad, sin depender de modelos tradicionales de patrocinio. Este enfoque asegura que cualquier creador—sin importar su ubicación o número de seguidores—tenga la oportunidad de recibir apoyo basado en el valor que aporta a la comunidad.
 
-Haz clic en la extensión MetaMask y haz clic en «Get Started».
+### La Revista de Skatehive: "Infinity Mag"
+La aplicación de Skatehive es más que una plataforma; es una revista digital de skate donde los skaters contribuyen a las páginas de la **Infinity Mag**. Cada publicación, clip de trucos o historia compartida dentro de la aplicación se convierte en parte de una publicación viva y en constante evolución, creada enteramente por skaters y para skaters. Este formato permite a los colaboradores construir su propia presencia en los medios y ser recompensados por sus contribuciones.
 
-![image](https://github.com/JasperOPR/skatehive-docs/assets/85296013/3e45e487-a083-4c80-8c67-6f9f780c5e84)
+![Image](https://ipfs.skatehive.app/ipfs/QmPvSv7iRDrHJTxBpqeoyi5utA8QmgEUCuAiQ2JsYCGz4m)
 
-Puedes importar un monedero ya existente utilizando la frase de inicio o crear uno nuevo.
+A diferencia de los medios tradicionales de skate, que a menudo están controlados por unas pocas grandes empresas, o de las grandes plataformas tecnológicas como Instagram, que priorizan los algoritmos sobre la autenticidad, Skatehive devuelve el control a los skaters. Aquí, la comunidad decide qué merece reconocimiento, asegurando que la creatividad y la pasión siempre estén por encima de las métricas de popularidad.
 
-### Paso 3: Cómo crear una nueva cartera MetaMask
+### Desafiando el Monopolio de los Medios de Skate
+Durante mucho tiempo, la narrativa en el skate ha sido moldeada por unos pocos medios centralizados, mientras que las grandes plataformas tecnológicas han comercializado el contenido de los creadores sin compensarlos de manera justa. Skatehive pretende cambiar esto al ofrecer un espacio donde los skaters pueden mostrar su talento sin necesidad de adaptarse a los algoritmos y restricciones de las grandes plataformas. Los skaters en Skatehive se convierten en narradores, creadores y curadores de su propia revista, asegurando que cada voz tenga la oportunidad de ser escuchada y recompensada.
 
-Haz clic en «Crear una cartera» y en la siguiente ventana haz clic en «Estoy de acuerdo» si quieres ayudar a mejorar MetaMask o haz clic en «No gracias» para continuar.
+### Tecnología de Código Abierto y una Red en Expansión
+Aunque Skatehive tiene su propia aplicación, la tecnología detrás de ella es completamente de código abierto, diseñada para ser clonada y adaptada por cualquier otra comunidad de skate, tienda de skate o crew local. Esto permite un número creciente de sitios de skate únicos y frontends que pueden ser construidos usando el código de Skatehive, permitiendo a la comunidad de skaters crear sus propios espacios digitales y versiones personalizadas de Skatehive.
 
-### Paso 4: Crea una contraseña segura para tu wallet.
+Todo lo que se crea en estos frontends impulsados por la comunidad se envía a Skatehive, que lo transmite a múltiples sitios que leen su blockchain. Esto asegura que, sin importar desde dónde esté contribuyendo un skater, su contenido llegue a toda la red, proporcionando aún más visibilidad y oportunidades de apoyo.
 
-![image](https://github.com/JasperOPR/skatehive-docs/assets/85296013/3f1993bd-1eff-4005-90e5-67e2a1e52c08)
+![Image](https://ipfs.skatehive.app/ipfs/QmePbuFW6b86qDRbKXqpTr5rU8HKF6VRpboxiy9JH3Eujb)
 
-### Paso 5: Almacenar de forma segura la frase de recuperación para tu monedero
-Haz clic en «Clic aquí para revelar las palabras secretas» para mostrar la frase.
+### Construyendo Juntos
+Skatehive no es solo una plataforma; es un movimiento impulsado por la creencia de que los skaters deben tener control sobre su propio contenido y comunidades. A través de proyectos colaborativos, comunicación abierta y objetivos compartidos, Skatehive empodera a sus miembros para construir un ecosistema vibrante donde los skaters apoyan a los skaters.
 
-MetaMask requiere que guardes tu frase en un lugar seguro.
-
-Es la única manera de recuperar tus fondos en caso de que tu dispositivo se estropee o tu navegador se reinicie.
-
-Te recomendamos que la escribas. El método más común es escribir tu frase de 12 palabras en un papel y guardarla en un lugar seguro al que sólo tú tengas acceso.
-
-Nota: si pierdes tu frase, MetaMask no podrá ayudarte a recuperar tu monedero y tus fondos se perderán para siempre.
-
-Nunca compartas tu frase o tu clave privada con nadie ni con ningún sitio, a menos que quieras que tengan el control total de tus fondos.
-
-![image](https://github.com/JasperOPR/skatehive-docs/assets/85296013/b0bda099-c51a-4de1-a24d-2403ff69cff7)
-
-Haga clic en «Siguiente».
-
-### Paso 6: Confirmación de la frase secreta
-
-Confirma tu frase secreta de recuperación haciendo clic en cada palabra en el orden en que se presentaron las palabras en la pantalla anterior.
-
-Hz clic en «Confirmar» para continuar.
-
-![image](https://github.com/JasperOPR/skatehive-docs/assets/85296013/1227409e-e2f2-40f5-b9a9-91daecda09e2)
-
-¡Enhorabuena! Tu monedero MetaMask ha sido configurado con éxito.
-
-
-![image](https://github.com/JasperOPR/skatehive-docs/assets/85296013/9c29761e-2b45-4b51-b85d-7d4020227116)
-
-
-## Tezos Wallet 
-
-- Temple
-
-## Hardware Wallet: 
-
-- Keepkey
+Ya sea que busques nuevas conexiones, apoyar talentos emergentes o ser parte de una comunidad global en crecimiento, Skatehive es el lugar indicado. Únete, contribuye y ayuda a dar forma al futuro de la cultura del skate.

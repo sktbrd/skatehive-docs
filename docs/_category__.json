@@ -1,50 +1,43 @@
-
 {
-    "docs": [
-       
-      {
-        "type": "category",
-        "label": "Onboard",
-        "items": [
-            {
-                "type": "doc",
-                "id": "intro"
-              },
-          {
-            "type": "category",
-            "label": "Level 1",
-            "items": [
-              "Level - 2/eth-wallet",
-              
-              "Level - 2/hive-wallet"
-            ]
-          },
-          {
-            "type": "category",
-            "label": "Level 2",
-            "items": [
-              "Level - 3/Discord-Share-Screen",
-              "Level - 3/airdrop",
-              "Level - 3/discord",
-              "Level - 3/login",
-              "Level - 3/manage-hive",
-              "Level - 3/nftog",
-              "Level - 3/sacar-pix",
-              "Level - 3/share-ur-content"
-            ]
-          }
-        ]
-      },
-      
-      {
-        "type": "category",
-        "label": "Dev",
-        "items": [
-            "Level - 1/fork-skatehive"
-        ]
-      }
-    
-    
-    ]
-  }
-  
+  "docs": [
+    {
+      "type": "category",
+      "label": "Onboarding",
+      "items": [
+        {
+          "type": "doc",
+          "id": "intro"
+        },
+        {
+          "type": "category",
+          "label": "Level 1",
+          "items": [
+            "Level - 1/eth-wallet",
+            "Level - 1/hive-wallet"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Level 2",
+          "items": [
+            "Level - 2/Discord-Share-Screen",
+            "Level - 2/airdrop",
+            "Level - 2/discord",
+            "Level - 2/login",
+            "Level - 2/manage-hive",
+            "Level - 2/nftog",
+            "Level - 2/sacar-pix",
+            "Level - 2/share-ur-content"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Dev",
+      "items": [
+        "Level - 0/fork-skatehive"
+      ]
+    }
+  ]
+}
