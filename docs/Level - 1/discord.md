@@ -21,7 +21,7 @@ This is our main Chat, you can share your knowledge and tricks here, in fact... 
 ![](https://i.ibb.co/z8tB9j2/imagem-2023-11-25-222919058.png)
 
 
-### Are you an embarrassed guy?
+### Are you shy?
 
 ![](https://i.ibb.co/GFsdM2c/imagem-2023-11-25-232705978.png)
 

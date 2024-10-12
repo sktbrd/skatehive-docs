@@ -17,22 +17,19 @@ function HomepageHeader() {
   useEffect(() => {
     const interval = setInterval(() => {
       setFrameIndex((frameIndex + 1) % Animation.length);
-    }, 200); 
+    }, 200);
 
     return () => clearInterval(interval);
   }, [frameIndex]);
 
-  const headerStyle = {
-    
-  };
 
   return (
-    <header className={('hero hero--primary', styles.heroBanner)} style={headerStyle}>
+    <header className={('hero hero--primary', styles.heroBanner)}>
       <div className="container">
+        <Animation interval={200} />
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <Animation interval={200}  />
         <MendableSearchBar placeholder="Ask me anything , in any language, as dumb as might be, dont be shy..." userIcon="https://i.gifer.com/origin/f1/f1a737e4cfba336f974af05abab62c8f_w200.gif" botIcon="https://images.ecency.com/u/hive-173115/avatar/large" cmdShortcutKey="y" dialogPlaceholder="Ask me anything about Skatehive" anon_key='524a2d83-688b-477a-ba99-05131d06138d' style={style} />
-        
+
       </div>
     </header>
   );
@@ -55,9 +52,6 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <HomepageHeader />
-      <main>
-        {/* <HomepageFeatures /> */}
-      </main>
     </Layout>
   );
 }

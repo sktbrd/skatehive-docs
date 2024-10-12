@@ -1,35 +1,128 @@
-body {
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+* {
   font-family: "Quattrocento", serif;
   font-weight: 400;
   font-style: normal;
+  font-size: medium;
+  margin: 0;
+  /* Remove default margin */
+  padding: 0;
+  /* Remove default padding */
 }
 
-h1, h2, h3, h4, h5, h6 {
+body {
+  background-color: var(--ifm-color-background) !important;
+  /* Apply background color */
+  color: var(--text-color);
+}
+
+/* Ensure all sections have a consistent background */
+.heroBanner,
+.docMainContainer_gTbr,
+.sidebarViewport_Xe31,
+.menu {
+  background-color: var(--ifm-color-background) !important;
+  /* Ensure sections have the same background */
+}
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+iframe {
+  border-radius: 20px;
+  border: limegreen solid 1px;
+}
+
+.imageStyle {
+  width: 20%;
+  height: auto;
+  border-radius: 20px;
+  border: limegreen 1px solid;
+  padding: 5px;
+}
+
+pre {
+  color: #57875c;
+  border: #57875c 1px solid;
+}
+
+/* Custom background colors for light and dark modes */
+:root {
+  --ifm-color-background: #ffffff;
+  /* Light mode background color */
+  --text-color: #000000;
+  /* Text color for light mode */
+}
+
+/* Dark mode styles */
+[data-theme='dark'] {
+  --ifm-color-background: #000000;
+  /* Dark mode background color */
+  --text-color: #e6e6e6;
+  /* Text color for dark mode */
+}
+
+/* Header and Title styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Quattrocento", serif;
   font-weight: 700;
   font-style: normal;
   font-size: 35px;
-  
 }
 
-.navbar__title,
-.navbar__item,
-.footer__link-item {
-  font-family: "Quattrocento", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: larger;
+/* Navbar styles */
+.navbar {
+  background-color: #57875c;
+  /* Adjust navbar color */
+  align-items: center;
 }
 
-@media screen and (max-width: 768px) {
-  .navbar__title,
-  .navbar__item,
-  .footer__link-item {
-    font-family: "Quattrocento", serif;
-    font-weight: 400;
-    font-style: normal;
-  font-size: larger;
-  }
+.navbar__link_ {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+/* Link colors */
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.menu__link {
+  color: var(--text-color);
+}
+
+/* Additional styling */
+.card {
+  border: 1px solid #080a09;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
 }
 
 .clean-btn {
@@ -38,98 +131,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .theme-admonition-tip {
-  
-  border: 1px solid  #9ea09f;
+  border: 1px solid #9ea09f;
   border-radius: 10px;
   padding: 20px;
   margin: 20px;
 }
-
-.menu__link {
-  color: #fff9f9;
-}
-
-.table-of-contents__link {
-  color: #ffffff;
-}
-
-a {
-  color: #ffffff;
-  text-decoration: none;
-  
-  font-family: "Quattrocento", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-p {
-  font-family: "Quattrocento", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
-}
-
-.navbar {
-  background-color:  #57875c;
-  align-items: center;
-
-}
-
-.navbar__logo {
-  height: 60px; 
-  width: 60px; 
-  display: flex;
-  align-items: center;
-}
-
-.navbar__logo img {
-  max-height: 100%; 
-  width: auto; 
-}
-
-
-.card {
-  
-  border: 1px solid #080a09;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 20px;
-}
-
-.menu__list-item-collapsible .menu__link:hover, .menu__list-item-collapsible .menu__link--active {
-  color: #00ba47;
-}
-
-.navbar__link:hover, .navbar__link--active {
-  color: #032911;
-}
-
-.navbar__title {
-  color: white;
-}
-
-.breadcrumbs__item--active .breadcrumbs__link {
-  color: #cccfcc;
-}
-
-.menu__link--active:not(.menu__link--sublist) {
-  color: #38f57d
-}
-
-.custom-text {
-  color: #40a467;
-}
-
-
-
-img {
-  display: block;
-  margin: auto;
-  border-radius: 10px;
-  border: 1px solid #ffffff;
-}
-
-
 
 .button.button--secondary {
   background-color: #57875c;
@@ -139,6 +145,5 @@ img {
 }
 
 .button.button--secondary:hover {
-  
-    color: white;
+  color: white;
 }

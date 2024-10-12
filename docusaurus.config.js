@@ -3,8 +3,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 
 module.exports = {
-  title: 'Skatehive Docs',
-  tagline: 'Welcome to the Web3 Skateboarding World, ask anything to our AI in any language',
+  title: 'Docs',
+  tagline: 'Knowledge base for Skatehive Community',
   url: 'https://docs.skatehive.app',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
@@ -25,13 +25,13 @@ module.exports = {
   presets: [
     [
       'classic',
-      
-        {
-          docs: {
-            sidebarPath: require.resolve('./docs/_category__.json'), 
-            editUrl: 'https://github.com/sktbrd/skatehive-docs/docs/',
-          },
-       
+
+      {
+        docs: {
+          sidebarPath: require.resolve('./docs/_category__.json'),
+          editUrl: 'https://github.com/sktbrd/skatehive-docs/docs/',
+        },
+
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -69,7 +69,7 @@ module.exports = {
   ],
   themeConfig: {
     navbar: {
-      title: 'Skatehive Docs',
+      title: 'Docs',
       style: 'dark',
       logo: { alt: 'Skatehive Logo', src: 'img/skatehive.png' },
       items: [
@@ -92,22 +92,22 @@ module.exports = {
           items: [
             { label: 'Discord', href: 'https://discord.gg/skatehive' },
             { label: 'Twitter', href: 'https://twitter.com/skatehive' },
-            { label: 'WarpCast', href: 'https://warpcast.com/~/channel/skateboard'}
+            { label: 'Farcaster', href: 'https://nounspace/s/skatehive' }
           ],
         },
         { href: 'https://github.com/sktbrd/skatehive-docs/tree/main', label: 'GitHub', position: 'right' },
         { type: 'localeDropdown', position: 'right' },
       ],
     },
-   
+
     colorMode: {
       defaultMode: 'dark',
-      disableSwitch: true,
+      disableSwitch: false,
       respectPrefersColorScheme: true,
     },
     prism: {
       theme: darkCodeTheme,
-      darkTheme: darkCodeTheme, 
+      darkTheme: darkCodeTheme,
     },
     customFields: {
       mendableAnonKey: "524a2d83-688b-477a-ba99-05131d06138d",

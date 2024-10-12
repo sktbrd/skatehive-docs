@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React, { useCallback, useEffect, useState } from 'react';
 
 const frames = [
-    `discord.gg/skatehive
+    `discord.gg/skateboard
 +-------------------------------------+
 |        |                      \\    |
 |        |      _                \\   |
@@ -48,7 +48,7 @@ const frames = [
 |                         (_)lka     |
 +------------------------------------+
     `,
-    `discord.gg/skatehive
+    `discord.gg/skateboard
 +------------------------------------+
 |   \         _.' \           |      |
 |    \     .-'      \         |      |
@@ -94,7 +94,7 @@ const frames = [
 |                                    |
 +------------------------------------+
     `,
-    `discord.gg/skatehive
+    `discord.gg/skateboard
 +------------------------------------+
 |     _\  \                 |     |  |
 |    /     \                |     |  |
@@ -141,7 +141,7 @@ const frames = [
 |                                    |
 +------------------------------------+
     `,
-    `discord.gg/skatehive
+    `discord.gg/skateboard
 +------------------------------------+
 |    \   |            \   |          |
 |    |   |             \  |          |
@@ -164,7 +164,7 @@ const frames = [
 |                                    |
 +------------------------------------+
 `,
-` ⌐◨-◨
+    ` ⌐◨-◨
 +------------------------------------+
 |     \    (         \     |  |      |
 |      \    \         \    /  |      |
@@ -187,7 +187,7 @@ const frames = [
 |                                    |
 +------------------------------------+
 `,
-`SKATEHIVE
+    `SKATEHIVE
 +------------------------------------+
 |        /          .'  .' |         |
 |       /        .'.  .'   |         |
@@ -208,7 +208,7 @@ const frames = [
 |                         (_)        |
 +------------------------------------+
 `,
-`discord.gg/skatehive
+    `discord.gg/skateboard
 +------------------------------------+
 |         |      _.'  /   |          |
 |         |   _.' _.'    /           |
@@ -231,7 +231,7 @@ const frames = [
 |       (_)          """ (_)         |
 +------------------------------------+
 `,
-` ⌐◨-◨
+    ` ⌐◨-◨
 +------------------------------------+
 |        /          .'  .' |         |
 |       /        .'.  .'   |         |
@@ -253,7 +253,7 @@ const frames = [
 |                                    |
 +------------------------------------+
 `,
-` ⌐◨-◨
+    ` ⌐◨-◨
 +------------------------------------+
 |/""      |                  |  |    |
 |\___..--'                   |   \   |
@@ -276,7 +276,7 @@ const frames = [
 |                                    |
 +------------------------------------+
 `,
-`discord.gg/skatehive
+    `discord.gg/skateboard
 +------------------------------------+
 |    \   |            \   |          |
 |    |   |             \  |          |
@@ -299,7 +299,7 @@ const frames = [
 |                                    |
 +------------------------------------+
 `,
-`SKATEHIVE
+    `SKATEHIVE
 +------------------------------------+
 |     \    (         \     |  |      |
 |      \    \         \    /  |      |
@@ -322,7 +322,7 @@ const frames = [
 |                                    |
 +------------------------------------+
 `,
-` ⌐◨-◨
+    ` ⌐◨-◨
 +------------------------------------+
 |        /          .'  .' |         |
 |       /        .'.  .'   |         |
@@ -344,7 +344,7 @@ const frames = [
 |                                    |
 +------------------------------------+
 `,
-`discord.gg/skatehive
+    `discord.gg/skateboard
 +------------------------------------+
 |         |      _.'  /   |          |
 |         |   _.' _.'    /           |
@@ -367,7 +367,7 @@ const frames = [
 |       (_)          """ (_)         |
 +------------------------------------+
 `,
-` ⌐◨-◨
+    ` ⌐◨-◨
 +------------------------------------+
 |        /          .'  .' |         |
 |       /        .'.  .'   |         |
@@ -389,7 +389,7 @@ const frames = [
 |                                    |
 +------------------------------------+
 `,
-`SKATEHIVE
+    `SKATEHIVE
 +------------------------------------+
 |/""      |                  |  |    |
 |\___..--'                   |   \   |
@@ -412,7 +412,7 @@ const frames = [
 |                                    |
 +------------------------------------+
 `,
-`discord.gg/skatehive
+    `discord.gg/skateboard
 +------------------------------------+
 |    \   |            \   |          |
 |    |   |             \  |          |
@@ -435,7 +435,7 @@ const frames = [
 |                                    |
 +------------------------------------+
 `,
-`SKATEHIVE
+    `SKATEHIVE
 +------------------------------------+
 |     \    (         \     |  |      |
 |      \    \         \    /  |      |
@@ -468,14 +468,14 @@ const Animation = ({ interval = 200, ...props }) => {
     }, []);
 
     useEffect(() => {
-        console.log("Interval set to:", interval); 
+        console.log("Interval set to:", interval);
         const frameInterval = setInterval(() => {
             console.log("Updating frame...");
             updateFrame();
         }, interval);
         return () => clearInterval(frameInterval);
     }, [updateFrame, interval]);
-    
+
 
     return (
         <pre {...props} style={preStyle}>
@@ -489,12 +489,12 @@ Animation.propTypes = {
 };
 
 const preStyle = {
- height: '550px', 
- overflowY: 'auto', 
- backgroundColor: 'transparent', 
- border: 'none', 
- margin: 0, 
- padding: 0
+    height: '550px',
+    overflowY: 'auto',
+    backgroundColor: 'transparent',
+    border: 'none',
+    margin: 0,
+    padding: 0
 };
 
 export default Animation;

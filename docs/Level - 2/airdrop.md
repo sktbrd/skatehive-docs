@@ -1,6 +1,6 @@
 ---
 title: Be eligible for the airdrop
-sidebar_position: 8
+sidebar_position: 2
 ---
 # How to get lucky
 
