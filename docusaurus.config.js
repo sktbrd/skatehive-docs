@@ -25,13 +25,11 @@ module.exports = {
   presets: [
     [
       'classic',
-
       {
         docs: {
           sidebarPath: require.resolve('./docs/_category__.json'),
           editUrl: 'https://github.com/sktbrd/skatehive-docs/docs/',
         },
-
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -99,7 +97,6 @@ module.exports = {
         { type: 'localeDropdown', position: 'right' },
       ],
     },
-
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,

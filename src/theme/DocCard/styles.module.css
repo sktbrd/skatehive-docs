@@ -43,3 +43,16 @@
 :root {
   --ifm-color-background: black;
 }
+
+.navbar__item .navbar__link {
+  color: var(--text-color);
+}
+
+.navbar__item .navbar__link:hover {
+  color: #000000 !important;
+}
+
+.navbarlink--active,
+.navbarlink:hover {
+  color: var(--ifm-color-primary);
+}
