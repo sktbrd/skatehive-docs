@@ -8,23 +8,22 @@ sidebar_position: 2
 2. Como Baixar a Extensão Zerion https://zerion.io/download
 ![Alt text](../../../../../src/assets/eth-wallet/1.png)
 
-3. Ponha pra adicionar ao seu navegador que ta usando pra baixar a Zerion
+3. Adicione a extensão em seu navegador
 ![Alt text](../../../../../src/assets/eth-wallet/2.png)
 
 
-4. vai abrir isso pra voce, de bem vindo.
+4. isso irá abrir para você, dê as boas vindas
 ![Alt text](../../../../../src/assets/eth-wallet/3.png)
 
 
-5.  Aqui escolha uma senha que voce possa lembrar, pra comecar a uasr a carteira.
-
+5. Escolha sua senha de acesso, a senha será responsável para dar acesso a sua carteira no navegador
 ![Alt text](../../../../../src/assets/eth-wallet/4.png)
 
-6.  aqui sera um backup que voce vai ter que guardar pra nao perder sua carteira, salve em algum lugar seguro , ou anote no papel 
+6. Salve suas palavras chave em um lugar seguro e sem acesso tecnologico (como o papel)
 ![Alt text](../../../../../src/assets/eth-wallet/5.png)
 
-7.  no canto superior direito vai aparecer a extensao da carteira ali , abra ela.
+7.  Abra sua extensão no canto superior direito
 ![Alt text](../../../../../src/assets/eth-wallet/6.png)
 
-8.  Pronto carteira configurada , so usar e ser feliz 
+8. Sua carteira foi configurada, parabéns 
 ![Alt text](../../../../../src/assets/eth-wallet/11.png)
