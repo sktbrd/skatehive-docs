@@ -8,7 +8,7 @@ Você pode gerenciar seus tokens Hive em sua carteira. Ao clicar em sua carteira
 
 ## 1. **Hive**
 
-HIVE são tokens negociáveis ​​que podem ser transferidos a qualquer momento. HIVE pode ser convertido em Hive Power em um processo chamado "powering up"
+Hive são tokens negociáveis ​​que podem ser transferidos a qualquer momento. Hive pode ser convertido em Hive Power em um processo chamado "power up"
 
 ## 2. Hive Power
 
