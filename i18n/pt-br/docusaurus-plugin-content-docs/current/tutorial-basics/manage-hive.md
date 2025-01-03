@@ -1,4 +1,5 @@
 ---
+title: Gerencie seus tokens Hive
 sidebar_position: 4
 ---
 
