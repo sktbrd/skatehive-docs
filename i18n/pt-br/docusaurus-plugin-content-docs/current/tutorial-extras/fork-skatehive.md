@@ -34,7 +34,7 @@ Baixe e instale o Git em sua máquina local. Isso permitirá que você execute c
 [Download Git](https://git-scm.com/downloads)
 [Learn More about git and its instalation](https://www.youtube.com/results?search_query=what+is+git+how+to+install)
 
-## CCrie sua conta no GitHub
+## Crie sua conta no GitHub
 
 Basta se inscrever
 
