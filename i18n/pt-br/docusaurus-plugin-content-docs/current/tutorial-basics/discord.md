@@ -8,8 +8,7 @@ sidebar_position: 6
 Ok, pessoal, ouçam! Sabemos que você não consegue parar de fofocar no WhatsApp, mas o melhor aplicativo para conectar comunidades ao redor do mundo para quem está tentando se coordenar em prol de um objetivo comum é o Discord.
 
 ## Por que isso é bom? 
-
-Na discórdia podemos ter salas e funções separadas, as funções são como tags que você pode dar a um usuário que permitirão ao usuário mais recursos ou mais acesso
+No discord podemos ter salas e funções separadas, as funções são como tags que você pode dar a um usuário que permitirão ao usuário mais recursos ou mais acesso
 
 ![](https://i.ibb.co/Kmw10pC/imagem-2023-11-25-221718290.png)
 
@@ -29,7 +28,7 @@ Você pode optar por conversar no seu respectivo idioma, se não tiver um... pe�
 
 ### guildxyz 
 
-OK.. esta sala é muito importante, Guild.xyz é um BOT da comunidade WEB3 criado com integração com Discord, Telegram e outras comunidades.. permite verificar carteiras com NFTs e atribuir diferentes funções como funções e salas também possui integração com mais de 10 Blockchains diferentes o que permite ser superior ao Collabland e ainda mais fácil de configurar basta entrar na sala e clicar no botão azul
+OK.. esta sala é muito importante, Guild.xyz é um BOT da comunidade WEB3 criado com integração com Discord, Telegram e outras comunidades.. permite verificar carteiras com NFTs e atribuir diferentes funções como cargos e salas também possui integração com mais de 10 Blockchains diferentes o que permite ser superior ao Collabland e ainda mais fácil de configurar basta entrar na sala e clicar no botão azul
 
 ![](https://i.ibb.co/42NnzMd/imagem-2023-11-25-224820010.png)
 
