@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Publicar uma postagem na Skatehive.app
+# Publicar em Skatehive.app
 
 1. Clique no ícone de skate (e escrito upload), no canto superior direito da tela
 2. Adicione o título da postagem
@@ -13,4 +13,4 @@ sidebar_position: 2
 
 ![Alt ​​text](../../../../../src/assets/Tuto--basic/1.png)
 
-7. Parabéns, você acabou de publicar uma postagem no Skatehive.app
+7. Parabéns, você acabou de publicar na Skatehive.app
