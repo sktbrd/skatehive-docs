@@ -3,16 +3,20 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
-    "message": "Tutorial - Basics",
-    "description": "The label for category Tutorial - Basics in sidebar tutorialSidebar"
+  "sidebar.docs.category.Onboarding": {
+    "message": "Onboarding",
+    "description": "The label for category Onboarding in sidebar docs"
   },
-  "sidebar.tutorialSidebar.category.Tutorial - Basics.link.generated-index.description": {
-    "message": "5 minutes to learn the most important Docusaurus concepts.",
-    "description": "The generated-index page description for category Tutorial - Basics in sidebar tutorialSidebar"
+  "sidebar.docs.category.Level 1": {
+    "message": "Level 1",
+    "description": "The label for category Level 1 in sidebar docs"
   },
-  "sidebar.tutorialSidebar.category.Tutorial - Extras": {
-    "message": "Tutorial - Extras",
-    "description": "The label for category Tutorial - Extras in sidebar tutorialSidebar"
+  "sidebar.docs.category.Level 2": {
+    "message": "Level 2",
+    "description": "The label for category Level 2 in sidebar docs"
+  },
+  "sidebar.docs.category.Dev": {
+    "message": "Dev",
+    "description": "The label for category Dev in sidebar docs"
   }
 }

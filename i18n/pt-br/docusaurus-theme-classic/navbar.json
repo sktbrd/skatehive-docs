@@ -23,10 +23,6 @@
     "message": "Quest for Stoken",
     "description": "Navbar item with label Quest for Stoken"
   },
-  "item.label.PepeSkate": {
-    "message": "PepeSkate",
-    "description": "Navbar item with label PepeSkate"
-  },
   "item.label.Gnars": {
     "message": "Gnars",
     "description": "Navbar item with label Gnars"
@@ -34,5 +30,25 @@
   "item.label.Settle or Die": {
     "message": "Settle or Die",
     "description": "Navbar item with label Settle or Die"
+  },
+  "logo.alt": {
+    "message": "Skatehive Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Community": {
+    "message": "Community",
+    "description": "Navbar item with label Community"
+  },
+  "item.label.Discord": {
+    "message": "Discord",
+    "description": "Navbar item with label Discord"
+  },
+  "item.label.Twitter": {
+    "message": "Twitter",
+    "description": "Navbar item with label Twitter"
+  },
+  "item.label.Farcaster": {
+    "message": "Farcaster",
+    "description": "Navbar item with label Farcaster"
   }
 }

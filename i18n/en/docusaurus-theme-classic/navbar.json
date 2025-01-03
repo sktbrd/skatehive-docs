@@ -3,16 +3,52 @@
     "message": "Skatehive Docs",
     "description": "The title in the navbar"
   },
-  "item.label.Onboarding": {
-    "message": "Onboarding",
-    "description": "Navbar item with label Onboarding"
-  },
-  "item.label.Blog": {
-    "message": "Blog",
-    "description": "Navbar item with label Blog"
-  },
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
+  },
+  "logo.alt": {
+    "message": "Skatehive Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Learn": {
+    "message": "Learn",
+    "description": "Navbar item with label Learn"
+  },
+  "item.label.App": {
+    "message": "App",
+    "description": "Navbar item with label App"
+  },
+  "item.label.Projects": {
+    "message": "Projects",
+    "description": "Navbar item with label Projects"
+  },
+  "item.label.Community": {
+    "message": "Community",
+    "description": "Navbar item with label Community"
+  },
+  "item.label.Quest for Stoken": {
+    "message": "Quest for Stoken",
+    "description": "Navbar item with label Quest for Stoken"
+  },
+  "item.label.Gnars": {
+    "message": "Gnars",
+    "description": "Navbar item with label Gnars"
+  },
+  "item.label.Settle or Die": {
+    "message": "Settle or Die",
+    "description": "Navbar item with label Settle or Die"
+  },
+  "item.label.Discord": {
+    "message": "Discord",
+    "description": "Navbar item with label Discord"
+  },
+  "item.label.Twitter": {
+    "message": "Twitter",
+    "description": "Navbar item with label Twitter"
+  },
+  "item.label.Farcaster": {
+    "message": "Farcaster",
+    "description": "Navbar item with label Farcaster"
   }
 }

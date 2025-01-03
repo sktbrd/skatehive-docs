@@ -3,24 +3,20 @@
     "message": "Próximo",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Create Wallets": {
-    "message": "Criar Carteiras",
-    "description": "The label for category Create Wallets in sidebar tutorialSidebar"
+  "sidebar.docs.category.Onboarding": {
+    "message": "Onboarding",
+    "description": "The label for category Onboarding in sidebar docs"
   },
-  "sidebar.tutorialSidebar.category.Create Wallets.link.generated-index.description": {
-    "message": "Wallets yo!",
-    "description": "The generated-index page description for category Create Wallets in sidebar tutorialSidebar"
+  "sidebar.docs.category.Level 1": {
+    "message": "Level 1",
+    "description": "The label for category Level 1 in sidebar docs"
   },
-  "sidebar.tutorialSidebar.category.Skatehive App": {
-    "message": "Skatehive App",
-    "description": "The label for category Skatehive App in sidebar tutorialSidebar"
+  "sidebar.docs.category.Level 2": {
+    "message": "Level 2",
+    "description": "The label for category Level 2 in sidebar docs"
   },
-  "sidebar.tutorialSidebar.category.Skatehive App.link.generated-index.description": {
-    "message": "5 minutes to learn the most important Docusaurus concepts.",
-    "description": "The generated-index page description for category Skatehive App in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Tutorial - Dev": {
-    "message": "Tutorial - Dev",
-    "description": "The label for category Tutorial - Dev in sidebar tutorialSidebar"
+  "sidebar.docs.category.Dev": {
+    "message": "Dev",
+    "description": "The label for category Dev in sidebar docs"
   }
 }
