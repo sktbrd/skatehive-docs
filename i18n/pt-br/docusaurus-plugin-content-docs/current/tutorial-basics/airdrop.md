@@ -2,9 +2,9 @@
 title: Seja elegível para o lançamento de airdrop
 sidebar_position: 8
 ---
-# How to get lucky
+# Como ser um sortudo(a)
 
-1. Vá para https://beta.skatehive.app conecte sua colmeia E sua carteira Ethereum
+1. Vá para [Skatehive](https://beta.skatehive.app) conecte sua carteira Hive E sua carteira Ethereum
 2. Vá para o seu perfil
 3. Clique no botão Editar perfil (o ícone de lápis)
 ![Alt ​​text](../../../../../src/assets/tuto-airdrop/1.png)
