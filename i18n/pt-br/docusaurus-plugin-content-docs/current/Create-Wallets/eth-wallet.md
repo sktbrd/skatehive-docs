@@ -3,12 +3,12 @@ sidebar_position: 2
 ---
 
  ## Guia de Instalação e Uso da Extensão Zerion
-1. Zerion é uma plataforma que permite gerenciar ativos em várias blockchains.
+### 1. Zerion é uma extensão que ter permiter usa o ecossistema Ethereum
 
-2. Como Baixar a Extensão Zerion https://zerion.io/download
+### 2. Como Baixar a [Zerion](https://zerion.io/download)
 ![Alt text](../../../../../src/assets/eth-wallet/1.png)
 
-3. Adicione a extensão em seu navegador
+### 3. Adicione a extensão em seu navegador
 ![Alt text](../../../../../src/assets/eth-wallet/2.png)
 
 
