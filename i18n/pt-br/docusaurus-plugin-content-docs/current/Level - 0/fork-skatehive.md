@@ -11,7 +11,7 @@ Você precisará instalar algumas coisas em sua máquina para preparar seu compu
 
 O código ainda está um pouco confuso, mas convido você a fazer parte do nosso aprendizado. Este documento será sempre atualizado em: https://docs.skatehive.app
 
-## Index
+### Index
 
 - Instale o Git e configure a conta do Github
 - Configure suas keys SSH do Github
@@ -27,18 +27,18 @@ O código ainda está um pouco confuso, mas convido você a fazer parte do nosso
 -  Coloque seu fork online, faça deploy com o vercel
 
 
-## Instale o Git e configure a conta do Github
+### Instale o Git e configure a conta do Github
 
 Baixe e instale o Git em sua máquina local. Isso permitirá que você execute comandos git em seu terminal, como `git clone` e outros comandos
 
 [Download Git](https://git-scm.com/downloads)
 [Learn More about git and its instalation](https://www.youtube.com/results?search_query=what+is+git+how+to+install)
 
-## Crie sua conta no GitHub
+### Crie sua conta no GitHub
 
 Basta se inscrever
 
-## Configure suas chaves (Keys) SSH do Github
+### Configure suas chaves (Keys) SSH do Github
 
 Para tornar o processo mais tranquilo, vamos configurar uma conexão SSH gerando chaves SSH.
 
@@ -73,7 +73,7 @@ eval "$(ssh-agent -s)"
 
 > [Full SSH Tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
-## Fork o repositorio
+### Fork o repositorio
 
  **[Click Fork Button](https://github.com/sktbrd/skateapp)** 
 
@@ -110,14 +110,14 @@ Para a próxima etapa precisaremos instalar mais alguns programas em seu computa
 
 > Nada sofisticado aqui, basta instalar e deixar o `add to path` marcado.
 
-## [Install Yarn Here](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
+### [Install Yarn Here](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
 
 > [More ways to install Yarn](https://www.youtube.com/results?search_query=install+yarn)
 
 
 Se você possui Nodejs, npm, yarn e weed/coffee agora você pode instalar e executá-lo em seu computado.
 
-## Voltando ao terminal... 
+### Voltando ao terminal... 
 
 Na pasta do repositório
 ```
@@ -135,11 +135,11 @@ Você deverá ver isso quando acabar:
 > Se você receber um erro em alguma etapa, você pode jogá-lo no chat-gpt ou perguntar-nos em [skatehive discord](https://discord.gg/skatehive) e ver qual deles ajuda você mais rápido
 
 
-## Renomeie .env.example para .env 
+### Renomeie .env.example para .env 
 
 Renomeie .env.example e escolha a comunidade Hive da qual deseja obter/carregar conteúdo. Por exemplo, se você usar o hive-173115 você obterá o skatehive, se você usar o hive-141964 no campo comunitário você obterá o surfhive
 
-## .env.example
+### .env.example
 NEXT_PUBLIC_WEBSITE_URL=http://localhost:3000/
 NEXT_PUBLIC_HIVE_COMMUNITY_TAG=xxxxxxxxxxx
 NEXT_PUBLIC_PINATA_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -197,9 +197,9 @@ git push origin main
 
 Agora você pode acessar sua conta do github e verificar se ela foi atualizada
 
-## Colocando seu website online
+### Colocando seu website online
 
-##  Va para  vercel.com 
+###  Va para  vercel.com 
 
 1. Faça uma conta com sua conta do github 
 ![Alt ​​text](../../../../../src/assets/Tuto-Dev/10.png)
