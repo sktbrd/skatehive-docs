@@ -1,5 +1,5 @@
 ---
-title: Discord Tutorial
+title: Tutorial do Discord
 sidebar_position: 6
 ---
 
