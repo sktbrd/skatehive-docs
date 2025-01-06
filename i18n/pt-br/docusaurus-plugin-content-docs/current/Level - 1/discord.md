@@ -4,12 +4,12 @@ sidebar_position: 6
 ---
 
 # Discord, vamos lá... 
+Discord é uma plataforma de comunicação capaz de criar comunidades e grupos paras diferentes fins, originalmente o discord foi criada para o gaming mas acabou se tornando muito útil para organizações presentes na WEB3 usarem como escopo de trabalho
 
-Ok, pessoal, ouçam! Sabemos que você não consegue parar de fofocar no WhatsApp, mas o melhor aplicativo para conectar comunidades ao redor do mundo para quem está tentando se coordenar em prol de um objetivo comum é o Discord.
+## Como isso funciona 
+O Discord é uma plataforma de comunicação que combina mensagens de texto, voz e vídeo, permitindo a interação entre pessoas em tempo real. Ele funciona através de servidores, que são espaços organizados por temas ou comunidades. Dentro de cada servidor, é possível criar canais específicos, seja para bate-papo, chamadas de voz ou compartilhamento de vídeos e arquivos.
 
-## Por que isso é bom? 
-No discord podemos ter salas e funções separadas, as funções são como tags que você pode dar a um usuário que permitirão ao usuário mais recursos ou mais acesso
-
+Os servidores podem ser privados, com acesso restrito apenas para convidados, ou públicos, abertos para qualquer pessoa participar. Além disso, o Discord oferece ferramentas para personalização, como bots, permissões, emojis personalizados e integrações com outras plataformas.
 ![](https://i.ibb.co/Kmw10pC/imagem-2023-11-25-221718290.png)
 
 ## Quartos principais que você precisa fazer check-in na sua primeira chegada
