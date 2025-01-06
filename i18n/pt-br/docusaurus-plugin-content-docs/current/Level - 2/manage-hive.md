@@ -17,7 +17,6 @@ Você sempre recebe uma recompensa nas postagens. Trocar Hive por Hive Power é 
 
  - Stake/Power up seus tokens HIVE para ter habilidades especiais no Hive Blockchain:
  - Maior poder de voto e maiores recompensas de curadoria
- - Mais créditos de recursos para fazer transações no Hive Blockchain
  - Mais participação na governança do Hive para apoiar testemunhas e projetos
 
 ## 3. HBD (Hive Backed Dollars)
