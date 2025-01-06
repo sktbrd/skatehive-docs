@@ -3,9 +3,22 @@ title: Como sacar no pix usando HIVE
 sidebar_position: 7
 ---
 
-# Como sacar no pix usando hive.
+# Skatehive
 
-## 1. Você precisa criar uma conta na [Binance](https://accounts.binance.com/register?ref=800804607) para fazer a tranferencia de hive para pix.
+## Vá para sua carteira
+![](https://i.ibb.co/BG5TQy9/image.png)
+
+## Selecione a categoria PIX
+![](https://i.ibb.co/qjxhhng/image.png)
+
+## Digite a quantidade
+Coloque sua chave PIX e digite a quantidade que deseja converter para Real
+![](https://i.ibb.co/42dbSST/image.png)
+Lembre se que o minimo para sacar são **R$20**
+### Após isso assine as transações em sua carteira Hive e aguarde (certifique se que as informação estão corretas)
+# Binance
+
+## 1. Você precisa criar uma conta na [Binance](https://accounts.binance.com/register?ref=800804607) para fazer a tranferencia de Hive para pix.
 
 
 ## 2. Com sua conta logada na binance, você vai clicar em depositar, como a seta vermelha indica.
