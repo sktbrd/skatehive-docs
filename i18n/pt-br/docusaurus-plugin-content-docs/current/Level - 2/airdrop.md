@@ -1,6 +1,6 @@
 ---
 title: Seja elegível para o airdrop
-sidebar_position: 8
+sidebar_position: 1
 ---
 #  Seja elegível para o airdrop
 

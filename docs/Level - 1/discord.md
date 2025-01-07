@@ -1,6 +1,6 @@
 ---
 title: Discord Tutorial
-sidebar_position: 6
+sidebar_position: 5
 ---
 
 # Discord, here we go... 

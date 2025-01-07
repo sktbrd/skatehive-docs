@@ -2,7 +2,7 @@
   "docs": [
     {
       "type": "category",
-      "label": "Onboarding",
+      "label": "Integração",
       "items": [
         {
           "type": "doc",
@@ -31,14 +31,16 @@
             "Level - 2/airdrop",
             "Level - 2/eth-wallet",
             "Level - 2/manage-hive",
-            "Level - 2/congratulations"
+            "Level - 2/congratulations",
+            "Level - 2/nftlog",
+            "Level - 2/sacar-pix"
             
           ]
         }
       ]
     },
     {
-      "type": "category",
+      "type": "categoria",
       "label": "Dev",
       "items": [
         "Level - 0/fork-skatehive"

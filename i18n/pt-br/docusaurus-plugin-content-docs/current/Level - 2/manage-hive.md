@@ -1,6 +1,6 @@
 ---
 title: Gerencie seus tokens Hive
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 # Gerencie seus tokens Hive
