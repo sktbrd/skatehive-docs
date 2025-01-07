@@ -476,11 +476,12 @@ const Animation = ({ interval = 200, ...props }) => {
         return () => clearInterval(frameInterval);
     }, [updateFrame, interval]);
 
-
     return (
-        <pre {...props} style={preStyle}>
-            {frames[frameIndex]}
-        </pre>
+        <div style={wrapperStyle}>
+            <pre {...props} style={preStyle}>
+                {frames[frameIndex]}
+            </pre>
+        </div>
     );
 };
 
@@ -488,13 +489,23 @@ Animation.propTypes = {
     interval: PropTypes.number,
 };
 
-const preStyle = {
+const wrapperStyle = {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
     height: '550px',
-    overflowY: 'auto',
+    overflow: 'hidden', 
     backgroundColor: 'transparent',
-    border: 'none',
+};
+
+const preStyle = {
     margin: 0,
-    padding: 0
+    padding: 0,
+    fontFamily: 'monospace',
+    fontSize: '1rem',
+    lineHeight: '1.5',
+    whiteSpace: 'pre-wrap', 
+    color: '#00ff00', 
 };
 
 export default Animation;
