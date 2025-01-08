@@ -91,7 +91,6 @@ h6 {
   font-size: 35px;
 }
 
-
 /* General image adjustments */
 .markdown img {
   max-width: 65%; 
@@ -138,8 +137,8 @@ h6 {
 /* Navbar styles */
 .navbar {
   background-color: #038624;
+  /* Adjust navbar color */
   align-items: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   padding: 0 20px; 
 }
 
@@ -155,22 +154,13 @@ a {
   transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
-/* Hover nos links */
-.navbar__item .navbar__link:hover,
-.menu__link:hover,
-a:hover {
-  color: var(--ifm-color-background); 
-  background-color: var(--text-color); 
+
+.table-of-contents__link toc-highlight table-of-contents__link--active , a , span{
+  color: var(--text-color) !important;
+  background-color: transparent !important;
 }
 
-/* Foco nos links (acessibilidade) */
-.navbar__item .navbar__link:focus,
-.menu__link:focus,
-a:focus {
-  outline: 2px solid var(--text-color);
-  background-color: rgba(255, 255, 255, 0.2); 
-  color: var(--ifm-color-background); 
-}
+
 
 /* Additional styling */
 .card,
@@ -204,4 +194,3 @@ a:focus {
 .table-of-contents__link .toc-highlight .table-of-contents__link--active {
   color: #57875c !important;
 }
-
