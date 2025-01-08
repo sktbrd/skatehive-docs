@@ -91,6 +91,50 @@ h6 {
   font-size: 35px;
 }
 
+
+/* General image adjustments */
+.markdown img {
+  max-width: 65%; 
+  height: auto; 
+  display: block; 
+  margin: 1.5rem auto; 
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15); 
+  transition: transform 0.3s ease; 
+}
+
+/* Hover effect */
+.markdown img:hover {
+  transform: scale(1.02); 
+}
+
+/* Adjustments for mobile devices */
+@media (max-width: 768px) {
+  .markdown img {
+    max-width: 95%; 
+    margin: 1rem auto; 
+  }
+}
+
+
+/* Additional styling for larger images */
+.markdown img.large {
+  max-width: 80%; 
+  margin: 2rem auto; 
+}
+
+/* Mobile styling */
+@media (max-width: 768px) {
+  .markdown img {
+    max-width: 100%; 
+  }
+
+  .markdown img.large {
+    max-width: 90%; 
+  }
+}
+
+
 /* Navbar styles */
 .navbar {
   background-color: #038624;
@@ -160,3 +204,4 @@ a:focus {
 .table-of-contents__link .toc-highlight .table-of-contents__link--active {
   color: #57875c !important;
 }
+
