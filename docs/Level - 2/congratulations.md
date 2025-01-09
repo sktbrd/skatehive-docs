@@ -2,10 +2,18 @@
 sidebar_position: 4
 ---
 
-# Congratulations!
+# Congratulations! 🎉
 
-You have successfully completed the Skatehive tutorials!
+Congratulations on completing the Skatehive tutorials! 🎉
 
-You are now fully prepared to venture into the world of Skatehive, post your best tricks 🛹 and even get monetized for it!🤑
+You are now fully equipped to dive into the exciting world of **Skatehive**. It's time to show off your best tricks 🛹 and even start earning rewards for your efforts! 🤑
 
-See you at https://skatehive.app/
+### What's Next?
+- **Post your tricks:** Upload your best skateboarding moves to the Skatehive platform and get noticed by the community.
+- **Get rewarded:** Start earning by posting content, engaging with others, and participating in the ecosystem.
+- **Stay active:** Keep posting and interacting to increase your rewards and visibility.
+
+Now that you're ready, head over to **[Skatehive](https://skatehive.app/)** and start creating!
+
+See you on the platform! 👋
+

@@ -2,29 +2,36 @@
 sidebar_position: 2
 ---
 
-# HIVE Wallet 
+# How to Create a Hive Wallet
 
+### **Creating a Hive Wallet (Browser)**
 
-### How to create a Hive wallet (Browser)
----
-1. Install Hive Keychain Browser Extension and then reload the page.
+Follow the steps below to create your Hive wallet.
 
-![Alt ​​text](../../src/assets/Hive-Wallet/1.png)
+### **Step 1:** Install the **Hive Keychain** Browser Extension.
 
-2. Go to https://ecency.com/signup to create an account. Choose your username and put your email address.
+- Once installed, reload the page to start using the extension.
 
-![Alt ​​text](../../src/assets/Hive-Wallet/2.png)
+![Install Hive Keychain](../../src/assets/Hive-Wallet/1.png)
 
-3. Download your account info ("Download Backup) that was sent to your email and store them in a safe place.
+### **Step 2:** Go to [Ecency Signup](https://ecency.com/signup) to create a new account.
 
-![Alt ​​text](../../src/assets/Hive-Wallet/3.png)
+- Choose your **username** and enter your **email address**.
 
+![Signup Page](../../src/assets/Hive-Wallet/2.png)
 
-> Save this fucking keys in a very secure place **otherwise you are going to cry later**!
-4. Enter your username and password into the Hive Keychain browser extension to save them.
+### **Step 3:** Download your account backup info ("Download Backup") that was sent to your email.
 
-![Alt ​​text](../../src/assets/Hive-Wallet/4.png)
+- **Important:** Store this information in a **safe place**.
 
-5. Congratulations on making your Hive account.
+![Account Backup](../../src/assets/Hive-Wallet/3.png)
 
-If you're having trouble creating a Hive account you can request a Hive account at [Skatehive Discord](discord.gg/skatehive)
+> **Warning:** Keep your keys in a secure location. **If you lose them, you may never recover your account**.
+
+### **Step 4:** Enter your **username** and **password** in the Hive Keychain browser extension to save your credentials.
+
+![Save Credentials](../../src/assets/Hive-Wallet/4.png)
+
+### **Step 5:** Congratulations, your **Hive account** is now created!
+
+If you're having trouble creating a Hive account, feel free to request one on our [Skatehive Discord](https://discord.gg/skatehive).

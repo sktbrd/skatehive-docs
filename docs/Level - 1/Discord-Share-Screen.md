@@ -2,40 +2,56 @@
 sidebar_position: 3
 ---
 
-# How to share your Discord screen.
+# How to Share Your Discord Screen
 
-## On your PC 💻
+### **On Your PC 💻**
 
- 1. Select your [Discord Server](https://discord.gg/R4s2ykDN).
-![discord1](https://hackmd.io/_uploads/SkscTAFLA.png)
+Follow these steps to share your screen on Discord from your PC.
 
- 2. Click on the share screen icon.
-![discord2](https://hackmd.io/_uploads/rkgRRRY8R.png)
+### **Step 1:** Select your [Discord Server](https://discord.gg/R4s2ykDN).
 
- 3. Click on the Screen Button, and then click on the Entire screen.
-![discord3](https://hackmd.io/_uploads/BJ40ek58A.png)
+![Select Discord Server](https://hackmd.io/_uploads/SkscTAFLA.png)
 
- 4. Choose your better screen resolution to share and then click on the button "Go Live".
-![discord4](https://hackmd.io/_uploads/Sku6fk5UR.png)
+### **Step 2:** Click on the **Share Screen** icon.
 
- 5. Yeah, You're sharing your screen!
-![discord5](https://hackmd.io/_uploads/H1XcXyc8A.png)
+![Share Screen Icon](https://hackmd.io/_uploads/rkgRRRY8R.png)
 
-## On your Mobile 📱
+### **Step 3:** Click the **Screen** button, then select **Entire Screen**.
 
- 1. Select your [Discord Server](https://discord.gg/R4s2ykDN).
-![ddcell1](https://hackmd.io/_uploads/SJjhGQ9UC.jpg)
+![Select Entire Screen](https://hackmd.io/_uploads/BJ40ek58A.png)
 
- 2. Drag the bottom menu bar up.
-![ddcell2](https://hackmd.io/_uploads/HkHtmX58C.jpg)
+### **Step 4:** Choose the best screen resolution for sharing, and then click the **Go Live** button.
 
- 3. Select Share your Screen.
-![ddcell3](https://hackmd.io/_uploads/H1kWHQqLA.jpg)
+![Select Screen Resolution](https://hackmd.io/_uploads/Sku6fk5UR.png)
 
- 4. Select Start now.
-![ddcell4](https://hackmd.io/_uploads/ryWj8QqU0.jpg)
+### **Step 5:** You’re now sharing your screen! 🎉
 
-## Now we can help you ⌐◨-◨
+![Screen Sharing Active](https://hackmd.io/_uploads/H1XcXyc8A.png)
 
-![ok-okay](https://hackmd.io/_uploads/r1uA0QcI0.gif)
+---
 
+### **On Your Mobile 📱**
+
+Follow these steps to share your screen on Discord from your mobile device.
+
+### **Step 1:** Select your [Discord Server](https://discord.gg/R4s2ykDN).
+
+![Select Discord Server on Mobile](https://hackmd.io/_uploads/SJjhGQ9UC.jpg)
+
+### **Step 2:** Drag the bottom menu bar up.
+
+![Bottom Menu Bar](https://hackmd.io/_uploads/HkHtmX58C.jpg)
+
+### **Step 3:** Select **Share Your Screen**.
+
+![Share Screen Option on Mobile](https://hackmd.io/_uploads/H1kWHQqLA.jpg)
+
+### **Step 4:** Select **Start Now** to begin sharing.
+
+![Start Sharing Screen on Mobile](https://hackmd.io/_uploads/ryWj8QqU0.jpg)
+
+---
+
+### **Now We Can Help You ⌐◨-◨**
+
+![Help](https://hackmd.io/_uploads/r1uA0QcI0.gif)

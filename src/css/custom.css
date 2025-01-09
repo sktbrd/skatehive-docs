@@ -3,7 +3,7 @@
  * and scoped locally.
  */
 
-* {
+ * {
   font-family: "Quattrocento", serif;
   font-weight: 400;
   font-style: normal;
@@ -115,7 +115,6 @@ h6 {
   }
 }
 
-
 /* Additional styling for larger images */
 .markdown img.large {
   max-width: 80%; 
@@ -132,7 +131,6 @@ h6 {
     max-width: 90%; 
   }
 }
-
 
 /* Navbar styles */
 .navbar {
@@ -154,13 +152,23 @@ a {
   transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
-
-.table-of-contents__link toc-highlight table-of-contents__link--active , a , span{
+.table-of-contents__link toc-highlight table-of-contents__link--active , a , span {
   color: var(--text-color) !important;
   background-color: transparent !important;
 }
 
-
+p {
+  font-size: 18px; /* Default paragraph font size */
+  line-height: 1.6; /* Improved readability */
+  margin: 1rem 0; /* Space between paragraphs */
+  color: var(--text-color);
+}
+/* Adjusting <strong> styles */
+strong {
+  font-weight: bold;
+  font-size: 1.1em; /* Slightly larger than surrounding text */
+  color: #038624; /* Highlighted color */
+}
 
 /* Additional styling */
 .card,

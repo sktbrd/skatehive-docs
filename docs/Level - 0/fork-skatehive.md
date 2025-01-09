@@ -243,11 +243,3 @@ and see your own hive community.
 Congrats! That's so cool, you put a permissionless website online! Go show your mama, say that I miss her. 
 
 --- 
-
-
-
-
-
-
-
-

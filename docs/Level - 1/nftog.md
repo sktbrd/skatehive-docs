@@ -31,9 +31,9 @@ We will drop SKTHV NFTs to the OGs (list [here](https://hackmd.io/4DlwVzkoTry2bP
 
 If your name is on the [list](https://hackmd.io/4DlwVzkoTry2bPOreTL_8A), reply with your ETH address in this post so we can transfer your NFT to you. NFTs will be sent in bulk transactions every 2 weeks.
 
-> 1st Transaction - August 1
-> 2nd Transaction - August 15
-> 3rd Transaction - August 30...
+> 1st Transaction - August 1  
+> 2nd Transaction - August 15  
+> 3rd Transaction - August 30...  
 > Final Transaction - October 20
 
 If you have a friend who might miss this announcement and their names are on the [airdrop list](https://hackmd.io/4DlwVzkoTry2bPOreTL_8A), let them know so they can claim their NFT as well! If your name is not on the list and you feel you deserve one, let us know.
@@ -50,12 +50,12 @@ The price of the SKTHV OG NFT will double every 3 months and will be available f
 
 **NFT Prices**
 
-*July 25 to October 25: 0.033 ETH*
-*October 26 to January 26: 0.066 ETH*
-*January 27 to April 27: 0.132 ETH*
+*July 25 to October 25: 0.033 ETH*  
+*October 26 to January 26: 0.066 ETH*  
+*January 27 to April 27: 0.132 ETH*  
 *April 28 (2024) - July 28 (sale ends officially): 0.264 ETH*
 
-Buy here: https://zora.co/collect/eth:0x3ded025e441730e26ab28803353e4471669a3065/1/mint
+Buy here: [Zora Mint](https://zora.co/collect/eth:0x3ded025e441730e26ab28803353e4471669a3065/1/mint)
 
 ![image.png](https://files.peakd.com/file/peakd-hive/skatehive/23wBduSuGjPVhFP5YMht3jik4C8GN9UWcqhwft8J5CzbcdeTMQMAXzSzxNiQ4szazr1r1.png)
 

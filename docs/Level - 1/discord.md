@@ -3,106 +3,104 @@ title: Discord Tutorial
 sidebar_position: 5
 ---
 
-# Discord, here we go... 
+# Discord Tutorial: Connect, Share, and Create
 
-Ok, folks listen up! We know you cant stop gossiping in whatsapp, but the best app to connect community around the world for those who are trying to coordinate themselves towards a common goal is discord. 
+Hey, folks! We know you can't stop gossiping on WhatsApp, but let’s talk about the best platform to connect communities worldwide and coordinate towards a common goal — **Discord**.
 
-## Why is it good? 
+## Why Discord?
 
-In discord we can have separated rooms and roles, roles are like tags you can give to an user that will enable the user more features or more access 
+Discord offers **separated rooms** and **roles**, which act like tags. These roles give users more features and access, helping manage communities effectively.
 
-![](https://i.ibb.co/Kmw10pC/imagem-2023-11-25-221718290.png)
+![Discord Roles](https://i.ibb.co/Kmw10pC/imagem-2023-11-25-221718290.png)
 
-## Main Rooms you need to check in your 1st arrival 
+## Main Rooms to Check Upon Your Arrival
 
 ### 🛹丨chat
 
-This is our main Chat, you can share your knowledge and tricks here, in fact... even send tips to your friends
-![](https://i.ibb.co/z8tB9j2/imagem-2023-11-25-222919058.png)
+This is our **main chat**! You can share knowledge, tricks, and even send tips to your friends. It's where the skateboarding community interacts the most!
 
+![Chat Room](https://i.ibb.co/z8tB9j2/imagem-2023-11-25-222919058.png)
 
-### Are you shy?
+### Feeling Shy?
 
-![](https://i.ibb.co/GFsdM2c/imagem-2023-11-25-232705978.png)
+No worries! You can choose to chat in your **respective language**. If your language is missing, simply ask an admin or moderator to add it for you!
 
-You can choose to chat in your respective language, if you don't have one... ask an administrator/moderator to add it for you
+![Language Selector](https://i.ibb.co/GFsdM2c/imagem-2023-11-25-232705978.png)
 
-### guildxyz 
+### guild.xyz
 
-OK.. this room is very important, Guild.xyz is a WEB3 community BOT created with integration with Discord, Telegram and other communities.. it allows you to check wallets with NFTs and assign different functions such as roles and rooms it also has integration with more than 10 different Blockchains which allows it to be superior to Collabland and even easier to configure just enter the room and click on the blue button
+This room is **super important**. Guild.xyz is a Web3 community bot integrated with Discord, Telegram, and more. It lets you check wallets with NFTs, assign roles, and access rooms. It supports over **10 different blockchains**, making it more advanced than Collabland. 
 
-![](https://i.ibb.co/42NnzMd/imagem-2023-11-25-224820010.png)
+To get started, just enter the room and click on the **blue button**.
 
-Complete some missions on the site to gain access to different server roles
+![Guild.xyz Integration](https://i.ibb.co/42NnzMd/imagem-2023-11-25-224820010.png)
 
-![](https://i.ibb.co/rsc6FSk/imagem-2023-11-25-225052029.png)
+Complete some missions to unlock new server roles!
 
-### ⌨丨coding 
-It's not a specific chat but a category, this is where the magic happens... you can follow our developers live and even learn new things here
-![](https://i.ibb.co/Hgpjwkj/imagem-2023-11-25-223520386.png)
+![Guild.xyz Missions](https://i.ibb.co/rsc6FSk/imagem-2023-11-25-225052029.png)
 
-You can follow live updates from our app (skatehive) and even interact and give suggestions on what can be implemented
+### ⌨丨coding
 
-![https://i.ibb.co/3ztxLHb/imagem-2023-11-25-223652454.png](https://i.ibb.co/3ztxLHb/imagem-2023-11-25-223652454.png)
+This category isn’t just a chat room, it’s where the magic happens! You can follow live updates from our developers, learn new things, and even contribute your suggestions.
 
+![Coding Channel](https://i.ibb.co/Hgpjwkj/imagem-2023-11-25-223520386.png)
 
-## [Guild.xyz](https://guild.xyz/skatehive)
-## Rooms to check on a daily basis 
+Follow live updates from **Skatehive** and interact with the community to propose new ideas and features!
+
+![Live Updates](https://i.ibb.co/3ztxLHb/imagem-2023-11-25-223652454.png)
+
+## Rooms You Should Check Daily
+
 ### 📢丨announcements
-Stay up  to date for all the updates we have in the Skatehive ecosystem
-![](https://i.ibb.co/5Y99ZZJ/imagem-2023-11-25-225554435.png)
+
+Stay up to date with all the updates in the **Skatehive ecosystem**. We’ll notify you of everything important here.
+
+![Announcements Room](https://i.ibb.co/5Y99ZZJ/imagem-2023-11-25-225554435.png)
 
 ### 🛹丨skthv丨proposals (forum)
 
-This is one of the main governance chats we have on the server, here you can follow and participate in discussions about the newest ideas/proposals from Skatehive and even Gnars
+This is one of the main governance channels. Here, you can discuss and participate in **proposals** related to Skatehive and even Gnars.
 
-![](https://i.ibb.co/FHys3rZ/imagem-2023-11-25-225821464.png)
+![Proposals Discussion](https://i.ibb.co/FHys3rZ/imagem-2023-11-25-225821464.png)
 
 ### 🔥丨skate-posts
 
-This is one of the best chats on the server, here you can follow new content posted on Skatehive, you can also share your own content within this chat, the chat is constantly monitored by our administrators who will vote on your content and help you on your journey Hive
+A favorite spot for many! Here, you can follow the latest content posted on **Skatehive** and share your own. The channel is actively monitored by admins, who will vote on your content and help you grow within the Hive community.
 
-![](https://i.ibb.co/qd12PK1/imagem-2023-11-25-230156776.png)
+![Skate Posts](https://i.ibb.co/qd12PK1/imagem-2023-11-25-230156776.png)
 
 ### 🔒丨daos-gov
 
-Here you are notified of all new proposals that enter Snapshot, you can vote **FOR** or **AGAINST**, stay up to date with all proposals updates in this chat.
+This channel keeps you updated on all new proposals in **Snapshot**. You can vote **FOR** or **AGAINST** and stay informed about proposals here.
 
-![](https://i.ibb.co/VHqhjyH/imagem-2023-11-25-230404565.png)
+![DAOs Governance](https://i.ibb.co/VHqhjyH/imagem-2023-11-25-230404565.png)
 
-## Bots, tricks and tips 
+## Bots, Tricks, and Tips
 
-### Jockie Music
+### 🎵 Jockie Music
 
-This BOT lets you listen to your favorite songs on discord
-![](https://i.ibb.co/BPzQZ8d/imagem-2023-11-25-230819681.png)
+Want to listen to music with your friends? **Jockie Music BOT** lets you play your favorite songs right on Discord! Just join a voice room and type the command in **bot-commands**:
 
-To play a song, just enter a voice room and type the command in the "bot-commands" m!play (song link)
+```m!play (song link)```
 
-### tip.cc
+![Jockie Music](https://i.ibb.co/BPzQZ8d/imagem-2023-11-25-230819681.png)
 
-This is one of the best BOTs on the server, it allows us to give rewards to our users in more than 70 different cryptocurrencies, including hive
+### 💸 tip.cc
 
-you can send tips with the following command
+One of the coolest bots! **Tip.cc** lets us reward users with over **70 different cryptocurrencies**, including Hive. 
+
+Send tips using this command:
 
 ```$tip @user 10 (coin)```
 
-**There are many coins that you can use such as Hive and xFOX which is a governance token used in the ShapeShift DEX**
+You can use popular coins like **Hive** and **xFOX**, the governance token for ShapeShift DEX.
 
-![](https://i.ibb.co/NTSnsLc/imagem-2023-11-25-231444533.png)
+![Tip.cc Rewards](https://i.ibb.co/NTSnsLc/imagem-2023-11-25-231444533.png)
 
-### Secret Commands 
+### 🎥 Secret Commands
 
- Do you remember 411VM?
+Feeling nostalgic? **411 Video Magazine** was a classic skateboarding video series. You can relive the good old days by typing the following command in the **bot-commands** channel:
 
-411 Video Magazine (commonly abbreviated as 411VM or 411) was a skateboarding video series. 411 was created in 1993 by Josh Friedberg and Steve Douglas. 411 released four issues per year, until its last issue, issue 67 was released in 2005. Prior to 411, professional skateboarders only showcased their video footage in major video releases, which were sometimes spread years apart. 411 gave skateboarding fans access to videos of professional skateboarders more frequently than ever before.[citation needed]
+```!411vm```
 
-411 was originally produced on VHS tapes, and then later transitioned to DVD
-
-You can kill some of your nostalgia by typing the following command in the "bot-commands" chat
-
-!411vm
-
-
-![](https://i.ibb.co/dKk7G70/imagem-2023-11-25-233029667.png) 
-
+![411 Video Magazine](https://i.ibb.co/dKk7G70/imagem-2023-11-25-233029667.png)
