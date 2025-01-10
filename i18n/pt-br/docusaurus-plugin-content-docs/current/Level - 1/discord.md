@@ -13,7 +13,7 @@ Os servidores podem ser privados, com acesso restrito apenas para convidados, ou
 
 ![](https://i.ibb.co/Kmw10pC/imagem-2023-11-25-221718290.png)
 
-## Quartos principais que você precisa fazer check-in na sua primeira chegada
+## Chats principais que você precisa fazer check-in na sua primeira chegada
 
 ### 🛹丨chat
 
@@ -37,8 +37,8 @@ Complete algumas missões no site para obter acesso a diferentes funções de se
 
 ![](https://i.ibb.co/rsc6FSk/imagem-2023-11-25-225052029.png)
 
-### ⌨丨codificação 
-Não é um chat específico e sim uma categoria. É aqui que a mágica acontece... você pode acompanhar nossos desenvolvedores ao vivo e até aprender coisas novas aqui.
+### ⌨丨coding
+Não é um chat específico e sim uma categoria, é aqui que a mágica acontece... você pode acompanhar nossos desenvolvedores ao vivo e até aprender coisas novas aqui
 
 ![](https://i.ibb.co/Hgpjwkj/imagem-2023-11-25-223520386.png)
 
@@ -48,7 +48,7 @@ Você pode acompanhar atualizações ao vivo do nosso aplicativo (Skatehive) e a
 
 
 ## [Guild.xyz](https://guild.xyz/skatehive)
-## Quartos para verificar diariamente 
+## Chats para verificar diariamente 
 
 ### 📢丨anúncios
 Mantenha-se atualizado sobre todas as atualizações que temos no ecossistema Skatehive.
