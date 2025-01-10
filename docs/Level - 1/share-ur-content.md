@@ -4,22 +4,55 @@ sidebar_position: 4
 
 # How to Publish a Post on Skatehive.app
 
-### Follow these steps to share your post on Skatehive:
+---
 
-1. **Click on the "+ Create" button** at the top middle of your screen.
+## Steps to Share Your Post
 
-2. **Add your post title** – Choose something catchy!
+Follow these steps to publish your content on Skatehive:
 
-3. **Upload your images/videos** – Showcase your best shots and clips.
+---
 
-4. **Add a post description** – Describe the spot, tricks, filmer, or anything you feel like sharing. Make your post stand out!
+### Step 1: Click on "+ Create"
 
-5. **Preview your post** – Make sure it looks awesome! (Check the preview on the right side of the screen).
+- Locate the **"+ Create" button** at the top middle of your screen and click on it.
 
-6. **Click on "Publish"** – You’re ready to share your creation with the Skatehive community.
+---
+
+### Step 2: Add Your Post Title
+
+- Choose a catchy title for your post to grab attention.
+
+---
+
+### Step 3: Upload Images/Videos
+
+- Showcase your best shots and clips by uploading your images or videos.
+
+---
+
+### Step 4: Add a Post Description
+
+- Describe the spot, tricks, filmer, or anything you feel like sharing.  
+- Make your post stand out with engaging details.
+
+---
+
+### Step 5: Preview Your Post
+
+- Check the **preview** on the right side of the screen to ensure everything looks great.
+
+---
+
+### Step 6: Click on "Publish"
+
+- Once satisfied, click the **"Publish" button** to share your creation with the Skatehive community.
 
 ---
 
 ![Publish Post](../../src/assets/Tuto--basic/1.png)
 
-Congrats! 🎉 You just published a post on Skatehive.app.
+---
+
+## Congratulations! 🎉  
+
+You’ve successfully published a post on **Skatehive.app**. Start interacting with the community and enjoy the feedback on your content!

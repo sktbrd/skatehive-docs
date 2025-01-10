@@ -3,7 +3,7 @@ title: Skatehive OG NFTs Airdrop is live - A Governance Experiment
 sidebar_position: 6
 ---
 
-If you've known [Skatehive](discord.gg/skatehive) for some time, you know that we love involving our community in decision-making, so it's time to take the next step by launching our own Governance Token, the [Skatehive OG NFT collection](https://zora.co/collect/eth:0x3ded025e441730e26ab28803353e4471669a3065/1).
+If you've known [Skatehive](https://discord.gg/skatehive) for some time, you know that we love involving our community in decision-making. Now, it's time to take the next step by launching our own Governance Token, the [Skatehive OG NFT collection](https://zora.co/collect/eth:0x3ded025e441730e26ab28803353e4471669a3065/1).
 
 # About SKTHV OG NFTs
 
@@ -25,7 +25,7 @@ Here are the main reasons we’re launching Skatehive OG NFTs:
 
 # NFT Distribution
 
-**Airdrop**
+### Airdrop
 
 We will drop SKTHV NFTs to the OGs (list [here](https://hackmd.io/4DlwVzkoTry2bPOreTL_8A)) who helped build our community and are still active on the blockchain, as well as all active content creators on our main platform [Skatehive.app](https://skatehive.app/).
 
@@ -40,7 +40,7 @@ If you have a friend who might miss this announcement and their names are on the
 
 > 🔴 **Important**: The Airdrop will continue until October 20, 2023, so hurry and claim yours. No other SKTHV OG NFT will be released after this date.
 
-**Buy an SKTHV OG NFT**
+### Buy an SKTHV OG NFT
 
 If your name is not on the list and you still want to purchase one, you can buy an SKTHV OG NFT for 0.033 ETH [here](https://zora.co/collect/eth:0x3ded025e441730e26ab28803353e4471669a3065/1/mint).
 
@@ -48,7 +48,7 @@ Buying an SKTHV NFT allows you to participate in governance while supporting the
 
 The price of the SKTHV OG NFT will double every 3 months and will be available for purchase for 1 year. The only way to obtain a SKTHV OG NFT after the sale ends (in 1 year) will be by purchasing one on the secondary market.
 
-**NFT Prices**
+### NFT Prices
 
 *July 25 to October 25: 0.033 ETH*  
 *October 26 to January 26: 0.066 ETH*  
@@ -63,7 +63,7 @@ Buy here: [Zora Mint](https://zora.co/collect/eth:0x3ded025e441730e26ab28803353e
 
 Anyone who holds an OG SKTHV can vote on proposals as well as submit their own.
 
-**To vote on a proposal**
+## To vote on a proposal:
 
 - Go to [Skatehive Snapshot](https://snapshot.org/#/skatehive.eth) and log in with the wallet that holds your SKTHV OG NFT
 - Find the proposal you want to vote on and click it
@@ -71,7 +71,7 @@ Anyone who holds an OG SKTHV can vote on proposals as well as submit their own.
 
 ![](https://hackmd.io/_uploads/rJ8BCrH93.png)
 
-**To submit a proposal**
+## To submit a proposal:
 
 - Visit **[#✍-forum-skatehive](https://discord.gg/skatehive)** and submit your idea
 - Get feedback from the community
@@ -103,14 +103,14 @@ On the next page:
 
 > *As a thank you to the @Gnars community for all their support, we will allow [Gnars NFT](https://gnars.wtf/) holders to vote on [Skatehive Snapshot](https://snapshot.org/#/skatehive.eth) proposals.*
 
-**Examples of voting power**
+## Examples of voting power
 
-| User | SKTHV OG NFT | Gnars | TOTAL Voting Power |   
-| -------- | -------- | -------- | -- |                
-| Vlad     | 1    | 22     | 72 VP 
-| KnowHow92| 1    | 11     | 61 VP   
-| WebGnar  | 1    | 14     | 64 VP  
-| Daryl    | 1    | 7      | 57 VP   
+| User       | SKTHV OG NFT | Gnars | TOTAL Voting Power |   
+|------------|--------------|-------|--------------------|  
+| Vlad       | 1            | 22    | 72 VP              |
+| KnowHow92  | 1            | 11    | 61 VP              |
+| WebGnar    | 1            | 14    | 64 VP              |
+| Daryl      | 1            | 7     | 57 VP              |
 
 ---
 
@@ -132,11 +132,11 @@ Our ultimate goal is to give 100% of decision-making power to the community, and
 
 ![](https://hackmd.io/_uploads/BkrFzIHc2.png)
 
-**Airdrop Accounts**
+### Airdrop Accounts
 
 *Comment your ETH wallet address below to claim your NFT.*
 
-@knowhow92, @xvlad, @howweroll, @web-gnar, @stickchumpion, @homelesscrewmx, @davixesk8, @fmajuniorphoto, @boeltermc, @elvlogxpasta, @gnarip12345, @samuelvelizsk8, @nicolscron, @kike.adventure, @keepskating420, @willdias, @toffer, @dabxs0, @jucabala, @transtorn0, @mark0318, @cinnartmon, @unhurried, @threespeak, @ervin-lemark, @ganjafarmer, @sandymeyer, @nicksmitley, @ocd, @sk8coin, @dikayskate, @zagorisioss, @rxdolo, @ramonsk8, @sketch17, @baystreetboards, @matt-a, @fonestreet, @niggyayo, @dylhep, @thejajasper, @damoclesart, @kdkou, @renanmatic92, @sk8.beast, @tomig, @downhill254, @brunomaule, @cmplxty, @zoggygivaerts, @mengao, @ezekhiveadict, @jimkal1992, @rilo, @slappyerfilms, @illusivelf, @bobburnquist, @adriuff, @mero.chou, @alexjay, @brunomaule, @leofinance, @zonaskatemx, @damnbigboat, @floralshirtguy, @vito, @gabrielpaduan, @coletivoxv, @georgekeremoglou, @derangedvisions, @thefew.studio, @skaters, @vcclothing, @tibfox, @sktbr, @gnars, @tomrohrer
+@knowhow92, @xvlad, @howweroll, @web-gnar, @stickchumpion, @homelesscrewmx, @davixesk8, @fmajuniorphoto, @boeltermc, @elvlogxpasta, @gnarip12345, @samuelvelizsk8, @nicolscron, @kike.adventure, @keepskating420, @willdias, @toffer, @dabxs0, @jucabala, @transtorn0, @mark0318, @cinnartmon, @unhurried, @threespeak, @ervin-lemark, @ganjafarmer, @sandymeyer, @nicksmitley, @ocd, @sk8coin, @dikayskate, @zagorisioss, @rxdolo, @ramonsk8, @sketch17, @baystreetboards, @matt-a, @fonestreet, @niggyayo, @dylhep, @thejajasper, @damoclesart, @kdkou, @renanmatic92, @sk8.beast, @tomig, @devferri @downhill254, @brunomaule, @cmplxty, @zoggygivaerts, @mengao, @ezekhiveadict, @jimkal1992, @rilo, @slappyerfilms, @illusivelf, @bobburnquist, @adriuff, @mero.chou, @alexjay, @brunomaule, @leofinance, @zonaskatemx, @damnbigboat, @floralshirtguy, @vito, @gabrielpaduan, @coletivoxv, @georgekeremoglou, @derangedvisions, @thefew.studio, @skaters, @vcclothing, @tibfox, @sktbr, @gnars, @tomrohrer
 
 ---
 
