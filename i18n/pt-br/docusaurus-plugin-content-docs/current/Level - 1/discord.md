@@ -12,7 +12,7 @@ O Discord é uma plataforma de comunicação que combina mensagens de texto, voz
 Os servidores podem ser privados, com acesso restrito apenas para convidados, ou públicos, abertos para qualquer pessoa participar. Além disso, o Discord oferece ferramentas para personalização, como bots, permissões, emojis personalizados e integrações com outras plataformas.
 ![](https://i.ibb.co/Kmw10pC/imagem-2023-11-25-221718290.png)
 
-## Quartos principais que você precisa fazer check-in na sua primeira chegada
+## Chats principais que você precisa fazer check-in na sua primeira chegada
 
 ### 🛹丨chat
 
@@ -35,7 +35,7 @@ OK.. esta sala é muito importante, Guild.xyz é um BOT da comunidade WEB3 criad
 Complete algumas missões no site para obter acesso a diferentes funções de servidor
 ![](https://i.ibb.co/rsc6FSk/imagem-2023-11-25-225052029.png)
 
-### ⌨丨codificação 
+### ⌨丨coding
 Não é um chat específico e sim uma categoria, é aqui que a mágica acontece... você pode acompanhar nossos desenvolvedores ao vivo e até aprender coisas novas aqui
 ![](https://i.ibb.co/Hgpjwkj/imagem-2023-11-25-223520386.png)
 
@@ -45,7 +45,7 @@ Você pode acompanhar atualizações ao vivo do nosso aplicativo (skatehive) e a
 
 
 ## [Guild.xyz](https://guild.xyz/skatehive)
-## Quartos para verificar diariamente 
+## Chats para verificar diariamente 
 ### 📢丨anúncios
 Mantenha-se atualizado sobre todas as atualizações que temos no ecossistema Skatehive
 ![](https://i.ibb.co/5Y99ZZJ/imagem-2023-11-25-225554435.png)
