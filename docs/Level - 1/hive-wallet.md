@@ -1,30 +1,58 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# HIVE Wallet 
+# How to Create a Hive Wallet
 
-
-### How to create a Hive wallet (Browser)
 ---
-1. Install Hive Keychain Browser Extension and then reload the page.
 
-![Alt ​​text](../../src/assets/Hive-Wallet/1.png)
+## Creating a Hive Wallet (Browser)
 
-2. Go to https://ecency.com/signup to create an account. Choose your username and put your email address.
+Follow these steps to create your Hive wallet.
 
-![Alt ​​text](../../src/assets/Hive-Wallet/2.png)
+---
 
-3. Download your account info ("Download Backup) that was sent to your email and store them in a safe place.
+### Step 1: Install Hive Keychain
 
-![Alt ​​text](../../src/assets/Hive-Wallet/3.png)
+- Install the **Hive Keychain** browser extension.  
+- Once installed, reload the page to activate the extension.
 
+![Install Hive Keychain](../../src/assets/Hive-Wallet/1.png)
 
-> Save this fucking keys in a very secure place **otherwise you are going to cry later**!
-4. Enter your username and password into the Hive Keychain browser extension to save them.
+---
 
-![Alt ​​text](../../src/assets/Hive-Wallet/4.png)
+### Step 2: Visit Ecency Signup
 
-5. Congratulations on making your Hive account.
+- Go to [Ecency Signup](https://ecency.com/signup) to create your new account.  
+- Choose your **username** and enter your **email address**.
 
-If you're having trouble creating a Hive account you can request a Hive account at [Skatehive Discord](discord.gg/skatehive)
+![Signup Page](../../src/assets/Hive-Wallet/2.png)
+
+---
+
+### Step 3: Download Your Backup
+
+- Click "Download Backup" to save your account info.  
+- This information will also be sent to your email.  
+
+> **Important:**  
+> Store this backup in a **safe place**. It’s your only way to recover your account.
+
+![Account Backup](../../src/assets/Hive-Wallet/3.png)
+
+---
+
+### Step 4: Save Your Credentials
+
+- Enter your **username** and **password** in the Hive Keychain browser extension.  
+- This will securely save your credentials for easy access.
+
+![Save Credentials](../../src/assets/Hive-Wallet/4.png)
+
+---
+
+# Step 5: Congratulations!
+
+Your **Hive account** is now created! 🎉  
+
+If you encounter any issues, you can request assistance or an account on our [Skatehive Discord](https://discord.gg/skatehive).
