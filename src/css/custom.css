@@ -3,7 +3,7 @@
  * and scoped locally.
  */
 
-* {
+ * {
   font-family: "Quattrocento", serif;
   font-weight: 400;
   font-style: normal;
@@ -91,23 +91,83 @@ h6 {
   font-size: 35px;
 }
 
+/* General image adjustments */
+.markdown img {
+  max-width: 65%; 
+  height: auto; 
+  display: block; 
+  margin: 1.5rem auto; 
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15); 
+  transition: transform 0.3s ease; 
+}
+
+/* Hover effect */
+.markdown img:hover {
+  transform: scale(1.02); 
+}
+
+/* Adjustments for mobile devices */
+@media (max-width: 768px) {
+  .markdown img {
+    max-width: 95%; 
+    margin: 1rem auto; 
+  }
+}
+
+/* Additional styling for larger images */
+.markdown img.large {
+  max-width: 80%; 
+  margin: 2rem auto; 
+}
+
+/* Mobile styling */
+@media (max-width: 768px) {
+  .markdown img {
+    max-width: 100%; 
+  }
+
+  .markdown img.large {
+    max-width: 90%; 
+  }
+}
+
 /* Navbar styles */
 .navbar {
-  background-color: #212321;
+  background-color: #038624;
   /* Adjust navbar color */
   align-items: center;
+  padding: 0 20px; 
 }
 
 .navbar__link_,
 .navbar__item .navbar__link,
-a,
-.menu__link {
-  color: var(--text-color);
+.menu__link,
+a {
+  color: var(--text-color); 
   text-decoration: none;
+  background-color: transparent; 
+  padding: 8px 12px; 
+  border-radius: 4px; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
-.navbar__item .navbar__link:hover {
-  color: #000000 !important;
+.table-of-contents__link toc-highlight table-of-contents__link--active , a , span {
+  color: var(--text-color) !important;
+  background-color: transparent !important;
+}
+
+p {
+  font-size: 18px; /* Default paragraph font size */
+  line-height: 1.6; /* Improved readability */
+  margin: 1rem 0; /* Space between paragraphs */
+  color: var(--text-color);
+}
+/* Adjusting <strong> styles */
+strong {
+  font-weight: bold;
+  font-size: 1.1em; /* Slightly larger than surrounding text */
+  color: #038624; /* Highlighted color */
 }
 
 /* Additional styling */
