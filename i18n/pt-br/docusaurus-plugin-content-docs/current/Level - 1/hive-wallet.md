@@ -1,32 +1,58 @@
 ---
-title: "Carteira Hive"
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Carteira Hive
+# Como Criar uma Carteira Hive
 
-## Como criar uma carteira Hive
+---
 
-1. Acesse [hiveonboard.com](https://hiveonboard.com/create-account)
-2. Instale a extensão do navegador Hive Keychain e recarregue a página.
+## Criando uma Carteira Hive (Navegador)
 
-![Alt ​​text](../../../../../src/assets/Hive-Wallet/1.png)
+Siga estas etapas para criar sua carteira Hive.
 
+---
 
-3. Acesse [Ecency](https://ecency.com/signup) para criar uma conta. Escolha seu nome de usuário e coloque seu endereço de e-mail.
+### Passo 1: Instalar o Hive Keychain
 
-![Alt ​​text](../../../../../src/assets/Hive-Wallet/2.png)
+- Instale a extensão de navegador **Hive Keychain**.  
+- Após a instalação, recarregue a página para ativar a extensão.
 
-4. Baixe as informações da sua conta conta Hive. elas foram enviadas para o seu e-mail guarde-as em local seguro.
+![Instalar Hive Keychain](../../../../../src/assets/Hive-Wallet/1.png)
 
-![Alt ​​text](../../../../../src/assets/Hive-Wallet/3.png)
+---
 
-Guarde esta porra de chave em um lugar bem seguro **Não gostamos de chorões!**
+### Passo 2: Acesse o Cadastro no Ecency
 
-5. Digite seu nome de usuário e senha na extensão do navegador **Hive Keychain** para salvá-los.
+- Acesse [Cadastro no Ecency](https://ecency.com/signup) para criar sua nova conta.  
+- Escolha seu **nome de usuário** e insira seu **endereço de e-mail**.
 
-![Alt ​​text](../../../../../src/assets/Hive-Wallet/4.png)
+![Página de Cadastro](../../../../../src/assets/Hive-Wallet/2.png)
 
-6. Parabéns por criar sua conta Hive.
+---
 
-Se estiver tendo problemas para criar uma conta Hive, você pode solicitar uma conta Hive no [Skatehive Discord](https://discord.gg/gzn24RgZp6).
+### Passo 3: Baixe o Backup
+
+- Clique em "Baixar Backup" para salvar as informações da sua conta.  
+- Essas informações também serão enviadas para o seu e-mail.
+
+> **Importante:**  
+> Guarde este backup em um **local seguro**. Ele é sua única forma de recuperar sua conta.
+
+![Backup da Conta](../../../../../src/assets/Hive-Wallet/3.png)
+
+---
+
+### Passo 4: Salve suas Credenciais
+
+- Insira seu **nome de usuário** e **senha** na extensão Hive Keychain do navegador.  
+- Isso salvará suas credenciais de forma segura para acesso fácil.
+
+![Salvar Credenciais](../../../../../src/assets/Hive-Wallet/4.png)
+
+---
+
+### Passo 5: Parabéns!
+
+Sua **conta Hive** foi criada! 🎉
+
+Se você encontrar algum problema, pode solicitar assistência ou uma conta em nosso [Discord do Skatehive](https://discord.gg/skatehive).

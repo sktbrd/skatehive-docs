@@ -1,36 +1,73 @@
-# Como compartilhar sua tela do Discord.
+# Como Compartilhar Sua Tela no Discord
 
-## No seu PC 💻
+## **No Seu PC** 💻
+Siga estes passos para compartilhar sua tela no Discord a partir do seu PC.
 
-### 1. Selecione seu [Servidor Discord](https://discord.gg/R4s2ykDN).
-![discord1](https://hackmd.io/_uploads/SkscTAFLA.png)
+**Passo 1:**  
+Selecione seu [Servidor do Discord](https://discord.gg/R4s2ykDN).  
 
-### 2. Clique no ícone de compartilhamento de tela.
-![discord2](https://hackmd.io/_uploads/rkgRRRY8R.png)
+![Selecione o Servidor do Discord](https://hackmd.io/_uploads/SkscTAFLA.png)
 
-### 3. Clique no botão Tela e, em seguida, clique em Tela inteira.
-![discord3](https://hackmd.io/_uploads/BJ40ek58A.png)
+---
 
-### 4. Escolha a melhor resolução de tela para compartilhar e clique no botão "Go Live".
-![discord4](https://hackmd.io/_uploads/Sku6fk5UR.png)
+**Passo 2:**  
+Clique no ícone **Compartilhar Tela**.  
 
-### 5. Sim, você está compartilhando sua tela!
-![discord5](https://hackmd.io/_uploads/H1XcXyc8A.png)
+![Ícone de Compartilhar Tela](https://hackmd.io/_uploads/rkgRRRY8R.png)
 
-## No seu celular 📱
+---
 
-### 1. Selecione seu [Servidor Discord](https://discord.gg/R4s2ykDN).
-![ddcell1](https://hackmd.io/_uploads/SJjhGQ9UC.jpg)
+**Passo 3:**  
+Clique no botão **Tela**, depois selecione **Tela Inteira**.  
 
-### 2. Arraste a barra de menu inferior para cima.
-![ddcell2](https://hackmd.io/_uploads/HkHtmX58C.jpg)
+![Selecione Tela Inteira](https://hackmd.io/_uploads/BJ40ek58A.png)
 
-### 3. Selecione Compartilhar sua tela.
-![ddcell3](https://hackmd.io/_uploads/H1kWHQqLA.jpg)
+---
 
-### 4. Selecione Iniciar agora.
-![ddcell4](https://hackmd.io/_uploads/ryWj8QqU0.jpg)
+**Passo 4:**  
+Escolha a melhor resolução de tela para compartilhar e, em seguida, clique no botão **Começar a Transmissão**.  
 
-## Agora podemos te ajudar ⌐◨-◨
+![Selecione a Resolução da Tela](https://hackmd.io/_uploads/Sku6fk5UR.png)
 
-![ok, ok](https://hackmd.io/_uploads/r1uA0QcI0.gif)
+---
+
+**Passo 5:**  
+🎉 Agora você está compartilhando sua tela!  
+
+![Tela de Compartilhamento Ativa](https://hackmd.io/_uploads/H1XcXyc8A.png)
+
+---
+
+## **No Seu Celular** 📱
+
+**Passo 1:**  
+Selecione seu [Servidor do Discord](https://discord.gg/R4s2ykDN).  
+
+![Selecione o Servidor do Discord no Celular](https://hackmd.io/_uploads/SJjhGQ9UC.jpg)
+
+---
+
+**Passo 2:**  
+Arraste a barra de menu inferior para cima.  
+
+![Barra de Menu Inferior](https://hackmd.io/_uploads/HkHtmX58C.jpg)
+
+---
+
+**Passo 3:**  
+Selecione **Compartilhar Sua Tela**.  
+
+![Opção de Compartilhar Tela no Celular](https://hackmd.io/_uploads/H1kWHQqLA.jpg)
+
+---
+
+**Passo 4:**  
+Toque em **Começar Agora** para começar a compartilhar.  
+
+![Iniciar Compartilhamento de Tela no Celular](https://hackmd.io/_uploads/ryWj8QqU0.jpg)
+
+---
+
+# 🎉 Precisa de Ajuda? ⌐◨-◨  
+
+![Ajuda](https://hackmd.io/_uploads/r1uA0QcI0.gif)

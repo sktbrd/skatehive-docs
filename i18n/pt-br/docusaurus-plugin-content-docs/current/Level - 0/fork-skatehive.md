@@ -223,11 +223,3 @@ https://your-repo.vercel.app
 
 Parabéns! Que legal, você colocou um site  online! Vá mostrar para sua mãe, diga que estou com saudades dela.
 --- 
-
-
-
-
-
-
-
-
