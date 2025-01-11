@@ -1,28 +1,58 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 
-# Publique em Skatehive.app
+# Como Publicar um Post no Skatehive.app
 
-### 1. Clique no canto superior direito para criar um post
-![](https://i.ibb.co/D5FGYtN/image.png0)
+---
 
-## 2. Adicione o título da postagem
-![](https://i.ibb.co/dGvbtrS/image.png)
-## 3. Adicione a descrição da postagem
-![](https://i.ibb.co/YXQX36t/image.png)
-#### Envie suas fotos ou cole links de vídeos, veja o preview no lado direito e utilize Markdown para melhorar a formatação do seu texto
-## 6. Escolha a Thumbnail de seu post 
-![](https://i.ibb.co/smWhkbD/image.png)
+## Etapas para Compartilhar seu Post
 
-## 7. Opções avançadas 
+Siga estas etapas para publicar seu conteúdo no Skatehive:
 
-### Tags
+---
 
-#### As tags são essenciais para atrair comunidades para o seu post, ao adicionar tags você permite que seu post seja amplamente divulgado
+### Passo 1: Clique em "+ Criar"
 
-### Split Rewards
+- Localize o botão **"+ Criar"** no topo central da sua tela e clique nele.
 
-#### Divida os lucros do seu post com amigos ou pessoas que ajudaram no desenvolvimento de sua publicação
+---
 
-## Após ter configurado todo seu post clique em "Send it" no canto inferior para publicar na Skatehive 
+### Passo 2: Adicione o Título do seu Post
+
+- Escolha um título atraente para o seu post, que chame atenção.
+
+---
+
+### Passo 3: Faça o Upload de Imagens/Vídeos
+
+- Exiba suas melhores fotos e vídeos fazendo o upload de suas imagens ou clipes.
+
+---
+
+### Passo 4: Adicione uma Descrição do Post
+
+- Descreva o local, os truques, o cinegrafista ou qualquer coisa que você queira compartilhar.  
+- Torne seu post único com detalhes interessantes.
+
+---
+
+### Passo 5: Visualize seu Post
+
+- Verifique a **pré-visualização** no lado direito da tela para garantir que tudo esteja ótimo.
+
+---
+
+### Passo 6: Clique em "Publicar"
+
+- Quando estiver satisfeito, clique no botão **"Publicar"** para compartilhar sua criação com a comunidade do Skatehive.
+
+---
+
+![Publicar Post](../../../../../src/assets/Tuto--basic/1.png)
+
+---
+
+## Parabéns! 🎉
+
+Você publicou com sucesso um post no **Skatehive.app**. Comece a interagir com a comunidade e aproveite o retorno sobre seu conteúdo!
