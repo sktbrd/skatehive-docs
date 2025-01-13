@@ -24,7 +24,7 @@ module.exports = {
   },
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       {
         docs: {
           sidebarPath: require.resolve('./docs/_category__.json'),
@@ -47,7 +47,7 @@ module.exports = {
       tagName: 'link',
       attributes: {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap',
       },
     },
     {
@@ -73,16 +73,6 @@ module.exports = {
       items: [
         { type: 'doc', docId: 'intro', position: 'left', label: 'Learn' },
         { to: 'https://skatehive.app', label: 'App', position: 'left' },
-        {
-          type: 'dropdown',
-          label: 'Projects',
-          position: 'left',
-          items: [
-            { label: 'Quest for Stoken', href: 'https://www.stoken.quest/' },
-            { label: 'Gnars', href: 'https://gnars.wtf' },
-            { label: 'Settle or Die', href: 'https://chromewebstore.google.com/detail/settle-or-die/ciabjlofbbflnnjocnbgidbhfnddijpm' },
-          ],
-        },
         {
           type: 'dropdown',
           label: 'Community',

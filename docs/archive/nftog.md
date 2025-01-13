@@ -1,13 +1,12 @@
 ---
-title: Skatehive OG NFTs Airdrop is LIVE - A Governance Experiment
 sidebar_position: 5
 ---
+### Skatehive OG NFTs Airdrop is LIVE - A Governance Experiment
+
+If you've been around [Skatehive](https://discord.gg/kXP62B2Gwp) for some time then you know that we love getting our community involved in decision making so it's time to take it to the next step by launching our very own Governance Token, the ["Skatehive OG" NFT collection](https://zora.co/collect/eth:0x3ded025e441730e26ab28803353e4471669a3065/1).
 
 
-If you've been around [Skatehive](discord.gg/skatehive) for some time then you know that we love getting our community involved in decision making so it's time to take it to the next step by launching our very own Governance Token, the ["Skatehive OG" NFT collection](https://zora.co/collect/eth:0x3ded025e441730e26ab28803353e4471669a3065/1).
-
-
-# About SKTHV OG NFTs
+### About SKTHV OG NFTs
 
 SKTHV OG NFTs are your digital passport to anything Skatehive-related! Owning a SKTHV OG NFTs proves holder's OG status in our community, allows Skatehive to establish a more decentralized and transparent voting system and give holders the power to propose their own ideas as well as shape the future of Skatehive.
 
@@ -18,7 +17,7 @@ SKTHV OG NFTs 'live' on Ethereum blockchain and they are tradeable, burnable and
 
 
 
-# Why SKTHV OG NFTs
+### Why SKTHV OG NFTs
 
 Here are the most important reasons we're launching Skatehive OG NFTs
 
@@ -30,7 +29,7 @@ Here are the most important reasons we're launching Skatehive OG NFTs
 
 
 
-# NFTs Distribution
+### NFTs Distribution
 
 **Airdrop**
 
@@ -71,7 +70,7 @@ Buy here : https://zora.co/collect/eth:0x3ded025e441730e26ab28803353e4471669a306
 
 
 
-# Voting and Submitting Proposals
+### Voting and Submitting Proposals
 
 Anyone holding a SKTHV OG can vote on proposals as well as submit their own. 
 
@@ -103,7 +102,7 @@ At the next page
 
 
 
-# Snapshot Settings
+### Snapshot Settings
 
 **Validation to create proposals :** Must Have at least 1 SKTHV OG NFT
 
@@ -137,7 +136,7 @@ At the next page
     
 ---
     
-# The Skatehive Governance Experiment
+### The Skatehive Governance Experiment
     
 We've come a long way the past 4 years! We've build a solid community, a rewarding skateboarding social media app, sponsored events, launched online and real-life contests, re-built DIYs, helped community members with medical bills and many more. 
     
@@ -158,7 +157,7 @@ Our ultimate goal is to give 100% of decision power to the community and SKTHV O
 ----------------
 
 
-# Wanna support Skatehive?
+### Wanna support Skatehive?
 
 **Here are a few things you can do**
 
@@ -171,5 +170,5 @@ Our ultimate goal is to give 100% of decision power to the community and SKTHV O
 **Join Skatehive Discord and connect with the community 👇**
 
 [![](https://i.imgur.com/GmPCq0F.png)
-](https://discord.gg/skatehive)
+](https://discord.gg/kXP62B2Gwp)
 
