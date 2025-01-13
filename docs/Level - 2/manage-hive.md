@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Manage Your Hive Tokens
+### Manage Your Hive Tokens
 
 You can easily manage your Hive tokens directly from your wallet. When you click on your wallet, you will see five key terms: **Hive**, **Hive Power**, **Hive Dollars**, **Savings**, and **Estimated Account Value**.
 
@@ -10,7 +10,7 @@ You can easily manage your Hive tokens directly from your wallet. When you click
 
 ---
 
-## 1. **Hive (HIVE)**
+# 1. **Hive (HIVE)**
 
 HIVE tokens are tradeable and can be transferred at any time. You can also convert HIVE into Hive Power through a process called **Powering Up**.
 
@@ -19,7 +19,7 @@ HIVE tokens are tradeable and can be transferred at any time. You can also conve
 
 ---
 
-## 2. **Hive Power (HP)**
+# 2. **Hive Power (HP)**
 
 Hive Power represents your stake in the Hive network. The more Hive Power you have, the more influence you have over the platform.
 
@@ -33,7 +33,7 @@ To increase your Hive Power, you can **Power Up** your HIVE tokens.
 
 ---
 
-## 3. **Hive Backed Dollars (HBD)**
+# 3. **Hive Backed Dollars (HBD)**
 
 HBD is a stablecoin pegged to the US Dollar. Each HBD token is generally worth about **$1.00 USD** in HIVE.
 
@@ -41,7 +41,7 @@ HBD is a stablecoin pegged to the US Dollar. Each HBD token is generally worth a
 
 ---
 
-## 4. **Savings**
+# 4. **Savings**
 
 You can transfer your HIVE or HBD to **Savings** for added security. Tokens in savings are subject to a **3-day withdrawal waiting period**.
 
@@ -50,7 +50,7 @@ You can transfer your HIVE or HBD to **Savings** for added security. Tokens in s
 
 ---
 
-## 5. **Estimated Account Value**
+# 5. **Estimated Account Value**
 
 The **Estimated Account Value** gives you an approximate USD value of the tokens in your wallet based on their average market value. This helps you track the worth of your Hive assets in terms of real-world value.
 

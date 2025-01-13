@@ -53,6 +53,6 @@ Follow these steps to publish your content on Skatehive:
 
 ---
 
-## Congratulations! 🎉  
+### Congratulations! 🎉  
 
 You’ve successfully published a post on **Skatehive.app**. Start interacting with the community and enjoy the feedback on your content!

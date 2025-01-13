@@ -2,13 +2,13 @@
 sidebar_position: 1
 ---
 
-# How to Log in to Skatehive.app
+### How to Log in to Skatehive.app
 
 Follow these steps to log in to **Skatehive** using **Hive Keychain**.
 
 ---
 
-## Step 1: Visit Skatehive
+### Step 1: Visit Skatehive
 
 Go to [Skatehive.app](https://skatehive.app/) and click on **"Login"**.
 
@@ -23,7 +23,7 @@ Click on **"Login with Keychain"**.
 
 ---
 
-## Step 3: Enter Your Hive Username
+### Step 3: Enter Your Hive Username
 
 Type in your **Hive username** in the login prompt.
 
@@ -39,7 +39,7 @@ Approve the **Keychain transaction** to proceed.
 
 ---
 
-# Step 5: Welcome to Skatehive!
+### Step 5: Welcome to Skatehive!
 
 You’re all set! Explore and enjoy **Skatehive**.
 

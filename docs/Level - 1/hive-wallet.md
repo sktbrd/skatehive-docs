@@ -2,11 +2,11 @@
 sidebar_position: 2
 ---
 
-# How to Create a Hive Wallet
+### How to Create a Hive Wallet
 
 ---
 
-## Creating a Hive Wallet (Browser)
+# Creating a Hive Wallet (Browser)
 
 Follow these steps to create your Hive wallet.
 
@@ -51,7 +51,7 @@ Follow these steps to create your Hive wallet.
 
 ---
 
-# Step 5: Congratulations!
+### Step 5: Congratulations!
 
 Your **Hive account** is now created! 🎉  
 
