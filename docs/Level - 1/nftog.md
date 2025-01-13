@@ -5,7 +5,7 @@ sidebar_position: 6
 
 If you've known [Skatehive](https://discord.gg/skatehive) for some time, you know that we love involving our community in decision-making. Now, it's time to take the next step by launching our own Governance Token, the [Skatehive OG NFT collection](https://zora.co/collect/eth:0x3ded025e441730e26ab28803353e4471669a3065/1).
 
-# About SKTHV OG NFTs
+### About SKTHV OG NFTs
 
 SKTHV OG NFTs are your digital pass to anything Skatehive-related! Owning a SKTHV OG NFT proves the holder's OG status in our community, allows Skatehive to establish a more decentralized and transparent voting system, and gives holders the power to propose their own ideas, as well as shape the future of Skatehive.
 
@@ -13,7 +13,7 @@ SKTHV OG NFTs 'live' on the Ethereum blockchain and are tradable, burnable, and 
 
 ![ezgif.com-optimize (2).gif](https://files.peakd.com/file/peakd-hive/skatehive/AJmrPQeCwpZ8386nLZwRJNt4jARGE1xNFar3ravhtgafQvQQuXD2fwu4pkJ1FTj.gif)
 
-# Why SKTHV OG NFTs
+### Why SKTHV OG NFTs
 
 Here are the main reasons we’re launching Skatehive OG NFTs:
 
@@ -59,11 +59,11 @@ Buy here: [Zora Mint](https://zora.co/collect/eth:0x3ded025e441730e26ab28803353e
 
 ![image.png](https://files.peakd.com/file/peakd-hive/skatehive/23wBduSuGjPVhFP5YMht3jik4C8GN9UWcqhwft8J5CzbcdeTMQMAXzSzxNiQ4szazr1r1.png)
 
-# Voting and Proposal Submission
+### Voting and Proposal Submission
 
 Anyone who holds an OG SKTHV can vote on proposals as well as submit their own.
 
-## To vote on a proposal:
+# To vote on a proposal:
 
 - Go to [Skatehive Snapshot](https://snapshot.org/#/skatehive.eth) and log in with the wallet that holds your SKTHV OG NFT
 - Find the proposal you want to vote on and click it
@@ -71,7 +71,7 @@ Anyone who holds an OG SKTHV can vote on proposals as well as submit their own.
 
 ![](https://hackmd.io/_uploads/rJ8BCrH93.png)
 
-## To submit a proposal:
+# To submit a proposal:
 
 - Visit **[#✍-forum-skatehive](https://discord.gg/skatehive)** and submit your idea
 - Get feedback from the community
@@ -87,7 +87,7 @@ On the next page:
 
 ![](https://hackmd.io/_uploads/HJj9W8Hqn.png)
 
-# Snapshot Settings
+### Snapshot Settings
 
 **Validation for proposal creation:** Must have at least 1 SKTHV OG NFT
 
@@ -103,7 +103,7 @@ On the next page:
 
 > *As a thank you to the @Gnars community for all their support, we will allow [Gnars NFT](https://gnars.wtf/) holders to vote on [Skatehive Snapshot](https://snapshot.org/#/skatehive.eth) proposals.*
 
-## Examples of voting power
+### Examples of voting power
 
 | User       | SKTHV OG NFT | Gnars | TOTAL Voting Power |   
 |------------|--------------|-------|--------------------|  
@@ -120,7 +120,7 @@ On the next page:
 
 ---
 
-# Skatehive Governance Experiment
+### Skatehive Governance Experiment
 
 We’ve come a long way in the past 4 years! We've built a solid community, a rewarding skate social media app, sponsored events, launched online and real-life contests, rebuilt DIYs, helped community members with medical accounts, and much more.
 
@@ -140,7 +140,7 @@ Our ultimate goal is to give 100% of decision-making power to the community, and
 
 ---
 
-# Want to support Skatehive?
+### Want to support Skatehive?
 
 **Here are a few things you can do:**
 

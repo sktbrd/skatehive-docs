@@ -7,7 +7,7 @@ sidebar_position: 5
 
 Hey, folks! We know you can't stop chatting on WhatsApp, but let’s talk about the best platform for connecting communities and coordinating goals — **Discord**.
 
-## Why Discord?
+### Why Discord?
 
 Discord offers **separate rooms** and **roles** (like tags) to give users access to specific features. This helps manage communities efficiently.
 
@@ -15,14 +15,14 @@ Discord offers **separate rooms** and **roles** (like tags) to give users access
 
 ---
 
-## Main Rooms to Check Upon Arrival
+### Main Rooms to Check Upon Arrival
 
-### 🛹丨chat  
+# 🛹丨chat  
 Our **main chat room**! Share tricks, knowledge, or just hang out with fellow skaters.
 
 ![Chat Room](https://i.ibb.co/z8tB9j2/imagem-2023-11-25-222919058.png)
 
-#### Feeling Shy?  
+### Feeling Shy?  
 No problem! Join a **language-specific chat**. If your language isn't available, ask an admin to add it.
 
 ![Language Selector](https://i.ibb.co/GFsdM2c/imagem-2023-11-25-232705978.png)
@@ -51,9 +51,9 @@ Follow live updates from developers, learn new skills, and suggest ideas in this
 
 ---
 
-## Rooms You Should Check Daily
+### Rooms You Should Check Daily
 
-### 📢丨announcements  
+# 📢丨announcements  
 Stay updated on all things **Skatehive** in this channel.
 
 ![Announcements Room](https://i.ibb.co/5Y99ZZJ/imagem-2023-11-25-225554435.png)
@@ -81,9 +81,9 @@ Keep track of all **Snapshot proposals**. Vote **FOR** or **AGAINST** and stay i
 
 ---
 
-## Bots, Tricks, and Tips
+### Bots, Tricks, and Tips
 
-### 🎵 Jockie Music  
+# 🎵 Jockie Music  
 Want to jam with your friends? Use **Jockie Music BOT**:
 
 ```m!play (song link)```
@@ -92,7 +92,7 @@ Want to jam with your friends? Use **Jockie Music BOT**:
 
 ---
 
-### 💸 tip.cc  
+# 💸 tip.cc  
 Tip fellow users in **70+ cryptocurrencies**, including Hive:
 
 ```$tip @user 10 (coin)```
@@ -103,7 +103,7 @@ Popular coins include **Hive** and **xFOX**.
 
 ---
 
-### 🎥 Secret Commands  
+# 🎥 Secret Commands  
 Feeling nostalgic? Type this in **bot-commands** to watch classic skateboarding videos:
 
 ```!411vm```

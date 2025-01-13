@@ -3,7 +3,7 @@ title: Be eligible for the airdrop
 sidebar_position: 2
 ---
 
-# How to get lucky
+### How to get lucky
 
 1. **Go to** [https://skatehive.app](https://skatehive.app) and connect **both your Hive and Ethereum wallets**.
 2. **Visit your profile page**.
@@ -25,7 +25,7 @@ sidebar_position: 2
 
 ---
 
-## First Time with EVM Airdrops?
+### First Time with EVM Airdrops?
 
 - If this is your **first time interacting with an EVM airdrop**, your wallet will ask for permission to interact with the airdrop contract.
 - Once granted, the **second transaction** should trigger automatically.

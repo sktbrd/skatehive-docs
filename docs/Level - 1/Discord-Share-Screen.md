@@ -1,6 +1,6 @@
 # How to Share Your Discord Screen
 
-## **On Your PC** 💻
+### **On Your PC** 💻
 Follow these steps to share your screen on Discord from your PC.
 
 
@@ -39,7 +39,7 @@ Choose the best screen resolution for sharing, and then click the **Go Live** bu
 
 ---
 
-## **On Your Mobile** 📱
+### **On Your Mobile** 📱
 
 **Step 1:**  
 Select your [Discord Server](https://discord.gg/R4s2ykDN).  
