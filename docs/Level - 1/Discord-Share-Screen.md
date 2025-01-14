@@ -5,7 +5,8 @@ Follow these steps to share your screen on Discord from your PC.
 
 
 **Step 1:**  
-Select your [Discord Server](https://discord.gg/R4s2ykDN).  
+Select your <a href="https://discord.gg/R4s2ykDN" class="button-link" target="_blank">**Discord Server Skatehive**</a>.
+
 
 ![Select Discord Server](https://hackmd.io/_uploads/SkscTAFLA.png)
 
@@ -42,7 +43,7 @@ Choose the best screen resolution for sharing, and then click the **Go Live** bu
 ### **On Your Mobile** 📱
 
 **Step 1:**  
-Select your [Discord Server](https://discord.gg/R4s2ykDN).  
+Select your <a href="https://discord.gg/R4s2ykDN" class="button-link" target="_blank">**Discord Server Skatehive**</a>.
 
 ![Select Discord Server on Mobile](https://hackmd.io/_uploads/SJjhGQ9UC.jpg)
 

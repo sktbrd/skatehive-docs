@@ -23,7 +23,7 @@ Follow these steps to create your Hive wallet.
 
 ### Step 2: Visit Ecency Signup
 
-- Go to [Ecency Signup](https://ecency.com/signup) to create your new account.  
+- Go to <a href="https://ecency.com/signup" class="button-link" target="_blank">**Website Ecency Signup**</a> to create your new account.
 - Choose your **username** and enter your **email address**.
 
 ![Signup Page](../../src/assets/Hive-Wallet/2.png)
@@ -55,4 +55,3 @@ Follow these steps to create your Hive wallet.
 
 Your **Hive account** is now created! 🎉  
 
-If you encounter any issues, you can request assistance or an account on our [Skatehive Discord](https://discord.gg/skatehive).

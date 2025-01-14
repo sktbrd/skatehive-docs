@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ### How to get lucky
 
-1. **Go to** [https://skatehive.app](https://skatehive.app) and connect **both your Hive and Ethereum wallets**.
+1. Go to <a href="https://skatehive.app" class="button-link" target="_blank">**Webiste skatehive.app**</a> and connect both your Hive and Ethereum wallets.
 2. **Visit your profile page**.
 3. **Click the "Edit Profile" button** (the pencil icon).
    ![Edit Profile Button](../../src/assets/tuto-airdrop/1.png)

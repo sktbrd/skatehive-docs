@@ -13,7 +13,8 @@ While other Ethereum wallets like **MetaMask** and **Trust Wallet** are also ava
 
 ### Installing the Browser Extension
 
-# Step 1: Visit [zerion.io](https://zerion.io/download)
+# Step 1: Visit <a href="https://zerion.io/download" class="button-link" target="_blank">**Website Zerion.io**</a>
+
 Go to the Zerion website to download the browser extension.
 
 # Step 2: Choose Your Browser Extension
