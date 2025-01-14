@@ -4,10 +4,10 @@
  */
 
  * {
-  font-family: "Merriweather", serif;
-  font-weight: 400;
+  font-family: "Lora", serif;
+  font-weight: 700;
+  font-optical-sizing: auto;
   font-style: normal;
-  font-size: medium;
   margin: 0;
   padding: 0;
 }
@@ -100,8 +100,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Merriweather", serif;
-  font-weight: 400;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
   font-style: normal;
   font-size: medium;
   font-size: 35px;
@@ -155,7 +156,36 @@ h6 {
   align-items: center;
   padding: 0 20px; 
 }
+.navbar__brand.keychainify-checked {
+  color: #fff;
+  border-radius: 4px; 
+  text-decoration: none; 
+  transition: background-color 0.3s ease; 
+}
 
+.navbar__brand.keychainify-checked:hover {
+  background-color: #0056b3; 
+}
+
+
+
+.navbar__logo:hover {
+  transform: scale(1.1); 
+}
+
+
+b {
+  color: var(--text-color); 
+  text-decoration: none;
+  background-color: transparent; 
+  
+  border-radius: 4px; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+ font-size: 20px;
+}
+
+
+.a
 .navbar__link_,
 .navbar__item .navbar__link,
 .menu__link,
@@ -163,9 +193,10 @@ a {
   color: var(--text-color); 
   text-decoration: none;
   background-color: transparent; 
-  padding: 8px 12px; 
+
   border-radius: 4px; 
   transition: background-color 0.3s ease, color 0.3s ease; 
+ 
 }
 
 .table-of-contents__link toc-highlight table-of-contents__link--active , a , span {
@@ -174,16 +205,16 @@ a {
 }
 
 p {
-  font-size: 18px; /* Default paragraph font size */
-  line-height: 1.6; /* Improved readability */
-  margin: 1rem 0; /* Space between paragraphs */
+  font-size: 18px; 
+  line-height: 1.6; 
+  margin: 1rem 0; 
   color: var(--text-color);
 }
 /* Adjusting <strong> styles */
 strong {
   font-weight: bold;
-  font-size: 1.1em; /* Slightly larger than surrounding text */
-  color: #038624; /* Highlighted color */
+  font-size: 1.1em; 
+  color: #038624; 
 }
 
 /* Additional styling */
