@@ -2,14 +2,76 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
- @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+/* Importando a fonte Bebas Neue */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
- * {
-  font-family: "Lora", serif;
-  font-weight: 500;
-  font-style: normal;
-  margin: 0;
-  padding: 0;
+/* Apply the font only to the navbar and its children */
+.navbar,
+.navbar * {
+  font-family: "Bebas Neue", serif !important; 
+  font-weight: 400; 
+  font-style: normal; 
+  font-size: 18px;
+  color: var(--text-color); 
+  text-decoration: none; 
+  
+  transition: color 0.3s ease, background-color 0.3s ease; 
+}
+
+/* Style for links inside the navbar */
+.navbar .navbar__link,
+.navbar .navbar__item .navbar__link,
+.navbar .menu__link {
+  font-family: "Bebas Neue", serif !important; 
+  font-size: 18px; 
+  font-weight: 400; 
+  color: var(--text-color); 
+  transition: color 0.3s ease;
+}
+
+.navbar .navbar__link:hover,
+.navbar .navbar__item .navbar__link:hover,
+.navbar .menu__link:hover {
+  color: #722929; 
+}
+
+/* Titles inside the navbar */
+.navbar .navbar__title.text--truncate {
+  font-family: "Bebas Neue", serif !important; 
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--text-color); 
+  text-decoration: none;
+}
+
+/* Adjustment for active navbar */
+.navbar .navbar__link--active,
+.navbar .table-of-contents__link--active {
+  color: #000000 !important;
+}
+
+/* General navbar style */
+.navbar {
+  background-color: #038624; 
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Logo style in navbar */
+.navbar .navbar__logo:hover {
+  transform: scale(1.1); 
+}
+
+/* Brand button style */
+.navbar .navbar__brand.keychainify-checked {
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .navbar__brand.keychainify-checked:hover {
+  background-color: #0056b3;
 }
 
 
@@ -135,43 +197,9 @@ pre {
   }
 }
 
-b {
-  color: var(--text-color); 
-  text-decoration: none;
-  background-color: transparent; 
-  
-  border-radius: 4px; 
-  transition: background-color 0.3s ease, color 0.3s ease; 
- font-family: "Lora", serif !important;
-  font-weight: 400;
-  font-size: 18px;
-}
 
 
-.a 
-.navbar__link_,
-.navbar__item .navbar__link,
-.menu__link {
-  color: var(--text-color); 
-  text-decoration: none;
-  background-color: transparent; 
 
-  border-radius: 4px; 
-  font-family: "Lora", serif !important;
-  font-weight: 500;
-  font-size: 18px;
-  transition: color 0.3s ease;
- 
-}
-/* Link colors */
-a,
-.menu__link {
-  color: var(--text-color);
-  font-family: "Lora", serif !important;
-  font-weight: 500;
-  font-size: 18px;
-  text-decoration: none;
-}
 
 a:hover,
 .menu__link:hover {
@@ -182,29 +210,6 @@ a:hover,
   background-color: transparent !important;
 }
 
-/* Navbar styles */
-.navbar {
-  background-color: #038624;
- 
-  align-items: center;
-  padding: 0 20px; 
-}
-.navbar__brand.keychainify-checked {
-  color: #fff;
-  border-radius: 4px; 
-  text-decoration: none; 
-  transition: background-color 0.3s ease; 
-}
-
-.navbar__brand.keychainify-checked:hover {
-  background-color: #0056b3; 
-}
-
-
-
-.navbar__logo:hover {
-  transform: scale(1.1); 
-}
 
 
 p {
@@ -245,9 +250,6 @@ strong {
   color: white;
 }
 
-.navbar__link--active {
-  color: #000000 !important;
-}
 
 .table-of-contents__link .toc-highlight .table-of-contents__link--active {
   color: #57875c !important;
