@@ -47,6 +47,19 @@ body {
   justify-content: center;
 }
 
+
+.button-link {
+  display: inline-block;
+  background-color: #808080;
+  color: var(--text-color);;
+  text-decoration: none;
+ padding: 0 0;
+  font-weight: bold;
+  font-size: 16px; 
+  text-align: center;
+  cursor: pointer; 
+}
+
 iframe,
 .imageStyle {
   border-radius: 20px;

@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # How to Fork Skatehive 🛹
 
-We are going to make this tutorial to anyone that wants to create his own skatehive powered portal like https://skatehive.app
+We are going to make this tutorial for anyone who wants to create their own Skatehive-powered portal, like <a href="https://skatehive.app" class="button-link" target="_blank">**Skatehive.app**</a>.
 
 You are going to have to install some stuff in your machine to get your development enviroment ready. 
 
@@ -168,13 +168,14 @@ pnpm dev
 ![Alt ​​text](../../src/assets/Tuto-Dev/7.png)
 
 
-Now open https://localhost:3000 and you are going to see the same app as https://skatehive.app 
+Now open https://localhost:3000 <a href="https://skatehive.app" class="button-link" target="_blank"></a> and you will see the same app as <a href="https://skatehive.app" class="button-link" target="_blank">**Website Skatehive**</a>.
 
 ![Alt ​​text](../../src/assets/Tuto-Dev/8.png)
 
 That means that you are running the app using your own computer as a server through the port 3000 
 
-You can now try to edit your code in a code editor, I recommend [VSCode](https://code.visualstudio.com/), but my Jedi Master recommends [JetBrains](https://www.jetbrains.com/) 
+You can now try to edit your code in a code editor, I recommend <a href="https://code.visualstudio.com/" class="button-link" target="_blank">**Website VSCode**</a>, but my Jedi Master recommends <a href="https://www.jetbrains.com/" class="button-link" target="_blank">**Website JetBrains**</a>.
+
 
 I usually use `code .` command in the terminal folder to easily open the folder I am working in VScode
 
@@ -183,7 +184,8 @@ Make a silly change, like change the footer of it.
 ![Alt ​​text](../../src/assets/Tuto-Dev/9.png)
 
 
-This project is built with TypeScript and incorporates Chakra UI for the frontend. For Hive-related tasks, we rely on the [Keychain SDK](https://play.hive-keychain.com/) and dhive libraries. Additionally, to facilitate interactions with Ethereum, Bitcoin, and various other blockchains, we leverage the capabilities of [Pioneer-React](https://github.com/BitHighlander/pioneer-react#readme).
+This project is built with TypeScript and incorporates Chakra UI for the frontend. For Hive-related tasks, we rely on the <a href="https://play.hive-keychain.com/" class="button-link" target="_blank">**Website Keychain SDK**</a> and dhive libraries. Additionally, to facilitate interactions with Ethereum, Bitcoin, and various other blockchains, we leverage the capabilities of <a href="https://github.com/BitHighlander/pioneer-react#readme" class="button-link" target="_blank">**WebSite Pioneer-React**</a>.
+
 
 
 **Stage Changes:**

@@ -13,7 +13,7 @@ You are now fully equipped to dive into the exciting world of **Skatehive**. It'
 - **Get rewarded:** Start earning by posting content, engaging with others, and participating in the ecosystem.
 - **Stay active:** Keep posting and interacting to increase your rewards and visibility.
 
-Now that you're ready, head over to **[Skatehive](https://skatehive.app/)** and start creating!
+Now that you're ready, head over to <a href="https://skatehive.app/" class="button-link" target="_blank">**Webite Skatehive**</a> and start creating!
 
 See you on the platform! 👋
 
