@@ -2,16 +2,14 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+ @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 * {
-  font-family: "Quattrocento", serif;
-  font-weight: 400;
+  font-family: "Lora", serif;
+  font-weight: 500;
   font-style: normal;
-  font-size: medium;
   margin: 0;
-  /* Remove default margin */
   padding: 0;
-  /* Remove default padding */
 }
 
 body {
@@ -112,24 +110,27 @@ h6 {
   font-size: 35px;
 }
 
-/* Navbar styles */
-.navbar {
-  background-color: #191919;
-  /* Navbar color */
-  align-items: center;
-}
-
 /* Link colors */
-a,
-.menu__link {
-  color: var(--text-color);
+.a
+.navbar__link_,
+.navbar__item .navbar__link,
+.menu__link{
+  color: var(--text-color); 
   text-decoration: none;
-}
+  background-color: transparent; 
 
+  border-radius: 4px; 
+  font-family: "Lora", serif !important;
+  font-weight: 500;
+  font-size: 18px;
+  transition: color 0.3s ease;
+ 
+}
 a:hover,
 .menu__link:hover {
   color: #3a3a3a !important;
 }
+
 
 /* Additional styling */
 .card,

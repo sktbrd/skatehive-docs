@@ -2,12 +2,10 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
- @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
  * {
   font-family: "Lora", serif;
-  font-weight: 700;
-  font-optical-sizing: auto;
+  font-weight: 500;
   font-style: normal;
   margin: 0;
   padding: 0;
@@ -26,7 +24,7 @@ body {
 .sidebarViewport_Xe31,
 .menu {
   background-color: var(--ifm-color-background) !important;
-  /* Ensure sections have the same background */
+ 
 }
 
 .heroBanner {
@@ -101,11 +99,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lora", serif;
-  font-optical-sizing: auto;
+  font-family: "Quattrocento", serif;
   font-weight: 700;
   font-style: normal;
-  font-size: medium;
   font-size: 35px;
 }
 
@@ -150,6 +146,23 @@ h6 {
   }
 }
 
+b {
+  color: var(--text-color); 
+  text-decoration: none;
+  background-color: transparent; 
+  
+  border-radius: 4px; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+ font-family: "Lora", serif !important;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.table-of-contents__link toc-highlight table-of-contents__link--active , a , span {
+  color: var(--text-color) !important;
+  background-color: transparent !important;
+}
+
 /* Navbar styles */
 .navbar {
   background-color: #038624;
@@ -168,44 +181,8 @@ h6 {
   background-color: #0056b3; 
 }
 
-
-
 .navbar__logo:hover {
   transform: scale(1.1); 
-}
-
-
-b {
-  color: var(--text-color); 
-  text-decoration: none;
-  background-color: transparent; 
-  
-  border-radius: 4px; 
-  transition: background-color 0.3s ease, color 0.3s ease; 
- font-size: 20px;
-}
-
-
-.a
-.navbar__link_,
-.navbar__item .navbar__link,
-.menu__link,
-a {
-  color: var(--text-color); 
-  text-decoration: none;
-  background-color: transparent; 
-
-  border-radius: 4px; 
-  font-family: "Lora", serif;
-  font-weight: 400;
-  font-size: 18px;
-  transition: color 0.3s ease;
- 
-}
-
-.table-of-contents__link toc-highlight table-of-contents__link--active , a , span {
-  color: var(--text-color) !important;
-  background-color: transparent !important;
 }
 
 p {
