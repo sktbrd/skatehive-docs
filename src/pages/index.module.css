@@ -2,14 +2,16 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
- @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 * {
-  font-family: "Lora", serif;
-  font-weight: 500;
+  font-family: "Quattrocento", serif;
+  font-weight: 400;
   font-style: normal;
+  font-size: medium;
   margin: 0;
+  /* Remove default margin */
   padding: 0;
+  /* Remove default padding */
 }
 
 body {
@@ -27,23 +29,7 @@ body,
   /* Main background */
 }
 
-/* Apply to all relevant components */
-.heroBanner,
-.docMainContainer_gTbr,
-.sidebarViewport_Xe31,
-.menu,
-.tableOfContents_bqdL,
-.theme-doc-markdown,
-.theme-doc-footer,
-.navbar,
-.navbar__inner,
-.navbar__items,
-.navbar__item,
-.navbar__link,
-.navbar__toggle {
-  background-color: var(--ifm-color-background) !important;
-  /* Set the background */
-}
+
 
 .heroBanner {
   padding: 4rem 0;
@@ -110,26 +96,7 @@ h6 {
   font-size: 35px;
 }
 
-/* Link colors */
-.a
-.navbar__link_,
-.navbar__item .navbar__link,
-.menu__link{
-  color: var(--text-color); 
-  text-decoration: none;
-  background-color: transparent; 
 
-  border-radius: 4px; 
-  font-family: "Lora", serif !important;
-  font-weight: 500;
-  font-size: 18px;
-  transition: color 0.3s ease;
- 
-}
-a:hover,
-.menu__link:hover {
-  color: #3a3a3a !important;
-}
 
 
 /* Additional styling */
@@ -157,6 +124,5 @@ a:hover,
   color: white;
 }
 
-.navbar__link--active {
-  color: #57875c !important;
-}
+
+
