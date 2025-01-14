@@ -1,10 +1,10 @@
 # Como Compartilhar Sua Tela no Discord
 
-## **No Seu PC** 💻
-Siga estes passos para compartilhar sua tela no Discord a partir do seu PC.
+### **No Seu PC** 💻  
+Siga estes passos para compartilhar sua tela no Discord a partir do PC.  
 
 **Passo 1:**  
-Selecione seu [Servidor do Discord](https://discord.gg/R4s2ykDN).  
+Selecione o seu <a href="https://discord.gg/R4s2ykDN" class="button-link" target="_blank">**Servidor Discord Skatehive**</a>.  
 
 ![Selecione o Servidor do Discord](https://hackmd.io/_uploads/SkscTAFLA.png)
 
@@ -18,14 +18,14 @@ Clique no ícone **Compartilhar Tela**.
 ---
 
 **Passo 3:**  
-Clique no botão **Tela**, depois selecione **Tela Inteira**.  
+Clique no botão **Tela** e selecione **Tela Inteira**.  
 
 ![Selecione Tela Inteira](https://hackmd.io/_uploads/BJ40ek58A.png)
 
 ---
 
 **Passo 4:**  
-Escolha a melhor resolução de tela para compartilhar e, em seguida, clique no botão **Começar a Transmissão**.  
+Escolha a melhor resolução para compartilhar a tela e clique no botão **Transmitir ao Vivo**.  
 
 ![Selecione a Resolução da Tela](https://hackmd.io/_uploads/Sku6fk5UR.png)
 
@@ -34,14 +34,14 @@ Escolha a melhor resolução de tela para compartilhar e, em seguida, clique no 
 **Passo 5:**  
 🎉 Agora você está compartilhando sua tela!  
 
-![Tela de Compartilhamento Ativa](https://hackmd.io/_uploads/H1XcXyc8A.png)
+![Tela Compartilhando Ativa](https://hackmd.io/_uploads/H1XcXyc8A.png)
 
 ---
 
-## **No Seu Celular** 📱
+### **No Seu Celular** 📱  
 
 **Passo 1:**  
-Selecione seu [Servidor do Discord](https://discord.gg/R4s2ykDN).  
+Selecione o seu <a href="https://discord.gg/R4s2ykDN" class="button-link" target="_blank">**Servidor Discord Skatehive**</a>.  
 
 ![Selecione o Servidor do Discord no Celular](https://hackmd.io/_uploads/SJjhGQ9UC.jpg)
 
@@ -62,7 +62,7 @@ Selecione **Compartilhar Sua Tela**.
 ---
 
 **Passo 4:**  
-Toque em **Começar Agora** para começar a compartilhar.  
+Toque em **Iniciar Agora** para começar a compartilhar.  
 
 ![Iniciar Compartilhamento de Tela no Celular](https://hackmd.io/_uploads/ryWj8QqU0.jpg)
 
