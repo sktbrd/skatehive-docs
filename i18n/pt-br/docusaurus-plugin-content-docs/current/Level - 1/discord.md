@@ -1,102 +1,109 @@
 ---
-title: Tutorial do Discord
-sidebar_position: 6
+title: Tutorial do Discord  
+sidebar_position: 5  
 ---
 
-# Discord, vamos lá... 
-O Discord é uma plataforma de comunicação capaz de criar comunidades e grupos para diferentes fins. Originalmente, o Discord foi criado para o gaming, mas acabou se tornando muito útil para organizações presentes na WEB3 usarem como escopo de trabalho.
+# Tutorial do Discord: Conecte-se, Compartilhe e Crie  
 
-## Como isso funciona 
-O Discord é uma plataforma de comunicação que combina mensagens de texto, voz e vídeo, permitindo a interação entre pessoas em tempo real. Ele funciona através de servidores, que são espaços organizados por temas ou comunidades. Dentro de cada servidor, é possível criar canais específicos, seja para bate-papo, chamadas de voz ou compartilhamento de vídeos e arquivos.
+E aí, galera! Sabemos que vocês adoram o WhatsApp, mas vamos falar sobre a melhor plataforma para conectar comunidades e coordenar objetivos — **Discord**.  
 
-Os servidores podem ser privados, com acesso restrito apenas para convidados, ou públicos, abertos para qualquer pessoa participar. Além disso, o Discord oferece ferramentas para personalização, como bots, permissões, emojis personalizados e integrações com outras plataformas.
+### Por Que Discord?  
 
-![](https://i.ibb.co/Kmw10pC/imagem-2023-11-25-221718290.png)
+O Discord oferece **salas separadas** e **funções** (como tags) que dão aos usuários acesso a recursos específicos. Isso ajuda a gerenciar comunidades de forma eficiente.  
 
-## Chats principais que você precisa fazer check-in na sua primeira chegada
+![Funções no Discord](https://i.ibb.co/Kmw10pC/imagem-2023-11-25-221718290.png)  
 
-### 🛹丨chat
+---
 
-Este é o nosso chat principal, você pode compartilhar seus conhecimentos e truques aqui. Aliás... até mandar dicas para seus amigos.
+### Salas Principais Para Conferir ao Chegar  
 
-![](https://i.ibb.co/z8tB9j2/imagem-2023-11-25-222919058.png)
+# 🛹丨chat  
+Nosso **chat principal**! Compartilhe manobras, conhecimento ou apenas interaja com outros skatistas.  
 
-### Você é um cara envergonhado?
+![Sala de Chat](https://i.ibb.co/z8tB9j2/imagem-2023-11-25-222919058.png)  
 
-![](https://i.ibb.co/GFsdM2c/imagem-2023-11-25-232705978.png)
+### Está Tímido?  
+Sem problemas! Participe de um **chat específico para o seu idioma**. Se seu idioma não estiver disponível, peça a um administrador para adicioná-lo.  
 
-Você pode optar por conversar no seu respectivo idioma. Se não tiver um, peça a um administrador/moderador para adicioná-lo para você.
+![Seletor de Idiomas](https://i.ibb.co/GFsdM2c/imagem-2023-11-25-232705978.png)  
 
-### guildxyz 
+---
 
-OK.. esta sala é muito importante. Guild.xyz é um BOT da comunidade WEB3 criado com integração com Discord, Telegram e outras comunidades. Permite verificar carteiras com NFTs e atribuir diferentes funções como cargos e salas. Também possui integração com mais de 10 blockchains diferentes, o que o torna superior ao Collabland e ainda mais fácil de configurar. Basta entrar na sala e clicar no botão azul.
+### guild.xyz  
+Esta sala é **essencial**! O Guild.xyz é um bot Web3 que verifica carteiras com NFTs, atribui funções e suporta **10+ blockchains**.  
 
-![](https://i.ibb.co/42NnzMd/imagem-2023-11-25-224820010.png)
+1. Entre na sala.  
+2. Clique no **botão azul**.  
+3. Complete missões para desbloquear novas funções no servidor.  
 
-Complete algumas missões no site para obter acesso a diferentes funções de servidor.
+![Integração com Guild.xyz](https://i.ibb.co/42NnzMd/imagem-2023-11-25-224820010.png)  
 
-![](https://i.ibb.co/rsc6FSk/imagem-2023-11-25-225052029.png)
+![Missões do Guild.xyz](https://i.ibb.co/rsc6FSk/imagem-2023-11-25-225052029.png)  
 
-### ⌨丨coding
-Não é um chat específico e sim uma categoria, é aqui que a mágica acontece... você pode acompanhar nossos desenvolvedores ao vivo e até aprender coisas novas aqui
+---
 
-![](https://i.ibb.co/Hgpjwkj/imagem-2023-11-25-223520386.png)
+### ⌨丨coding  
+Siga atualizações ao vivo dos desenvolvedores, aprenda novas habilidades e sugira ideias neste **canal focado em desenvolvedores**.  
 
-Você pode acompanhar atualizações ao vivo do nosso aplicativo (Skatehive) e ainda interagir e dar sugestões do que pode ser implementado.
+![Canal de Desenvolvimento](https://i.ibb.co/Hgpjwkj/imagem-2023-11-25-223520386.png)  
 
-![https://i.ibb.co/3ztxLHb/imagem-2023-11-25-223652454.png](https://i.ibb.co/3ztxLHb/imagem-2023-11-25-223652454.png)
+![Atualizações ao Vivo](https://i.ibb.co/3ztxLHb/imagem-2023-11-25-223652454.png)  
 
+---
 
-## [Guild.xyz](https://guild.xyz/skatehive)
-## Chats para verificar diariamente 
+### Salas Para Conferir Diariamente  
 
-### 📢丨anúncios
-Mantenha-se atualizado sobre todas as atualizações que temos no ecossistema Skatehive.
+# 📢丨announcements  
+Fique por dentro de todas as novidades do **Skatehive** neste canal.  
 
-![](https://i.ibb.co/5Y99ZZJ/imagem-2023-11-25-225554435.png)
+![Sala de Anúncios](https://i.ibb.co/5Y99ZZJ/imagem-2023-11-25-225554435.png)  
 
-###   丨skthv丨propostas (fórum)
+---
 
-Este é um dos principais chats de governança que temos no servidor. Aqui você pode acompanhar e participar de discussões sobre as mais novas ideias/propostas do Skatehive e até do Gnars.
+### 🛹丨skthv丨proposals (fórum)  
+Participe da governança discutindo e votando em **propostas** para o Skatehive e Gnars.  
 
-![](https://i.ibb.co/FHys3rZ/imagem-2023-11-25-225821464.png)
+![Discussão de Propostas](https://i.ibb.co/FHys3rZ/imagem-2023-11-25-225821464.png)  
 
-### 🔥丨postagens de skate
+---
 
-Este é um dos melhores chats do servidor. Aqui você pode acompanhar novos conteúdos postados no Skatehive. Você também pode compartilhar seu próprio conteúdo dentro deste chat. O chat é constantemente monitorado por nossos administradores, que irão votar em seu conteúdo e te ajudar na sua jornada Colmeia.
+### 🔥丨skate-posts  
+Compartilhe seu conteúdo de skate e ganhe visibilidade com os administradores, que podem ajudar a promover seu perfil na **comunidade Hive**.  
 
-![](https://i.ibb.co/qd12PK1/imagem-2023-11-25-230156776.png)
+![Postagens de Skate](https://i.ibb.co/qd12PK1/imagem-2023-11-25-230156776.png)  
 
-### 🔒丨daos-gov
+---
 
-Aqui você é notificado de todas as novas propostas que entram no Snapshot. Você pode votar **A FAVOR** ou **CONTRA**. Fique atualizado com todas as atualizações de propostas neste chat.
+### 🔒丨daos-gov  
+Acompanhe todas as **propostas do Snapshot**. Vote **A FAVOR** ou **CONTRA** e mantenha-se informado.  
 
-![](https://i.ibb.co/VHqhjyH/imagem-2023-11-25-230404565.png)
+![Governança DAOs](https://i.ibb.co/VHqhjyH/imagem-2023-11-25-230404565.png)  
 
-## Bots, truques e dicas
+---
 
-### Música Jockie
+### Bots, Truques e Dicas  
 
-Este BOT permite que você ouça suas músicas favoritas no Discord.
+# 🎵 Jockie Music  
+Quer ouvir música com seus amigos? Use o **BOT Jockie Music**:  
 
-![](https://i.ibb.co/BPzQZ8d/imagem-2023-11-25-230819681.png)
+```m!play (link da música)```  
 
-Para tocar uma música, basta entrar em uma sala de voz e digitar o comando no “bot-commands” m!play (link da música)
+![Jockie Music](https://i.ibb.co/BPzQZ8d/imagem-2023-11-25-230819681.png)  
 
-### tip.cc
+---
 
-Este é um dos melhores BOTs do servidor. Nos permite dar recompensas aos nossos usuários em mais de 70 criptomoedas diferentes, incluindo Hive.
+# 💸 tip.cc  
+Dê gorjetas para outros usuários em **70+ criptomoedas**, incluindo Hive:  
 
-Você pode enviar dicas com o seguinte comando:
+```$tip @usuario 10 (moeda)```  
 
-```$tip @user 10 (coin)```
+As moedas populares incluem **Hive** e **xFOX**.  
 
-**Existem muitas moedas que você pode usar, como Hive e xFOX, que é um token de governança usado no ShapeShift DEX.**
+![Recompensas com Tip.cc](https://i.ibb.co/NTSnsLc/imagem-2023-11-25-231444533.png)  
 
-![](https://i.ibb.co/NTSnsLc/imagem-2023-11-25-231444533.png)
+---
 
-### Secret Commands 
-
+# 🎥 Comandos Secretos  
 Você se lembra do 411VM?
 
 411 Video Magazine (comumente abreviada como 411VM ou 411) foi uma série de vídeos de skate. 411 foi criado em 1993 por Josh Friedberg e Steve Douglas. A 411 lançava quatro edições por ano, até sua última edição, a edição 67, ser lançada em 2005. Antes da 411, os skatistas profissionais exibiam seus vídeos apenas em grandes lançamentos de vídeo, que às vezes eram separados por anos. 411 deu aos fãs de skate acesso a vídeos de skatistas profissionais com mais frequência do que nunca.
@@ -105,6 +112,6 @@ Você se lembra do 411VM?
 
 Você pode matar um pouco da sua nostalgia digitando o seguinte comando no chat "bot-commands":
 
-!411vm
+!411vm 
 
-![](https://i.ibb.co/dKk7G70/imagem-2023-11-25-233029667.png)
+![411 Video Magazine](https://i.ibb.co/dKk7G70/imagem-2023-11-25-233029667.png)  
