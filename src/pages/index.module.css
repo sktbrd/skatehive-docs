@@ -29,23 +29,7 @@ body,
   /* Main background */
 }
 
-/* Apply to all relevant components */
-.heroBanner,
-.docMainContainer_gTbr,
-.sidebarViewport_Xe31,
-.menu,
-.tableOfContents_bqdL,
-.theme-doc-markdown,
-.theme-doc-footer,
-.navbar,
-.navbar__inner,
-.navbar__items,
-.navbar__item,
-.navbar__link,
-.navbar__toggle {
-  background-color: var(--ifm-color-background) !important;
-  /* Set the background */
-}
+
 
 .heroBanner {
   padding: 4rem 0;
@@ -112,24 +96,8 @@ h6 {
   font-size: 35px;
 }
 
-/* Navbar styles */
-.navbar {
-  background-color: #191919;
-  /* Navbar color */
-  align-items: center;
-}
 
-/* Link colors */
-a,
-.menu__link {
-  color: var(--text-color);
-  text-decoration: none;
-}
 
-a:hover,
-.menu__link:hover {
-  color: #3a3a3a !important;
-}
 
 /* Additional styling */
 .card,
@@ -156,6 +124,5 @@ a:hover,
   color: white;
 }
 
-.navbar__link--active {
-  color: #57875c !important;
-}
+
+

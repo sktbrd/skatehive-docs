@@ -47,7 +47,7 @@ module.exports = {
       tagName: 'link',
       attributes: {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap',
       },
     },
     {
