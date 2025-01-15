@@ -3,14 +3,13 @@
  * and scoped locally.
  */
 /* Importando a fonte Bebas Neue */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
 /* Apply the font only to the navbar and its children */
 .navbar,
 .navbar * {
-  font-family: "Bebas Neue", serif !important; 
-  font-weight: 400; 
-  font-style: normal; 
+  font-family: "Underdog", serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 18px;
   color: var(--text-color); 
   text-decoration: none; 
@@ -22,9 +21,9 @@
 .navbar .navbar__link,
 .navbar .navbar__item .navbar__link,
 .navbar .menu__link {
-  font-family: "Bebas Neue", serif !important; 
-  font-size: 18px; 
-  font-weight: 400; 
+  font-family: "Underdog", serif;
+  font-weight: 400;
+  font-style: normal;
   color: var(--text-color); 
   transition: color 0.3s ease;
 }
@@ -37,9 +36,9 @@
 
 /* Titles inside the navbar */
 .navbar .navbar__title.text--truncate {
-  font-family: "Bebas Neue", serif !important; 
-  font-size: 18px;
+  font-family: "Underdog", serif;
   font-weight: 400;
+  font-style: normal;
   color: var(--text-color); 
   text-decoration: none;
 }
@@ -108,7 +107,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 
 .button-link {
   display: inline-block;
@@ -197,10 +195,6 @@ pre {
   }
 }
 
-
-
-
-
 a:hover,
 .menu__link:hover {
   color: #3a3a3a !important;
@@ -208,9 +202,8 @@ a:hover,
 .table-of-contents__link toc-highlight table-of-contents__link--active , a , span {
   color: var(--text-color) !important;
   background-color: transparent !important;
+  font-size: 15px;
 }
-
-
 
 p {
   font-size: 18px; 

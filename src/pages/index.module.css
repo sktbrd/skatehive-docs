@@ -2,18 +2,8 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
-
-* {
-  font-family: "Quattrocento", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: medium;
-  margin: 0;
-  /* Remove default margin */
-  padding: 0;
-  /* Remove default padding */
-}
-
+ @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 body {
   background-color: var(--ifm-color-background) !important;
   /* Ensure body background is set */
@@ -28,8 +18,6 @@ body,
   background-color: var(--ifm-color-background) !important;
   /* Main background */
 }
-
-
 
 .heroBanner {
   padding: 4rem 0;
@@ -90,14 +78,18 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Quattrocento", serif;
-  font-weight: 700;
+  font-family: "Urbanist", serif;
+  font-optical-sizing: auto;
   font-style: normal;
   font-size: 35px;
 }
 
-
-
+a , p {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+}
 
 /* Additional styling */
 .card,
