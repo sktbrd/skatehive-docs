@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ### Como ter sorte
 
-1. Acesse <a href="https://skatehive.app" class="button-link" target="_blank">**Website skatehive.app**</a> e conecte suas carteiras Hive e Ethereum.
+1. Acesse <a href="https://skatehive.app" class="button-link" target="_blank">**skatehive.app**</a> e conecte suas carteiras Hive e Ethereum.
 2. **Visite sua página de perfil**.
 3. **Clique no botão "Editar Perfil"** (ícone de lápis).
    ![Botão Editar Perfil](../../../../../src/assets/tuto-airdrop/1.png)
@@ -27,6 +27,6 @@ sidebar_position: 2
 
 ### Primeira vez com Airdrops EVM?
 
-- Se esta é a **primeira vez que você interage com um airdrop EVM**, sua carteira pedirá permissão para interagir com o contrato de airdrop.
+- Se esta é a **primeira vez que você interage com um airdrop EVM**, sua carteira pedirá permissão para interagir com o contrato do airdrop.
 - Após conceder a permissão, a **segunda transação** deve ser disparada automaticamente.
 - Se isso não acontecer, simplesmente **clique no botão novamente**. (*Estamos melhorando esse processo.*)
