@@ -3,7 +3,7 @@ title: Como se qualificar para o airdrop
 sidebar_position: 2
 ---
 
-### Configurando sua conta
+### Configurando seu perfil
 
 1. Acesse <a href="https://skatehive.app" class="button-link" target="_blank">**skatehive.app**</a> e conecte suas carteiras Hive e Ethereum.
 2. **Visite sua página de perfil**.
