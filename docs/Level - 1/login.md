@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 ---
+# Login
 
 ### How to Log in to Skatehive.app
 
