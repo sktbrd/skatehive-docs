@@ -2,6 +2,8 @@
 sidebar_position: 2
 ---
 
+# Hive Wallet
+
 ### Como Criar uma Carteira Hive
 
 ---

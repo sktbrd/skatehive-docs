@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+# Login
+
 ### Como Fazer Login no Skatehive.app
 
 Siga estas etapas para fazer login no **Skatehive** usando o **Hive Keychain**.
