@@ -21,7 +21,7 @@
 .navbar .navbar__link,
 .navbar .navbar__item .navbar__link,
 .navbar .menu__link {
-  font-family: "Underdog", serif;
+  font-family: "Modern Clarity", serif;
   font-weight: 400;
   font-style: normal;
   color: var(--text-color); 
@@ -36,7 +36,7 @@
 
 /* Titles inside the navbar */
 .navbar .navbar__title.text--truncate {
-  font-family: "Underdog", serif;
+  font-family: "Modern Clarity", serif;
   font-weight: 400;
   font-style: normal;
   color: var(--text-color); 
