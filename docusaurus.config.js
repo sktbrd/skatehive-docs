@@ -14,12 +14,13 @@ module.exports = {
   projectName: 'skatehive-docs',
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'pt-br', 'es', 'fr'],
+    locales: ['en', 'pt-br', 'es', 'fr', 'lg'],
     localeConfigs: {
       en: { label: 'English' },
       'pt-br': { label: 'Português (BR)' },
       es: { label: 'Español' },
       fr: { label: 'Français' },
+      lg: { label: 'Luganda' },
     },
   },
   presets: [
@@ -27,7 +28,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./docs/_category__.json'),
+          sidebarPath: ({ locale }) => require.resolve(`./docs/${locale}/_category_.json`),
           editUrl: 'https://github.com/sktbrd/skatehive-docs/docs/',
         },
         theme: {
