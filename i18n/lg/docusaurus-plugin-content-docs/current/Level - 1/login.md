@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# **Engeri Y'okuyingira mu Skatehive.app**  
+# Engeri Y'okuyingira mu Skatehive.app  
 
 Goberera emikolo gino okuyingira mu **Skatehive** nga okozesa **Hive Keychain**.  
 

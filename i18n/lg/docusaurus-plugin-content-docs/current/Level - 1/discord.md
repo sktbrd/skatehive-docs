@@ -1,5 +1,5 @@
 ---
-title: Tutorial do Discord  
+title: "Ekitabo ky’okuyigiriza ku Discord"
 sidebar_position: 5  
 ---
 

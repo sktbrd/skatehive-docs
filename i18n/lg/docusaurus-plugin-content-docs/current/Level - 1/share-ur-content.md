@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-## **Engeri y’Okutaddeko Post ku Skatehive.app**  
+# Engeri y’Okutaddeko Post ku Skatehive.app
 
 ---
 

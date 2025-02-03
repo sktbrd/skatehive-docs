@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# **Hive Wallet**  
+# Hive Wallet
 
 ## **Engeri Y'okutondawo Akawunti ya Hive**  
 

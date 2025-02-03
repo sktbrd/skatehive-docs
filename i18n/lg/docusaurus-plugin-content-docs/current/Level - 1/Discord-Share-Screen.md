@@ -2,7 +2,7 @@ A língua oficial de Uganda é o inglês, mas a língua bantu mais falada é o *
 
 ---
 
-# **Engeri Y’okugabana Ekrini ku Discord**  
+# Engeri Y’okugabana Ekrini ku Discord*
 
 ### **Ku Kompyuta Yo** 💻  
 Goberera ebintu bino okulaga ekrini yo ku Discord okuva ku kompyuta.  

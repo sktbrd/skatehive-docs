@@ -28,7 +28,9 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: ({ locale }) => require.resolve(`./docs/${locale}/_category_.json`),
+          path: 'docs',
+          routeBasePath: 'docs',
+          sidebarPath: require.resolve('./sidebars.js'), // Use the sidebars.js file
           editUrl: 'https://github.com/sktbrd/skatehive-docs/docs/',
         },
         theme: {

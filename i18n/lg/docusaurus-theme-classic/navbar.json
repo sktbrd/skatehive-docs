@@ -1,54 +1,54 @@
 {
   "title": {
-    "message": "Skatehive Docs",
-    "description": "The title in the navbar"
+    "message": "Ebibalo bya Skatehive",
+    "description": "Omutwe oguli ku navbar"
   },
   "item.label.Learn": {
-    "message": "Aprenda",
-    "description": "Navbar item with label Learn"
+    "message": "Yiga",
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja Yiga"
   },
   "item.label.App": {
     "message": "App",
-    "description": "Navbar item with label App"
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja App"
   },
   "item.label.Projects": {
-    "message": "Projetos",
-    "description": "Navbar item with label Projects"
+    "message": "Ebiruubirirwa",
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja Ebiruubirirwa"
   },
   "item.label.GitHub": {
     "message": "GitHub",
-    "description": "Navbar item with label GitHub"
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja GitHub"
   },
   "item.label.Quest for Stoken": {
-    "message": "Quest for Stoken",
-    "description": "Navbar item with label Quest for Stoken"
+    "message": "Okunoonya Stoken",
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja Okunoonya Stoken"
   },
   "item.label.Gnars": {
     "message": "Gnars",
-    "description": "Navbar item with label Gnars"
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja Gnars"
   },
   "item.label.Settle or Die": {
-    "message": "Settle or Die",
-    "description": "Navbar item with label Settle or Die"
+    "message": "Tuula oba Ofa",
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja Tuula oba Ofa"
   },
   "logo.alt": {
-    "message": "Skatehive Logo",
-    "description": "The alt text of navbar logo"
+    "message": "Akalatirizi ka Skatehive",
+    "description": "Ekigambo ekiraga akabonero ka navbar"
   },
   "item.label.Community": {
-    "message": "Community",
-    "description": "Navbar item with label Community"
+    "message": "Omukago",
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja Omukago"
   },
   "item.label.Discord": {
     "message": "Discord",
-    "description": "Navbar item with label Discord"
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja Discord"
   },
   "item.label.Twitter": {
     "message": "Twitter",
-    "description": "Navbar item with label Twitter"
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja Twitter"
   },
   "item.label.Farcaster": {
     "message": "Farcaster",
-    "description": "Navbar item with label Farcaster"
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja Farcaster"
   }
 }

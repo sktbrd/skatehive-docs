@@ -1,5 +1,5 @@
 ---
-title: **Enyweza Okufunira mu Airdrop**
+title: "Enyweza Okufunira mu Airdrop"
 sidebar_position: 2
 ---
 
