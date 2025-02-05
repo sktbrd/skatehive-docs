@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Eddako",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Onboarding": {
+    "message": "Okuyingira",
+    "description": "The label for category Onboarding in sidebar docs"
+  },
+  "sidebar.docs.category.Level 1": {
+    "message": "Ekibinja 1",
+    "description": "The label for category Level 1 in sidebar docs"
+  },
+  "sidebar.docs.category.Level 2": {
+    "message": "Ekibinja 2",
+    "description": "The label for category Level 2 in sidebar docs"
+  },
+  "sidebar.docs.category.Dev": {
+    "message": "Obulambe",
+    "description": "The label for category Dev in sidebar docs"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "title": {
+    "message": "Ebibalo bya Skatehive",
+    "description": "Omutwe oguli ku navbar"
+  },
+  "item.label.Learn": {
+    "message": "Yiga",
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja Yiga"
+  },
+  "item.label.App": {
+    "message": "App",
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja App"
+  },
+  "item.label.Projects": {
+    "message": "Ebiruubirirwa",
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja Ebiruubirirwa"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja GitHub"
+  },
+  "item.label.Quest for Stoken": {
+    "message": "Okunoonya Stoken",
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja Okunoonya Stoken"
+  },
+  "item.label.Gnars": {
+    "message": "Gnars",
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja Gnars"
+  },
+  "item.label.Settle or Die": {
+    "message": "Tuula oba Ofa",
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja Tuula oba Ofa"
+  },
+  "logo.alt": {
+    "message": "Akalatirizi ka Skatehive",
+    "description": "Ekigambo ekiraga akabonero ka navbar"
+  },
+  "item.label.Community": {
+    "message": "Omukago",
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja Omukago"
+  },
+  "item.label.Discord": {
+    "message": "Discord",
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja Discord"
+  },
+  "item.label.Twitter": {
+    "message": "Twitter",
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja Twitter"
+  },
+  "item.label.Farcaster": {
+    "message": "Farcaster",
+    "description": "Ekyokulabirako kya navbar ekiriko ekibanja Farcaster"
+  }
+}

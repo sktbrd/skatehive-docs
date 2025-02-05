@@ -1,0 +1,50 @@
+{
+  "docs": [
+    {
+      "type": "category",
+      "label": "Onboarding",
+      "items": [
+        {
+          "type": "doc",
+          "id": "intro"
+        },
+        {
+          "type": "doc",
+          "id": "create-account"
+        },
+        {
+          "type": "category",
+          "label": "Level 1",
+          "items": [
+            "Level - 1/login",
+            "Level - 1/hive-wallet",
+            "Level - 1/Discord-Share-Screen",
+            "Level - 1/share-ur-content",
+            "Level - 1/discord",
+            "Level - 1/nftskatehive"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Level 2",
+          "items": [
+            "Level - 2/airdrop",
+            "Level - 2/eth-wallet",
+            "Level - 2/manage-hive",
+            "Level - 2/congratulations",
+            "Level - 2/sacar-pix",
+            "Level - 2/curation-trail"
+            
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Dev",
+      "items": [
+        "Level - 0/fork-skatehive"
+      ]
+    }
+  ]
+}

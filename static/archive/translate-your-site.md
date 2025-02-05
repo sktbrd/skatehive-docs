@@ -14,7 +14,7 @@ Modify `docusaurus.config.js` to add support for the `fr` locale:
 module.exports = {
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'fr'],
+    locales: ['en', 'fr', 'lg'],
   },
 };
 ```
