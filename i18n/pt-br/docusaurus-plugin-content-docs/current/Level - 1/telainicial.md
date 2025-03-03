@@ -1,5 +1,3 @@
----
-
 # Como Adicionar o Skatehive à Tela Inicial do Seu Celular  
 
 Adicionar o Skatehive à tela inicial do seu celular facilita o acesso rápido à plataforma, como se fosse um aplicativo. Siga estes passos para fazer isso.  
