@@ -1,28 +1,30 @@
-# Como Adicionar o Skatehive à Tela Inicial do Seu Celular  
+# How to Add Skatehive to Your Phone's Home Screen  
 
-Adicionar o Skatehive à tela inicial do seu celular facilita o acesso rápido à plataforma, como se fosse um aplicativo.
+Adding Skatehive to your phone's home screen makes it easier to access the platform quickly, just like an app.
 
-## Passo 1: Acesse o Skatehive  
-Abra o navegador do seu celular e vá para o site:  
+## Step 1: Visit Skatehive  
+Open your phone's browser and go to:  
 👉 [Skatehive.app](https://skatehive.app)  
 
-## Passo 2: Acesse as Opções do Navegador  
-No canto superior direito (ou inferior, dependendo do navegador), toque no ícone de três pontos ou no botão de compartilhamento para abrir o menu de opções.  
+## Step 2: Open the Browser Options  
+In the top-right corner (or bottom, depending on your browser), tap the three-dot icon or the share button to open the options menu.  
 
 ## Android  
 
-![Imagem](https://ipfs.skatehive.app/ipfs/QmQVewpaK4iJgqqyXFPMTuJ32ihvS9B7bHbTyAhMFWZzju)  
+![Image](https://ipfs.skatehive.app/ipfs/QmQVewpaK4iJgqqyXFPMTuJ32ihvS9B7bHbTyAhMFWZzju)  
 
 ## iOS  
 
-![Imagem](https://ipfs.skatehive.app/ipfs/QmQVzMQn7iDFEns8jDZjZtVMzYPhBWHhv4KJLJc4ghqU4v)  
+![Image](https://ipfs.skatehive.app/ipfs/QmQVzMQn7iDFEns8jDZjZtVMzYPhBWHhv4KJLJc4ghqU4v)  
 
-## Passo 3: Adicione à Tela Inicial  
-No menu que aparece, selecione **"Adicionar à tela inicial"**.  
+## Step 3: Add to Home Screen  
+In the menu that appears, select **"Add to Home Screen"**.  
 
-## Passo 4: Confirme a Ação  
-Seu navegador pode pedir para você escolher um nome para o atalho. Você pode manter **"Skatehive"** ou alterar como preferir. Em seguida, toque em **"Adicionar"**.  
+## Step 4: Confirm the Action  
+Your browser may ask you to choose a name for the shortcut. You can keep **"Skatehive"** or change it as you prefer. Then, tap **"Add"**.  
 
-Pronto! Agora o Skatehive estará na tela inicial do seu celular como um ícone, tornando o acesso muito mais rápido e prático. 🛹🔥  
+Done! Now, Skatehive will be on your phone’s home screen as an icon, making access much quicker and easier. 🛹🔥  
 
 ---  
+
+Let me know if you need any changes or improvements! 😊
