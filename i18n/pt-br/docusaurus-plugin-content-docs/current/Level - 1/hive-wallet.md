@@ -4,55 +4,27 @@ sidebar_position: 2
 
 # Hive Wallet
 
-### Como Criar uma Carteira Hive
+### **1. Instale o Hive Keychain**  
+- **No Chrome:** Vá até a [Chrome Web Store](https://chrome.google.com/webstore) e pesquise por "Hive Keychain". Clique em **"Adicionar ao Chrome"**.  
+- **No Firefox:** Baixe pelo site oficial do [Hive Keychain](https://hive-keychain.com).  
 
----
+### **2. Configure a Carteira**  
+- Após instalar, clique no ícone do Hive Keychain no navegador.  
+- Crie uma senha para proteger sua carteira.  
 
-# Criando uma Carteira Hive (Navegador)
+### **3. Adicione sua Conta Hive**  
+- Clique em **"Import Account"**.  
+- Digite seu nome de usuário da Hive.  
+- Cole sua chave privada (recomenda-se a "Active Key" para transações e a "Posting Key" para interações).  
 
-Siga estas etapas para criar sua carteira Hive.
+### **4. Pronto! Agora você pode:**  
+✅ Fazer login em apps da Hive com um clique.  
+✅ Enviar e receber tokens HIVE e HBD.  
+✅ Gerenciar várias contas Hive com segurança.  
 
----
+### **Dicas de Segurança:**  
+🔹 Nunca compartilhe suas chaves privadas.  
+🔹 Guarde suas chaves em um local seguro.  
+🔹 Sempre baixe o Hive Keychain de fontes oficiais.  
 
-### Etapa 1: Instale o Hive Keychain
-
-- Instale a extensão de navegador **Hive Keychain**.  
-- Após a instalação, recarregue a página para ativar a extensão.
-
-![Instalar Hive Keychain](../../../../../src/assets/Hive-Wallet/1.png)
-
----
-
-### Etapa 2: Visite o Ecency Signup
-
-- Acesse o <a href="https://ecency.com/signup" class="button-link" target="_blank">**Site Ecency Signup**</a> para criar sua nova conta.  
-- Escolha seu **nome de usuário** e insira seu **endereço de e-mail**.
-
-![Página de Cadastro](../../../../../src/assets/Hive-Wallet/2.png)
-
----
-
-### Etapa 3: Baixe Seu Backup
-
-- Clique em "Download Backup" para salvar as informações da sua conta.  
-- Essas informações também serão enviadas para o seu e-mail.  
-
-> **Importante:**  
-> Guarde este backup em um **local seguro**. Ele é sua única maneira de recuperar sua conta.
-
-![Backup da Conta](../../../../../src/assets/Hive-Wallet/3.png)
-
----
-
-### Etapa 4: Salve Suas Credenciais
-
-- Insira seu **nome de usuário** e **senha** na extensão do navegador Hive Keychain.  
-- Isso salvará suas credenciais de forma segura para fácil acesso.
-
-![Salvar Credenciais](../../../../../src/assets/Hive-Wallet/4.png)
-
----
-
-### Etapa 5: Parabéns!
-
-Sua **conta Hive** foi criada! 🎉  
+Agora você pode usar a Hive com mais praticidade! 🚀
