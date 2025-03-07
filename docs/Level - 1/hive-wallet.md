@@ -2,34 +2,34 @@
 sidebar_position: 2
 ---
 
-Aqui está um guia mais simples para usar o **Hive Keychain**, a carteira da Hive:  
+# Hive Wallet
 
-### **1. Instale o Hive Keychain**  
-- **No Chrome:** Vá até a [Chrome Web Store](https://chromewebstore.google.com/detail/hive-keychain/jcacnejopjdphbnjgfaaobbfafkihpep) e pesquise por "Hive Keychain". Clique em **"Adicionar ao Chrome"**.  
-- **No Firefox:** Baixe pelo site oficial do [Hive Keychain](https://hive-keychain.com).  
+### **1. Install Hive Keychain**  
+- **On Chrome:** Go to the [Chrome Web Store](https://chromewebstore.google.com/detail/hive-keychain/jcacnejopjdphbnjgfaaobbfafkihpep) and search for "Hive Keychain." Click **"Add to Chrome"**.  
+- **On Firefox:** Download it from the official [Hive Keychain](https://hive-keychain.com) website.  
 ![alt text](image.png)
-### **2. Configure a Carteira**  
-- Após instalar, clique no ícone do Hive Keychain no navegador.  
-- Crie uma senha para proteger sua carteira.  
+
+### **2. Set Up the Wallet**  
+- After installing, click on the Hive Keychain icon in your browser.  
+- Create a password to secure your wallet.  
 
 ![Image](https://ipfs.skatehive.app/ipfs/QmVavmvptLv455oWxdxnuunnoyiMsZU4M66BPSoNBL8rKv)
 
+### **3. Add Your Hive Account**  
+- Click **"Use Keys"**.  
+![Image](https://ipfs.skatehive.app/ipfs/QmY6ePRFSBL2ZzN17p23sBPKt197BNtEk5K3kqa8VTdBb2)  
 
-### **3. Adicione sua Conta Hive**  
-- Clique em **"Use Keys"**.  
-- Digite seu nome de usuário da Hive.  
-- Cole sua chave privada (recomenda-se a "Active Key" para transações e a "Posting Key" para interações).  
+- Enter your Hive username.  
+- Paste your private key (it is recommended to use the "Active Key" for transactions and the "Posting Key" for interactions).  
 
-![Image](https://ipfs.skatehive.app/ipfs/QmY6ePRFSBL2ZzN17p23sBPKt197BNtEk5K3kqa8VTdBb2)
+### **4. Done! Now You Can:**  
+✅ Log in to Hive apps with one click.  
+✅ Send and receive HIVE and HBD tokens.  
+✅ Manage multiple Hive accounts securely.  
 
-### **4. Pronto! Agora você pode:**  
-✅ Fazer login em apps da Hive com um clique.  
-✅ Enviar e receber tokens HIVE e HBD.  
-✅ Gerenciar várias contas Hive com segurança.  
+### **Security Tips:**  
+🔹 Never share your private keys.  
+🔹 Store your keys in a safe place.  
+🔹 Always download Hive Keychain from official sources.  
 
-### **Dicas de Segurança:**  
-🔹 Nunca compartilhe suas chaves privadas.  
-🔹 Guarde suas chaves em um local seguro.  
-🔹 Sempre baixe o Hive Keychain de fontes oficiais.  
-
-Agora você pode usar a Hive com mais praticidade! 🚀
+Now you can use Hive more easily! ehehe 🚀 
