@@ -31,7 +31,7 @@ module.exports = {
           path: 'docs',
           routeBasePath: 'docs',
           sidebarPath: require.resolve('./sidebars.js'), // Use the sidebars.js file
-          editUrl: 'https://github.com/sktbrd/skatehive-docs/docs/',
+          editUrl: 'https://github.com/sktbrd/skatehive-docs/blob/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
