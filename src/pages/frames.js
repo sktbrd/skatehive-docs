@@ -504,8 +504,13 @@ const preStyle = {
     fontFamily: 'monospace',
     fontSize: '1rem',
     lineHeight: '1.5',
-    whiteSpace: 'pre-wrap', 
+    whiteSpace: 'pre', 
+    wordWrap: 'normal',
     color: '#00ff00', 
+    backgroundColor: 'black',
+    textAlign: 'center',
+    overflowx: 'auto',
+    display: 'block',
 };
 
 export default Animation;

@@ -83,7 +83,7 @@ module.exports = {
           items: [
             { label: 'Discord', href: 'https://discord.gg/skatehive' },
             { label: 'Twitter', href: 'https://twitter.com/skatehive' },
-            { label: 'Farcaster', href: 'https://nounspace/s/skatehive' }
+            { label: 'Farcaster', href: 'https://www.nounspace.com/s/skatehive' }
           ],
         },
         { href: 'https://github.com/sktbrd/skatehive-docs/tree/main', label: 'GitHub', position: 'right' },
