@@ -32,4 +32,4 @@ sidebar_position: 2
 🔹 Guarde suas chaves em um local seguro.  
 🔹 Sempre baixe o Hive Keychain de fontes oficiais.  
 
-Agora você pode usar a Hive com mais praticidade! ehehe 🚀 
+Agora você pode usar a Hive com mais praticidade! 🚀
