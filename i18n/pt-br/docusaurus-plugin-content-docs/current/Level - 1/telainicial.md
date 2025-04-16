@@ -26,3 +26,5 @@ Seu navegador pode pedir para você escolher um nome para o atalho. Você pode m
 Pronto! Agora o Skatehive estará na tela inicial do seu celular como um ícone, tornando o acesso muito mais rápido e prático. 🛹🔥  
 
 ---  
+
+Deixe-me saber se você precisa de alguma alteração ou melhoria! 😊
