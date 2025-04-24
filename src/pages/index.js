@@ -16,10 +16,11 @@ export default function Home() {
         {/* Open Graph metadata */}
         <meta property="og:title" content="SkateHive Docs" />
         <meta property="og:description" content="Documentation for SkateHive" />
-        <meta property="og:image" content="/img/thumbnail.png" />
+        <meta property="og:image" content="https://ipfs.skatehive.app/ipfs/QmPvSv7iRDrHJTxBpqeoyi5utA8QmgEUCuAiQ2JsYCGz4m" />
         <meta property="og:url" content="https://docs.skatehive.app" />
         <meta property="og:type" content="website" />
-        {/* Additional social media metadata can be added here if needed */}
+        {/* Favicon */}
+        <link rel="icon" href="/img/skatehive.png" />
       </Head>
       <Redirect to="/docs/" />
     </>
