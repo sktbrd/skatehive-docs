@@ -12,7 +12,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="SkateHive Docs" />
         <meta name="twitter:description" content="Documentation for SkateHive" />
-        <meta name="twitter:image" content="/img/thumbnail.png" />
+        <meta name="twitter:image" content="https://ipfs.skatehive.app/ipfs/QmPvSv7iRDrHJTxBpqeoyi5utA8QmgEUCuAiQ2JsYCGz4m" />
         {/* Open Graph metadata */}
         <meta property="og:title" content="SkateHive Docs" />
         <meta property="og:description" content="Documentation for SkateHive" />
