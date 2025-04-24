@@ -25,12 +25,12 @@ function HomepageHeader() {
 
   return (
     <header className={('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Animation interval={200} />
+      {/* <div className="container"> */}
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <MendableSearchBar placeholder="Ask me anything , in any language, as dumb as might be, dont be shy..." userIcon="https://i.gifer.com/origin/f1/f1a737e4cfba336f974af05abab62c8f_w200.gif" botIcon="https://images.ecency.com/u/hive-173115/avatar/large" cmdShortcutKey="y" dialogPlaceholder="Ask me anything about Skatehive" anon_key='524a2d83-688b-477a-ba99-05131d06138d' style={style} />
+        <Animation interval={200} />
+        {/* <MendableSearchBar placeholder="Ask me anything , in any language, as dumb as might be, dont be shy..." userIcon="https://i.gifer.com/origin/f1/f1a737e4cfba336f974af05abab62c8f_w200.gif" botIcon="https://images.ecency.com/u/hive-173115/avatar/large" cmdShortcutKey="y" dialogPlaceholder="Ask me anything about Skatehive" anon_key='524a2d83-688b-477a-ba99-05131d06138d' style={style} /> */}
 
-      </div>
+      {/* </div> */}
     </header>
   );
 }
@@ -40,7 +40,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Learn about skateboarding and web3">
+      description="Learn about Skatehive">
 
       <Helmet>
         <meta charSet="utf-8" />

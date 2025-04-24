@@ -4,7 +4,7 @@ module.exports = {
       type: 'category',
       label: 'Onboarding',
       items: [
-        'intro',
+        'README',
         'create-account',
         {
           type: 'category',
@@ -15,7 +15,7 @@ module.exports = {
             'Level - 1/Discord-Share-Screen',
             'Level - 1/share-ur-content',
             'Level - 1/discord',
-            'Level - 1/nftskatehive'
+            'archive/nftskatehive'
           ]
         },
         {
@@ -25,7 +25,7 @@ module.exports = {
             'Level - 2/airdrop',
             'Level - 2/eth-wallet',
             'Level - 2/manage-hive',
-            'Level - 2/congratulations',
+            'archive/congratulations',
             'Level - 2/hive-witness',
             'Level - 2/curation-trail'
           ]
@@ -36,7 +36,7 @@ module.exports = {
       type: 'category',
       label: 'Dev',
       items: [
-        'Level - 0/fork-skatehive'
+        'projects/fork-skatehive'
       ]
     }
   ]

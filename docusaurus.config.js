@@ -74,7 +74,7 @@ module.exports = {
       style: 'dark',
       logo: { alt: 'Skatehive Logo', src: 'img/skatehive.png' },
       items: [
-        { type: 'doc', docId: 'intro', position: 'left', label: 'Learn' },
+        { type: 'doc', docId: 'README', position: 'left', label: 'Learn' },
         { to: 'https://skatehive.app', label: 'App', position: 'left' },
         {
           type: 'dropdown',
