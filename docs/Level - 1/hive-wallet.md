@@ -8,8 +8,10 @@ icon: hive
 ### **1. Install Hive Keychain**
 
 * **On Chrome:** Go to the [Chrome Web Store](https://chromewebstore.google.com/detail/hive-keychain/jcacnejopjdphbnjgfaaobbfafkihpep) and search for "Hive Keychain." Click **"Add to Chrome"**.
-* **On Firefox:** Download it from the official [Hive Keychain](https://hive-keychain.com) website.\
-  ![alt text](image.png)
+*   **On Firefox:** Download it from the official [Hive Keychain](https://hive-keychain.com) website.\
+
+
+    <figure><img src="image.png" alt=""><figcaption></figcaption></figure>
 
 ### **2. Set Up the Wallet**
 
@@ -37,4 +39,4 @@ icon: hive
 🔹 Store your keys in a safe place.\
 🔹 Always download Hive Keychain from official sources.
 
-Now you can use Hive more easily! ehehe 🚀
+Now you can use Hive more easily!  🚀
