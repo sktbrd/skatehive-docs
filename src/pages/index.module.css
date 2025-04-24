@@ -50,34 +50,37 @@ pre {
 :root {
   --ifm-color-background: #ffffff; /* White background for light mode */
   --text-color: #000000; /* Black text for light mode */
+  --ifm-color-active: limegreen; /* Limegreen for active states */
+  --ifm-color-hover: #444950; /* Grey for hover states */
 }
 
 [data-theme='dark'] {
   --ifm-color-background: #000000; /* Black background for dark mode */
   --text-color: #ffffff; /* White text for dark mode */
+  --ifm-color-active: limegreen; /* Limegreen for active states */
+  --ifm-color-hover: #8d949e; /* Grey for hover states */
 }
 
-/* Header and Title styles */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--text-color); /* Ensure headers follow the text color */
-}
-
-a , p {
+a, p {
   font-family: "Nunito", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  
+  color: var(--text-color);
 }
 
-/* Additional styling */
+a:hover {
+  color: var(--ifm-color-hover);
+}
+
+a:active,
+a:focus,
+a:visited {
+  color: var(--ifm-color-active); /* Ensure limegreen for active, focus, and visited states */
+}
+
 .card,
 .theme-admonition-tip {
-  border: 1px solid #080a09;
+  border: 1px solid var(--ifm-color-hover);
   border-radius: 10px;
   padding: 20px;
   margin: 20px;
@@ -89,14 +92,16 @@ a , p {
 }
 
 .button.button--secondary {
-  background-color: #57875c;
+  background-color: var(--ifm-color-active);
   color: white;
   margin: 20px;
-  border: 1px solid #00ba47;
+  border: 1px solid var(--ifm-color-active);
 }
 
 .button.button--secondary:hover {
+  background-color: var(--ifm-color-hover);
   color: white;
+  border-color: var(--ifm-color-active); /* Ensure border remains consistent */
 }
 
 

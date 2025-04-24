@@ -6,12 +6,16 @@
   --global-font-family: "Inter", sans-serif;
   --ifm-color-background: #ffffff;
   --text-color: #000000;
+  --ifm-color-active: limegreen; /* Limegreen for active states */
+  --ifm-color-hover: #444950; /* Grey for hover states */
 }
 
 /* Dark mode styles */
 [data-theme='dark'] {
   --ifm-color-background: #000000;
   --text-color: #e6e6e6;
+  --ifm-color-active: limegreen; /* Limegreen for active states */
+  --ifm-color-hover: #8d949e; /* Grey for hover states */
 }
 
 /* Apply global font */
@@ -38,7 +42,7 @@ a, p,
 }
 
 .navbar .navbar__link {
-  color: #000000;
+  color: var(--text-color);
   font-weight: 500;
   transition: color 0.3s ease;
 }
@@ -46,34 +50,24 @@ a, p,
 .navbar .navbar__link:hover,
 .navbar .navbar__item .navbar__link:hover,
 .navbar .menu__link:hover {
-  color: #555555;
-}
-
-[data-theme='dark'] .navbar {
-  background-color: #000000;
-}
-
-[data-theme='dark'] .navbar .navbar__link {
-  color: #ffffff;
-}
-
-[data-theme='dark'] .navbar .navbar__link:hover,
-[data-theme='dark'] .navbar .navbar__item .navbar__link:hover,
-[data-theme='dark'] .navbar .menu__link:hover {
-  color: #cccccc;
+  color: var(--ifm-color-hover);
 }
 
 /* Active link styles */
 .navbar .navbar__link--active,
-.navbar .table-of-contents__link--active {
-  font-weight: bold;
-  color: #000000;
+.navbar .table-of-contents__link--active,
+.menu__link--active,
+.breadcrumbs__item--active .breadcrumbs__link,
+.table-of-contents__link--active {
+  color: var(--ifm-color-active); /* Limegreen for active states */
 }
 
-[data-theme='dark'] .navbar .navbar__link--active,
-[data-theme='dark'] .navbar .table-of-contents__link--active {
-  color: #ffffff !important;
-  font-weight: bold;
+.navbar .navbar__link--active:hover,
+.navbar .table-of-contents__link--active:hover,
+.menu__link--active:hover,
+.breadcrumbs__item--active .breadcrumbs__link:hover,
+.table-of-contents__link--active:hover {
+  color: var(--ifm-color-active); /* Retain limegreen on hover */
 }
 
 /* General styles */
@@ -173,35 +167,6 @@ pre {
 [data-theme='dark'] .search-bar button:hover {
   background-color: #222222;
   color: #ffffff;
-}
-
-.menu__link--active {
-  font-weight: bold;
-  color: #000000;
-}
-
-[data-theme='dark'] .menu__link--active {
-  font-weight: bold;
-  color: limegreen;
-}
-
-.breadcrumbs__item--active .breadcrumbs__link {
-  font-weight: bold;
-  color: #000000;
-}
-
-[data-theme='dark'] .breadcrumbs__item--active .breadcrumbs__link {
-  font-weight: bold;
-  color: limegreen;
-}
-
-.table-of-contents__link--active {
-  font-weight: bold;
-  color: limegreen;
-}
-
-.table-of-contents__link--active:hover {
-  color: limegreen;
 }
 
 /* Force placeholder styling for search input */
