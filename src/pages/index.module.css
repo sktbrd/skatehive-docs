@@ -6,17 +6,14 @@
  @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 body {
   background-color: var(--ifm-color-background) !important;
-  /* Ensure body background is set */
   color: var(--text-color);
 }
 
-/* Set consistent backgrounds for major components */
 html,
 body,
 #__docusaurus,
-#__docusaurus>div {
+#__docusaurus > div {
   background-color: var(--ifm-color-background) !important;
-  /* Main background */
 }
 
 .heroBanner {
@@ -24,12 +21,6 @@ body,
   text-align: center;
   position: relative;
   overflow: hidden;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
 }
 
 .buttons {
@@ -57,18 +48,13 @@ pre {
 
 /* Custom background colors for light and dark modes */
 :root {
-  --ifm-color-background: #ffffff;
-  /* Light mode background color */
-  --text-color: #000000;
-  /* Text color for light mode */
+  --ifm-color-background: #ffffff; /* White background for light mode */
+  --text-color: #000000; /* Black text for light mode */
 }
 
-/* Dark mode styles */
 [data-theme='dark'] {
-  --ifm-color-background: #000000;
-  /* Dark mode background color */
-  --text-color: #e6e6e6;
-  /* Text color for dark mode */
+  --ifm-color-background: #000000; /* Black background for dark mode */
+  --text-color: #ffffff; /* White text for dark mode */
 }
 
 /* Header and Title styles */
@@ -78,10 +64,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Urbanist", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-size: 35px;
+  color: var(--text-color); /* Ensure headers follow the text color */
 }
 
 a , p {

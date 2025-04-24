@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { useCallback, useEffect, useState } from 'react';
+import { useColorMode } from '@docusaurus/theme-common';
 
 const frames = [
     `
@@ -172,8 +173,26 @@ function normalizeFrames(frames) {
 }
 const normalizedFrames = normalizeFrames(frames);
 
+const preStyleBase = {
+    margin: 0,
+    padding: 0,
+    fontFamily: 'monospace',
+    fontSize: '1rem',
+    wordWrap: 'normal',
+    textAlign: 'center',
+    overflowX: 'auto',
+    display: 'block',
+};
+
 const Animation = ({ interval = 200, ...props }) => {
+    const { colorMode } = useColorMode(); // Docusaurus hook for theme detection
     const [frameIndex, setFrameIndex] = useState(0);
+
+    const preStyle = {
+        ...preStyleBase,
+        color: colorMode === 'dark' ? '#00ff00' : '#000000',
+        backgroundColor: colorMode === 'dark' ? 'black' : 'white',
+    };
 
     const updateFrame = useCallback(() => {
         setFrameIndex(i => (i + 1) % normalizedFrames.length);
@@ -185,40 +204,14 @@ const Animation = ({ interval = 200, ...props }) => {
     }, [updateFrame, interval]);
 
     return (
-        // <div style={wrapperStyle}>
-            <pre {...props} style={preStyle}>
-                {normalizedFrames[frameIndex]}
-            </pre>
-        // </div>
+        <pre {...props} style={preStyle}>
+            {normalizedFrames[frameIndex]}
+        </pre>
     );
 };
 
 Animation.propTypes = {
     interval: PropTypes.number,
-};
-
-const wrapperStyle = {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    height: '550px',
-    overflow: 'hidden', 
-    backgroundColor: 'transparent',
-};
-
-const preStyle = {
-    margin: 0,
-    padding: 0,
-    fontFamily: 'monospace',
-    fontSize: '1rem',
-    // lineHeight: '1.5',
-    // whiteSpace: 'pre', 
-    wordWrap: 'normal',
-    color: '#00ff00', 
-    backgroundColor: 'black',
-    textAlign: 'center',
-    overflowx: 'auto',
-    display: 'block',
 };
 
 export default Animation;

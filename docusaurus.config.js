@@ -1,48 +1,42 @@
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 
 module.exports = {
-  title: 'Docs',
-  tagline: 'Knowledge base for Skatehive Community',
-  url: 'https://docs.skatehive.app',
-  baseUrl: '/',
-  onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/skatehive.png',
-  organizationName: 'sktbrd',
-  projectName: 'skatehive-docs',
+  title: "Docs",
+  tagline: "Knowledge base for Skatehive Community",
+  url: "https://docs.skatehive.app",
+  baseUrl: "/",
+  onBrokenLinks: "ignore",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/skatehive.png",
+  organizationName: "sktbrd",
+  projectName: "skatehive-docs",
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'pt-br', 'es', 'fr', 'lg'],
+    defaultLocale: "en",
+    locales: ["en", "pt-br", "es", "fr", "lg"],
     localeConfigs: {
-      en: { label: 'English' },
-      'pt-br': { label: 'Português (BR)' },
-      es: { label: 'Español' },
-      fr: { label: 'Français' },
-      lg: { label: 'Luganda' },
+      en: { label: "English" },
+      "pt-br": { label: "Português (BR)" },
+      es: { label: "Español" },
+      fr: { label: "Français" },
+      lg: { label: "Luganda" },
     },
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          path: 'docs',
-          routeBasePath: '/',
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/sktbrd/skatehive-docs/blob/main',
+          path: "docs",
+          routeBasePath: "docs",
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/sktbrd/skatehive-docs/blob/main",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
-    ],
-  ],
-  themes: [
-    [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      { hashed: true },
     ],
   ],
   headTags: [
@@ -54,17 +48,19 @@ module.exports = {
     //   },
     // },
     {
-      tagName: 'meta',
+      tagName: "meta",
       attributes: {
-        name: 'description',
-        content: 'Skatehive Docs - Welcome to the Web3 Skateboarding World. Explore our documentation and ask anything to our AI in any language.',
+        name: "description",
+        content:
+          "Skatehive Docs - Welcome to the Web3 Skateboarding World. Explore our documentation and ask anything to our AI in any language.",
       },
     },
     {
-      tagName: 'meta',
+      tagName: "meta",
       attributes: {
-        name: 'keywords',
-        content: 'Skateboarding, Web3, Skatehive, Documentation, AI, Multilingual',
+        name: "keywords",
+        content:
+          "Skateboarding, Web3, Skatehive, Documentation, AI, Multilingual",
       },
     },
   ],
@@ -74,7 +70,6 @@ module.exports = {
       style: 'dark',
       logo: { alt: 'Skatehive Logo', src: 'img/skatehive.png' },
       items: [
-        { type: 'doc', docId: 'README', position: 'left', label: 'Learn' },
         { to: 'https://skatehive.app', label: 'App', position: 'left' },
         {
           type: 'dropdown',
@@ -91,7 +86,7 @@ module.exports = {
       ],
     },
     colorMode: {
-      defaultMode: 'dark',
+      defaultMode: "dark",
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },

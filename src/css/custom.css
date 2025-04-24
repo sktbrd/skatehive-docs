@@ -1,94 +1,82 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-/* Importando a fonte Bebas Neue */
-@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
-/* Apply the font only to the navbar and its children */
-.navbar,
-.navbar * {
-  font-family: "Underdog", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 18px;
-  color: var(--text-color); 
-  text-decoration: none; 
-  
-  transition: color 0.3s ease, background-color 0.3s ease; 
+/* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Global font settings */
+:root {
+  --global-font-family: "Inter", sans-serif;
+  --ifm-color-background: #ffffff;
+  --text-color: #000000;
 }
 
-/* Style for links inside the navbar */
-.navbar .navbar__link,
-.navbar .navbar__item .navbar__link,
-.navbar .menu__link {
-  font-family: "Modern Clarity", serif;
-  font-weight: 400;
-  font-style: normal;
-  color: var(--text-color); 
+/* Dark mode styles */
+[data-theme='dark'] {
+  --ifm-color-background: #000000;
+  --text-color: #e6e6e6;
+}
+
+/* Apply global font */
+body,
+html,
+#__docusaurus,
+#__docusaurus > div,
+.navbar,
+.navbar *,
+h1, h2, h3, h4, h5, h6,
+a, p,
+.card,
+.theme-admonition-tip {
+  font-family: var(--global-font-family);
+  color: var(--text-color);
+  background-color: var(--ifm-color-background) !important;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #ffffff;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbar .navbar__link {
+  color: #000000;
+  font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .navbar .navbar__link:hover,
 .navbar .navbar__item .navbar__link:hover,
 .navbar .menu__link:hover {
-  color: #722929; 
+  color: #555555;
 }
 
-/* Titles inside the navbar */
-.navbar .navbar__title.text--truncate {
-  font-family: "Underdog", serif;
-  font-weight: 400;
-  font-style: normal;
-  color: var(--text-color); 
-  text-decoration: none;
+[data-theme='dark'] .navbar {
+  background-color: #000000;
 }
 
-/* Adjustment for active navbar */
+[data-theme='dark'] .navbar .navbar__link {
+  color: #ffffff;
+}
+
+[data-theme='dark'] .navbar .navbar__link:hover,
+[data-theme='dark'] .navbar .navbar__item .navbar__link:hover,
+[data-theme='dark'] .navbar .menu__link:hover {
+  color: #cccccc;
+}
+
+/* Active link styles */
 .navbar .navbar__link--active,
 .navbar .table-of-contents__link--active {
-  color: #000000 !important;
+  font-weight: bold;
+  color: #000000;
 }
 
-/* General navbar style */
-.navbar {
-  background-color: #038624; 
-  align-items: center;
-  padding: 0 20px;
+[data-theme='dark'] .navbar .navbar__link--active,
+[data-theme='dark'] .navbar .table-of-contents__link--active {
+  color: #ffffff !important;
+  font-weight: bold;
 }
 
-/* Logo style in navbar */
-.navbar .navbar__logo:hover {
-  transform: scale(1.1); 
-}
-
-/* Brand button style */
-.navbar .navbar__brand.keychainify-checked {
-  color: #fff;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-.navbar .navbar__brand.keychainify-checked:hover {
-  background-color: #0056b3;
-}
-
-
-
-body {
-  background-color: var(--ifm-color-background) !important;
-  color: var(--text-color);
-}
-
-/* Ensure all sections have a consistent background */
-.heroBanner,
-.docMainContainer_gTbr,
-.sidebarViewport_Xe31,
-.menu {
-  background-color: var(--ifm-color-background) !important;
- 
-}
-
+/* General styles */
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -96,28 +84,10 @@ body {
   overflow: hidden;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.button-link {
-  display: inline-block;
-  background-color: #808080;
-  color: var(--text-color);;
-  text-decoration: none;
- padding: 0 0;
-  font-weight: bold;
-  font-size: 16px; 
-  text-align: center;
-  cursor: pointer; 
 }
 
 iframe,
@@ -134,102 +104,15 @@ iframe,
 
 pre {
   color: #57875c;
-  border: #57875c 1px solid;
+  border: #57875c 0px solid;
 }
 
-/* Custom background colors for light and dark modes */
-:root {
-  --ifm-color-background: #ffffff;
-  /* Light mode background color */
-  --text-color: #000000;
-  /* Text color for light mode */
-}
-
-/* Dark mode styles */
-[data-theme='dark'] {
-  --ifm-color-background: #000000;
-  /* Dark mode background color */
-  --text-color: #e6e6e6;
-  /* Text color for dark mode */
-}
-
-
-/* General image adjustments */
-.markdown img {
-  max-width: 65%; 
-  height: auto; 
-  display: block; 
-  margin: 1.5rem auto; 
-  border-radius: 10px;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15); 
-  transition: transform 0.3s ease; 
-}
-
-/* Hover effect */
-.markdown img:hover {
-  transform: scale(1.02); 
-}
-
-/* Adjustments for mobile devices */
-@media (max-width: 768px) {
-  .markdown img {
-    max-width: 95%; 
-    margin: 1rem auto; 
-  }
-}
-
-/* Additional styling for larger images */
-.markdown img.large {
-  max-width: 80%; 
-  margin: 2rem auto; 
-}
-
-/* Mobile styling */
-@media (max-width: 768px) {
-  .markdown img {
-    max-width: 100%; 
-  }
-
-  .markdown img.large {
-    max-width: 90%; 
-  }
-}
-
-a:hover,
-.menu__link:hover {
-  color: #3a3a3a !important;
-}
-.table-of-contents__link toc-highlight table-of-contents__link--active , a , span {
-  color: var(--text-color) !important;
-  background-color: transparent !important;
-  font-size: 15px;
-}
-
-p {
-  font-size: 18px; 
-  line-height: 1.6; 
-  margin: 1rem 0; 
-  color: var(--text-color);
-}
-/* Adjusting <strong> styles */
-strong {
-  font-weight: bold;
-  font-size: 1.1em; 
-  color: #038624; 
-}
-
-/* Additional styling */
 .card,
 .theme-admonition-tip {
   border: 1px solid #080a09;
   border-radius: 10px;
   padding: 20px;
   margin: 20px;
-}
-
-.clean-btn {
-  color: white;
-  border-radius: 50%;
 }
 
 .button.button--secondary {
@@ -243,8 +126,89 @@ strong {
   color: white;
 }
 
-
-.table-of-contents__link .toc-highlight .table-of-contents__link--active {
-  color: #57875c !important;
+/* Search bar adjustments */
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
+.search-bar input {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-family: var(--global-font-family);
+}
+
+[data-theme='dark'] .search-bar input {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #444444;
+}
+
+.search-bar button {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+[data-theme='dark'] .search-bar button {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.search-bar button:hover {
+  background-color: #f0f0f0;
+  color: #000000;
+}
+
+[data-theme='dark'] .search-bar button:hover {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.menu__link--active {
+  font-weight: bold;
+  color: #000000;
+}
+
+[data-theme='dark'] .menu__link--active {
+  font-weight: bold;
+  color: limegreen;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  font-weight: bold;
+  color: #000000;
+}
+
+[data-theme='dark'] .breadcrumbs__item--active .breadcrumbs__link {
+  font-weight: bold;
+  color: limegreen;
+}
+
+.table-of-contents__link--active {
+  font-weight: bold;
+  color: limegreen;
+}
+
+.table-of-contents__link--active:hover {
+  color: limegreen;
+}
+
+/* Force placeholder styling for search input */
+.search-bar input::placeholder {
+  color: #000000 !important; /* Light mode placeholder color */
+}
+
+[data-theme='dark'] .search-bar input::placeholder {
+  color: #ffffff !important; /* Dark mode placeholder color */
+}
