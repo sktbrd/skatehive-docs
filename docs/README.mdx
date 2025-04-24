@@ -4,7 +4,7 @@ title: Skatehive Intro
 icon: scroll
 ---
 
-import Animation from '../src/pages/frames.js'
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 # Skatehive Intro
 
@@ -16,7 +16,12 @@ import Animation from '../src/pages/frames.js'
         flexDirection: 'column',
     }}
 >
-<Animation /> 
+<BrowserOnly>
+  {() => {
+    const Animation = require('../src/components/frames.js').default;
+    return <Animation />;
+  }}
+</BrowserOnly>
 </div>
 
 #### Overview

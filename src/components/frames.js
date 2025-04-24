@@ -159,7 +159,6 @@ const frames = [
 `
 ];
 
-// normalize frames to identical width & height
 function normalizeFrames(frames) {
     const split = frames.map(f => f.split('\n'));
     const maxH = Math.max(...split.map(f => f.length));
@@ -185,7 +184,7 @@ const preStyleBase = {
 };
 
 const Animation = ({ interval = 200, ...props }) => {
-    const { colorMode } = useColorMode(); // Docusaurus hook for theme detection
+    const { colorMode } = useColorMode();
     const [frameIndex, setFrameIndex] = useState(0);
 
     const preStyle = {
