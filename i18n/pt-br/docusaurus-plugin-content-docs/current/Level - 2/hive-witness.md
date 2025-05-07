@@ -1,6 +1,6 @@
 ---
 title: Hive Witness
-sidebar_position: 4
+sidebar_position: 9
 ---
 
 # Como Votar no Skatehive Witness na Hive Blockchain
@@ -9,25 +9,17 @@ A Hive Blockchain é uma plataforma descentralizada que opera com testemunhas (w
 
 ---
 
-#### Passo 1: Crie uma Conta na Hive (se necessário)
-Se você ainda não tem uma conta na Hive, siga estas etapas:
-1. Acesse [hive.io](https://hive.io) e clique em "Get Started".
-2. Escolha uma das opções de criação de conta (Hive Keychain, Ecency, ou outros provedores).
-3. Guarde suas chaves de acesso em um local seguro. **Elas são essenciais para acessar sua conta.**
-
----
-
-#### Passo 2: Faça Login em um Cliente Hive
-Para votar, você precisará de um cliente Hive, como:
-- **Hive Keychain**: Extensão para navegadores que facilita o gerenciamento de contas.
-- **Ecency**: Plataforma amigável para interagir com a Hive.
+#### Passo 1: Faça Login em um Cliente Hive
+**Para votar, você precisará de um cliente Hive, como:**
+- **Hive Keychain**: Uma extensão de navegador para gerenciar contas.
+- **Ecency**: Uma plataforma amigável para interagir com a Hive.
 - **PeakD**: Uma interface avançada para usuários da Hive.
 
 Baixe e instale a extensão Hive Keychain (se ainda não tiver) e faça login com suas credenciais.
 
 ---
 
-#### Passo 3: Acesse a Página de Votação de Witnesses
+#### Passo 2: Acesse a Página de Votação de Witnesses
 1. Entre em [PeakD](https://peakd.com) ou [Hive Blog](https://hive.blog).
 2. Clique no menu ou procure a opção "Witnesses".
    - No PeakD, está no menu lateral esquerdo.
@@ -36,15 +28,15 @@ Baixe e instale a extensão Hive Keychain (se ainda não tiver) e faça login co
 ![](https://i.ibb.co/ZhFv3bY/image.png)
 ---
 
-#### Passo 4: Localize o Skatehive Witness
+#### Passo 3: Localize o Skatehive Witness
 1. Na lista de witnesses, procure por **Skatehive**.
    - Use o campo de busca (Ctrl + F no teclado) e digite "skatehive".
 2. Se não encontrar, use o link direto para votar: [https://peakd.com/me/witnesses](https://peakd.com/me/witnesses) e adicione manualmente o nome do witness `skatehive`.
-
 ![](https://i.ibb.co/M7frCxC/image.png)
+
 ---
 
-#### Passo 5: Vote no Skatehive
+#### Passo 4: Vote no Skatehive
 1. Clique no botão de votação ao lado do nome do Skatehive.
 2. Confirme sua ação:
    - Se estiver usando o Hive Keychain, ele solicitará que você autorize a transação.
@@ -52,8 +44,8 @@ Baixe e instale a extensão Hive Keychain (se ainda não tiver) e faça login co
 
 ---
 
-#### Passo 6: Verifique Seu Voto
-Após votar:
+#### Passo 5: Verifique Seu Voto
+**Após votar:**
 1. Confirme que o Skatehive aparece na lista dos seus votos ativos.
 2. Isso pode ser feito na mesma página de witnesses ou na aba de configurações da sua conta.
 
