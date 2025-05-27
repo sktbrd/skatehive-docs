@@ -13,7 +13,7 @@ Follow these steps to log in to **Skatehive** using **Hive Keychain**.
 
 ### Step 1: Visit Skatehive
 
-Go to [**Visit Skatehive**](https://skatehive.app/) and import your Hive account.
+Go to [**Skatehive**](https://skatehive.app/) and import your Hive account.
 
 ---
 
@@ -21,7 +21,7 @@ Go to [**Visit Skatehive**](https://skatehive.app/) and import your Hive account
 
 Click on **"Login with Keychain"**.
 
-> **Note:**\
+> **Note:**
 > If you don’t have Hive Keychain installed, [**Download Hive Keychain**](https://hive-keychain.com/) and click on **"Login"**.
 
 ---
@@ -36,7 +36,7 @@ Type in your **Hive username** in the login prompt.
 
 ### Step 4: Confirm the Keychain Transaction
 
-Approve the **Keychain transaction** to proceed.
+Approve the **Keychain message** to proceed.
 
 ![Transaction Confirmation](../../src/assets/Tuto-logIn/2.png)
 
