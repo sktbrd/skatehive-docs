@@ -52,7 +52,6 @@ Follow these steps to publish your content on Skatehive:
 
 ***
 
-***
 
 ### Congratulations! 🎉
 
