@@ -5,6 +5,8 @@ icon: message-arrow-up-right
 
 # How to Publish a Post on Skatehive.app
 
+![Publish Post](../../src/assets/Tuto--basic/1.png)
+
 ***
 
 ## Steps to Share Your Post
@@ -49,8 +51,6 @@ Follow these steps to publish your content on Skatehive:
 * Once satisfied, click the **"Publish" button** to share your creation with the Skatehive community.
 
 ***
-
-![Publish Post](../../src/assets/Tuto--basic/1.png)
 
 ***
 
