@@ -26,9 +26,9 @@ coverY: 0
 
 #### How to create an airdrop
 
-7. On the homepage, **click the "Create Airdrop" button**.
+7. On the homepage, **click the "Airdrop" button**.
 
-![Create Airdrop](https://ipfs.skatehive.app/ipfs/Qmboqg7LGrhtRomZyRByXWrGtJ2Cn7tEFsvVpv4SW7TBCt)
+![Create Airdrop](https://ipfs.skatehive.app/ipfs/QmNct8CuFiA4VZBBXRG1ZuQbMQHG9yKHKDxtfjL7vPJZKG)
 
 8. **Wait for our Pepe God** to do its calculations. Right now, it is targeting everyone who has set up their wallet and is actively posting. **Soon**, we will let users customize airdrop parameters and filter out unwanted users.
     
