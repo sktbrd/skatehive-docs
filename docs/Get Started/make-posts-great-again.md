@@ -1,6 +1,4 @@
 ---
-sidebar_position: 4
-icon: message-arrow-up-right
 ---
 
 # How to make your posts great
@@ -10,12 +8,7 @@ icon: message-arrow-up-right
 When you post to Skatehive, you’re not just uploading content —
 **you’re writing a page in our community zine.**
 
-<figure>
-  <img src="/mnt/data/52bf5531-c3cd-4525-991b-7631a6ce98d1.png" alt="Skatehive Zine Sample" width="100%" />
-  <figcaption style="text-align: center; margin-top: 8px;">
-    📰 Every Skatehive post becomes a page in the community’s infinite skate zine.
-  </figcaption>
-</figure>
+![skatehive-community-mag](https://ipfs.skatehive.app/ipfs/QmQSiX4dBw9mA4uB8FFemMcLauKfJYg5pS2SU1ND2u4kN1)
 
 The left side shows your post featured in the Skatehive magazine interface. The right is the raw content you created. That means:
 📖 **every photo, line, thought, or poem you drop is part of our collective story.**

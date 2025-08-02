@@ -43,11 +43,17 @@ Logged-in users can invite friends by creating new Hive accounts for them via em
 
 ![Image](https://ipfs.skatehive.app/ipfs/QmXWnFG2EpEXpVLtLRYSnPPq5LLgDDoeJvLLmy6VwDnXhR)
 
+## Settings and Theme Selection
+
+Its very easy to create a skatehive theme, some themes are a little buggy but they are all fun, give it a try and may be make one :)
+
+![Image](https://ipfs.skatehive.app/ipfs/QmcZQSbz1ufccTatNk28eZ1W5RE88cYtfBLcB6Mx8hAsac)
+
 ## Fast Reply Notification Page
 
 SnapComposer directly at Notifications page for user fast reply. Also works inside farcaster miniapp
 
-![Image](https://ipfs.skatehive.app/ipfs/QmZ1MsbHSo4s61Q4jPB5KhkVGY78Gda28ttYm5Fxhk1XpW)
+![Image](https://ipfs.skatehive.app/ipfs/QmS9rJCC8C2HTid4KsXEA8fd1U4TxqEcvGXbUDWjz8phaw)
 
 ## Buy Hive Account with ETH
 
@@ -57,7 +63,7 @@ We have an onchainkit webapp (also a farcaster mini app) that allows the user to
 
 ## Multichain Wallet
 
-Skatehive has a [`/wallet`](https://skatehive.app/wallet) page that presents the user Hive Balance, Ethereum Balance and Farcaster wallets balance in one page. HBD savings, staking and Pix feature opportunities are offered in SkateBank tab.
+The [`/wallet`](https://skatehive.app/wallet) page provides a unified dashboard displaying your balances across Hive, Ethereum, and Farcaster wallets. In the SkateBank tab, users can access features such as HBD savings, staking, and Pix opportunities, making it easy to manage assets and explore additional financial tools within the app.
 
 ![Image](https://ipfs.skatehive.app/ipfs/QmcfDJLwJ25LuPqGt3JvCxabdyhW7rMGtSMbZBPL7tjne2)
 
@@ -77,11 +83,19 @@ Skatehive operates as a Builder DAO and exposes an [`/auction`](https://skatehiv
 
 Skatehive doubles as a Farcaster miniapp. It detects when loaded inside the Farcaster client and automatically authenticates the user. Miniapp components handle account linking without additional sign-in, and a welcome notification is sent when linking succeeds.
 
-![Image](https://ipfs.skatehive.app/ipfs/QmWof7MSt6KRMM8MbS666VqcJwS4YzzDG3TJSkdCPjmknU)
+![Skatehive-miniapp](https://ipfs.skatehive.app/ipfs/QmWof7MSt6KRMM8MbS666VqcJwS4YzzDG3TJSkdCPjmknU)
 
 ## Images and Video Uploads
 
 For images we mainly use hive images service and in special cases like mag posts and videos we use our own ipfs endpoint at ipfs.skatehive.app we have a PINATA basic plan (20USD/Month) to make the videos load faster. We are keen to implement the 3speak integration like we had before.
+
+![Image](https://ipfs.skatehive.app/ipfs/QmP3Vfq8aWadEKj4xQJwj2fJc2azrZdXD2DxuFM8HpMDco)
+
+## Gif Maker
+
+User can load videos in the website and crop gifs up to 30 seconds
+
+![gif-maker](https://ipfs.skatehive.app/ipfs/QmS3J89iM3xKfQTmaSKZPhBBc8uyEdUFGKkxuAGSwSPHso)
 
 ## Zora Post Coining
 
