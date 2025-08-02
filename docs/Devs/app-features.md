@@ -87,7 +87,7 @@ Skatehive functions as a native Farcaster miniapp with intelligent client detect
 
 ## Media Upload Infrastructure
 
-The platform utilizes a hybrid approach for media hosting: Hive Images service for standard uploads, and our dedicated IPFS endpoint (ipfs.skatehive.app) for magazine posts and videos. Our Pinata Basic plan ($20/month) ensures optimal video loading performance. Future plans include reintegrating 3Speak functionality as previously implemented.
+The platform utilizes a hybrid approach for media hosting: Hive Images service for standard uploads, and our dedicated IPFS endpoint (ipfs.skatehive.app) for magazine posts and videos. Our Pinata Basic plan ($20/month) ensures optimal video loading performance but public gateways will work as well. Future plans include reintegrating 3Speak functionality as previously implemented.
 
 ![Image](https://ipfs.skatehive.app/ipfs/QmP3Vfq8aWadEKj4xQJwj2fJc2azrZdXD2DxuFM8HpMDco)
 
