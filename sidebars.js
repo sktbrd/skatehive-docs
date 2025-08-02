@@ -2,7 +2,7 @@ module.exports = {
   docs: [
     {
       type: 'category',
-      label: 'Onboarding',
+      label: '🛹 Onboarding',
       items: [
         'README',
         'create-account',
