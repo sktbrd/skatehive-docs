@@ -17,12 +17,12 @@ module.exports = {
         },
         {
           type: 'category',
-          label: '🛹 Evolve here',
+          label: '🛹 Advance',
           items: [
-            'Evolve Here/airdrop',
-            'Evolve Here/manage-hive',
-            'Evolve Here/hive-witness',
-            'Evolve Here/curation-trail'
+            // 'Advance/airdrop',
+            'Advance/manage-hive',
+            'Advance/hive-witness',
+            'Advance/curation-trail'
           ]
         }
       ]
