@@ -25,23 +25,29 @@ The bounty system gamifies trick challenges where users submit video clips to ea
 
 ![Image](https://ipfs.skatehive.app/ipfs/QmZgF8eKLmtkCDLVRP9Tey9CLjhsWX8gG4fU6ms285QfjK)
 
-## Leaderboard
-
-The leaderboard ranks SkateHive users based on engagement, posting, Hive Power, NFT holdings, treasure donations, witness voting etc.
-
-![Image](https://ipfs.skatehive.app/ipfs/QmekeXkQzMhz6io69k3tpmGN1KcXPv6hgJcYM7aJ83KY7y)
-
 ## Magazine Mode
 
 Magazine mode transforms community posts into an elegant flipbook-style presentation, highlighting trending content within the Skatehive ecosystem for an immersive reading experience.
 
 ![Image](https://ipfs.skatehive.app/ipfs/QmQSiX4dBw9mA4uB8FFemMcLauKfJYg5pS2SU1ND2u4kN1)
 
+## Leaderboard
+
+The leaderboard ranks SkateHive users based on engagement, posting, Hive Power, NFT holdings, treasure donations, witness voting etc.
+
+![Image](https://ipfs.skatehive.app/ipfs/QmekeXkQzMhz6io69k3tpmGN1KcXPv6hgJcYM7aJ83KY7y)
+
 ## Invite System
 
 Authenticated users can invite friends by creating new Hive accounts through email invitations. The system constructs and broadcasts the required Hive operations using Keychain integration for secure account creation.
 
 ![Image](https://ipfs.skatehive.app/ipfs/QmXWnFG2EpEXpVLtLRYSnPPq5LLgDDoeJvLLmy6VwDnXhR)
+
+## Airdrop
+
+Any user can create airdrops with Hive tokens or whitelisted ERC20 tokens to support or encourage user behavior by filtering the airdrops by leaderboard category.
+
+![Image](https://ipfs.skatehive.app/ipfs/Qma3ViucPUGTtoYQXBbC2y6cBfzHUp1rSvY66MjRy31Jxk)
 
 ## Settings and Theme Selection
 
