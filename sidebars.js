@@ -32,9 +32,10 @@ module.exports = {
     },
     {
       type: 'category',
-      label: '💻 Dev',
+      label: '💻 Devs',
       items: [
-        'projects/fork-skatehive'
+        'Devs/fork-skatehive',
+        'Devs/app-features',
       ]
     }
   ]
