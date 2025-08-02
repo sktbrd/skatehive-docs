@@ -8,32 +8,31 @@ module.exports = {
         'create-account',
         {
           type: 'category',
-          label: 'Level 1',
+          label: '🛹 Get Started',
           items: [
-            'Level - 1/login',
-            'Level - 1/hive-wallet',
-            'Level - 1/Discord-Share-Screen',
-            'Level - 1/share-ur-content',
+            'Get Started/login',
+            'Get Started/hive-wallet',
+            'Get Started/Discord-Share-Screen',
+            'Get Started/make-posts-great-again',
             'archive/nftskatehive'
           ]
         },
         {
           type: 'category',
-          label: 'Level 2',
+          label: '🛹 Evolve here',
           items: [
-            'Level - 2/airdrop',
-            'Level - 2/eth-wallet',
-            'Level - 2/manage-hive',
-            'archive/congratulations',
-            'Level - 2/hive-witness',
-            'Level - 2/curation-trail'
+            'Evolve Here/airdrop',
+            'Evolve Here/eth-wallet',
+            'Evolve Here/manage-hive',
+            'Evolve Here/hive-witness',
+            'Evolve Here/curation-trail'
           ]
         }
       ]
     },
     {
       type: 'category',
-      label: 'Dev',
+      label: '💻 Dev',
       items: [
         'projects/fork-skatehive'
       ]

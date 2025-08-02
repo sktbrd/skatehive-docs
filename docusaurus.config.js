@@ -63,6 +63,101 @@ module.exports = {
           "Skateboarding, Web3, Skatehive, Documentation, AI, Multilingual",
       },
     },
+    // Open Graph meta tags
+    {
+      tagName: "meta",
+      attributes: {
+        property: "og:title",
+        content: "Skatehive Docs - Web3 Skateboarding Knowledge Base",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        property: "og:description",
+        content:
+          "Welcome to the Web3 Skateboarding World. Explore our documentation and ask anything to our AI in any language.",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        property: "og:image",
+        content: "https://ipfs.skatehive.app/ipfs/QmePbuFW6b86qDRbKXqpTr5rU8HKF6VRpboxiy9JH3Eujb",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        property: "og:image:alt",
+        content: "Skatehive - Web3 Skateboarding Community",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        property: "og:type",
+        content: "website",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        property: "og:url",
+        content: "https://docs.skatehive.app",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        property: "og:site_name",
+        content: "Skatehive Docs",
+      },
+    },
+    // Twitter Card meta tags
+    {
+      tagName: "meta",
+      attributes: {
+        name: "twitter:card",
+        content: "summary_large_image",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        name: "twitter:site",
+        content: "@skatehive",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        name: "twitter:title",
+        content: "Skatehive Docs - Web3 Skateboarding Knowledge Base",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        name: "twitter:description",
+        content:
+          "Welcome to the Web3 Skateboarding World. Explore our documentation and ask anything to our AI in any language.",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        name: "twitter:image",
+        content: "https://ipfs.skatehive.app/ipfs/QmePbuFW6b86qDRbKXqpTr5rU8HKF6VRpboxiy9JH3Eujb",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        name: "twitter:image:alt",
+        content: "Skatehive - Web3 Skateboarding Community",
+      },
+    },
   ],
   themeConfig: {
     navbar: {
@@ -86,7 +181,7 @@ module.exports = {
       ],
     },
     colorMode: {
-      defaultMode: "dark",
+      defaultMode: "light",
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
