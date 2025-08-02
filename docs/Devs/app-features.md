@@ -103,4 +103,10 @@ Ethereum-connected users can mint Zora coins on Base network and promote Hive po
 
 ![Image](https://ipfs.skatehive.app/ipfs/QmUW2uCjYFE5VsfsW7qM8CpDdF2Nfvwv8P2ZmVmuUgtUb9)
 
+## Ethereum Features
+
+If a user is connected solely with their Ethereum wallet and does not have a Hive account, the SnapComposer adapts to display Ethereum-specific actions. This allows users to interact with the platform using their Ethereum identity, providing relevant features and options available on the Ethereum network.
+
+![Image](https://ipfs.skatehive.app/ipfs/QmUsht6Da3h2kFRmc4PfuvDnSzXQoCnoLBkdKEem9FeeEm)
+
 ---

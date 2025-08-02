@@ -22,7 +22,8 @@ module.exports = {
             // 'Advance/airdrop',
             'Advance/manage-hive',
             'Advance/hive-witness',
-            'Advance/curation-trail'
+            'Advance/curation-trail',
+            'Advance/zora-coin',
           ]
         }
       ]
