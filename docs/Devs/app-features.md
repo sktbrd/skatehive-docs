@@ -43,13 +43,27 @@ Logged-in users can invite friends by creating new Hive accounts for them via em
 
 ![Image](https://ipfs.skatehive.app/ipfs/QmXWnFG2EpEXpVLtLRYSnPPq5LLgDDoeJvLLmy6VwDnXhR)
 
+## Fast Reply Notification Page
+
+SnapComposer directly at Notifications page for user fast reply. Also works inside farcaster miniapp
+
+![Image](https://ipfs.skatehive.app/ipfs/QmZ1MsbHSo4s61Q4jPB5KhkVGY78Gda28ttYm5Fxhk1XpW)
+
 ## Buy Hive Account with ETH
 
 We have an onchainkit webapp (also a farcaster mini app) that allows the user to buy himself a hive account with ETH or USDC on base. All proceeds goes to skatehive.eth wallet
 
+![Image](https://ipfs.skatehive.app/ipfs/QmZdaFxbfVCWYUwjHZeiiWtnqHf7ZBZxcARQ7ok3cHmJSy)
+
+## Multichain Wallet
+
+Skatehive has a [`/wallet`](https://skatehive.app/wallet) page that presents the user Hive Balance, Ethereum Balance and Farcaster wallets balance in one page. HBD savings, staking and Pix feature opportunities are offered in SkateBank tab.
+
+![Image](https://ipfs.skatehive.app/ipfs/QmcfDJLwJ25LuPqGt3JvCxabdyhW7rMGtSMbZBPL7tjne2)
+
 ## Farcaster Notifications
 
-The project bridges Hive events to Farcaster miniapp users. Currently the user has to Add the miniapp in Farcaster so he is added to the postgres database through our webhook, after that the user needs to go to [`/settings`](https://skatehive.app/settings) to link its hive account to his farcaster account
+The project bridges Hive events to Farcaster miniapp users. Currently the user has to Add the miniapp in Farcaster so he is added to the postgres database through our webhook, after that the user needs to go to [`/settings`](https://skatehive.app/settings) to link its hive account to his farcaster account and enable hive-farcaster mobile push notification.
 
 ![Image](https://ipfs.skatehive.app/ipfs/QmRoSSP8oQQRYKoM56r8EpR2qaX7UybTTv87SFpFTHK7gw)
 
@@ -63,10 +77,16 @@ Skatehive operates as a Builder DAO and exposes an [`/auction`](https://skatehiv
 
 Skatehive doubles as a Farcaster miniapp. It detects when loaded inside the Farcaster client and automatically authenticates the user. Miniapp components handle account linking without additional sign-in, and a welcome notification is sent when linking succeeds.
 
-## Security Model
+![Image](https://ipfs.skatehive.app/ipfs/QmWof7MSt6KRMM8MbS666VqcJwS4YzzDG3TJSkdCPjmknU)
 
-Admin privileges are enforced on the server. Usernames with admin access are supplied through environment variables, and all sensitive API endpoints verify these privileges before proceeding. Client-side checks are only for convenience and do not grant access on their own.
+## Images and Video Uploads
+
+For images we mainly use hive images service and in special cases like mag posts and videos we use our own ipfs endpoint at ipfs.skatehive.app we have a PINATA basic plan (20USD/Month) to make the videos load faster. We are keen to implement the 3speak integration like we had before.
+
+## Zora Post Coining
+
+Ethereum connected users can create a Zora coin on base. They can also promote a Hive Post to a Zora coin. To know more about this feature go to the next doc.
+
+![Image](https://ipfs.skatehive.app/ipfs/QmUW2uCjYFE5VsfsW7qM8CpDdF2Nfvwv8P2ZmVmuUgtUb9)
 
 ---
-
-This document summarizes the main features of Skatehive 3.0. For deeper implementation details, see the developer overview and the other documentation files in this folder.
