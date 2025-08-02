@@ -14,7 +14,6 @@ module.exports = {
             'Level - 1/hive-wallet',
             'Level - 1/Discord-Share-Screen',
             'Level - 1/share-ur-content',
-            'Level - 1/discord',
             'archive/nftskatehive'
           ]
         },
