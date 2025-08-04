@@ -3,7 +3,7 @@
 
 # How to make your posts great
 
-## 🛹 Your Skatehive Post Is a Magazine Page
+## 🛹 Your Skatehive Post is a Magazine Page of Skatehive Infinity Mag
 
 When you post to Skatehive, you’re not just uploading content —
 **you’re writing a page in our community zine.**
@@ -89,6 +89,4 @@ Photos, poetry, sketches, maybe a playlist
 **Skateboarding is art — make your post your page.**
 Now go create something rad.
 
----
 
-Let me know if you want a GitBook-ready version or Markdown export!
