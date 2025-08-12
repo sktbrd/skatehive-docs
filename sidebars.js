@@ -12,7 +12,8 @@ module.exports = {
           items: [
             'Get Started/login',
             'Get Started/make-posts-great-again',
-            'archive/nftskatehive'
+            'Get Started/nftskatehive',
+            'Get Started/links'
           ]
         },
         {
