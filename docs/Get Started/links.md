@@ -51,11 +51,10 @@ Here's a comprehensive collection of Skatehive resources and links organized by 
 
 ## 💰 Treasure
 
-| Platform       | Link                   | Description                |
-| -------------- | ---------------------- | -------------------------- |
-| **Hot Wallet** | Available in Farcaster | Native miniapp integration |
-| **Androi App** | Soon                   | Soon                       |
-| **IOS App**    | Soon                   | Soon                       |
+| **Hot Wallet**       | [Skatehive.eth](https://zapper.xyz/account/0xB4964e1ecA55Db36a94e8aeFfBFBAb48529a2f6c)                      |     |
+| -------------------- | ----------------------------------------------------------------------------------------------------------- | --- |
+| **Base Safe**        | [Multisig](https://app.safe.global/transactions/queue?safe=base:0xc1afa4c0a70b622d7b71d42241bb4d52b6f3e218) |     |
+| **Builder Contract** | [Base Contract ](https://basescan.org/address/0x4c5086086fda01fb8fcffe491862e7504984a75f)                   |     |
 
 ---
 
