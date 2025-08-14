@@ -1,38 +1,38 @@
 {
   "title": {
-    "message": "Skatehive Docs",
-    "description": "The title in the navbar"
+    "message": "Docs Skatehive",
+    "description": "Le titre dans la barre de navigation"
   },
   "item.label.Learn": {
-    "message": "Learn",
-    "description": "Navbar item with label Learn"
+    "message": "Apprendre",
+    "description": "Élément de la barre de navigation avec le label Apprendre"
   },
   "item.label.App": {
     "message": "App",
-    "description": "Navbar item with label App"
+    "description": "Élément de la barre de navigation avec le label App"
   },
   "item.label.Projects": {
-    "message": "Projects",
-    "description": "Navbar item with label Projects"
+    "message": "Projets",
+    "description": "Élément de la barre de navigation avec le label Projets"
   },
   "item.label.GitHub": {
     "message": "GitHub",
-    "description": "Navbar item with label GitHub"
+    "description": "Élément de la barre de navigation avec le label GitHub"
   },
   "item.label.Quest for Stoken": {
-    "message": "Quest for Stoken",
-    "description": "Navbar item with label Quest for Stoken"
+    "message": "Quête pour Stoken",
+    "description": "Élément de la barre de navigation avec le label Quête pour Stoken"
   },
   "item.label.PepeSkate": {
     "message": "PepeSkate",
-    "description": "Navbar item with label PepeSkate"
+    "description": "Élément de la barre de navigation avec le label PepeSkate"
   },
   "item.label.Gnars": {
     "message": "Gnars",
-    "description": "Navbar item with label Gnars"
+    "description": "Élément de la barre de navigation avec le label Gnars"
   },
   "item.label.Settle or Die": {
-    "message": "Settle or Die",
-    "description": "Navbar item with label Settle or Die"
+    "message": "Régler ou Mourir",
+    "description": "Élément de la barre de navigation avec le label Régler ou Mourir"
   }
 }

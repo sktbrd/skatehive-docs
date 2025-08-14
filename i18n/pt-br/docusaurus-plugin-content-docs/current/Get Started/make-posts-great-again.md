@@ -1,92 +1,90 @@
 ---
 ---
 
-# How to make your posts great
+# Como fazer seus posts incríveis
 
-## 🛹 Your Skatehive Post is a Magazine Page of Skatehive Infinity Mag
+## 🛹 Seu Post no Skatehive é uma Página da Revista Skatehive Infinity Mag
 
-When you post to Skatehive, you’re not just uploading content —
-**you’re writing a page in our community zine.**
+Quando você posta no Skatehive, você não está apenas fazendo upload de conteúdo —
+**você está escrevendo uma página em nossa revista comunitária.**
 
 ![skatehive-community-mag](https://ipfs.skatehive.app/ipfs/QmQSiX4dBw9mA4uB8FFemMcLauKfJYg5pS2SU1ND2u4kN1)
 
-The left side shows your post featured in the Skatehive magazine interface. The right is the raw content you created. That means:
-📖 **every photo, line, thought, or poem you drop is part of our collective story.**
-So… make it count!
+O lado esquerdo mostra seu post em destaque na interface da revista Skatehive. O direito é o conteúdo bruto que você criou. Isso significa:
+📖 **cada foto, linha, pensamento ou poema que você compartilha é parte da nossa história coletiva.**
+Então... faça valer a pena!
 
 ---
 
-## ✍️ Make Your Post Hit Hard (and Look Cool)
+## ✍️ Faça Seu Post Arrasar (e Ficar Legal)
 
-Here are some creative and helpful suggestions:
+Aqui estão algumas sugestões criativas e úteis:
 
-### 🧭 Tell Us About the Spot
+### 🧭 Conte-nos Sobre o Spot
 
-- Describe the session.
-- Share who was there.
-- Drop a Google Maps link if it’s public.
-- Talk about the vibes, challenges, or weather — give the scene some color.
+- Descreva a sessão.
+- Compartilhe quem estava lá.
+- Deixe um link do Google Maps se for público.
+- Fale sobre as vibes, desafios ou clima — dê cor à cena.
 
-> _“I found this crusty spot behind an abandoned mall — perfect ledge height, dusty floor, but somehow it worked.”_
+> _"Encontrei esse spot rachado atrás de um shopping abandonado — altura perfeita de ledge, chão empoeirado, mas de alguma forma funcionou."_
 
-### 🧠 Use AI for Support — But Keep It You
+### 🧠 Use IA para Apoio — Mas Mantenha Seu Estilo
 
-- Ask ChatGPT to organize your ideas or fix grammar.
-- But **write with your own tone** — AI can assist, not replace your voice.
+- Peça ao ChatGPT para organizar suas ideias ou corrigir gramática.
+- Mas **escreva com seu próprio tom** — IA pode ajudar, não substituir sua voz.
 
-### 🌐 Write in Any Language
+### 🌐 Escreva em Qualquer Idioma
 
-- Spanish, Portuguese, Tagalog — all welcome.
-- Most frontends (like Skatehive.app and PeakD) support **AI auto-translation**.
-- Your local slang and culture enrich the zine.
+- Espanhol, Português, Tagalog — todos são bem-vindos.
+- A maioria dos frontends (como Skatehive.app e PeakD) suportam **tradução automática por IA**.
+- Sua gíria local e cultura enriquecem a revista.
 
-### 🛹 Talk Gear
+### 🛹 Fale de Equipamentos
 
-- What board setup are you riding?
-- What wheels or trucks?
-- Are you filming with a phone, a VX1000, or a GoPro?
-- Mention gear brands, DIY rigs, or your filmer's style.
+- Que setup de skate você está usando?
+- Que rodas ou trucks?
+- Está filmando com celular, VX1000 ou GoPro?
+- Mencione marcas de equipamentos, rigs DIY ou o estilo do seu videomaker.
 
-> _“Filmed on a cracked iPhone taped to a broomstick — but the tre flip came out clean.”_
+> _"Filmado com iPhone rachado grudado numa vassoura — mas o tre flip saiu limpo."_
 
-### 🎤 Add Personality
+### 🎤 Adicione Personalidade
 
-- Include poems, sketches, music lyrics, playlist links.
-- Add memes or AI art if it fits the vibe.
-- Make it yours — posts with unique flair **stand out** and feel alive.
+- Inclua poemas, desenhos, letras de música, links de playlists.
+- Adicione memes ou arte de IA se combinar com a vibe.
+- Faça ser seu — posts com estilo único **se destacam** e parecem vivos.
 
-> _“The trick wasn’t even the hardest, but something about the way the light hit the spot made it feel like a dream.”_
+> _"A manobra nem era a mais difícil, mas algo sobre como a luz bateu no spot fez parecer um sonho."_
 
 ---
 
-## 🧪 Post Experiment Formula (Mix + Match)
+## 🧪 Fórmula de Experimento de Post (Misture + Combine)
 
 ```markdown
-## 🎬 The Clip
+## 🎬 O Clipe
 
-[YouTube or 3Speak embed here]
+[Embed do YouTube ou 3Speak aqui]
 
-## 📍 The Spot
+## 📍 O Spot
 
-[Backstory, location, crew]
+[História de fundo, localização, crew]
 
-## 🛹 Setup Check
+## 🛹 Checagem do Setup
 
-Deck, trucks, wheels, gear used
+Deck, trucks, rodas, equipamentos usados
 
 ## 🎭 Moodboard
 
-Photos, poetry, sketches, maybe a playlist
+Fotos, poesia, desenhos, talvez uma playlist
 
-## ❓ Question for the Crew
+## ❓ Pergunta para a Crew
 
-“What trick would you try here?” or “Any spots like this near you?”
+"Que manobra vocês tentariam aqui?" ou "Tem algum spot assim perto de vocês?"
 ```
 
 ---
 
-📣 Every time you post, you add to the **Skatehive story**.
-**Skateboarding is art — make your post your page.**
-Now go create something rad.
-
-
+📣 Toda vez que você posta, você adiciona à **história do Skatehive**.
+**Skateboard é arte — faça seu post ser sua página.**
+Agora vá criar algo incrível.

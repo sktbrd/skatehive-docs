@@ -1,6 +1,0 @@
----
-icon: bow-arrow
----
-
-# Projects
-

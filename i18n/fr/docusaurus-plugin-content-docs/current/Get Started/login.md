@@ -3,47 +3,47 @@ sidebar_position: 1
 icon: arrow-right-from-bracket
 ---
 
-# How to Login
+# Comment se Connecter
 
-### How to Login to Skatehive.app
+### Comment se Connecter à Skatehive.app
 
-Follow these steps to log in to **Skatehive** using **Hive Keychain**.
-
----
-
-### Step 1: Visit Skatehive
-
-Go to [**Skatehive**](https://skatehive.app/) and import your Hive account.
+Suivez ces étapes pour vous connecter à **Skatehive** en utilisant **Hive Keychain**.
 
 ---
 
-### Step 2: Use Hive Keychain
+### Étape 1: Visitez Skatehive
 
-Click on **"Login with Keychain"**.
-
-> **Note:**
-> If you don’t have Hive Keychain installed, [**Download Hive Keychain**](https://hive-keychain.com/) and click on **"Login"**.
+Allez sur [**Skatehive**](https://skatehive.app/) et importez votre compte Hive.
 
 ---
 
-### Step 3: Enter Your Hive Username
+### Étape 2: Utilisez Hive Keychain
 
-Type in your **Hive username** in the login prompt.
+Cliquez sur **"Login with Keychain"**.
+
+> **Note :**
+> Si vous n'avez pas Hive Keychain installé, [**Téléchargez Hive Keychain**](https://hive-keychain.com/) et cliquez sur **"Login"**.
+
+---
+
+### Étape 3: Entrez votre Nom d'Utilisateur Hive
+
+Tapez votre **nom d'utilisateur Hive** dans l'invite de connexion.
 
 ![Login Screen](@site/src/assets/Tuto-logIn/1.png)
 
 ---
 
-### Step 4: Confirm the Keychain Transaction
+### Étape 4: Confirmez la Transaction Keychain
 
-Approve the **Keychain message** to proceed.
+Approuvez le **message Keychain** pour continuer.
 
 ![Transaction Confirmation](@site/src/assets/Tuto-logIn/2.png)
 
 ---
 
-### Step 5: Welcome to Skatehive!
+### Étape 5: Bienvenue sur Skatehive !
 
-You’re all set! Explore and enjoy **Skatehive**.
+Vous êtes prêt ! Explorez et profitez de **Skatehive**.
 
 ![Welcome Screen](@site/src/assets/Tuto-logIn/3.png)
