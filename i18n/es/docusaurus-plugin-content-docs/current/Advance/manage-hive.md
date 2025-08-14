@@ -3,62 +3,62 @@ sidebar_position: 3
 icon: hive
 ---
 
-# Learn Hive Tokens
+# Aprende sobre Tokens Hive
 
-## Manage Hive
+## Gestionar Hive
 
-#### Manage Your Hive Tokens
+#### Gestiona Tus Tokens Hive
 
-You can easily manage your Hive tokens directly from your wallet. When you click on your wallet, you will see five key terms: **Hive**, **Hive Power**, **Hive Dollars**, **Savings**, and **Estimated Account Value**.
+Puedes gestionar fácilmente tus tokens Hive directamente desde tu wallet. Cuando haces clic en tu wallet, verás cinco términos clave: **Hive**, **Hive Power**, **Hive Dollars**, **Savings**, y **Valor Estimado de la Cuenta**.
 
-![Hive Tokens Overview](@site/src/assets/Tuto-manage/1.png)
+![Visión General de Tokens Hive](@site/src/assets/Tuto-manage/1.png)
 
 ***
 
 ## 1. **Hive (HIVE)**
 
-HIVE tokens are tradeable and can be transferred at any time. You can also convert HIVE into Hive Power through a process called **Powering Up**.
+Los tokens HIVE son negociables y pueden transferirse en cualquier momento. También puedes convertir HIVE en Hive Power a través de un proceso llamado **Power Up**.
 
-* **What is Powering Up?**
-  * Powering Up is the process of converting HIVE tokens into Hive Power, which is essentially "staking" your tokens. This gives you increased influence and rewards within the Hive ecosystem.
+* **¿Qué es hacer Power Up?**
+  * Power Up es el proceso de convertir tokens HIVE en Hive Power, que es esencialmente "stakear" tus tokens. Esto te da mayor influencia y recompensas dentro del ecosistema Hive.
 
 ***
 
 ## 2. **Hive Power (HP)**
 
-Hive Power represents your stake in the Hive network. The more Hive Power you have, the more influence you have over the platform.
+Hive Power representa tu participación en la red Hive. Mientras más Hive Power tengas, más influencia tienes sobre la plataforma.
 
-* **Benefits of Hive Power:**
-  * **Voting Power:** More Hive Power gives you larger voting power on posts and proposals.
-  * **Curation Rewards:** Increased rewards for curating content.
-  * **More Resource Credits:** Additional resource credits to perform transactions on the Hive Blockchain.
-  * **Hive Governance:** More say in supporting witnesses and projects on Hive.
+* **Beneficios del Hive Power:**
+  * **Poder de Voto:** Más Hive Power te da mayor poder de voto en posts y propuestas.
+  * **Recompensas de Curación:** Recompensas aumentadas por curar contenido.
+  * **Más Créditos de Recurso:** Créditos de recurso adicionales para realizar transacciones en la Blockchain Hive.
+  * **Gobernanza Hive:** Más voz en apoyar witnesses y proyectos en Hive.
 
-To increase your Hive Power, you can **Power Up** your HIVE tokens.
+Para aumentar tu Hive Power, puedes hacer **Power Up** de tus tokens HIVE.
 
 ***
 
 ## 3. **Hive Backed Dollars (HBD)**
 
-HBD is a stablecoin pegged to the US Dollar. Each HBD token is generally worth about **$1.00 USD** in HIVE.
+HBD es una stablecoin vinculada al Dólar Estadounidense. Cada token HBD vale generalmente cerca de **$1.00 USD** en HIVE.
 
-* **Note:** HBD can be converted into HIVE or used within the Hive ecosystem for transactions.
+* **Nota:** HBD puede convertirse en HIVE o usarse dentro del ecosistema Hive para transacciones.
 
 ***
 
 ## 4. **Savings**
 
-You can transfer your HIVE or HBD to **Savings** for added security. Tokens in savings are subject to a **3-day withdrawal waiting period**.
+Puedes transferir tu HIVE o HBD a **Savings** para mayor seguridad. Los tokens en savings están sujetos a un **período de espera de retiro de 3 días**.
 
-* **Why use Savings?**
-  * Savings provides a safer way to store your tokens, while also offering a **20.00% APR** on your HBD, as defined by the network's witnesses.
-
-***
-
-## 5. **Estimated Account Value**
-
-The **Estimated Account Value** gives you an approximate USD value of the tokens in your wallet based on their average market value. This helps you track the worth of your Hive assets in terms of real-world value.
+* **¿Por qué usar Savings?**
+  * Savings proporciona una forma más segura de almacenar tus tokens, mientras también ofrece un **20.00% APR** en tu HBD, según lo definido por los witnesses de la red.
 
 ***
 
-By understanding these five key terms, you can effectively manage your Hive tokens and make the most of the features available on the Hive Blockchain.
+## 5. **Valor Estimado de la Cuenta**
+
+El **Valor Estimado de la Cuenta** te da un valor aproximado en USD de los tokens en tu wallet basado en su valor promedio de mercado. Esto te ayuda a rastrear el valor de tus activos Hive en términos de valor del mundo real.
+
+***
+
+Al entender estos cinco términos clave, puedes gestionar efectivamente tus tokens Hive y aprovechar al máximo las características disponibles en la Blockchain Hive.

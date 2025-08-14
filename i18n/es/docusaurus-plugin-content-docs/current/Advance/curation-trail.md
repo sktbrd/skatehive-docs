@@ -3,45 +3,75 @@ sidebar_position: 9
 icon: link
 ---
 
-# Curation Trail
+# Trail de Curación
 
-## How to Join the Skatehive Curation Trail on the Hive Blockchain
+## Cómo Unirse al Trail de Curación de Skatehive en la Blockchain Hive
 
-The Skatehive curation trail is a way to support skateboarding-related content on the Hive Blockchain by automatically upvoting posts that the Skatehive community values. Joining the trail ensures your voting power helps amplify the voices of skaters and creators within the ecosystem. This tutorial will guide you through the process.
-
-***
-
-#### Step 1: Log in to Hive.vote
-
-Hive.vote is a platform that allows you to automate your voting activity on the Hive Blockchain.
-
-1. Go to [Hive.vote](https://hive.vote).
-2. Log in using your Hive credentials (you can use Hive Keychain for a secure login).
+El trail de curación de Skatehive es una forma de apoyar contenido relacionado con skateboarding en la Blockchain Hive votando automáticamente por posts que la comunidad Skatehive valora. Unirse al trail asegura que tu poder de voto ayude a amplificar las voces de skaters y creadores dentro del ecosistema. Este tutorial te guiará a través del proceso.
 
 ***
 
-#### Step 2: Find the Skatehive Curation Trail
+#### Paso 1: Inicia Sesión en Hive.vote
 
-1. Once logged in, click on the "Curation Trails" tab in the Hive.vote dashboard.
-2. Use the search bar to look for **Skatehive**.
-3. Click on the Skatehive trail to view its details.
+Hive.vote es una plataforma que te permite automatizar tu actividad de votación en la Blockchain Hive.
 
-***
-
-#### Step 3: Join the Skatehive Curation Trail
-
-1. On the Skatehive trail page, click the "Follow" button.
-2. Adjust your voting settings:
-   * **Voting weight**: Set the percentage of your vote to allocate to the trail (e.g., 50%, 75%, or 100%).
-   * **Delay**: Decide if you want your votes to be delayed after the trail votes.
-3. Confirm your preferences and save the settings.
+1. Ve a [Hive.vote](https://hive.vote).
+2. Inicia sesión usando tus credenciales de Hive (puedes usar Hive Keychain para un login seguro).
 
 ***
 
-#### Step 4: Verify Your Participation
+#### Paso 2: Encuentra el Trail de Curación de Skatehive
 
-1. Return to the Hive.vote dashboard and navigate to "My Trails."
-2. Ensure Skatehive appears in your list of followed trails.
+1. Una vez logueado, haz clic en la pestaña "Curation Trails" en el panel de Hive.vote.
+2. Usa la barra de búsqueda para buscar **Skatehive**.
+3. Haz clic en el trail de Skatehive para ver sus detalles.
+
+***
+
+#### Paso 3: Únete al Trail de Curación de Skatehive
+
+1. En la página del trail de Skatehive, haz clic en el botón "Follow".
+2. Ajusta tu configuración de voto:
+   * **Peso de voto**: Establece el porcentaje de tu voto para asignar al trail (ej., 50%, 75%, o 100%).
+   * **Retraso**: Decide si quieres que tus votos se retrasen después de que el trail vote.
+3. Confirma tus preferencias y guarda la configuración.
+
+***
+
+***
+
+#### Paso 4: Verifica Tu Participación
+
+1. Regresa al panel de Hive.vote y navega a "My Trails."
+2. Asegúrate de que Skatehive aparezca en tu lista de trails seguidos.
+
+***
+
+### ¿Por Qué Unirse al Trail de Curación de Skatehive?
+
+#### ¿Qué Hace el Trail de Curación?
+
+Al unirte al trail de curación de Skatehive, tu cuenta vota automáticamente por los mismos posts que Skatehive vota. Esto significa que tu poder de voto contribuye a apoyar contenido relacionado con skateboarding que la comunidad Skatehive valora. Esencialmente, "copias" los likes de la cuenta Skatehive, asegurando que ayudes a recompensar creadores de calidad sin necesidad de votar manualmente en cada post.
+
+#### ¿Qué Ganas?
+
+* **Apoyas la comunidad**: Tus votos ayudan a hacer crecer la comunidad de skateboarding en Hive recompensando a los creadores.
+* **Ganas recompensas de curación**: Como parte del trail, ganas una porción de las recompensas de curación generadas al votar por contenido valioso.
+* **Ahorras tiempo**: En lugar de buscar manualmente contenido para votar, el trail automatiza el proceso, asegurando engagement consistente con la comunidad.
+
+#### Explicación Técnica:
+
+El trail de curación automatiza tus votos para alinearse con la actividad de votación de Skatehive. Esto maximiza la distribución de recompensas a contenido valioso mientras optimiza tu poder de voto. Al participar, contribuyes a un proceso de curación descentralizado y dirigido por la comunidad que destaca contenido de skateboarding dentro del ecosistema Hive.
+
+***
+
+### Consejos Finales
+
+* **Involúcrate con la comunidad**: Revisa el tag de Skatehive en Hive para descubrir nuevo contenido.
+* **Monitorea tu poder de voto**: Mantén un ojo en tu poder de voto para asegurar que no baje demasiado.
+* **Ajusta configuraciones según sea necesario**: Puedes dejar o modificar tus preferencias de trail en cualquier momento a través de Hive.vote.
+
+Al unirte al trail de curación de Skatehive, estás apoyando activamente la comunidad de skateboarding y ayudando a Hive crecer como una plataforma para contenido descentralizado. 🛹
 
 ***
 

@@ -3,7 +3,7 @@
 
 # Como fazer seus posts incríveis
 
-## 🛹 Seu Post no Skatehive é uma Página da Revista Skatehive Infinity Mag
+## 🛹 Seu Post no Skatehive é uma Página da Skatehive Infinity Mag
 
 Quando você posta no Skatehive, você não está apenas fazendo upload de conteúdo —
 **você está escrevendo uma página em nossa revista comunitária.**

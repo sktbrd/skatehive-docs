@@ -3,59 +3,59 @@ sidebar_position: 4
 icon: arrow-right-from-bracket
 ---
 
-# Useful Links
+# Enlaces Útiles
 
-Here's a comprehensive collection of Skatehive resources and links organized by category.
+Aquí hay una colección completa de recursos y enlaces de Skatehive organizados por categoría.
 
-## 🏠 Main Platforms
+## 🏠 Plataformas Principales
 
-| **Skatehive App**  | [skatehive.app](https://skatehive.app)           | Main Skatehive platform - community, posting, and features |
-| ------------------ | ------------------------------------------------ | ---------------------------------------------------------- |
-| **Skatehive Docs** | [docs.skatehive.app](https://docs.skatehive.app) | Official documentation and guides                          |
-| **My Skatehive**   | [my.skatehive.app](https://my.skatehive.app)     | Legacy Skatehive Website                                   |
+| **App Skatehive**  | [skatehive.app](https://skatehive.app)           | Plataforma principal de Skatehive - comunidad, publicaciones y características |
+| ------------------ | ------------------------------------------------ | ----------------------------------------------------------------------------- |
+| **Docs Skatehive** | [docs.skatehive.app](https://docs.skatehive.app) | Documentación oficial y guías                                                |
+| **My Skatehive**   | [my.skatehive.app](https://my.skatehive.app)     | Sitio Web Legacy de Skatehive                                               |
 
-## 🌐 Social Media & Community
+## 🌐 Redes Sociales & Comunidad
 
-| **Discord**   | [chat.skatehive.app](https://chat.skatehive.app)               | Join the Skatehive community Discord            |
+| **Discord**   | [chat.skatehive.app](https://chat.skatehive.app)               | Únete al Discord de la comunidad Skatehive      |
 | ------------- | -------------------------------------------------------------- | ----------------------------------------------- |
-| **Twitter**   | [@skatehive\_](https://x.com/Skate_Hive)                       | Official Skatehive Twitter account              |
-| **Instagram** | [@skatehive](https://instagram.com)                            | We are here so skaters can find us, but we hate |
-| **GitHub**    | [github.com/sktbrd](https://github.com/sktbrd)                 | Skatehive open-source repositories              |
-| **Farcaster** | [nounspace.com/s/skatehive](https://nounspace.com/s/skatehive) | Skatehive Space                                 |
+| **Twitter**   | [@skatehive\_](https://x.com/Skate_Hive)                       | Cuenta oficial de Skatehive en Twitter          |
+| **Instagram** | [@skatehive](https://instagram.com)                            | Estamos aquí para que los skaters nos encuentren, pero odiamos |
+| **GitHub**    | [github.com/sktbrd](https://github.com/sktbrd)                 | Repositorios de código abierto de Skatehive     |
+| **Farcaster** | [nounspace.com/s/skatehive](https://nounspace.com/s/skatehive) | Espacio Skatehive                               |
 
-## 🔧 Developer Resources
+## 🔧 Recursos para Desarrolladores
 
-| **Main Repository**  | [github.com/SkateHive/skatehive3.0](https://github.com/SkateHive/skatehive3.0) | Skatehive documentation repository          |
-| -------------------- | ------------------------------------------------------------------------------ | ------------------------------------------- |
-| 🔌 **Skatehive API** | [api.skatehive.app](https://api.skatehive.app)                                 | Skatehive Api                               |
-| 🍴 **Fork Guide**    | [Fork Skatehive](./Devs/fork-skatehive.md)                                     | Guide to fork and run Skatehive locally     |
-| 💻 **App Features**  | [App Features](./Devs/app-features.md)                                         | Comprehensive overview of platform features |
+| **Repositorio Principal**  | [github.com/SkateHive/skatehive3.0](https://github.com/SkateHive/skatehive3.0) | Repositorio de documentación de Skatehive          |
+| ------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------- |
+| 🔌 **API Skatehive** | [api.skatehive.app](https://api.skatehive.app)                                 | API de Skatehive                                   |
+| 🍴 **Guía de Fork**    | [Fork Skatehive](../Devs/fork-skatehive.md)                                     | Guía para hacer fork y ejecutar Skatehive localmente     |
+| 💻 **Características del App**  | [Características del App](../Devs/app-features.md)                                         | Visión general completa de las características de la plataforma |
 
-## 🏆 Hive Blockchain
+## 🏆 Blockchain Hive
 
-| **Skatehive Witness** | [Vote for @skatehive witness](https://skatehive.app/witness) | Support Skatehive by voting for witness |
+| **Witness Skatehive** | [Vota por el witness @skatehive](https://skatehive.app/witness) | Apoya a Skatehive votando por el witness |
 | --------------------- | ------------------------------------------------------------ | --------------------------------------- |
-| **Curation Trail**    | [hive.vote](https://hive.vote/dash.php?i=1&trail=steemskate) | Follow Skatehive curation trail         |
+| **Trail de Curación**    | [hive.vote](https://hive.vote/dash.php?i=1&trail=steemskate) | Sigue el trail de curación de Skatehive         |
 
-## 🎨 Tools
+## 🎨 Herramientas
 
-| **IPFS Gateway** | [ipfs.skatehive.app](https://ipfs.skatehive.app) | Skatehive IPFS media hosting |
+| **Gateway IPFS** | [ipfs.skatehive.app](https://ipfs.skatehive.app) | Hosting de medios IPFS de Skatehive |
 | ---------------- | ------------------------------------------------ | ---------------------------- |
 
-## 📱 Mobile & Integration
+## 📱 Móvil & Integración
 
-| **Farcaster Miniapp** | Available in Farcaster | Native miniapp integration |
+| **Miniapp Farcaster** | Disponible en Farcaster | Integración nativa de miniapp |
 | --------------------- | ---------------------- | -------------------------- |
-| **Androi App**        | Soon                   | Soon                       |
-| _IOS App_             | Soon                   | Soon                       |
+| **App Android**        | Pronto                   | Pronto                       |
+| _App iOS_             | Pronto                   | Pronto                       |
 
-## 💰 Treasure
+## 💰 Tesoro
 
 | **Hot Wallet**       | [Skatehive.eth](https://zapper.xyz/account/0xB4964e1ecA55Db36a94e8aeFfBFBAb48529a2f6c)                      |     |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- | --- |
 | **Base Safe**        | [Multisig](https://app.safe.global/transactions/queue?safe=base:0xc1afa4c0a70b622d7b71d42241bb4d52b6f3e218) |     |
-| **Builder Contract** | [Base Contract ](https://basescan.org/address/0x4c5086086fda01fb8fcffe491862e7504984a75f)                   |     |
+| **Contrato Builder** | [Contrato Base ](https://basescan.org/address/0x4c5086086fda01fb8fcffe491862e7504984a75f)                   |     |
 
 ---
 
-_This table is regularly updated. For the most current links and features, visit [skatehive.app](https://skatehive.app)_
+_Esta tabla se actualiza regularmente. Para los enlaces y características más actuales, visita [skatehive.app](https://skatehive.app)_

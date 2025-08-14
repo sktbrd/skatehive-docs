@@ -1,12 +1,12 @@
 ---
-title: Moedas Zora
+title: Zora Posts
 ---
 
 # Guia de Integração SkateHive + Zora
 
 ## Visão Geral
 
-O SkateHive agora se conecta à plataforma Zora, permitindo que você transforme posts em moedas que as pessoas podem negociar.
+O SkateHive agora se conecta à plataforma Zora, permitindo que você transforme posts em moedas que as pessoas podem colecionar ou negociar.
 
 ---
 
