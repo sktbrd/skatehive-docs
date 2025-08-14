@@ -28,8 +28,8 @@ Aqui está uma coleção abrangente de recursos e links do Skatehive organizados
 | **Repositório Principal**  | [github.com/SkateHive/skatehive3.0](https://github.com/SkateHive/skatehive3.0) | Repositório de documentação do Skatehive          |
 | -------------------- | ------------------------------------------------------------------------------ | ------------------------------------------- |
 | 🔌 **API Skatehive** | [api.skatehive.app](https://api.skatehive.app)                                 | API do Skatehive                               |
-| 🍴 **Guia de Fork**    | [Fork Skatehive](./Devs/fork-skatehive.md)                                     | Guia para fazer fork e executar Skatehive localmente     |
-| 💻 **Recursos do App**  | [Recursos do App](./Devs/app-features.md)                                         | Visão geral abrangente dos recursos da plataforma |
+| 🍴 **Guia de Fork**    | [Fork Skatehive](../Devs/fork-skatehive.md)                                     | Guia para fazer fork e executar Skatehive localmente     |
+| 💻 **Recursos do App**  | [Recursos do App](../Devs/app-features.md)                                         | Visão geral abrangente dos recursos da plataforma |
 
 ## 🏆 Blockchain Hive
 
