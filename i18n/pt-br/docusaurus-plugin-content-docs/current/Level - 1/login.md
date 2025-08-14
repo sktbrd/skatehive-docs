@@ -29,7 +29,7 @@ Clique em **"Login with Keychain"**.
 
 Digite seu **nome de usuário Hive** no prompt de login.
 
-![Tela de Login](../../../../../src/assets/Tuto-logIn/1.png)
+![Tela de Login](@site/src/assets/Tuto-logIn/1.png)
 
 ---
 
@@ -37,7 +37,7 @@ Digite seu **nome de usuário Hive** no prompt de login.
 
 Aprove a **transação no Keychain** para continuar.
 
-![Confirmação da Transação](../../../../../src/assets/Tuto-logIn/2.png)
+![Confirmação da Transação](@site/src/assets/Tuto-logIn/2.png)
 
 ---
 
@@ -45,4 +45,4 @@ Aprove a **transação no Keychain** para continuar.
 
 Tudo pronto! Explore e aproveite o **Skatehive**.
 
-![Tela de Boas-Vindas](../../../../../src/assets/Tuto-logIn/3.png)
+![Tela de Boas-Vindas](@site/src/assets/Tuto-logIn/3.png)

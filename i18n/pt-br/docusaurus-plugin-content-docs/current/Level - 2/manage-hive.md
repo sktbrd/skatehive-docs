@@ -7,7 +7,7 @@ sidebar_position: 3
 
 Você pode gerenciar seus tokens Hive diretamente da sua carteira. Quando você clicar na sua carteira, verá cinco termos principais: **Hive**, **Hive Power**, **Hive Dollars**, **Poupança** e **Valor Estimado da Conta**.
 
-![Visão geral dos Tokens Hive](../../../../../src/assets/Tuto-manage/1.png)
+![Visão geral dos Tokens Hive](@site/src/assets/Tuto-manage/1.png)
 
 ---
 

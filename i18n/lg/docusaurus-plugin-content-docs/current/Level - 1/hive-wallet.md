@@ -19,7 +19,7 @@ Goberera emikolo gino okutondawo akawunti yo ku Hive.
 - Teekako **Hive Keychain extension** mu browser yo.  
 - Olw’okumaliriza, zingazinga olupapula lw’omukutu (refresh) okuggulawo extension.  
 
-![Teekako Hive Keychain](../../../../../src/assets/Hive-Wallet/1.png)  
+![Teekako Hive Keychain](@site/src/assets/Hive-Wallet/1.png)  
 
 ---
 
@@ -28,7 +28,7 @@ Goberera emikolo gino okutondawo akawunti yo ku Hive.
 - Genda ku <a href="https://ecency.com/signup" class="button-link" target="_blank">**Ecency Signup Page**</a> okutondawo akawunti empya.  
 - Londa **erinnya ly’akawunti** lyo era teekamu **email yo**.  
 
-![Omuko gw’Okwewandiisa](../../../../../src/assets/Hive-Wallet/2.png)  
+![Omuko gw’Okwewandiisa](@site/src/assets/Hive-Wallet/2.png)  
 
 ---
 
@@ -40,7 +40,7 @@ Goberera emikolo gino okutondawo akawunti yo ku Hive.
 > **Ky’omu:**  
 > Teekateeka backup **mu kifo ekikuumi**. Kye kyokka ekijja okukuyamba okuddamu okufuna akawunti yo.  
 
-![Backup y’Akawunti](../../../../../src/assets/Hive-Wallet/3.png)  
+![Backup y’Akawunti](@site/src/assets/Hive-Wallet/3.png)  
 
 ---
 
@@ -49,7 +49,7 @@ Goberera emikolo gino okutondawo akawunti yo ku Hive.
 - Teekamu **erinnya ly’akawunti** lyo ne **password** mu Hive Keychain extension.  
 - Kino kijja kujjako okujjukira obubaka bwo mu ngeri ey’ekyama.  
 
-![Teeka Ebigambo Byawe Omutima](../../../../../src/assets/Hive-Wallet/4.png)  
+![Teeka Ebigambo Byawe Omutima](@site/src/assets/Hive-Wallet/4.png)  
 
 ---
 
