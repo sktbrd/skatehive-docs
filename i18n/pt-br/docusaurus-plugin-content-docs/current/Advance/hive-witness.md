@@ -1,6 +1,32 @@
 ---
 title: Witness Hive
-side   * No PeakD, está na barra lateral esquerda.
+sidebar_position: 9
+icon: server
+---
+
+# Como Votar no Witness Skatehive na Blockchain Hive
+
+A Blockchain Hive é uma plataforma descentralizada que opera com witnesses para manter a rede segura e funcional. Votar em um witness, como o Skatehive, ajuda a apoiar iniciativas que promovem a cultura do skateboard e a descentralização. Este tutorial irá guiá-lo através do processo.
+
+***
+
+#### Passo 1: Faça Login em um Cliente Hive
+
+**Para votar, você precisará de um cliente Hive, como:**
+
+* **Hive Keychain**: Uma extensão do navegador para gerenciar contas.
+* **Ecency**: Uma plataforma amigável para interagir com Hive.
+* **PeakD**: Uma interface avançada para usuários Hive.
+
+Baixe e instale a extensão Hive Keychain (se ainda não tiver) e faça login com suas credenciais.
+
+***
+
+#### Passo 2: Acesse a Página de Votação de Witnesses
+
+1. Vá para [PeakD](https://peakd.com) ou [Hive Blog](https://hive.blog).
+2. Clique no menu ou procure pela opção "Witnesses".
+   * No PeakD, está na barra lateral esquerda.
    * No Hive Blog, você pode acessar diretamente o link: [https://hive.blog/\~witnesses](https://hive.blog/~witnesses).
 
 ## ![](https://i.ibb.co/ZhFv3bY/image.png)
