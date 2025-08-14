@@ -1,5 +1,6 @@
 ---
 ---
+
 ---
 
 # Cómo hacer que tus posts sean geniales
@@ -17,7 +18,8 @@ Fotos, poesía, bocetos, tal vez una playlist
 ## ❓ Pregunta para el Crew
 
 "¿Qué truco intentarías aquí?" o "¿Algún spot como este cerca de ti?"
-```
+
+````
 
 ---
 
@@ -112,12 +114,10 @@ Photos, poetry, sketches, maybe a playlist
 ## ❓ Question for the Crew
 
 “What trick would you try here?” or “Any spots like this near you?”
-```
+````
 
 ---
 
 📣 Every time you post, you add to the **Skatehive story**.
 **Skateboarding is art — make your post your page.**
 Now go create something rad.
-
-
