@@ -1,130 +1,130 @@
 ---
-title: Zora Coins
+title: Moedas Zora
 ---
 
-# SkateHive + Zora Integration Guide
+# Guia de Integração SkateHive + Zora
 
-## Overview
+## Visão Geral
 
-SkateHive now connects to Zora's platform, letting you turn posts into coins that people can trade.
-
----
-
-## What is this integration?
-
-SkateHive runs on Hive blockchain. Now it also connects to Ethereum's Base network. Here's what you can do:
-
-- **Post content** on Hive as usual
-- **Create coins** from your posts on Base blockchain
-- **Trade coins** with ETH or USDC
-- **Support creators** by buying their coins
+O SkateHive agora se conecta à plataforma Zora, permitindo que você transforme posts em moedas que as pessoas podem negociar.
 
 ---
 
-## How to create a coin
+## O que é esta integração?
 
-### What you need
+O SkateHive roda na blockchain Hive. Agora também se conecta à rede Base do Ethereum. Aqui está o que você pode fazer:
 
-- Ethereum wallet (Base wallet, Metamask, Farcaster wallet...)
-- Access to Base network (auto-switches)
-- Small amount of ETH for gas (~$0.5-1)
+- **Publicar conteúdo** no Hive como de costume
+- **Criar moedas** dos seus posts na blockchain Base
+- **Negociar moedas** com ETH ou USDC
+- **Apoiar criadores** comprando suas moedas
 
-### Steps
+---
 
-1. **Connect wallet** at skatehive.app
-2. **Choose method**:
-   - Create new coin from scratch
-   - Convert existing post to coin
-3. **Fill details**:
-   - Name and symbol for your coin
-   - Description
-   - Upload image or video
-4. **Confirm transaction**
+## Como criar uma moeda
+
+### O que você precisa
+
+- Carteira Ethereum (carteira Base, Metamask, carteira Farcaster...)
+- Acesso à rede Base (mudança automática)
+- Pequena quantidade de ETH para gas (~$0.5-1)
+
+### Passos
+
+1. **Conecte a carteira** em skatehive.app
+2. **Escolha o método**:
+   - Criar nova moeda do zero
+   - Converter post existente em moeda
+3. **Preencha os detalhes**:
+   - Nome e símbolo para sua moeda
+   - Descrição
+   - Faça upload de imagem ou vídeo
+4. **Confirme a transação**
 
 ![create-zora-coin](https://ipfs.skatehive.app/ipfs/QmUW2uCjYFE5VsfsW7qM8CpDdF2Nfvwv8P2ZmVmuUgtUb9)
 
-The system handles the rest - uploads to IPFS, creates the coin contract, posts to Hive.
+O sistema cuida do resto - upload para IPFS, cria o contrato da moeda, posta no Hive.
 
 ---
 
-## Media support
+## Suporte de mídia
 
-### Supported files
+### Arquivos suportados
 
-- **Images**: JPG, PNG, GIF, WebP
-- **Videos**: MP4, WebM, MOV, AVI
-- **Storage**: Files stored on IPFS
+- **Imagens**: JPG, PNG, GIF, WebP
+- **Vídeos**: MP4, WebM, MOV, AVI
+- **Armazenamento**: Arquivos armazenados no IPFS
 
-### Features
+### Recursos
 
-- Automatic video thumbnail generation
-- Multiple IPFS gateways for reliability
-- File compression and optimization
-
----
-
-## What does "post to coin" mean?
-
-### The basic idea
-
-When you create a coin from a post, you're making that content into something people can buy and sell. Think of it like shares in that specific content.
-
-### How it works
-
-1. You post skating content
-2. Community likes it (votes, comments)
-3. You or someone else creates a coin from it
-4. People can now trade that coin
-5. If the content stays popular, coin value might go up
-
-> If user had Ethereum and Hive wallet the coins is posted or edited under user Hive and Ethereum accounts. All your posts will be visible on Zora, Skatehive and all the other hive websites. If the user only has an Ethereum wallet, @SkateDev account will register the Coining on Hive blockchain automatically
+- Geração automática de thumbnail de vídeo
+- Múltiplos gateways IPFS para confiabilidade
+- Compressão e otimização de arquivos
 
 ---
 
-## How trading works
+## O que significa "post para moeda"?
+
+### A ideia básica
+
+Quando você cria uma moeda de um post, está transformando esse conteúdo em algo que as pessoas podem comprar e vender. Pense nisso como ações daquele conteúdo específico.
+
+### Como funciona
+
+1. Você posta conteúdo de skate
+2. A comunidade gosta (votos, comentários)
+3. Você ou outra pessoa cria uma moeda a partir dele
+4. As pessoas agora podem negociar essa moeda
+5. Se o conteúdo continuar popular, o valor da moeda pode subir
+
+> Se o usuário tem carteira Ethereum e Hive, a moeda é postada ou editada sob as contas Hive e Ethereum do usuário. Todos os seus posts serão visíveis no Zora, Skatehive e todos os outros sites hive. Se o usuário só tem carteira Ethereum, a conta @SkateDev registrará a Coining na blockchain Hive automaticamente
+
+---
+
+## Como funciona a negociação
 
 ![Image](https://ipfs.skatehive.app/ipfs/Qmdx5Z1nuP9XgiBqvTiPGGPUmQujthuns52AiEkE3UDogQ)
 
-### For creators
+### Para criadores
 
-- Make money when people buy your coins
-- Earn from price increases if your content stays popular
-- SkateHive gets small fee (2.5%) from trades that helps fund the platform
-  > **(this fee comes from zora fee not from the creator)**
-- Coin holders become more invested in your content
+- Ganhe dinheiro quando pessoas compram suas moedas
+- Lucre com aumentos de preço se seu conteúdo continuar popular
+- SkateHive recebe uma pequena taxa (2,5%) das negociações que ajuda a financiar a plataforma
+  > **(esta taxa vem da taxa do zora, não do criador)**
+- Detentores de moedas ficam mais investidos no seu conteúdo
 
-### For coin buyers
+### Para compradores de moedas
 
-- Support creators you believe in
-- Might make profit if creator becomes popular
-- Get in early on promising skaters
-- Future: might get special access or voting rights
+- Apoie criadores em quem você acredita
+- Podem lucrar se o criador se tornar popular
+- Entre cedo em skatistas promissores
+- Futuro: podem ter acesso especial ou direitos de voto
 
-### For the platform
+### Para a plataforma
 
-- Small fees from trades help keep SkateHive running
-- More trading means more activity
-- Connects Hive community to Ethereum ecosystem
-- Creates new ways for skaters to make money
+- Pequenas taxas das negociações ajudam a manter o SkateHive funcionando
+- Mais negociação significa mais atividade
+- Conecta a comunidade Hive ao ecossistema Ethereum
+- Cria novas formas para skatistas ganharem dinheiro
 
 ---
 
-## What's currently working
+## O que está funcionando atualmente
 
-- Create coins from posts or from scratch
-- Upload images/videos (auto-generates thumbnails)
-- Trade with ETH or USDC via Zora
-- Connect any Ethereum wallet
-- Coins show up as previews in posts
-- Works with both Hive and Base networks
+- Criar moedas de posts ou do zero
+- Upload de imagens/vídeos (gera thumbnails automaticamente)
+- Negociar com ETH ou USDC via Zora
+- Conectar qualquer carteira Ethereum
+- Moedas aparecem como previews nos posts
+- Funciona com redes Hive e Base
 
-## Getting started
+## Começando
 
-1. Connect your Ethereum wallet at skatehive.app
-2. Browse existing coins to see how it works
-3. Try buying a small amount of someone's coin
-4. Post some content and create your first coin
+1. Conecte sua carteira Ethereum em skatehive.app
+2. Navegue por moedas existentes para ver como funciona
+3. Tente comprar uma pequena quantidade da moeda de alguém
+4. Poste algum conteúdo e crie sua primeira moeda
 
-**Tips**: Start small, build a following first, focus on quality content
+**Dicas**: Comece pequeno, construa um seguimento primeiro, foque em conteúdo de qualidade
 
 ---

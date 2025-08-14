@@ -1,60 +1,60 @@
 ---
-title: Fork Skatehive Guide
+title: Guia de Fork do Skatehive
 sidebar_position: 1
 icon: paste
 ---
 
-# Fork Skatehive 3.0 Guide (Beginner Friendly)
+# Guia de Fork do Skatehive 3.0 (Amigável para Iniciantes)
 
-This guide explains how to fork the Skatehive 3.0 repository, run it locally, and optionally enable advanced features. Start with the basic GitHub workflow and minimal installation. If you want a fully featured fork, the optional section covers Farcaster notifications and Wagmi/Ethereum settings.
+Este guia explica como fazer fork do repositório Skatehive 3.0, executá-lo localmente e opcionalmente habilitar recursos avançados. Comece com o workflow básico do GitHub e instalação mínima. Se você quiser um fork completo, a seção opcional cobre notificações Farcaster e configurações Wagmi/Ethereum.
 
-## 1. Fork the repository on GitHub
+## 1. Faça fork do repositório no GitHub
 
-1. Sign in to GitHub and visit [`Skatehive/skatehive3.0`](https://github.com/Skatehive/skatehive3.0).
-2. Click **Fork** to create your own copy of the repo.
-3. Clone your fork:
+1. Faça login no GitHub e visite [`Skatehive/skatehive3.0`](https://github.com/Skatehive/skatehive3.0).
+2. Clique em **Fork** para criar sua própria cópia do repo.
+3. Clone seu fork:
    ```bash
-   git clone https://github.com/<your-username>/skatehive3.0.git
+   git clone https://github.com/<seu-usuario>/skatehive3.0.git
    cd skatehive3.0
    ```
-4. (Optional but recommended) keep the original repo as an upstream remote:
+4. (Opcional mas recomendado) mantenha o repo original como remote upstream:
    ```bash
    git remote add upstream https://github.com/Skatehive/skatehive3.0.git
    ```
-5. Create a feature branch before making changes:
+5. Crie um branch de feature antes de fazer mudanças:
    ```bash
-   git checkout -b my-feature
+   git checkout -b meu-feature
    ```
-6. After committing your work, push to your fork and open a pull request.
+6. Após commitar seu trabalho, faça push para seu fork e abra um pull request.
 
-## 2. Minimal local installation
+## 2. Instalação local mínima
 
-These steps get the app running with the fewest required environment variables.
+Estes passos fazem o app rodar com o menor número de variáveis de ambiente necessárias.
 
-1. Copy the example environment file:
+1. Copie o arquivo de exemplo de ambiente:
    ```bash
    cp .env.local.example .env.local
    ```
-2. Edit `.env.local` and set the basic variables:
+2. Edite `.env.local` e configure as variáveis básicas:
    - `NEXT_PUBLIC_THEME`
    - `NEXT_PUBLIC_HIVE_COMMUNITY_TAG`
    - `NEXT_PUBLIC_HIVE_SEARCH_TAG`
    - `NEXT_PUBLIC_HIVE_USER`
    - `NEXT_PUBLIC_BASE_URL`
    - `HIVE_POSTING_KEY`
-3. Install dependencies and start the dev server:
+3. Instale dependências e inicie o servidor de dev:
    ```bash
    pnpm install
    pnpm dev
    ```
 
-## 3. Optional advanced configuration
+## 3. Configuração avançada opcional
 
-Expand your fork with additional integrations. All settings below live in `.env.local`.
+Expanda seu fork com integrações adicionais. Todas as configurações abaixo ficam em `.env.local`.
 
-### Farcaster notifications
+### Notificações Farcaster
 
-To enable Farcaster notifications you'll need a Postgres database and the following variables:
+Para habilitar notificações Farcaster você precisará de um banco Postgres e as seguintes variáveis:
 
 - `POSTGRES_URL`
 - `POSTGRES_PRISMA_URL`
@@ -65,11 +65,11 @@ To enable Farcaster notifications you'll need a Postgres database and the follow
 - `POSTGRES_PASSWORD`
 - `POSTGRES_DATABASE`
 - `FARCASTER_INIT_PASSWORD`
-- `FARCASTER_HUB_URL` (optional custom hub)
+- `FARCASTER_HUB_URL` (hub personalizado opcional)
 
 ### Wagmi & Ethereum
 
-Provide Wagmi and on-chain connectivity by setting:
+Forneça conectividade Wagmi e on-chain configurando:
 
 - `NEXT_PUBLIC_WC_PROJECT_ID`
 - `NEXT_PUBLIC_ALCHEMY_KEY`
@@ -80,4 +80,4 @@ Provide Wagmi and on-chain connectivity by setting:
 - `NEXT_PUBLIC_TREASURY`
 - `NEXT_PUBLIC_GOVERNOR`
 
-Check `.env.local.example` for additional variables such as Supabase or IPFS. Configure them as needed to match the features you want in your fork.
+Verifique `.env.local.example` para variáveis adicionais como Supabase ou IPFS. Configure-as conforme necessário para combinar com os recursos que você quer no seu fork.

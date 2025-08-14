@@ -3,47 +3,75 @@ sidebar_position: 9
 icon: link
 ---
 
-# Curation Trail
+# Trilha de Curadoria
 
-## How to Join the Skatehive Curation Trail on the Hive Blockchain
+## Como Participar da Trilha de Curadoria do Skatehive na Blockchain Hive
 
-The Skatehive curation trail is a way to support skateboarding-related content on the Hive Blockchain by automatically upvoting posts that the Skatehive community values. Joining the trail ensures your voting power helps amplify the voices of skaters and creators within the ecosystem. This tutorial will guide you through the process.
-
-***
-
-#### Step 1: Log in to Hive.vote
-
-Hive.vote is a platform that allows you to automate your voting activity on the Hive Blockchain.
-
-1. Go to [Hive.vote](https://hive.vote).
-2. Log in using your Hive credentials (you can use Hive Keychain for a secure login).
+A trilha de curadoria do Skatehive é uma forma de apoiar conteúdo relacionado ao skateboard na Blockchain Hive através de upvotes automáticos em posts que a comunidade Skatehive valoriza. Participar da trilha garante que seu poder de voto ajude a amplificar as vozes de skatistas e criadores dentro do ecossistema. Este tutorial irá guiá-lo através do processo.
 
 ***
 
-#### Step 2: Find the Skatehive Curation Trail
+#### Passo 1: Faça Login no Hive.vote
 
-1. Once logged in, click on the "Curation Trails" tab in the Hive.vote dashboard.
-2. Use the search bar to look for **Skatehive**.
-3. Click on the Skatehive trail to view its details.
+Hive.vote é uma plataforma que permite automatizar sua atividade de votação na Blockchain Hive.
 
-***
-
-#### Step 3: Join the Skatehive Curation Trail
-
-1. On the Skatehive trail page, click the "Follow" button.
-2. Adjust your voting settings:
-   * **Voting weight**: Set the percentage of your vote to allocate to the trail (e.g., 50%, 75%, or 100%).
-   * **Delay**: Decide if you want your votes to be delayed after the trail votes.
-3. Confirm your preferences and save the settings.
+1. Vá para [Hive.vote](https://hive.vote).
+2. Faça login usando suas credenciais Hive (você pode usar Hive Keychain para um login seguro).
 
 ***
 
-#### Step 4: Verify Your Participation
+#### Passo 2: Encontre a Trilha de Curadoria do Skatehive
 
-1. Return to the Hive.vote dashboard and navigate to "My Trails."
-2. Ensure Skatehive appears in your list of followed trails.
+1. Uma vez logado, clique na aba "Curation Trails" no painel do Hive.vote.
+2. Use a barra de pesquisa para procurar por **Skatehive**.
+3. Clique na trilha Skatehive para ver seus detalhes.
 
 ***
+
+***
+
+#### Passo 3: Participe da Trilha de Curadoria do Skatehive
+
+1. Na página da trilha Skatehive, clique no botão "Follow".
+2. Ajuste suas configurações de votação:
+   * **Peso do voto**: Defina a porcentagem do seu voto para alocar à trilha (ex: 50%, 75%, ou 100%).
+   * **Atraso**: Decida se você quer que seus votos sejam atrasados após a trilha votar.
+3. Confirme suas preferências e salve as configurações.
+
+***
+
+#### Passo 4: Verifique Sua Participação
+
+1. Retorne ao painel do Hive.vote e navegue para "My Trails."
+2. Certifique-se de que Skatehive aparece na sua lista de trilhas seguidas.
+
+***
+
+### Por Que Participar da Trilha de Curadoria do Skatehive?
+
+#### O Que a Trilha de Curadoria Faz?
+
+Ao participar da trilha de curadoria do Skatehive, sua conta automaticamente dá upvote nos mesmos posts que o Skatehive vota. Isso significa que seu poder de voto contribui para apoiar conteúdo relacionado ao skateboard que a comunidade Skatehive valoriza. Essencialmente, você "copia" os likes da conta Skatehive, garantindo que você ajude a recompensar criadores de qualidade sem precisar votar manualmente em cada post.
+
+#### O Que Você Ganha?
+
+* **Apoiar a comunidade**: Seus votos ajudam a crescer a comunidade de skateboard no Hive recompensando criadores.
+* **Ganhar recompensas de curadoria**: Como parte da trilha, você ganha uma porção das recompensas de curadoria geradas por dar upvote em conteúdo valioso.
+* **Economizar tempo**: Em vez de procurar manualmente conteúdo para votar, a trilha automatiza o processo, garantindo engajamento consistente com a comunidade.
+
+#### Explicação Técnica:
+
+A trilha de curadoria automatiza seus upvotes para se alinhar com a atividade de votação do Skatehive. Isso maximiza a distribuição de recompensas para conteúdo valioso enquanto otimiza seu poder de voto. Ao participar, você contribui para um processo de curadoria descentralizado e dirigido pela comunidade que destaca conteúdo de skateboard dentro do ecossistema Hive.
+
+***
+
+### Dicas Finais
+
+* **Engage com a comunidade**: Confira a tag Skatehive no Hive para descobrir novo conteúdo.
+* **Monitore seu poder de voto**: Fique de olho no seu poder de voto para garantir que não caia muito baixo.
+* **Ajuste configurações conforme necessário**: Você pode sair ou modificar suas preferências de trilha a qualquer momento através do Hive.vote.
+
+Ao participar da trilha de curadoria do Skatehive, você está ativamente apoiando a comunidade de skateboard e ajudando o Hive a crescer como uma plataforma para conteúdo descentralizado. 🛹
 
 ### Why Join the Skatehive Curation Trail?
 
