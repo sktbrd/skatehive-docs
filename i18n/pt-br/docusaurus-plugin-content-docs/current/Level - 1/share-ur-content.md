@@ -49,7 +49,7 @@ Siga esses passos para publicar seu conteúdo no Skatehive:
 
 ---
 
-![Publicar Post](../../../../../src/assets/Tuto--basic/1.png)
+![Publicar Post](@site/src/assets/Tuto--basic/1.png)
 
 ---
 

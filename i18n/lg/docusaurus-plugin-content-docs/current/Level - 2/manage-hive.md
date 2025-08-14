@@ -8,7 +8,7 @@ sidebar_position: 3
 
 Osobola okufuga tokens zo ku Hive ng’oyita mu waleti yo. Bw’okuba okikubyeeko, ojja kulaba ebigambo bitaano ebikulu: **Hive**, **Hive Power**, **Hive Dollars**, **Ebibika (Poupança)**, ne **Omuwendo Gukadiriddwa gwa Akaunta yo**.  
 
-![Ebifaananyi ebikwata ku Tokens Hive](../../../../../src/assets/Tuto-manage/1.png)  
+![Ebifaananyi ebikwata ku Tokens Hive](@site/src/assets/Tuto-manage/1.png)  
 
 ---
 

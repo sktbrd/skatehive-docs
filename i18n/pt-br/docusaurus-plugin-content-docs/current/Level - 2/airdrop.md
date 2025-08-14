@@ -19,9 +19,9 @@ sidebar_position: 2
 7. Na página inicial, **clique no botão "Criar Airdrop"**.
    ![Criar Airdrop](https://i.ibb.co/zFkwyNn/image.png)
 8. **Aguarde o nosso Pepe God** fazer os cálculos. Neste momento, ele está mirando em todos que configuraram sua carteira e estão postando ativamente. **Em breve**, vamos permitir que os usuários personalizem os parâmetros do airdrop e filtrem usuários indesejados.
-   ![Pepe God](../../../../../src/assets/tuto-airdrop/4.png)
+   ![Pepe God](@site/src/assets/tuto-airdrop/4.png)
 9. **Escolha o valor**, e prepare-se para os **confetes** aparecerem na sua tela! 🎉
-   ![Sucesso do Airdrop](../../../../../src/assets/tuto-airdrop/5.png)
+   ![Sucesso do Airdrop](@site/src/assets/tuto-airdrop/5.png)
 
 ---
 

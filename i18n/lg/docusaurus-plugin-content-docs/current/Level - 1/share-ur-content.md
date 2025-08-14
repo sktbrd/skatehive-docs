@@ -49,7 +49,7 @@ Goberera empeereza eno okutaddeko ebikufaanana ku **Skatehive**:
 
 ---
 
-![Publicar Post](../../../../../src/assets/Tuto--basic/1.png)  
+![Publicar Post](@site/src/assets/Tuto--basic/1.png)  
 
 ---
 

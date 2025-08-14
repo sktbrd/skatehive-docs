@@ -27,7 +27,7 @@ Kakaanye ku **"Login with Keychain"**.
 
 Wandiika **erinnya lyo ku Hive** mu kisenge ky’okuyingira.  
 
-![Ekisenge ky'Okuyingira](../../../../../src/assets/Tuto-logIn/1.png)  
+![Ekisenge ky'Okuyingira](@site/src/assets/Tuto-logIn/1.png)  
 
 ---
 
@@ -35,7 +35,7 @@ Wandiika **erinnya lyo ku Hive** mu kisenge ky’okuyingira.
 
 Wa **okukkiriza transakisoni mu Keychain** okusobola okweyongerayo.  
 
-![Okukakasa Transakisoni](../../../../../src/assets/Tuto-logIn/2.png)  
+![Okukakasa Transakisoni](@site/src/assets/Tuto-logIn/2.png)  
 
 ---
 
@@ -43,4 +43,4 @@ Wa **okukkiriza transakisoni mu Keychain** okusobola okweyongerayo.
 
 Byonna bituukiridde! Kati osobola okunoonyereza n'okunyumirwa **Skatehive**.  
 
-![Ekirabo ky'Okuyingira](../../../../../src/assets/Tuto-logIn/3.png)
+![Ekirabo ky'Okuyingira](@site/src/assets/Tuto-logIn/3.png)

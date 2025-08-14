@@ -19,9 +19,9 @@ sidebar_position: 2
 7. Ku lupapula olukulu, **kakasa nti okoze ku kitone ekigamba "Create Airdrop"**.  
    ![Create Airdrop](https://i.ibb.co/zFkwyNn/image.png)  
 8. **Linda Pepe God waffe** akole okubalirira. Mu kiseera kino, alondoola abo abateekateeka ensawo zaabwe era abaateekaamu ebintu ku site. **Muyanguwa**, tulikkiriza abasomi okuteekateeka airdrop zaabwe era basalewo bebatalina kwetaba.  
-   ![Pepe God](../../../../../src/assets/tuto-airdrop/4.png)  
+   ![Pepe God](@site/src/assets/tuto-airdrop/4.png)  
 9. **Londa omuwendo gw’ogaba**, era linda **emikolo** ku ekisiikirize kyo! 🎉  
-   ![Airdrop Success](../../../../../src/assets/tuto-airdrop/5.png)  
+   ![Airdrop Success](@site/src/assets/tuto-airdrop/5.png)  
 
 ---  
 
