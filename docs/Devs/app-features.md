@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # Skatehive 3.0 Application Overview
 
-Skatehive 3.0 is a comprehensive community platform for skaters, built with Next.js and Chakra UI. The application enables users to publish content to the Hive blockchain while seamlessly integrating with Farcaster and Ethereum ecosystems. This overview showcases the key features and functionality available in the platform.
+Skatehive 3.0 is a comprehensive community platform for skaters, built with Next.js 15 and Tailwind CSS + Shadcn UI. The application enables users to publish content to the Hive blockchain while seamlessly integrating with Farcaster and Ethereum ecosystems. This overview showcases the key features and functionality available in the platform.
 
 ## Posting Composer
 
