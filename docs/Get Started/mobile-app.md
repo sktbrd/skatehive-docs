@@ -1,166 +1,165 @@
 ---
-sidebar_position: 5
-icon: mobile
+sidebar_position: 3
 ---
 
-# Mobile App Guide
+# Mobile App
 
-The Skatehive mobile app brings the full skateboarding community experience to your phone. Available for both iOS and Android, you can post clips, browse the feed, check the leaderboard, and stay connected with the community on the go.
-
----
-
-## 📱 Download the App
-
-| Platform | Link |
-|----------|------|
-| **Android** | [Google Play Store](https://play.google.com/store/apps/details?id=app.skatehive) |
-| **iOS** | [Apple App Store](https://apps.apple.com/app/skatehive) |
+The Skatehive mobile app brings the community to your pocket. Built with Expo and React Native, it's available for iOS and Android.
 
 ---
 
-## 🔐 Setting Up Your Account
+## 📱 Download
 
-### First Time Login
-
-1. **Download and open** the Skatehive app
-2. **Enter your Hive username** on the login screen
-3. **Enter your Hive posting key** (or master password)
-4. Your keys are stored securely in your device's encrypted keychain
-
-> ⚠️ **Security Note**: Your keys are stored locally on your device using secure encrypted storage. Skatehive never sends your keys to any server.
-
-### Don't Have an Account?
-
-If you're new to Skatehive:
-1. Visit [base.skatehive.app](https://base.skatehive.app) to purchase an account with crypto
-2. Or ask a community member to invite you via the webapp at [skatehive.app/invite](https://skatehive.app/invite)
-3. Once you receive your credentials via email, use them to log in
+- **iOS**: [App Store](https://apps.apple.com/app/skatehive/id6738086962)
+- **Android**: [Google Play](https://play.google.com/store/apps/details?id=com.skatehive.app)
 
 ---
 
-## 🎯 Core Features
+## 🔐 Authentication
 
-### Home Feed
+The mobile app uses secure key storage with multiple authentication options:
 
-The main feed shows all community posts with infinite scroll. You can:
-- **Pull down to refresh** for the latest content
-- **Tap any post** to view full details and comments
-- **Switch between tabs**: Following, Trending, or Fresh content
-- **Like and comment** directly from the feed
+### Login Methods
 
-### Videos Tab
+1. **Existing Account**: Enter your Hive username and posting key
+2. **Biometric/PIN**: After first login, use Face ID, Touch ID, or a PIN
+3. **Stored Users**: Switch between previously logged-in accounts
+4. **Spectator Mode**: Browse content without logging in
 
-A dedicated video-only feed for skate clips:
-- Full-screen video playback
-- Scroll through videos TikTok-style
-- React and comment on clips
+### Security Features
 
-### Create Post
+| Feature | Description |
+|---------|-------------|
+| **Secure Storage** | Keys stored in `expo-secure-store` |
+| **Biometric Auth** | Face ID / Touch ID support |
+| **PIN Fallback** | 4-digit PIN if biometrics unavailable |
+| **Key Encryption** | Private keys never exposed |
 
-Tap the **+** button to create a new post:
-1. **Add a title** for your post
-2. **Write your content** using the text editor
-3. **Attach media**:
-   - 📷 Take a photo or select from gallery
-   - 🎬 Record or upload a video
-4. **Add tags** to help others find your content
-5. **Publish** to the Hive blockchain
+### First Login
 
-> 💡 **Video Upload**: Videos are automatically transcoded and uploaded to IPFS for permanent, decentralized storage.
+1. Open the app and tap **Login**
+2. Enter your Hive username
+3. Enter your **posting key** (not your master password!)
+4. Choose to enable biometric/PIN for future logins
+5. Your key is securely stored
 
-### Leaderboard
+### Switching Accounts
 
-Check community rankings based on:
-- Hive Power holdings
-- Post engagement
-- Community contributions
-- NFT holdings and more
-
-### Notifications
-
-Stay updated with:
-- Replies to your posts
-- Mentions from other users
-- Votes on your content
-- New followers
-
-### Profile
-
-View and manage your profile:
-- See your posts and activity
-- Check your followers and following
-- View your Hive stats
+The app remembers previously logged-in accounts:
+1. Tap your profile or logout
+2. See list of stored users
+3. Tap to switch (biometric/PIN required)
+4. Or add a new account
 
 ---
 
-## 🔄 Syncing with Webapp
+## 🎨 Features
 
-Everything you do on the mobile app syncs with the webapp ([skatehive.app](https://skatehive.app)):
-- Posts appear on both platforms instantly
-- Comments and votes sync in real-time
-- Your profile is the same across devices
+### Currently Available
+
+| Feature | Description |
+|---------|-------------|
+| **Feed** | View Skatehive community posts |
+| **Snaps** | Quick photo posts (like stories) |
+| **Video Upload** | Record and upload skate clips |
+| **Profile** | View your posts and stats |
+| **Voting** | Upvote content you like |
+| **Comments** | Reply to posts |
+
+### Spectator Mode
+
+Not ready to login? Use Spectator Mode to:
+- Browse the feed
+- Watch videos
+- View profiles
+- See the community
+
+You'll need to login to post, vote, or comment.
 
 ---
 
-## ⚙️ App Settings
+## 🎬 Video Upload
 
-Access settings by tapping your profile icon:
-- **Theme**: Choose light or dark mode
-- **Notifications**: Configure push notification preferences
-- **Account**: View your account details
-- **Logout**: Securely sign out
+The mobile app connects to Skatehive's transcoding servers:
+
+1. Record or select a video
+2. App checks server status via API
+3. Video uploaded to active transcoding server
+4. Transcoded video stored on IPFS
+5. Ready to post!
+
+Videos are automatically compressed and optimized for web playback.
 
 ---
 
-## 🆚 Mobile vs Webapp Features
+## 🔗 Shared Infrastructure
 
-The mobile app focuses on the core community experience. Some advanced features are currently webapp-only:
+The mobile app uses the same backend as the webapp:
+
+| Service | Endpoint |
+|---------|----------|
+| **API** | `api.skatehive.app/api/v1` |
+| **Video** | Dynamic (Oracle/Mac Mini/RPi) |
+| **IPFS** | `ipfs.skatehive.app` |
+| **Hive** | Multiple RPC nodes |
+
+Your content appears on both mobile and web!
+
+---
+
+## 📊 Feature Comparison with Webapp
 
 | Feature | Mobile | Webapp |
-|---------|:------:|:------:|
-| Feed & Posts | ✅ | ✅ |
+|---------|--------|--------|
+| Feed Browsing | ✅ | ✅ |
 | Video Upload | ✅ | ✅ |
-| Leaderboard | ✅ | ✅ |
-| Notifications | ✅ | ✅ |
-| Wallet | ⚠️ | ✅ |
-| Spot Map | ❌ | ✅ |
+| Snaps | ✅ | ✅ |
+| Wallet | ❌ | ✅ |
+| Airdrop | ❌ | ✅ |
+| Leaderboard | ❌ | ✅ |
 | Bounties | ❌ | ✅ |
-| DAO/Governance | ❌ | ✅ |
-| Zora Coins | ❌ | ✅ |
-| Auctions | ❌ | ✅ |
-
-> ⚠️ Wallet features are limited on mobile due to App Store policies.
+| DAO Page | ❌ | ✅ |
+| Spot Map | ❌ | ✅ |
 
 ---
 
-## ❓ Troubleshooting
+## 🛠️ Tech Stack
 
-### Can't Login?
-
-1. **Check your username**: Make sure it's spelled correctly (no @ symbol needed)
-2. **Verify your key**: Use your posting key or master password
-3. **Check internet connection**: The app needs internet to authenticate
-
-### Video Not Uploading?
-
-1. **Check file size**: Videos should be under 200MB
-2. **Check format**: MP4, MOV, and WebM are supported
-3. **Wait for transcoding**: Large videos may take a few minutes to process
-
-### App Crashing?
-
-1. **Update the app**: Make sure you have the latest version
-2. **Restart the app**: Close completely and reopen
-3. **Reinstall**: If issues persist, reinstall from the app store
+- **Framework**: Expo / React Native
+- **Navigation**: Expo Router
+- **Storage**: expo-secure-store
+- **Auth**: Biometric + PIN
+- **Video**: Native video recording
 
 ---
 
-## 💬 Get Help
+## 💡 Tips
 
-- **Discord**: [chat.skatehive.app](https://chat.skatehive.app)
-- **Twitter**: [@Skate_Hive](https://x.com/Skate_Hive)
-- **Webapp**: [skatehive.app](https://skatehive.app)
+1. **Use posting key** - Never enter your master password
+2. **Enable biometrics** - Faster and more secure logins
+3. **Keep app updated** - New features added regularly
+4. **Check permissions** - Camera/microphone needed for video
+5. **Good connection** - WiFi recommended for video uploads
 
 ---
 
-**Now get out there and share your clips with the world! 🛹**
+## ❓ FAQ
+
+### Is my key safe?
+Yes, keys are stored in the device's secure enclave using `expo-secure-store`. They're encrypted and never leave your device.
+
+### Can I use multiple accounts?
+Yes, the app stores multiple accounts. Switch between them from the login screen.
+
+### Why can't I find [feature]?
+Some features are webapp-only for now. Full feature parity is coming!
+
+### Video upload failed?
+Check your connection and try again. The app auto-selects the best available server.
+
+### How do I logout?
+Go to your profile and tap the logout button. Your account data can be removed or kept for easy re-login.
+
+---
+
+**Get the app and skate with Skatehive anywhere! 📱🛹**

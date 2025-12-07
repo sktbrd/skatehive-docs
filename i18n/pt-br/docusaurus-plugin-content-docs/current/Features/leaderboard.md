@@ -3,169 +3,163 @@ sidebar_position: 3
 icon: trophy
 ---
 
-# Ranking
+# Leaderboard
 
-O Ranking do Skatehive classifica membros da comunidade baseado em suas contribuições e engajamento. Veja onde você está e suba nas posições!
+O Leaderboard do Skatehive classifica membros da comunidade baseado em seu engajamento, holdings e contribuições. Os dados são armazenados no Supabase e atualizados regularmente.
 
-Acesse em [skatehive.app/leaderboard](https://skatehive.app/leaderboard)
+Veja em [skatehive.app/leaderboard](https://skatehive.app/leaderboard)
 
 ---
 
 ## 🏆 Visão Geral
 
-O ranking destaca os membros mais ativos e valiosos da comunidade Skatehive. As classificações são calculadas com base em múltiplos fatores que recompensam participação genuína.
+O leaderboard rastreia assinantes da comunidade Skatehive e os classifica por **pontos**. Os pontos são calculados de múltiplos fatores incluindo:
+
+- Holdings de Hive (HIVE, HP, HBD)
+- Ativos Ethereum (votos Gnars, NFTs Skatehive)
+- Atividade (posts, snaps)
+- Suporte à comunidade (votos de witness, doações)
 
 ---
 
-## 📊 Fatores de Classificação
+## 📊 Dados Rastreados
 
-Sua posição no ranking é determinada por uma combinação de:
+Cada usuário no leaderboard tem os seguintes dados:
 
-### 💪 Hive Power (HP)
-
-Seus tokens HIVE em stake mostram compromisso com o ecossistema:
-- Mais HP = maior peso na classificação
-- Demonstra investimento de longo prazo na comunidade
-- Aumenta sua influência de voto
-
-### 📝 Atividade de Postagem
-
-Criação de conteúdo consistente importa:
-- Número de posts para a comunidade
-- Qualidade do post (engajamento recebido)
-- Atividade regular ao longo do tempo
-
-### 💬 Engajamento
-
-Como você interage com outros:
-- Comentários em outros posts
-- Votos dados ao conteúdo da comunidade
-- Respostas e discussões
-
-### 🗳️ Voto em Witnesses
-
-Apoiando a infraestrutura da blockchain:
-- Votar no witness do Skatehive
-- Apoiar witnesses alinhados com a comunidade
-
-### 🎨 Holdings de NFT
-
-Propriedade de NFTs do Skatehive:
-- NFTs de leilão do Nouns Builder
-- Itens de coleção da comunidade
-- Mostra apoio através de colecionar
-
-### 💎 Doações ao Tesouro
-
-Contribuindo para o tesouro da comunidade:
-- Doações para skatehive.eth
-- Apoiando iniciativas da comunidade
+| Campo | Descrição |
+|-------|-----------|
+| `hive_author` | Username Hive |
+| `hive_balance` | Saldo HIVE líquido |
+| `hp_balance` | Hive Power |
+| `hbd_balance` | Saldo HBD |
+| `hbd_savings_balance` | HBD em savings (15% APR) |
+| `has_voted_in_witness` | Se o usuário votou no witness Skatehive |
+| `eth_address` | Endereço Ethereum vinculado |
+| `gnars_balance` | Holdings de NFT Gnars |
+| `gnars_votes` | Poder de voto na Gnars DAO |
+| `skatehive_nft_balance` | Contagem de NFTs Skatehive |
+| `max_voting_power_usd` | Valor máximo do voto em USD |
+| `post_count` | Score combinado de posts/snaps |
+| `giveth_donations_usd` | Total doado via Giveth |
+| `points` | Pontuação calculada do ranking |
 
 ---
 
-## 🎯 Categorias do Ranking
+## 📈 Cálculo de Pontos
 
-O ranking pode ser filtrado por diferentes categorias:
+Os pontos são calculados com os seguintes multiplicadores e limites:
 
-| Categoria | O Que Mede |
-|-----------|------------|
-| **Geral** | Pontuação combinada de todos os fatores |
-| **Hive Power** | Maiores holdings de HP |
-| **Atividade** | Postadores mais ativos |
-| **Engajamento** | Membros mais interativos |
-| **Colecionadores** | Mais NFTs mantidos |
-| **Apoiadores** | Votantes de witness e doadores |
+### Fatores Positivos
 
----
+| Fator | Multiplicador | Limite |
+|-------|---------------|--------|
+| Saldo HIVE | 0.1 | 1.000 HIVE |
+| Saldo HP | 0.5 | 12.000 HP |
+| HBD Savings | 0.2 | 1.000 HBD |
+| Votos Gnars | 30 | - |
+| NFTs Skatehive | 50 | - |
+| Poder de Voto Máx (USD) | 1.000 | - |
+| Contagem de Posts (score de atividade) | 0.1 | 3.000 |
+| Voto no Witness | +1.000 pontos | - |
+| Carteira ETH Vinculada | +5.000 pontos | - |
+| Doações Giveth | 5 por USD | 1.000 USD máx |
 
-## 📈 Como Subir no Ranking
+### Penalidades
 
-### Vitórias Rápidas
+| Condição | Penalidade |
+|----------|------------|
+| Sem carteira ETH vinculada | -2.000 |
+| Saldo HIVE zero | -1.000 |
+| Saldo HP zero | -5.000 |
+| Votos Gnars zero | -300 |
+| NFTs Skatehive zero | -900 |
+| HBD savings zero | -200 |
+| Contagem de posts zero | -2.000 |
+| Inatividade | Até -100 (dias desde último post) |
 
-1. **Vote no witness do Skatehive** - Boost instantâneo no ranking
-2. **Faça power up do seu HIVE** - Aumenta sua pontuação de HP
-3. **Engaje diariamente** - Comente e vote em posts
-
-### Crescimento de Longo Prazo
-
-1. **Poste conteúdo de qualidade regularmente** - Construa sua reputação
-2. **Construa conexões genuínas** - Engaje significativamente com outros
-3. **Aumente HP ao longo do tempo** - Componha sua influência
-4. **Colecione NFTs** - Participe de leilões
-5. **Contribua para o tesouro** - Apoie o crescimento da comunidade
-
----
-
-## 🔄 Atualizações do Ranking
-
-O ranking é atualizado regularmente:
-- Rankings são recalculados periodicamente baseados em dados da blockchain
-- Novos posts e votos são contados conforme acontecem
-- Mudanças de HP refletem imediatamente após power up/down
+> Pontos mínimos é 0 - usuários não podem ter scores negativos.
 
 ---
 
-## 🏅 Benefícios de Alta Classificação
+## 📡 Fontes de Dados
 
-### Visibilidade
+### Blockchain Hive
+- Saldos de conta (HIVE, HP, HBD)
+- Vesting shares (para cálculo de HP)
+- Votos de witness
+- Data do último post
+- Metadata (para extração de endereço ETH)
 
-- Destaque na página do ranking
-- Reconhecimento na comunidade
-- Seu perfil recebe mais visualizações
+### Ethereum
+- Saldo e poder de voto de NFTs Gnars
+- Holdings de NFTs Skatehive
+- Leitura via RPC público
 
-### Influência
+### API Skatehive
+- `api.skatehive.app/api/v2/activity/posts` - Scores de atividade de posts
+- `api.skatehive.app/api/v2/activity/snaps` - Scores de atividade de snaps
 
-- Maior HP significa votos mais fortes
-- Mais recompensas de curadoria quando você vota
-- Maior voz na governança da comunidade
-
-### Status na Comunidade
-
-- Respeitado como contribuidor ativo
-- Novos usuários olham para os top rankeados para orientação
-- Oportunidades potenciais de colaboração
-
----
-
-## 📱 Visualizando no Mobile
-
-O ranking está disponível em ambos:
-- **Webapp**: Acesso completo a funcionalidades em [skatehive.app/leaderboard](https://skatehive.app/leaderboard)
-- **App Mobile**: Veja rankings na aba Ranking
+### Giveth
+- Rastreamento de doações via API Giveth
+- Valores USD combinados com usernames Hive
 
 ---
 
-## 💡 Dicas
+## 🔄 Agenda de Atualização
 
-1. **Consistência vence explosões** - Atividade regular rankeia mais alto que postagem esporádica
-2. **Qualidade sobre quantidade** - Posts engajantes que recebem votos importam mais
-3. **Apoie outros** - A comunidade recompensa quem eleva outros
-4. **Mantenha seu HP** - Fazer power down prejudica seu ranking
-5. **Se envolva** - Participe de discussões, recompensas e eventos da comunidade
+Os dados do leaderboard são atualizados em lotes:
 
----
+1. **Atualização completa**: Todos os assinantes processados
+2. **Atualização parcial**: 100 registros mais antigos atualizados
+3. **Tamanho do lote**: 25 usuários processados em paralelo
+4. **Comunidade**: `hive-173115` (Skatehive)
 
-## ❓ FAQ
-
-### Com que frequência meu rank atualiza?
-Rankings são calculados regularmente baseados nos dados mais recentes da blockchain. Mudanças maiores (como power up) refletem rapidamente.
-
-### Por que meu rank caiu?
-Razões comuns:
-- Outros fizeram power up mais que você
-- Diminuição na atividade de postagem
-- Fez power down de algum HP
-- Outros aumentaram seu engajamento
-
-### Existe recompensa para top rankings?
-Atualmente, o ranking é para reputação e visibilidade. Airdrops e outras recompensas podem mirar usuários top rankeados.
-
-### Posso ver rankings históricos?
-O ranking atual mostra posições presentes. Dados históricos podem ser adicionados no futuro.
-
-### Como a pontuação é calculada exatamente?
-O algoritmo pesa múltiplos fatores com HP e atividade sendo primários. A fórmula exata pode ser ajustada para manter os rankings justos e significativos.
+Após busca de dados, os pontos são recalculados para todos os usuários.
 
 ---
 
-**Comece a subir nos rankings e se torne uma lenda do Skatehive! 🏆🛹**
+## 🎯 Score de Atividade
+
+O campo `post_count` é na verdade um score de atividade combinado:
+
+```
+combined_score = (post_score × 10) + (snap_score × 3 × capped_ratio)
+```
+
+- Posts têm maior influência (multiplicador 10x)
+- Snaps têm menor influência (multiplicador 3x)
+- Máximo de 50 snaps contados (previne gaming por spam)
+
+---
+
+## 🖥️ Endpoints da API
+
+| Endpoint | Descrição |
+|----------|-----------|
+| `GET https://api.skatehive.app/api/skatehive` | Buscar dados do leaderboard |
+| `GET https://api.skatehive.app/api/leaderboard` | Disparar atualização de dados |
+
+---
+
+## 🎨 Recursos da UI
+
+O leaderboard no webapp mostra:
+- **Pódio**: Top 3 usuários com avatares
+- **Tabela de rankings**: Todos usuários ordenados por pontos
+- **Stats do usuário**: Clique para ver detalhamento
+- **Imagens OG dinâmicas**: Para compartilhamento social
+
+---
+
+## 🔗 Integração com Airdrop
+
+O leaderboard alimenta o sistema de airdrop:
+- Filtre usuários por vários critérios
+- Ordene por pontos, HP, NFTs, etc.
+- Aplique distribuição ponderada baseada nos rankings
+
+Veja a [documentação de Airdrop](./airdrop) para mais detalhes.
+
+---
+
+**Suba no leaderboard sendo ativo, segurando ativos e apoiando a comunidade! 🏆🛹**

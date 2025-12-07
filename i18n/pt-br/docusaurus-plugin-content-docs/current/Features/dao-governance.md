@@ -1,251 +1,150 @@
 ---
 sidebar_position: 7
-icon: landmark
+icon: vote
 ---
 
-# DAO e Governança
+# DAO & Governança
 
-O Skatehive opera como uma organização autônoma descentralizada (DAO). Membros da comunidade participam da governança através de votação e propostas.
+O Skatehive opera como uma organização autônoma descentralizada (DAO) com tesouros tanto no Hive quanto no Ethereum. A comunidade gerencia coletivamente recursos e toma decisões.
 
 ---
 
 ## 🏛️ Visão Geral
 
-A governança do Skatehive é alimentada por dois sistemas:
-- **Nouns Builder** - Governança on-chain na rede Base
-- **Governança Hive** - Votação de witnesses e discussões de propostas
+A governança do Skatehive abrange duas blockchains:
+- **Hive**: Votação da comunidade, recompensas, witness
+- **Ethereum (Base)**: Leilões de NFT, tesouro, propostas
 
-Juntos, eles criam uma comunidade de propriedade e administração dos skatistas.
-
----
-
-## 🗳️ Como a Governança Funciona
-
-### DAO Nouns Builder
-
-O Skatehive usa [Nouns Builder](https://nouns.build/) para governança on-chain:
-
-| Componente | Descrição |
-|------------|-----------|
-| **NFTs** | Cada NFT de leilão = 1 voto |
-| **Propostas** | Propostas on-chain para gastos do tesouro |
-| **Votação** | Holders de NFT votam em propostas |
-| **Tesouro** | Fundos da comunidade gerenciados pela DAO |
-| **Execução** | Propostas aprovadas executam automaticamente |
-
-### Governança Hive
-
-Na blockchain Hive:
-- Vote em **witnesses** que operam a rede
-- Participe de **discussões** da comunidade
-- Faça stake de **Hive Power** para influência
+A página DAO mostra ativos do tesouro e links de governança.
 
 ---
 
-## 🎨 NFTs do Skatehive
+## 💰 Contas do Tesouro
 
-### Leilões Diários
+### Contas Hive
 
-Todo dia (ou intervalo definido), um novo NFT do Skatehive é mintado e leiloado:
-1. Arte única, gerada programaticamente
-2. Leilão roda por 24 horas
-3. Maior lance ganha o NFT
-4. Todo o valor vai para o tesouro
+| Conta | Propósito |
+|-------|-----------|
+| `skatehive` | Conta principal da comunidade |
+| `steemskate` | Conta OG legado |
+| `gnars` | Integração Gnars DAO |
 
-### Benefícios do NFT
+Essas contas guardam HIVE, HP e HBD para uso da comunidade.
 
-Ter um NFT do Skatehive te dá:
-- **Poder de voto** - 1 NFT = 1 voto em propostas
-- **Direitos de governança** - Participe de decisões da DAO
-- **Status na comunidade** - Reconhecido como stakeholder
-- **Acesso** - Potenciais benefícios futuros e airdrops
+### Endereços Ethereum
 
-### Onde Dar Lances
+| Endereço | Propósito |
+|----------|-----------|
+| `skatehive.eth` | Hot wallet para operações |
+| Base Multisig | Cold storage (multi-assinatura) |
 
-Visite [skatehive.app/auction](https://skatehive.app/auction) para:
-- Ver o leilão atual
-- Ver histórico de leilões
-- Dar lances com ETH
+ETH e tokens ERC-20 são mantidos para iniciativas cross-chain.
 
 ---
 
-## 📝 Propostas
+## 🗳️ Nouns Builder
 
-### O Que Pode Ser Proposto?
+O Skatehive usa **Nouns Builder** na rede Base para governança baseada em NFT:
 
-Propostas podem cobrir qualquer coisa relacionada à comunidade:
-- **Gastos do tesouro** - Financiar eventos, prêmios, desenvolvimento
-- **Iniciativas da comunidade** - Novas funcionalidades, parcerias
-- **Mudanças de parâmetros** - Timing de leilão, preços de reserva
-- **Decisões sociais** - Diretrizes da comunidade, políticas
+### Como Funciona
 
-### Criando uma Proposta
+1. **Leilões Diários**: Um NFT leiloado a cada 24 horas
+2. **NFT = Voto**: Cada NFT dá 1 voto em propostas
+3. **Tesouro**: Receita dos leilões vai para o tesouro da DAO
+4. **Propostas**: Holders de NFT podem criar e votar em propostas
 
-1. **Discuta primeiro** - Compartilhe sua ideia no Discord
-2. **Junte apoio** - Obtenha feedback da comunidade
-3. **Redija a proposta** - Descrição clara e orçamento
-4. **Envie on-chain** - Requer mínimo de NFTs ou delegação
-5. **Período de votação** - Comunidade vota durante prazo definido
-6. **Execução** - Propostas aprovadas executam automaticamente
+### Participando
 
-### Exemplo de Proposta
-
-```
-Título: Financiar Evento Local na Pista
-
-Descrição: 
-Realizar um evento de skate comunitário no Parque LA com prêmios.
-
-Orçamento: 2 ETH do tesouro
-
-Detalhamento:
-- 1 ETH: Prêmios em dinheiro para competição
-- 0.5 ETH: Suprimentos do evento e licenças
-- 0.5 ETH: Documentação em vídeo
-
-Cronograma: 
-Enviar até 1 Jan, Evento em 15 Fev
-```
+1. Ganhe um NFT em um leilão diário
+2. Mantenha o NFT na sua carteira
+3. Vote em propostas ativas
+4. Crie propostas (se atingir o threshold)
 
 ---
 
-## 💰 O Tesouro
+## 🔗 Links de Governança
 
-### O Que Está no Tesouro?
-
-O tesouro do Skatehive contém:
-- ETH de vendas de leilões de NFT
-- Fundos doados por apoiadores
-- Taxas de trading de Zora coins (2.5%)
-- Outras contribuições da comunidade
-
-### Endereços do Tesouro
-
-| Rede | Endereço | Propósito |
-|------|----------|-----------|
-| **Ethereum** | skatehive.eth | Hot wallet |
-| **Base** | [Multisig](https://app.safe.global/transactions/queue?safe=base:0xc1afa4c0a70b622d7b71d42241bb4d52b6f3e218) | Tesouro principal |
-
-### Como os Fundos São Usados
-
-Fundos do tesouro são controlados pela DAO e usados para:
-- Eventos e concursos da comunidade
-- Desenvolvimento da plataforma
-- Marketing e crescimento
-- Apoio direto a skatistas
+- **Nouns Builder**: [nouns.build/dao/base/0x...](https://nouns.build)
+- **Rede Base**: Propostas e votação na Base
+- **Witness Hive**: Vote no witness `skatehive`
 
 ---
 
-## 🗳️ Votação
+## 📊 Página de Ativos da DAO
 
-### Votação On-Chain
+A página DAO do webapp (`/dao`) mostra:
 
-Para propostas Nouns Builder:
-1. Conecte sua carteira em [skatehive.app/auction](https://skatehive.app/auction)
-2. Veja propostas ativas
-3. Vote **A Favor**, **Contra** ou **Abstenção**
-4. Assine a transação
+### Exibição Atual
+- Endereços das carteiras do tesouro
+- Links para ver saldos
+- Links do portal de governança
 
-### Poder de Voto
-
-Seu poder de voto depende de:
-- Número de NFTs do Skatehive que você tem
-- Votos delegados de outros
-
-### Delegação
-
-Não tem um NFT mas quer participar?
-- Peça a um holder de NFT para delegar o voto para você
-- Ou, holders podem delegar para membros ativos da comunidade
+> Nota: A página de ativos da DAO está marcada como "em construção" e pode ter funcionalidade limitada.
 
 ---
 
-## 🔗 Votação de Witness (Hive)
+## 👁️ Votação de Witness
 
-### O Que é um Witness?
+No Hive, você pode apoiar a infraestrutura do Skatehive:
 
-Witnesses são servidores que operam a blockchain Hive:
-- Validam transações
-- Produzem blocos
-- Definem parâmetros da blockchain
+1. Vá para a [página de witnesses do Hive](https://hivesigner.com/witnesses)
+2. Encontre `skatehive` na lista
+3. Vote no witness
+4. Seu voto ajuda a proteger a rede
 
-### Por Que Votar no Witness do Skatehive?
-
-Votar no witness do Skatehive:
-- Apoia o skate no Hive
-- Ajuda a proteger a rede
-- Mostra alinhamento com a comunidade
-- Melhora sua classificação no ranking!
-
-### Como Votar
-
-1. Visite [skatehive.app/witness](https://skatehive.app/witness)
-2. Faça login com Hive Keychain
-3. Clique em "Votar" ao lado do Skatehive
-4. Confirme a transação
+Votantes de witness ganham um **boost de +1.000 pontos** no leaderboard!
 
 ---
 
-## 📊 Estatísticas de Governança
+## 💎 Como Contribuir
 
-Acompanhe a atividade da DAO:
-- **Valor total do tesouro**
-- **NFTs mintados**
-- **Propostas aprovadas**
-- **Votantes ativos**
+### Financeiro
+- **Doe para o tesouro**: Envie para `skatehive` no Hive ou `skatehive.eth` no Ethereum
+- **Participe de leilões**: Lance em NFTs diários
+- **Doações Giveth**: Rastreadas e recompensadas no leaderboard
 
-Visite a página de leilão para estatísticas atuais.
+### Governança
+- **Vote em propostas**: Se você tem NFTs
+- **Crie propostas**: Sugira iniciativas da comunidade
+- **Vote no witness**: Apoie a infraestrutura Hive
 
 ---
 
-## 💡 Como Se Envolver
+## 🏆 Integração Gnars
 
-### Ainda Não Tem NFT?
+O Skatehive integra com a **Gnars DAO**:
+- Holders de NFT Gnars ganham pontos no leaderboard
+- Votos Gnars contribuem para seu score
+- Colaboração entre comunidades
 
-1. **Participe de discussões** - Compartilhe ideias no Discord
-2. **Dê lances em leilões** - Tente ganhar um NFT
-3. **Peça delegação** - Receba votos delegados para você
-4. **Vote no witness** - Participe da governança Hive
+---
 
-### Já é Holder?
+## 💡 Dicas
 
-1. **Vote em propostas** - Todo voto importa
-2. **Crie propostas** - Sugira melhorias
-3. **Delegue com sabedoria** - Empodere membros ativos da comunidade
-4. **Participe de reuniões** - Junte-se às discussões de governança
+1. **Segure NFTs para poder de voto** - Mais NFTs = mais votos
+2. **Vote no witness** - Boost fácil no leaderboard
+3. **Doe via Giveth** - Fica rastreado no leaderboard
+4. **Participe de propostas** - Molde a comunidade
 
 ---
 
 ## ❓ FAQ
 
-### Quanto custa um NFT?
+### Como ganho poder de voto?
+Ganhe NFTs em leilões diários no Nouns Builder.
 
-Preços de leilão variam baseados na demanda. Confira o leilão atual em [skatehive.app/auction](https://skatehive.app/auction).
+### Para que serve o voto de witness?
+Witnesses operam nós Hive que processam transações. Votar apoia a segurança da rede.
 
-### Propostas podem ser rejeitadas?
+### Para onde vão as receitas dos leilões?
+100% para o tesouro da DAO para uso da comunidade.
 
-Sim. Propostas precisam de aprovação majoritária e participação mínima para passar.
+### Posso submeter uma proposta?
+Holders de NFT podem criar propostas se atingirem o threshold.
 
-### O que acontece se uma proposta falhar?
-
-Ela não executa. O proponente pode revisar e reenviar baseado no feedback.
-
-### O tesouro é seguro?
-
-O tesouro usa uma carteira multisig que requer múltiplas aprovações para qualquer transação.
-
-### Posso vender meu voto de NFT?
-
-NFTs podem ser vendidos, e o poder de voto transfere com a propriedade.
+### Existe um token?
+O Skatehive usa NFTs para governança, não um token separado. HIVE/HBD são usados para recompensas.
 
 ---
 
-## 🔗 Relacionados
-
-- **[Leilão Skatehive](../Get%20Started/nftskatehive.md)** - Detalhes do leilão de NFT
-- **[Witness Hive](../Advance/hive-witness.md)** - Guia de votação de witness
-- **[Ranking](./leaderboard.md)** - Governança afeta rankings
-
----
-
-**Molde o futuro do skate - participe da governança! 🏛️🛹**
+**Junte-se à DAO e ajude a moldar o futuro do Skatehive! 🏛️🛹**

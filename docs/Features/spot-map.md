@@ -5,7 +5,7 @@ icon: map
 
 # Spot Map
 
-The Skatehive Spot Map is an interactive global map where the community shares and discovers skateboarding spots. Find new places to skate or contribute your local gems!
+The Skatehive Spot Map lets the community share and discover skateboarding spots. It uses an embedded Google Maps with community-contributed locations, plus a Snaps-based spot list.
 
 Access it at [skatehive.app/map](https://skatehive.app/map)
 
@@ -13,150 +13,121 @@ Access it at [skatehive.app/map](https://skatehive.app/map)
 
 ## 🗺️ Overview
 
-The spot map displays community-submitted skate spots worldwide:
-- **Pins on the map** show spot locations
-- **Click a pin** to see spot details, photos, and videos
-- **Filter spots** by type (street, park, DIY, etc.)
-- **Add new spots** to share with the community
+The spot map page has two main sections:
+- **Embedded Google Map**: A collaborative Google Maps with pins for skate spots worldwide
+- **Spot List**: Recent spot submissions from the community as Snaps
 
 ---
 
-## 🔍 Finding Spots
+## 🔍 Using the Map
 
-### Browse the Map
+### Browse Spots
 
 1. Go to [skatehive.app/map](https://skatehive.app/map)
-2. **Zoom and pan** to explore different areas
-3. **Click on pins** to view spot details
-4. Use the **search bar** to find spots by name or location
+2. The embedded Google Map shows all community-added spots
+3. **Zoom and pan** to explore different areas
+4. **Click on pins** to see spot names and details
 
-### Spot Details
+### Spot List
 
-Each spot shows:
-- 📍 **Location**: Address and coordinates
-- 📸 **Photos**: Images of the spot
-- 🎬 **Videos**: Clips filmed there
-- 📝 **Description**: What to expect
-- ⚠️ **Notes**: Security, best times to skate, etc.
-- 💬 **Comments**: Community feedback
+On the side (or below on mobile), you'll see recent spot submissions:
+- Photos and descriptions from the community
+- Posted as Snaps to the main community container
+- Tagged with `#skatespot`
 
 ---
 
 ## ➕ Adding a New Spot
 
-Share your local spots with the world:
+Use the **SpotSnapComposer** to add a new spot:
 
-### Step 1: Navigate to the Location
-
-1. Open the spot map
-2. Find the location on the map by zooming/panning
-3. Click **"Add Spot"** button
-
-### Step 2: Pin the Spot
-
-1. Click on the exact location on the map
-2. Adjust the pin if needed for accuracy
-
-### Step 3: Add Details
-
-Fill in the spot information:
+### Required Info
 
 | Field | Description |
 |-------|-------------|
-| **Name** | Give the spot a recognizable name |
-| **Type** | Street, Park, DIY, Plaza, etc. |
+| **Spot Name** | Give the spot a recognizable name |
 | **Description** | What's there? Ledges, rails, gaps? |
 | **Photos** | Upload images of the spot |
-| **Notes** | Security info, best times, warnings |
 
-### Step 4: Submit
+### Location Data (Optional but Recommended)
 
-1. Review your submission
-2. Click **"Submit Spot"**
-3. The spot will be added to the map
+The composer can extract GPS coordinates from your photos automatically:
+- **Latitude/Longitude**: Extracted from photo EXIF data
+- **Address**: Can be auto-detected or manually entered
 
-> 💡 **Tip**: Include Google Maps coordinates or a nearby landmark to help others find it.
+> 💡 **Tip**: Photos taken with GPS enabled on your phone will automatically populate the coordinates.
 
----
+### Posting a Spot
 
-## 📸 Adding Media to Spots
+1. Click the composer button on the map page
+2. Enter the **Spot Name** (required)
+3. Add a **description** or upload **photos** (at least one required)
+4. Location data is optional - you can add it later by editing
+5. Click **Publish** to post to the community
 
-### Photos
-
-1. Click on an existing spot
-2. Click **"Add Photo"**
-3. Upload from your device
-4. Add a caption (optional)
-
-### Videos
-
-1. Film a clip at the spot
-2. Post it to Skatehive with the spot tagged
-3. The video will be linked to the spot
+The spot appears as a Snap in the spot list. It's posted to the main Snaps container with the `skatespot` tag.
 
 ---
 
-## 🏷️ Spot Types
+## 📸 Photo Features
 
-Spots are categorized to help you find what you're looking for:
+### GPS Extraction
 
-| Type | Description |
-|------|-------------|
-| **Street** | Real street spots - ledges, rails, stairs |
-| **Park** | Skateparks with ramps, bowls, etc. |
-| **DIY** | Community-built spots |
-| **Plaza** | Open areas with various obstacles |
-| **Transition** | Bowls, pools, vert ramps |
-| **Flatground** | Smooth flat areas for technical tricks |
+When you upload a photo:
+- The app reads EXIF GPS data if available
+- Coordinates auto-fill the lat/lon fields
+- Works with most smartphone photos
 
----
+### Image Upload
 
-## 🌍 Community Contributions
-
-The spot map is built by skaters, for skaters:
-
-- **Anyone can add spots** - Share your local knowledge
-- **Upvote quality spots** - Help good spots get discovered
-- **Report issues** - Let others know if a spot is busted or gone
-- **Add updates** - Share if something has changed
+- Images are compressed and uploaded to Hive Images
+- Multiple images supported per spot
+- Captions can be added to each image
 
 ---
 
-## 📱 Using on Mobile
+## 📝 Spot Post Format
 
-The spot map works great on mobile devices:
-- Use your phone's GPS to find spots near you
-- Take photos directly and upload
-- Navigate to spots using your maps app
+When you publish, the post is formatted as:
 
-> 📍 **Note**: The full spot map is currently webapp-only. Mobile app support coming soon!
+```
+Spot Name: [Your Spot Name]
+🌐 [Lat], [Lon] ([Address])
+
+[Your description]
+
+![](image-url)
+```
+
+---
+
+## 🔗 How Spots Work
+
+Spots are posted as **Snaps** (comments on the main Snaps container):
+- They appear in the spot list on the map page
+- Tagged with `hive-173115` (Skatehive community) and `skatespot`
+- The Google Maps embed is separate and manually curated
+
+> **Note**: Currently, new spot submissions appear in the Snaps list but need to be manually added to the Google Maps by community maintainers.
+
+---
+
+## 📱 Mobile Usage
+
+The map page is responsive and works on mobile:
+- Google Maps is interactive on mobile
+- Spot composer available from the page
+- GPS extraction from photos works on mobile
 
 ---
 
 ## 💡 Tips for Great Spot Submissions
 
 1. **Take clear photos** - Show the main features and overall layout
-2. **Be specific with location** - Include nearby landmarks or cross streets
-3. **Note obstacles** - Mention ledge heights, rail lengths, etc.
-4. **Security warnings** - If it gets kicked, let people know
-5. **Best times** - When is it least crowded or best lit?
+2. **Enable GPS on your camera** - This auto-fills location data
+3. **Include useful details** - Ledge heights, security info, best times
+4. **Add context** - What city/neighborhood is it in?
 
 ---
 
-## ❓ FAQ
-
-### Can I edit a spot I added?
-Yes, you can update spots you've submitted with new photos or information.
-
-### What if a spot no longer exists?
-Report it as "busted" or "gone" so others know. We keep historical data for the archives.
-
-### Are all spots public?
-Some spots may be marked as "locals only" or have limited visibility based on community guidelines.
-
-### How do spots connect to Snaps?
-When you post a Snap at a location, it can be linked to the spot map, showing your content to others exploring that area.
-
----
-
-**Go explore and add your favorite spots to the map! 🗺️🛹**
+**Go explore and share your favorite spots with the community! 🗺️🛹**

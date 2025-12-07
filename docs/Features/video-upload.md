@@ -3,231 +3,177 @@ sidebar_position: 5
 icon: video
 ---
 
-# Video Upload Guide
+# Video Upload
 
-Skatehive makes it easy to share your skate clips with the community. Videos are automatically transcoded for web playback and stored permanently on IPFS.
+Skatehive provides free video upload and transcoding for all skate content. Videos are transcoded to web-optimized formats and stored on IPFS for permanent access.
 
 ---
 
 ## 🎬 Overview
 
-When you upload a video to Skatehive:
-1. **Upload** - Send your video file
-2. **Transcode** - Automatically converted to web-optimized format
-3. **Store** - Permanently saved on IPFS (decentralized storage)
-4. **Publish** - Embedded in your post on the Hive blockchain
+When you upload a video:
+1. Video is sent to a transcoding server
+2. Server converts it to web-optimized format
+3. Transcoded video is uploaded to IPFS
+4. You receive an IPFS URL to use in your post
+
+The service is **completely free** for Skatehive community members.
 
 ---
 
-## 📱 Supported Formats
+## 🖥️ Transcoding Servers
 
-### Video Formats
+Skatehive runs multiple transcoding servers with automatic fallback:
 
-| Format | Extension | Supported |
-|--------|-----------|:---------:|
-| MP4 | `.mp4` | ✅ |
-| QuickTime | `.mov` | ✅ |
-| WebM | `.webm` | ✅ |
-| AVI | `.avi` | ✅ |
-| MKV | `.mkv` | ✅ |
+| Priority | Server | Location |
+|----------|--------|----------|
+| 1 | Oracle Cloud | Primary (146.235.239.243) |
+| 2 | Mac Mini M4 | Secondary (192.168.68.57) |
+| 3 | Raspberry Pi | Tertiary (192.168.68.105) |
 
-### Recommended Settings
-
-For best results:
-- **Resolution**: 1080p or 720p
-- **Codec**: H.264 (most compatible)
-- **Bitrate**: 5-15 Mbps
-- **Frame Rate**: 24-60 fps
+If the primary server is unavailable, the system automatically tries the next one.
 
 ---
 
-## 📤 How to Upload
+## 📤 How It Works
 
-### On Webapp
+### Webapp Upload
 
-1. Go to [skatehive.app](https://skatehive.app) and click **Create Post**
-2. Write your post title and content
-3. Click the **📹 video icon** in the editor toolbar
-4. **Select your video file** from your device
-5. Wait for upload and transcoding to complete
-6. The video will embed automatically in your post
-7. Add tags and publish!
+1. Open the post composer
+2. Click the video upload button
+3. Select your video file
+4. Wait for transcoding and IPFS upload
+5. Video URL is inserted into your post
 
-### On Mobile App
+### Mobile App Upload
 
-1. Tap the **+** button to create a new post
-2. Tap the **camera/video icon**
-3. Choose **"Record Video"** or **"Select from Gallery"**
-4. Wait for processing
-5. Add your text and publish
+1. Record or select a video
+2. The app checks server status via the API
+3. Video is sent to the active transcoding server
+4. Progress is shown during upload
+5. IPFS URL is returned and used in your post
 
 ---
 
-## ⏱️ Processing Times
+## 📊 Upload Details
 
-Video processing depends on file size and server load:
+When uploading, the following data is sent:
 
-| File Size | Approximate Time |
-|-----------|------------------|
-| Under 50MB | 30 seconds - 1 minute |
-| 50-100MB | 1-3 minutes |
-| 100-200MB | 3-5 minutes |
-| Over 200MB | May timeout - compress first |
+| Field | Description |
+|-------|-------------|
+| `video` | The video file |
+| `username` | Your Hive username |
+| `deviceInfo` | Device type (webapp/mobile) |
+| `browser` | Browser information (webapp) |
+| `isIOS` | iOS flag for mobile |
+| `isAndroid` | Android flag for mobile |
+| `screenWidth` | Screen width |
+| `screenHeight` | Screen height |
 
-> 💡 **Tip**: Compress large files before uploading for faster processing.
+Device info helps with debugging and optimization.
 
 ---
 
-## 📏 File Size Limits
+## 🔧 Server Status API
 
-- **Maximum upload**: 200MB per video
-- **Recommended**: Under 100MB for fastest processing
+The mobile app uses a status endpoint to get the active server:
 
-### How to Reduce File Size
+```
+GET https://api.skatehive.app/api/v1/status
+```
 
-If your video is too large:
+Response includes the current active transcoding URL.
 
-1. **Use HandBrake** (free): [handbrake.fr](https://handbrake.fr/)
-   - Open your video
-   - Choose "Fast 1080p30" preset
-   - Start encoding
+---
 
-2. **Use FFmpeg** (command line):
-   ```bash
-   ffmpeg -i input.mov -c:v libx264 -crf 23 -preset medium output.mp4
-   ```
+## 📁 Supported Formats
 
-3. **Mobile apps**: Use video compressor apps from your app store
+### Input Formats
+- MP4, MOV, AVI, MKV
+- Most common video codecs
+- Max file size: ~500MB (recommended)
+
+### Output Format
+- MP4 with H.264 codec
+- Web-optimized for streaming
+- Compressed for fast loading
 
 ---
 
 ## 🌐 IPFS Storage
 
-Your videos are stored on IPFS (InterPlanetary File System):
+After transcoding, videos are stored on IPFS:
+- **Gateway**: `ipfs.skatehive.app`
+- **Pinning**: Via Pinata for permanence
+- **Access**: Videos remain available as long as they're pinned
 
-### What is IPFS?
-
-- **Decentralized**: No single server holds your content
-- **Permanent**: Files are addressed by content hash
-- **Censorship-resistant**: No one can delete your content
-- **Fast delivery**: Served from multiple gateways
-
-### Your Video URL
-
-After upload, your video gets an IPFS URL like:
+Video URLs look like:
 ```
-https://ipfs.skatehive.app/ipfs/QmXxxxxxxxxxxxxxxxxxxxxxxxxxxxxxXxxx
+https://ipfs.skatehive.app/ipfs/Qm...
 ```
 
-This URL works forever and can be shared anywhere.
+---
+
+## ⏱️ Processing Time
+
+Processing time depends on:
+- Video length
+- Original file size
+- Server load
+- Your connection speed
+
+Typical times:
+- 30-second clip: ~1-2 minutes
+- 3-minute video: ~5-10 minutes
+- Longer videos: 15+ minutes
 
 ---
 
-## 🔧 Transcoding Infrastructure
+## 💡 Tips for Best Results
 
-Skatehive runs multiple video transcoders for reliability:
-
-| Server | Location | Priority |
-|--------|----------|:--------:|
-| Oracle | Cloud | Primary |
-| Mac Mini M4 | Tailscale | Secondary |
-| Raspberry Pi | Tailscale | Tertiary |
-
-If one server is down, uploads automatically go to the next available.
+1. **Trim before upload** - Remove unnecessary footage
+2. **Use good lighting** - Better input = better output
+3. **Horizontal preferred** - Standard 16:9 works best
+4. **Check connection** - Stable internet prevents failures
+5. **Be patient** - Large videos take time
 
 ---
 
-## 🎥 Video Best Practices
+## ⚠️ Troubleshooting
 
-### For Skate Clips
+### Upload Failed
+- Check your internet connection
+- Try a smaller file
+- Wait and retry (server may be busy)
 
-1. **Landscape orientation** - Horizontal videos look best
-2. **Stable footage** - Use a tripod or have a steady hand
-3. **Good lighting** - Daytime or well-lit spots work best
-4. **Clear trick** - Make sure the action is visible
+### Video Won't Play
+- Wait for transcoding to complete
+- Check the IPFS URL is correct
+- Try a different browser
 
-### For Edits
-
-1. **Keep it tight** - 30 seconds to 3 minutes is ideal
-2. **Add music carefully** - Copyright issues can arise
-3. **Include your best stuff** - Quality over quantity
-4. **End with a banger** - Leave viewers wanting more
-
----
-
-## 🎵 Music & Copyright
-
-### Be Careful With Music
-
-- Hive is decentralized, but other platforms may flag content
-- Use royalty-free music when possible
-- Original audio is always safe
-- Clips with no music avoid all issues
-
-### Recommended Sources
-
-- [Epidemic Sound](https://www.epidemicsound.com/) (paid)
-- [Artlist](https://artlist.io/) (paid)
-- [Free Music Archive](https://freemusicarchive.org/) (free)
-- [YouTube Audio Library](https://www.youtube.com/audiolibrary) (free)
+### Slow Processing
+- Large files take longer
+- Peak times may be slower
+- System auto-retries if needed
 
 ---
 
-## ❓ Troubleshooting
+## 🔗 Technical Flow
 
-### Upload Stuck?
-
-1. **Check file size** - Must be under 200MB
-2. **Check format** - Use MP4 or MOV
-3. **Check connection** - Stable internet needed
-4. **Try again** - Refresh and re-upload
-
-### Video Not Playing?
-
-1. **Wait for processing** - Large videos take time
-2. **Refresh the page** - Sometimes needs a reload
-3. **Check browser** - Try Chrome or Firefox
-4. **Clear cache** - Old data can cause issues
-
-### Poor Quality After Upload?
-
-- Videos are transcoded to optimize for web
-- Very high bitrate videos may lose some quality
-- This is normal for web delivery
-
-### Processing Timeout?
-
-If your video times out:
-1. Compress the video to under 100MB
-2. Try uploading at a less busy time
-3. Use a more stable internet connection
+```
+Video File
+    ↓
+Transcoding Server (Oracle/Mac Mini/RPi)
+    ↓
+FFmpeg Processing (H.264 conversion)
+    ↓
+IPFS Upload (Pinata)
+    ↓
+IPFS URL Returned
+    ↓
+Embedded in Hive Post
+```
 
 ---
 
-## 📊 After Uploading
-
-### Check Your Post
-
-1. Preview before publishing
-2. Make sure the video plays correctly
-3. Add a good title and description
-4. Use relevant tags
-
-### Engagement Tips
-
-- Post during active community hours
-- Share in Discord for more views
-- Respond to comments
-- Tag the spot if applicable
-
----
-
-## 🔗 Related
-
-- **[Creating Great Posts](../Get%20Started/make-posts-great-again.md)** - Tips for content creation
-- **[Mobile App Guide](../Get%20Started/mobile-app.md)** - Upload from your phone
-- **[Spot Map](./spot-map.md)** - Tag your video location
-
----
-
-**Now go film some clips and share them with the world! 🎬🛹**
+**Upload your skate clips and share them forever on the blockchain! 🎬🛹**

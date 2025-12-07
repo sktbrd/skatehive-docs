@@ -1,225 +1,175 @@
 ---
 sidebar_position: 6
-icon: crosshairs
+icon: target
 ---
 
-# Recompensas (Bounties)
+# Bounties
 
-O sistema de recompensas gamifica desafios de skate. Defina desafios de manobras com prêmios, envie clips para reivindicar recompensas e compita com a comunidade!
+Os Bounties do Skatehive permitem que membros da comunidade desafiem outros a acertar manobras específicas por recompensas. Poste um bounty e skatistas competem para ganhar o prêmio!
+
+Veja bounties em [skatehive.app/bounties](https://skatehive.app/bounties)
 
 ---
 
 ## 🎯 Visão Geral
 
-Recompensas são desafios de manobras onde:
-- **Criadores** postam um desafio com um prêmio
-- **Skatistas** enviam clips de vídeo tentando a manobra
-- **Comunidade** vota nas melhores submissões
-- **Vencedores** recebem o prêmio da recompensa
+Bounties são desafios de manobras com recompensas em crypto:
+1. Um patrocinador posta um bounty com uma manobra e recompensa
+2. Skatistas enviam clips de vídeo acertando a manobra
+3. O patrocinador escolhe vencedores e distribui recompensas
+4. Vencedores são pagos em HIVE ou HBD
 
 ---
 
-## 🏆 Como as Recompensas Funcionam
+## 📝 Criando um Bounty
 
-### O Fluxo
+Use o **Bounty Composer** para criar um novo bounty:
 
+### Campos Obrigatórios
+
+| Campo | Descrição | Exemplo |
+|-------|-----------|---------|
+| **Nome da Manobra** | A manobra para acertar | "Kickflip frontside boardslide" |
+| **Valor da Recompensa** | Prêmio total em HIVE ou HBD | "50 HIVE" |
+| **Prazo** | Quando as inscrições encerram | "Sexta à noite" ou "2024-12-31" |
+
+### Processo de Postagem
+
+1. Clique em **Criar Bounty** na página de bounties
+2. Digite o nome da manobra
+3. Defina o valor total da recompensa
+4. Escolha o token (HIVE ou HBD)
+5. Defina um prazo
+6. Adicione descrição/regras opcionais
+7. Clique em **Publicar**
+
+O bounty é postado como um post Hive na comunidade Skatehive com uma tag especial de bounty.
+
+---
+
+## 🏆 Recompensando Vencedores
+
+Quando o prazo passa, use o **Bounty Rewarder** para distribuir prêmios:
+
+### Selecionando Vencedores
+
+1. Abra o post do bounty
+2. Veja submissões (respostas com clips de vídeo)
+3. Selecione 1-3 vencedores
+4. Clique em **Recompensar Vencedores**
+
+### Distribuição de Recompensa
+
+Recompensas são divididas baseado no número de vencedores:
+
+| Vencedores | 1º Lugar | 2º Lugar | 3º Lugar |
+|------------|----------|----------|----------|
+| 1 vencedor | 100% | - | - |
+| 2 vencedores | 70% | 30% | - |
+| 3 vencedores | 50% | 30% | 20% |
+
+Exemplo: Bounty de 100 HIVE com 3 vencedores:
+- 1º: 50 HIVE
+- 2º: 30 HIVE  
+- 3º: 20 HIVE
+
+---
+
+## 📤 Participando de um Bounty
+
+Para participar de um bounty:
+
+1. Acerte a manobra na câmera
+2. Abra o post do bounty
+3. Responda com seu clip de vídeo
+4. Aguarde o patrocinador escolher os vencedores
+
+### Dicas para Submissões
+- Filme a manobra claramente
+- Inclua a manobra completa (preparação até aterrissagem)
+- Uma submissão por entrada (pode submeter múltiplas)
+- Siga quaisquer regras na descrição do bounty
+
+---
+
+## 💰 Pagamento
+
+Vencedores são pagos diretamente via transferências Hive:
+- HIVE ou HBD dependendo do bounty
+- Enviado para sua carteira Hive
+- Inclui memo referenciando o bounty
+
+---
+
+## 📋 Formato do Post do Bounty
+
+Quando você cria um bounty, o post inclui:
+
+```markdown
+🎯 **Bounty: [Nome da Manobra]**
+
+💰 **Recompensa:** [Valor] [Token]
+
+⏰ **Prazo:** [Data/Hora]
+
+[Sua descrição e regras]
+
+#skatehive #bounty #skateboardingchallenge
 ```
-Criador posta recompensa → Skatistas enviam clips → Comunidade vota → Criador escolhe vencedor → Pagamento!
-```
-
-### Conceitos Principais
-
-| Termo | Descrição |
-|-------|-----------|
-| **Recompensa** | Um desafio de manobra com um prêmio |
-| **Submissão** | Um clip de vídeo tentando a manobra da recompensa |
-| **Votação** | Upvotes da comunidade nas submissões |
-| **Pagamento** | Prêmio enviado ao vencedor |
 
 ---
 
-## 💰 Criando uma Recompensa
+## 🔍 Encontrando Bounties
 
-Quer desafiar a comunidade? Veja como criar uma recompensa:
+### Bounties Ativos
+- Visite [skatehive.app/bounties](https://skatehive.app/bounties)
+- Veja todos os bounties abertos com prazos
+- Clique para ver detalhes e submissões
 
-### Passo 1: Planeje Seu Desafio
-
-Decida:
-- **A manobra** - O que você quer ver mandado?
-- **O pico** - Localização específica ou qualquer pico?
-- **O prêmio** - Quanto HIVE/HBD?
-- **Duração** - Por quanto tempo a recompensa vai rodar?
-
-### Passo 2: Crie a Recompensa
-
-1. Vá para [skatehive.app](https://skatehive.app) e encontre a seção **Recompensas**
-2. Clique em **"Criar Recompensa"**
-3. Preencha os detalhes:
-   - **Título**: Descrição clara da manobra
-   - **Descrição**: Regras, requisitos, dicas
-   - **Prêmio**: Valor a pagar ao vencedor
-   - **Prazo**: Quando as submissões fecham
-4. Financie a recompensa com seus tokens
-5. Publique!
-
-### Exemplo de Recompensa
-
-```
-Título: Kickflip na escada de 5 degraus da Praça Central
-Prêmio: 50 HIVE
-Duração: 2 semanas
-Regras:
-- Deve ser mandado limpo
-- Filme de lado
-- Marque #skatehive no seu post
-```
+### Bounties Completados
+- Arquivados para referência
+- Vencedores exibidos no post
+- Prova de pagamento nos comentários
 
 ---
 
-## 🎬 Enviando para uma Recompensa
+## 💡 Dicas para Patrocinadores
 
-### Passo 1: Encontre uma Recompensa
-
-Navegue pelas recompensas ativas na página de recompensas ou no feed da comunidade.
-
-### Passo 2: Filme Seu Clip
-
-1. Vá até o pico (se especificado)
-2. Mande a manobra
-3. Consiga um clip limpo
-
-### Passo 3: Envie
-
-1. Crie um novo post com seu vídeo
-2. No seu post, mencione a recompensa ou use o botão de submissão
-3. Sua submissão se torna um "Snap" vinculado à recompensa
-4. A comunidade pode votar na sua submissão
+1. **Seja específico** - Descrições claras de manobras obtêm melhores submissões
+2. **Defina prazos realistas** - Dê aos skatistas tempo para filmar
+3. **Escolha recompensas justas** - Combine recompensa com dificuldade da manobra
+4. **Julgue com justiça** - Escolha baseado em execução limpa
+5. **Pague prontamente** - Distribua recompensas quando o bounty terminar
 
 ---
 
-## 🗳️ Votação e Vitória
+## 💡 Dicas para Participantes
 
-### Como a Votação Funciona
-
-- Membros da comunidade dão upvote nas submissões que gostam
-- Votos contam para a pontuação da submissão
-- Mais votos = melhor chance de ganhar
-
-### Como os Vencedores São Escolhidos
-
-O criador da recompensa tem a palavra final:
-1. Revisa todas as submissões
-2. Pode considerar votos, estilo, criatividade
-3. Seleciona o vencedor
-4. Dispara o pagamento
-
-### Pagamentos
-
-Quando a recompensa termina:
-1. Criador seleciona a submissão vencedora
-2. Um anúncio do vencedor é postado automaticamente
-3. Prêmio é transferido para a conta do vencedor
-
----
-
-## 📋 Tipos de Recompensa
-
-### Manobra Específica
-
-"Mande um tre flip na escada de 10"
-- Manobra muito específica
-- Pico específico
-- Alta dificuldade = prêmio maior
-
-### Desafio Aberto
-
-"Melhor linha na sua pista local"
-- Liberdade criativa
-- Qualquer pico
-- Julgado por estilo e criatividade
-
-### Desafio da Comunidade
-
-"Manobra de chão da semana"
-- Acessível para todos
-- Rotação semanal
-- Comunidade decide
-
-### Recompensas de Pico
-
-"Primeiro a andar na borda nova do X"
-- Descoberta de novos picos
-- Recompensa exploração
-- Documenta novo terreno
-
----
-
-## 💡 Dicas para Criadores de Recompensa
-
-1. **Seja claro** - Descreva exatamente o que você quer
-2. **Seja justo** - Defina prêmios razoáveis
-3. **Defina prazos realistas** - Dê tempo aos skatistas
-4. **Responda perguntas** - Ajude a esclarecer regras
-5. **Julgue com justiça** - Considere todas as submissões
-
----
-
-## 💡 Dicas para Caçadores de Recompensa
-
-1. **Leia com cuidado** - Entenda todos os requisitos
-2. **Pegue o melhor ângulo** - Boa filmagem ajuda
-3. **Mande limpo** - Pontos de estilo importam
-4. **Envie cedo** - Consiga votos antes do prazo
-5. **Promova sua submissão** - Compartilhe no Discord
-
----
-
-## 🔄 Ciclo de Vida da Recompensa
-
-| Estágio | O Que Acontece |
-|---------|----------------|
-| **Criada** | Recompensa postada, prêmio financiado |
-| **Ativa** | Aberta para submissões |
-| **Votação** | Comunidade dá upvotes nas submissões |
-| **Julgamento** | Criador revisa entradas |
-| **Fechada** | Vencedor selecionado, pagamento enviado |
+1. **Leia com cuidado** - Entenda exatamente qual manobra é pedida
+2. **Qualidade da filmagem importa** - Vídeo claro ajuda suas chances
+3. **Acerte limpo** - Conclusão completa, sem aterrissagens duvidosas
+4. **Submeta cedo** - Não espere até o último minuto
+5. **Múltiplas tentativas OK** - Submeta sua melhor
 
 ---
 
 ## ❓ FAQ
 
-### Posso criar múltiplas recompensas?
+### Quem pode criar bounties?
+Qualquer usuário Hive com saldo suficiente para cobrir as recompensas.
 
-Sim! Crie quantas quiser, apenas financie cada uma.
+### E se ninguém acertar a manobra?
+O patrocinador pode estender o prazo ou cancelar/modificar o bounty.
 
-### E se ninguém completar minha recompensa?
+### Posso criar múltiplos bounties?
+Sim, você pode ter múltiplos bounties ativos.
 
-Você pode estender o prazo ou cancelar e recuperar seus fundos (menos qualquer gasto em submissões postadas).
+### Quais manobras são permitidas?
+Qualquer manobra de skate - street, transição, chão, etc.
 
-### Posso enviar para minha própria recompensa?
-
-Geralmente não - seria injusto. Crie recompensas para outros tentarem.
-
-### E se houver empate?
-
-O criador decide. Pode dividir o prêmio ou escolher baseado em outros fatores.
-
-### Como sei se uma submissão é legítima?
-
-Vídeos devem ser novos e não editados. A comunidade ajuda a apontar submissões suspeitas.
-
-### O prêmio pode aumentar?
-
-Sim! Outros podem adicionar ao pool da recompensa para aumentar o prêmio.
+### Há uma recompensa mínima?
+Sem mínimo, mas recompensas maiores atraem mais participantes.
 
 ---
 
-## 🔗 Relacionados
-
-- **[Upload de Vídeo](./video-upload.md)** - Como fazer upload das suas submissões
-- **[Ranking](./leaderboard.md)** - Vitórias em recompensas afetam seu ranking
-- **[Airdrop](./airdrop.md)** - Outra forma de recompensar a comunidade
-
----
-
-**Hora de mandar aquela manobra e reivindicar sua recompensa! 🎯🛹**
+**Desafie a comunidade e seja recompensado pelas suas habilidades! 🎯🛹**

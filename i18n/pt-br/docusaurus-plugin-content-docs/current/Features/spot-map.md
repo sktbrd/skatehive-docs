@@ -5,7 +5,7 @@ icon: map
 
 # Mapa de Picos
 
-O Mapa de Picos do Skatehive é um mapa interativo global onde a comunidade compartilha e descobre spots de skate. Encontre novos lugares para andar ou contribua com seus picos locais!
+O Mapa de Picos do Skatehive permite que a comunidade compartilhe e descubra picos de skate. Ele usa um Google Maps incorporado com localizações contribuídas pela comunidade, além de uma lista de picos baseada em Snaps.
 
 Acesse em [skatehive.app/map](https://skatehive.app/map)
 
@@ -13,150 +13,121 @@ Acesse em [skatehive.app/map](https://skatehive.app/map)
 
 ## 🗺️ Visão Geral
 
-O mapa de picos exibe spots de skate enviados pela comunidade do mundo todo:
-- **Pins no mapa** mostram localizações dos picos
-- **Clique em um pin** para ver detalhes, fotos e vídeos do pico
-- **Filtre picos** por tipo (rua, pista, DIY, etc.)
-- **Adicione novos picos** para compartilhar com a comunidade
+A página do mapa tem duas seções principais:
+- **Google Maps Incorporado**: Um Google Maps colaborativo com pins para picos de skate mundialmente
+- **Lista de Picos**: Submissões recentes de picos da comunidade como Snaps
 
 ---
 
-## 🔍 Encontrando Picos
+## 🔍 Usando o Mapa
 
-### Navegue pelo Mapa
+### Navegue pelos Picos
 
 1. Vá para [skatehive.app/map](https://skatehive.app/map)
-2. **Dê zoom e navegue** para explorar diferentes áreas
-3. **Clique nos pins** para ver detalhes dos picos
-4. Use a **barra de busca** para encontrar picos por nome ou localização
+2. O Google Maps incorporado mostra todos os picos adicionados pela comunidade
+3. **Zoom e navegue** para explorar diferentes áreas
+4. **Clique nos pins** para ver nomes e detalhes dos picos
 
-### Detalhes do Pico
+### Lista de Picos
 
-Cada pico mostra:
-- 📍 **Localização**: Endereço e coordenadas
-- 📸 **Fotos**: Imagens do pico
-- 🎬 **Vídeos**: Clips filmados lá
-- 📝 **Descrição**: O que esperar
-- ⚠️ **Notas**: Segurança, melhores horários para andar, etc.
-- 💬 **Comentários**: Feedback da comunidade
+No lado (ou abaixo no mobile), você verá submissões recentes:
+- Fotos e descrições da comunidade
+- Postados como Snaps no container principal da comunidade
+- Marcados com `#skatespot`
 
 ---
 
 ## ➕ Adicionando um Novo Pico
 
-Compartilhe seus picos locais com o mundo:
+Use o **SpotSnapComposer** para adicionar um novo pico:
 
-### Passo 1: Navegue até a Localização
-
-1. Abra o mapa de picos
-2. Encontre a localização no mapa dando zoom/navegando
-3. Clique no botão **"Adicionar Pico"**
-
-### Passo 2: Marque o Pico
-
-1. Clique na localização exata no mapa
-2. Ajuste o pin se necessário para precisão
-
-### Passo 3: Adicione Detalhes
-
-Preencha as informações do pico:
+### Informações Necessárias
 
 | Campo | Descrição |
 |-------|-----------|
-| **Nome** | Dê ao pico um nome reconhecível |
-| **Tipo** | Rua, Pista, DIY, Praça, etc. |
+| **Nome do Pico** | Dê ao pico um nome reconhecível |
 | **Descrição** | O que tem lá? Bordas, corrimãos, gaps? |
-| **Fotos** | Faça upload de imagens do pico |
-| **Notas** | Info de segurança, melhores horários, avisos |
+| **Fotos** | Envie imagens do pico |
 
-### Passo 4: Envie
+### Dados de Localização (Opcional mas Recomendado)
 
-1. Revise seu envio
-2. Clique em **"Enviar Pico"**
-3. O pico será adicionado ao mapa
+O compositor pode extrair coordenadas GPS das suas fotos automaticamente:
+- **Latitude/Longitude**: Extraídos dos dados EXIF da foto
+- **Endereço**: Pode ser detectado automaticamente ou inserido manualmente
 
-> 💡 **Dica**: Inclua coordenadas do Google Maps ou um ponto de referência próximo para ajudar outros a encontrar.
+> 💡 **Dica**: Fotos tiradas com GPS ativado no seu celular preencherão automaticamente as coordenadas.
 
----
+### Postando um Pico
 
-## 📸 Adicionando Mídia aos Picos
+1. Clique no botão do compositor na página do mapa
+2. Insira o **Nome do Pico** (obrigatório)
+3. Adicione uma **descrição** ou envie **fotos** (pelo menos um obrigatório)
+4. Dados de localização são opcionais - você pode adicionar depois editando
+5. Clique em **Publicar** para postar na comunidade
 
-### Fotos
-
-1. Clique em um pico existente
-2. Clique em **"Adicionar Foto"**
-3. Faça upload do seu dispositivo
-4. Adicione uma legenda (opcional)
-
-### Vídeos
-
-1. Filme um clip no pico
-2. Poste no Skatehive com o pico marcado
-3. O vídeo será vinculado ao pico
+O pico aparece como um Snap na lista de picos. É postado no container principal de Snaps com a tag `skatespot`.
 
 ---
 
-## 🏷️ Tipos de Pico
+## 📸 Recursos de Foto
 
-Picos são categorizados para ajudar você a encontrar o que procura:
+### Extração de GPS
 
-| Tipo | Descrição |
-|------|-----------|
-| **Rua** | Picos de rua reais - bordas, corrimãos, escadas |
-| **Pista** | Skateparks com rampas, bowls, etc. |
-| **DIY** | Picos construídos pela comunidade |
-| **Praça** | Áreas abertas com vários obstáculos |
-| **Transição** | Bowls, piscinas, rampas vert |
-| **Chão** | Áreas planas e lisas para manobras técnicas |
+Quando você envia uma foto:
+- O app lê dados GPS do EXIF se disponível
+- Coordenadas preenchem automaticamente os campos lat/lon
+- Funciona com maioria das fotos de smartphone
 
----
+### Upload de Imagem
 
-## 🌍 Contribuições da Comunidade
-
-O mapa de picos é construído por skatistas, para skatistas:
-
-- **Qualquer um pode adicionar picos** - Compartilhe seu conhecimento local
-- **Vote em picos de qualidade** - Ajude bons picos a serem descobertos
-- **Reporte problemas** - Avise outros se um pico foi demolido ou não existe mais
-- **Adicione atualizações** - Compartilhe se algo mudou
+- Imagens são comprimidas e enviadas para Hive Images
+- Múltiplas imagens suportadas por pico
+- Legendas podem ser adicionadas a cada imagem
 
 ---
 
-## 📱 Usando no Mobile
+## 📝 Formato do Post do Pico
 
-O mapa de picos funciona muito bem em dispositivos móveis:
-- Use o GPS do seu celular para encontrar picos perto de você
-- Tire fotos diretamente e faça upload
-- Navegue até picos usando seu app de mapas
+Quando você publica, o post é formatado como:
 
-> 📍 **Nota**: O mapa de picos completo está disponível apenas no webapp. Suporte para app mobile em breve!
+```
+Spot Name: [Nome do Seu Pico]
+🌐 [Lat], [Lon] ([Endereço])
 
----
+[Sua descrição]
 
-## 💡 Dicas para Bons Envios de Picos
-
-1. **Tire fotos claras** - Mostre as características principais e o layout geral
-2. **Seja específico com a localização** - Inclua pontos de referência ou cruzamentos próximos
-3. **Note os obstáculos** - Mencione alturas de bordas, comprimentos de corrimãos, etc.
-4. **Avisos de segurança** - Se expulsam, avise as pessoas
-5. **Melhores horários** - Quando está menos cheio ou melhor iluminado?
+![](url-da-imagem)
+```
 
 ---
 
-## ❓ FAQ
+## 🔗 Como os Picos Funcionam
 
-### Posso editar um pico que adicionei?
-Sim, você pode atualizar picos que enviou com novas fotos ou informações.
+Picos são postados como **Snaps** (comentários no container principal de Snaps):
+- Aparecem na lista de picos na página do mapa
+- Marcados com `hive-173115` (comunidade Skatehive) e `skatespot`
+- O Google Maps incorporado é separado e curado manualmente
 
-### E se um pico não existir mais?
-Reporte como "demolido" ou "não existe" para que outros saibam. Mantemos dados históricos para os arquivos.
-
-### Todos os picos são públicos?
-Alguns picos podem ser marcados como "só locais" ou ter visibilidade limitada baseada nas diretrizes da comunidade.
-
-### Como os picos se conectam aos Snaps?
-Quando você posta um Snap em uma localização, ele pode ser vinculado ao mapa de picos, mostrando seu conteúdo para outros explorando aquela área.
+> **Nota**: Atualmente, novas submissões de picos aparecem na lista de Snaps mas precisam ser adicionadas manualmente ao Google Maps pelos mantenedores da comunidade.
 
 ---
 
-**Vá explorar e adicione seus picos favoritos ao mapa! 🗺️🛹**
+## 📱 Uso no Mobile
+
+A página do mapa é responsiva e funciona no mobile:
+- Google Maps é interativo no mobile
+- Compositor de picos disponível na página
+- Extração de GPS das fotos funciona no mobile
+
+---
+
+## 💡 Dicas para Boas Submissões de Picos
+
+1. **Tire fotos claras** - Mostre as principais características e layout geral
+2. **Ative GPS na sua câmera** - Isso preenche automaticamente os dados de localização
+3. **Inclua detalhes úteis** - Altura de bordas, info sobre segurança, melhores horários
+4. **Adicione contexto** - Em que cidade/bairro fica?
+
+---
+
+**Explore e compartilhe seus picos favoritos com a comunidade! 🗺️🛹**

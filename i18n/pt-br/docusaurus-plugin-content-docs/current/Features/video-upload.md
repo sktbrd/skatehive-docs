@@ -3,231 +3,177 @@ sidebar_position: 5
 icon: video
 ---
 
-# Guia de Upload de Vídeo
+# Upload de Vídeo
 
-O Skatehive facilita o compartilhamento dos seus clips de skate com a comunidade. Vídeos são automaticamente transcodificados para reprodução na web e armazenados permanentemente no IPFS.
+O Skatehive oferece upload e transcoding de vídeo gratuito para todo conteúdo de skate. Os vídeos são transcodados para formatos otimizados para web e armazenados no IPFS para acesso permanente.
 
 ---
 
 ## 🎬 Visão Geral
 
-Quando você faz upload de um vídeo no Skatehive:
-1. **Upload** - Envie seu arquivo de vídeo
-2. **Transcodificação** - Convertido automaticamente para formato otimizado para web
-3. **Armazenamento** - Salvo permanentemente no IPFS (armazenamento descentralizado)
-4. **Publicação** - Incorporado no seu post na blockchain Hive
+Quando você faz upload de um vídeo:
+1. Vídeo é enviado para um servidor de transcoding
+2. Servidor converte para formato otimizado para web
+3. Vídeo transcodado é enviado para IPFS
+4. Você recebe uma URL IPFS para usar no seu post
+
+O serviço é **completamente gratuito** para membros da comunidade Skatehive.
 
 ---
 
-## 📱 Formatos Suportados
+## 🖥️ Servidores de Transcoding
 
-### Formatos de Vídeo
+O Skatehive opera múltiplos servidores de transcoding com fallback automático:
 
-| Formato | Extensão | Suportado |
-|---------|----------|:---------:|
-| MP4 | `.mp4` | ✅ |
-| QuickTime | `.mov` | ✅ |
-| WebM | `.webm` | ✅ |
-| AVI | `.avi` | ✅ |
-| MKV | `.mkv` | ✅ |
+| Prioridade | Servidor | Localização |
+|------------|----------|-------------|
+| 1 | Oracle Cloud | Primário (146.235.239.243) |
+| 2 | Mac Mini M4 | Secundário (192.168.68.57) |
+| 3 | Raspberry Pi | Terciário (192.168.68.105) |
 
-### Configurações Recomendadas
-
-Para melhores resultados:
-- **Resolução**: 1080p ou 720p
-- **Codec**: H.264 (mais compatível)
-- **Bitrate**: 5-15 Mbps
-- **Frame Rate**: 24-60 fps
+Se o servidor primário estiver indisponível, o sistema automaticamente tenta o próximo.
 
 ---
 
-## 📤 Como Fazer Upload
+## 📤 Como Funciona
 
-### No Webapp
+### Upload no Webapp
 
-1. Vá para [skatehive.app](https://skatehive.app) e clique em **Criar Post**
-2. Escreva o título e conteúdo do seu post
-3. Clique no **📹 ícone de vídeo** na barra de ferramentas do editor
-4. **Selecione seu arquivo de vídeo** do seu dispositivo
-5. Aguarde o upload e transcodificação completarem
-6. O vídeo será incorporado automaticamente no seu post
-7. Adicione tags e publique!
+1. Abra o compositor de posts
+2. Clique no botão de upload de vídeo
+3. Selecione seu arquivo de vídeo
+4. Aguarde transcoding e upload IPFS
+5. URL do vídeo é inserida no seu post
 
-### No App Mobile
+### Upload no App Mobile
 
-1. Toque no botão **+** para criar um novo post
-2. Toque no **ícone de câmera/vídeo**
-3. Escolha **"Gravar Vídeo"** ou **"Selecionar da Galeria"**
-4. Aguarde o processamento
-5. Adicione seu texto e publique
+1. Grave ou selecione um vídeo
+2. O app verifica status do servidor via API
+3. Vídeo é enviado ao servidor de transcoding ativo
+4. Progresso é mostrado durante upload
+5. URL IPFS é retornada e usada no seu post
 
 ---
 
-## ⏱️ Tempos de Processamento
+## 📊 Detalhes do Upload
 
-O processamento de vídeo depende do tamanho do arquivo e carga do servidor:
+Ao fazer upload, os seguintes dados são enviados:
 
-| Tamanho do Arquivo | Tempo Aproximado |
-|--------------------|------------------|
-| Menos de 50MB | 30 segundos - 1 minuto |
-| 50-100MB | 1-3 minutos |
-| 100-200MB | 3-5 minutos |
-| Mais de 200MB | Pode dar timeout - comprima primeiro |
+| Campo | Descrição |
+|-------|-----------|
+| `video` | O arquivo de vídeo |
+| `username` | Seu username Hive |
+| `deviceInfo` | Tipo de dispositivo (webapp/mobile) |
+| `browser` | Informação do navegador (webapp) |
+| `isIOS` | Flag iOS para mobile |
+| `isAndroid` | Flag Android para mobile |
+| `screenWidth` | Largura da tela |
+| `screenHeight` | Altura da tela |
 
-> 💡 **Dica**: Comprima arquivos grandes antes de fazer upload para processamento mais rápido.
+Info do dispositivo ajuda com debugging e otimização.
 
 ---
 
-## 📏 Limites de Tamanho de Arquivo
+## 🔧 API de Status do Servidor
 
-- **Upload máximo**: 200MB por vídeo
-- **Recomendado**: Menos de 100MB para processamento mais rápido
+O app mobile usa um endpoint de status para obter o servidor ativo:
 
-### Como Reduzir Tamanho do Arquivo
+```
+GET https://api.skatehive.app/api/v1/status
+```
 
-Se seu vídeo for muito grande:
+Resposta inclui a URL de transcoding ativa atual.
 
-1. **Use HandBrake** (grátis): [handbrake.fr](https://handbrake.fr/)
-   - Abra seu vídeo
-   - Escolha o preset "Fast 1080p30"
-   - Inicie a codificação
+---
 
-2. **Use FFmpeg** (linha de comando):
-   ```bash
-   ffmpeg -i input.mov -c:v libx264 -crf 23 -preset medium output.mp4
-   ```
+## 📁 Formatos Suportados
 
-3. **Apps mobile**: Use apps de compressão de vídeo da sua app store
+### Formatos de Entrada
+- MP4, MOV, AVI, MKV
+- Maioria dos codecs de vídeo comuns
+- Tamanho máximo: ~500MB (recomendado)
+
+### Formato de Saída
+- MP4 com codec H.264
+- Otimizado para streaming web
+- Comprimido para carregamento rápido
 
 ---
 
 ## 🌐 Armazenamento IPFS
 
-Seus vídeos são armazenados no IPFS (InterPlanetary File System):
+Após transcoding, os vídeos são armazenados no IPFS:
+- **Gateway**: `ipfs.skatehive.app`
+- **Pinning**: Via Pinata para permanência
+- **Acesso**: Vídeos permanecem disponíveis enquanto estiverem pinned
 
-### O Que é IPFS?
-
-- **Descentralizado**: Nenhum servidor único guarda seu conteúdo
-- **Permanente**: Arquivos são endereçados por hash de conteúdo
-- **Resistente à censura**: Ninguém pode deletar seu conteúdo
-- **Entrega rápida**: Servido de múltiplos gateways
-
-### Sua URL de Vídeo
-
-Após upload, seu vídeo recebe uma URL IPFS como:
+URLs de vídeo ficam assim:
 ```
-https://ipfs.skatehive.app/ipfs/QmXxxxxxxxxxxxxxxxxxxxxxxxxxxxxxXxxx
+https://ipfs.skatehive.app/ipfs/Qm...
 ```
 
-Esta URL funciona para sempre e pode ser compartilhada em qualquer lugar.
+---
+
+## ⏱️ Tempo de Processamento
+
+O tempo de processamento depende de:
+- Duração do vídeo
+- Tamanho original do arquivo
+- Carga do servidor
+- Velocidade da sua conexão
+
+Tempos típicos:
+- Clip de 30 segundos: ~1-2 minutos
+- Vídeo de 3 minutos: ~5-10 minutos
+- Vídeos mais longos: 15+ minutos
 
 ---
 
-## 🔧 Infraestrutura de Transcodificação
+## 💡 Dicas para Melhores Resultados
 
-O Skatehive opera múltiplos transcodificadores de vídeo para confiabilidade:
-
-| Servidor | Localização | Prioridade |
-|----------|-------------|:----------:|
-| Oracle | Cloud | Primário |
-| Mac Mini M4 | Tailscale | Secundário |
-| Raspberry Pi | Tailscale | Terciário |
-
-Se um servidor estiver fora, uploads vão automaticamente para o próximo disponível.
+1. **Corte antes do upload** - Remova filmagem desnecessária
+2. **Use boa iluminação** - Melhor entrada = melhor saída
+3. **Horizontal preferido** - Padrão 16:9 funciona melhor
+4. **Verifique conexão** - Internet estável previne falhas
+5. **Seja paciente** - Vídeos grandes levam tempo
 
 ---
 
-## 🎥 Melhores Práticas para Vídeo
+## ⚠️ Solução de Problemas
 
-### Para Clips de Skate
+### Upload Falhou
+- Verifique sua conexão de internet
+- Tente um arquivo menor
+- Aguarde e tente novamente (servidor pode estar ocupado)
 
-1. **Orientação paisagem** - Vídeos horizontais ficam melhor
-2. **Filmagem estável** - Use um tripé ou tenha mão firme
-3. **Boa iluminação** - Luz do dia ou picos bem iluminados funcionam melhor
-4. **Manobra clara** - Certifique-se de que a ação está visível
+### Vídeo Não Reproduz
+- Aguarde transcoding completar
+- Verifique se URL IPFS está correta
+- Tente um navegador diferente
 
-### Para Edits
-
-1. **Mantenha conciso** - 30 segundos a 3 minutos é ideal
-2. **Adicione música com cuidado** - Podem surgir problemas de copyright
-3. **Inclua seu melhor material** - Qualidade sobre quantidade
-4. **Termine com um banger** - Deixe os espectadores querendo mais
-
----
-
-## 🎵 Música e Copyright
-
-### Cuidado com Música
-
-- Hive é descentralizado, mas outras plataformas podem marcar conteúdo
-- Use música livre de royalties quando possível
-- Áudio original é sempre seguro
-- Clips sem música evitam todos os problemas
-
-### Fontes Recomendadas
-
-- [Epidemic Sound](https://www.epidemicsound.com/) (pago)
-- [Artlist](https://artlist.io/) (pago)
-- [Free Music Archive](https://freemusicarchive.org/) (grátis)
-- [YouTube Audio Library](https://www.youtube.com/audiolibrary) (grátis)
+### Processamento Lento
+- Arquivos grandes levam mais tempo
+- Horários de pico podem ser mais lentos
+- Sistema faz retry automático se necessário
 
 ---
 
-## ❓ Solução de Problemas
+## 🔗 Fluxo Técnico
 
-### Upload Travado?
-
-1. **Verifique tamanho do arquivo** - Deve ser menos de 200MB
-2. **Verifique formato** - Use MP4 ou MOV
-3. **Verifique conexão** - Precisa de internet estável
-4. **Tente novamente** - Atualize e reenvie
-
-### Vídeo Não Está Reproduzindo?
-
-1. **Aguarde processamento** - Vídeos grandes levam tempo
-2. **Atualize a página** - Às vezes precisa recarregar
-3. **Verifique navegador** - Tente Chrome ou Firefox
-4. **Limpe cache** - Dados antigos podem causar problemas
-
-### Qualidade Ruim Após Upload?
-
-- Vídeos são transcodificados para otimizar para web
-- Vídeos com bitrate muito alto podem perder alguma qualidade
-- Isso é normal para entrega web
-
-### Timeout no Processamento?
-
-Se seu vídeo der timeout:
-1. Comprima o vídeo para menos de 100MB
-2. Tente fazer upload em um horário menos movimentado
-3. Use uma conexão de internet mais estável
+```
+Arquivo de Vídeo
+    ↓
+Servidor de Transcoding (Oracle/Mac Mini/RPi)
+    ↓
+Processamento FFmpeg (conversão H.264)
+    ↓
+Upload IPFS (Pinata)
+    ↓
+URL IPFS Retornada
+    ↓
+Incorporado no Post Hive
+```
 
 ---
 
-## 📊 Após o Upload
-
-### Verifique Seu Post
-
-1. Pré-visualize antes de publicar
-2. Certifique-se de que o vídeo reproduz corretamente
-3. Adicione um bom título e descrição
-4. Use tags relevantes
-
-### Dicas de Engajamento
-
-- Poste durante horários ativos da comunidade
-- Compartilhe no Discord para mais visualizações
-- Responda comentários
-- Marque o pico se aplicável
-
----
-
-## 🔗 Relacionados
-
-- **[Criando Ótimos Posts](../Get%20Started/make-posts-great-again.md)** - Dicas para criação de conteúdo
-- **[Guia do App Mobile](../Get%20Started/mobile-app.md)** - Upload do seu celular
-- **[Mapa de Picos](./spot-map.md)** - Marque a localização do seu vídeo
-
----
-
-**Agora vá filmar alguns clips e compartilhe com o mundo! 🎬🛹**
+**Faça upload dos seus clips de skate e compartilhe para sempre na blockchain! 🎬🛹**
