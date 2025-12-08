@@ -28,6 +28,8 @@ The spot map page has two main sections:
 3. **Zoom and pan** to explore different areas
 4. **Click on pins** to see spot names and details
 
+![](https://ipfs.skatehive.app/ipfs/bafkreicg62zph3s532dqlgzhu6h5eq2xrwfdinn6ak534ui5zvkt2f3mte?filename=skatehive.png)
+
 ### Spot List
 
 On the side (or below on mobile), you'll see recent spot submissions:
@@ -35,11 +37,15 @@ On the side (or below on mobile), you'll see recent spot submissions:
 - Posted as Snaps to the main community container
 - Tagged with `#skatespot`
 
+![](https://ipfs.skatehive.app/ipfs/bafkreieacnmmmruoxpnmrqg7ylamr5plfebvm7zf6y7me6pvhzm57yy3ry?filename=skatehive.png)
+
 ---
 
 ## ➕ Adding a New Spot
 
 Use the **SpotSnapComposer** to add a new spot:
+
+![](https://ipfs.skatehive.app/ipfs/bafkreihwwtoqph52do47qdc65mse3nawyj4s4tyx3sxi4goyvnb3pqgxpa?filename=skatehive.png)
 
 ### Required Info
 
