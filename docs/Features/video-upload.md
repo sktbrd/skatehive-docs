@@ -14,8 +14,9 @@ Skatehive provides free video upload and transcoding for all skate content. Vide
 When you upload a video:
 1. Video is sent to a transcoding server
 2. Server converts it to web-optimized format
-3. Transcoded video is uploaded to IPFS
-4. You receive an IPFS URL to use in your post
+3. **Real-time progress** is streamed back to you
+4. Transcoded video is uploaded to IPFS
+5. You receive an IPFS URL to use in your post
 
 The service is **completely free** for Skatehive community members.
 
@@ -25,13 +26,43 @@ The service is **completely free** for Skatehive community members.
 
 Skatehive runs multiple transcoding servers with automatic fallback:
 
-| Priority | Server | Location |
-|----------|--------|----------|
-| 1 | Oracle Cloud | Primary (146.235.239.243) |
-| 2 | Mac Mini M4 | Secondary (192.168.68.57) |
-| 3 | Raspberry Pi | Tertiary (192.168.68.105) |
+| Priority | Server | Location | Features |
+|----------|--------|----------|----------|
+| 1 | Oracle Cloud | Primary | SSE Progress |
+| 2 | Mac Mini M4 | Secondary | SSE Progress |
+| 3 | Raspberry Pi | Tertiary | SSE Progress |
 
 If the primary server is unavailable, the system automatically tries the next one.
+
+---
+
+## 📊 Real-Time Progress Tracking
+
+The webapp now shows **real-time progress** during video processing:
+
+### Progress Stages
+
+| Stage | Progress | What's Happening |
+|-------|----------|-----------------|
+| 🔄 Receiving | 5% | Server receiving your file |
+| 🎬 Transcoding | 10-80% | FFmpeg converting video |
+| ☁️ Uploading | 80-100% | Uploading to IPFS |
+| ✅ Complete | 100% | Done! |
+
+### Visual Progress
+
+The upload terminal shows:
+- **Skateboard progress bar** 🛹 that moves with real progress
+- **Current stage** (receiving, transcoding, uploading)
+- **Percentage complete** based on actual video processing
+- **Server status** (which server is handling your upload)
+
+### Auto-Close on Success
+
+When your upload completes successfully:
+- Terminal shows **10-second countdown**
+- Click "**Keep Open**" to cancel auto-close
+- On errors, terminal **stays open** so you can see details
 
 ---
 
