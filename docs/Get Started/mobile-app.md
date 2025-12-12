@@ -11,7 +11,7 @@ The Skatehive mobile app brings the community to your pocket. Built with Expo an
 ## 📱 Download
 
 - **iOS**: [App Store](https://apps.apple.com/app/skatehive/id6738086962)
-- **Android**: [Google Play](https://play.google.com/store/apps/details?id=com.skatehive.app)
+- **Android**: [Google Play]([https://google](https://play.google.com/store/games?pli=1)) (soon) 
 
 ---
 
