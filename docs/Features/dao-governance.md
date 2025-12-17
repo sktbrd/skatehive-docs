@@ -1,46 +1,47 @@
 ---
 sidebar_position: 7
-icon: vote
+icon: landmark
 ---
 
 # DAO & Governance
 
 Skatehive operates as a decentralized autonomous organization (DAO) with treasuries on both Hive and Ethereum. The community collectively manages resources and makes decisions.
 
----
+***
 
 ## 🏛️ Overview
 
 Skatehive governance spans two blockchains:
-- **Hive**: Community voting, rewards, witness
-- **Ethereum (Base)**: NFT auctions, treasury, proposals
+
+* **Hive**: Community voting, rewards, witness
+* **Ethereum (Base)**: NFT auctions, treasury, proposals
 
 The DAO page shows treasury assets and governance links.
 
----
+***
 
 ## 💰 Treasury Accounts
 
 ### Hive Accounts
 
-| Account | Purpose |
-|---------|---------|
-| `skatehive` | Main community account |
-| `steemskate` | Legacy OG account |
-| `gnars` | Gnars DAO integration |
+| Account      | Purpose                |
+| ------------ | ---------------------- |
+| `skatehive`  | Main community account |
+| `steemskate` | Legacy OG account      |
+| `gnars`      | Gnars DAO integration  |
 
 These accounts hold HIVE, HP, and HBD for community use.
 
 ### Ethereum Addresses
 
-| Address | Purpose |
-|---------|---------|
-| `skatehive.eth` | Hot wallet for operations |
-| Base Multisig | Cold storage (multi-signature) |
+| Address         | Purpose                        |
+| --------------- | ------------------------------ |
+| `skatehive.eth` | Hot wallet for operations      |
+| Base Multisig   | Cold storage (multi-signature) |
 
 ETH and ERC-20 tokens are held for cross-chain initiatives.
 
----
+***
 
 ## 🗳️ Nouns Builder
 
@@ -60,28 +61,29 @@ Skatehive uses **Nouns Builder** on Base network for NFT-based governance:
 3. Vote on active proposals
 4. Create proposals (if threshold met)
 
----
+***
 
 ## 🔗 Governance Links
 
-- **Nouns Builder**: [nouns.build/dao/base/0x...](https://nouns.build)
-- **Base Network**: Proposals and voting on Base
-- **Hive Witness**: Vote for `skatehive` witness
+* **Nouns Builder**: [nouns.build/dao/base/0x...](https://nouns.build)
+* **Base Network**: Proposals and voting on Base
+* **Hive Witness**: Vote for `skatehive` witness
 
----
+***
 
 ## 📊 DAO Assets Page
 
 The webapp DAO page (`/dao`) shows:
 
 ### Current Display
-- Treasury wallet addresses
-- Links to view balances
-- Governance portal links
+
+* Treasury wallet addresses
+* Links to view balances
+* Governance portal links
 
 > Note: The DAO assets page is marked "under construction" and may have limited functionality.
 
----
+***
 
 ## 👁️ Witness Voting
 
@@ -94,30 +96,33 @@ On Hive, you can support Skatehive infrastructure:
 
 Witness voters get a **+1,000 point boost** on the leaderboard!
 
----
+***
 
 ## 💎 How to Contribute
 
 ### Financial
-- **Donate to treasury**: Send to `skatehive` on Hive or `skatehive.eth` on Ethereum
-- **Participate in auctions**: Bid on daily NFTs
-- **Giveth donations**: Tracked and rewarded on leaderboard
+
+* **Donate to treasury**: Send to `skatehive` on Hive or `skatehive.eth` on Ethereum
+* **Participate in auctions**: Bid on daily NFTs
+* **Giveth donations**: Tracked and rewarded on leaderboard
 
 ### Governance
-- **Vote on proposals**: If you hold NFTs
-- **Create proposals**: Suggest community initiatives
-- **Vote for witness**: Support Hive infrastructure
 
----
+* **Vote on proposals**: If you hold NFTs
+* **Create proposals**: Suggest community initiatives
+* **Vote for witness**: Support Hive infrastructure
+
+***
 
 ## 🏆 Gnars Integration
 
 Skatehive integrates with **Gnars DAO**:
-- Gnars NFT holders get leaderboard points
-- Gnars votes contribute to your score
-- Cross-community collaboration
 
----
+* Gnars NFT holders get leaderboard points
+* Gnars votes contribute to your score
+* Cross-community collaboration
+
+***
 
 ## 💡 Tips
 
@@ -126,25 +131,30 @@ Skatehive integrates with **Gnars DAO**:
 3. **Donate via Giveth** - Gets tracked on leaderboard
 4. **Participate in proposals** - Shape the community
 
----
+***
 
 ## ❓ FAQ
 
 ### How do I get voting power?
+
 Win NFTs in daily auctions on Nouns Builder.
 
 ### What's the witness vote for?
+
 Witnesses run Hive nodes that process transactions. Voting supports network security.
 
 ### Where do auction proceeds go?
+
 100% to the DAO treasury for community use.
 
 ### Can I submit a proposal?
+
 NFT holders can create proposals if they meet the threshold.
 
 ### Is there a token?
+
 Skatehive uses NFTs for governance, not a separate token. HIVE/HBD are used for rewards.
 
----
+***
 
 **Join the DAO and help shape Skatehive's future! 🏛️🛹**
