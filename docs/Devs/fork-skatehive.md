@@ -52,21 +52,6 @@ These steps get the app running with the fewest required environment variables.
 
 Expand your fork with additional integrations. All settings below live in `.env.local`.
 
-### Farcaster notifications
-
-To enable Farcaster notifications you'll need a Postgres database and the following variables:
-
-- `POSTGRES_URL`
-- `POSTGRES_PRISMA_URL`
-- `POSTGRES_URL_NO_SSL`
-- `POSTGRES_URL_NON_POOLING`
-- `POSTGRES_USER`
-- `POSTGRES_HOST`
-- `POSTGRES_PASSWORD`
-- `POSTGRES_DATABASE`
-- `FARCASTER_INIT_PASSWORD`
-- `FARCASTER_HUB_URL` (optional custom hub)
-
 ### Wagmi & Ethereum
 
 Provide Wagmi and on-chain connectivity by setting:
@@ -74,6 +59,9 @@ Provide Wagmi and on-chain connectivity by setting:
 - `NEXT_PUBLIC_WC_PROJECT_ID`
 - `NEXT_PUBLIC_ALCHEMY_KEY`
 - `ETHERSCAN_API_KEY`
+
+### Builder Dao Setup 
+
 - `NEXT_PUBLIC_TOKEN`
 - `NEXT_PUBLIC_METADATA`
 - `NEXT_PUBLIC_AUCTION`
