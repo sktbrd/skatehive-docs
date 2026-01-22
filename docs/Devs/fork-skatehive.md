@@ -5,11 +5,9 @@ icon: paste
 ---
 
 # Fork Skatehive 3.0 Guide (Beginner Friendly)
-
-This guide explains how to fork the Skatehive 3.0 repository, run it locally, and optionally enable advanced features. Start with the basic GitHub workflow and minimal installation. If you want a fully featured fork, the optional section covers Farcaster notifications and Wagmi/Ethereum settings.
+This guide explains how to fork the Skatehive 3.0 repository, run it locally, and optionally enable advanced features.
 
 ## 1. Fork the repository on GitHub
-
 1. Sign in to GitHub and visit [`Skatehive/skatehive3.0`](https://github.com/Skatehive/skatehive3.0).
 2. Click **Fork** to create your own copy of the repo.
 3. Clone your fork:
@@ -26,46 +24,68 @@ This guide explains how to fork the Skatehive 3.0 repository, run it locally, an
    git checkout -b my-feature
    ```
 6. After committing your work, push to your fork and open a pull request.
-
 ## 2. Minimal local installation
-
-These steps get the app running with the fewest required environment variables.
-
+Skatehive now uses a centralized configuration system where sensible defaults are committed to version control.
 1. Copy the example environment file:
    ```bash
    cp .env.local.example .env.local
    ```
-2. Edit `.env.local` and set the basic variables:
-   - `NEXT_PUBLIC_THEME`
-   - `NEXT_PUBLIC_HIVE_COMMUNITY_TAG`
-   - `NEXT_PUBLIC_HIVE_SEARCH_TAG`
-   - `NEXT_PUBLIC_HIVE_USER`
-   - `NEXT_PUBLIC_BASE_URL`
-   - `HIVE_POSTING_KEY`
+2. Edit `.env.local` and set the **only** required variable for basic operation:
+   - `HIVE_POSTING_KEY` – your Hive posting key
+All other values (Hive tags, app account, theme, URLs, DAO addresses) are pre-configured in `config/app.config.ts`.
 3. Install dependencies and start the dev server:
    ```bash
    pnpm install
    pnpm dev
    ```
-
-## 3. Optional advanced configuration
-
-Expand your fork with additional integrations. All settings below live in `.env.local`.
-
-### Wagmi & Ethereum
-
-Provide Wagmi and on-chain connectivity by setting:
-
-- `NEXT_PUBLIC_WC_PROJECT_ID`
+## 3. Customizing your fork
+The application configuration is centralized in `config/app.config.ts`. This file contains:
+- `HIVE_CONFIG` – community tags, search tags, default app account
+- `DAO_ADDRESSES` – Base Mainnet DAO contract addresses
+- `ETH_ADDRESSES` – known Ethereum addresses (multisig, tokens, NFTs)
+- `APP_CONFIG` – app name, domain, theme, IPFS gateway, vote weight
+- `EMAIL_DEFAULTS` – SMTP configuration defaults
+- `EXTERNAL_SERVICES` – DAO GraphQL, Hive signer, signup signer
+To fully customize your fork, edit `config/app.config.ts` with your values:
+```typescript
+export const HIVE_CONFIG = {
+  COMMUNITY_TAG: 'hive-your-community',
+  SEARCH_TAG: 'your-tag',
+  APP_ACCOUNT: 'your-account',
+  // ...
+};
+export const APP_CONFIG = {
+  NAME: 'Your Community',
+  DOMAIN: 'your-community.app',
+  BASE_URL: 'https://your-community.app',
+  DEFAULT_THEME: 'your-theme',
+  // ...
+};
+```
+Environment variables in `.env.local` are only needed for:
+- Secrets (API keys, posting keys)
+- Deployment-specific overrides
+- Optional feature flags
+## 4. Optional advanced configuration
+Add these to `.env.local` as needed:
+### Supabase / Database
+- `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_PUBLIC_KEY`, `SUPABASE_SERVICE_ROLE_KEY`
+### Web3 / Ethereum
+- `NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID`
 - `NEXT_PUBLIC_ALCHEMY_KEY`
 - `ETHERSCAN_API_KEY`
-
-### Builder Dao Setup 
-
-- `NEXT_PUBLIC_TOKEN`
-- `NEXT_PUBLIC_METADATA`
-- `NEXT_PUBLIC_AUCTION`
-- `NEXT_PUBLIC_TREASURY`
-- `NEXT_PUBLIC_GOVERNOR`
-
-Check `.env.local.example` for additional variables such as Supabase or IPFS. Configure them as needed to match the features you want in your fork.
+### Zora
+- `NEXT_PUBLIC_ZORA_API_KEY`
+### Farcaster Notifications
+- `FARCASTER_HUB_URL`
+- `FARCASTER_INIT_PASSWORD`
+- `ADMIN_USERS`
+### Signup / Signer System
+- `SIGNER_URL`, `SIGNER_TOKEN`
+- `VIP_PEPPER`, `JWT_SECRET`
+### Email / SMTP
+- `EMAIL_USER`, `EMAIL_PASS`, `EMAIL_RECOVERYACC`
+### IPFS / Pinata
+- `PINATA_JWT`
+See `.env.local.example` for the complete list of optional variables.
+EOF
