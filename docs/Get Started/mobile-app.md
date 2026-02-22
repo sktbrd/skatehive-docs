@@ -1,6 +1,7 @@
 ---
-sidebar_position: 3
-icon: mobile
+sidebar_position: 2
+description: "Install Skatehive mobile app as Progressive Web App (PWA) on iOS and Android. Step-by-step guide for adding to home screen and accessing mobile features including Farcaster miniapp integration."
+---
 ---
 
 # Mobile App

@@ -1,7 +1,7 @@
 ---
-title: Hive Witness
-sidebar_position: 9
-icon: server
+sidebar_position: 2
+description: "How to run a Hive witness node, vote for witnesses, understand block production, and participate in Hive blockchain governance. Technical guide for supporting network security."
+---
 ---
 
 # How to Vote for the Skatehive Witness on the Hive Blockchain

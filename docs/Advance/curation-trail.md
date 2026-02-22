@@ -1,6 +1,7 @@
 ---
-sidebar_position: 9
-icon: link
+sidebar_position: 3
+description: "Set up and manage Hive curation trails to automatically upvote content from trusted curators. Passive curation rewards, follow voting patterns, and support quality content efficiently."
+---
 ---
 
 # Curation Trail

@@ -39,6 +39,64 @@ module.exports = {
       },
     ],
   ],
+  // LLM plugin temporarily disabled - requires Docusaurus 3.x
+  // To enable: upgrade to Docusaurus 3.x and uncomment
+  // plugins: [
+  //   [
+  //     'docusaurus-plugin-llms',
+  //     {
+  //       generateLLMsTxt: true,
+  //       generateLLMsFullTxt: true,
+  //       excludeImports: true,
+  //       removeDuplicateHeadings: true,
+  //       includeOrder: [
+  //         // Core intro and onboarding
+  //         'docs/skills.md',
+  //         'docs/README.md',
+  //         'docs/create-account.mdx',
+  //         // Getting started guides
+  //         'docs/Get Started/login.md',
+  //         'docs/Get Started/mobile-app.md',
+  //         'docs/Get Started/make-posts-great-again.md',
+  //         'docs/Get Started/nftskatehive.md',
+  //         'docs/Get Started/links.md',
+  //         // Features
+  //         'docs/Features/',
+  //         // Advanced
+  //         'docs/Advance/',
+  //         // Developer docs
+  //         'docs/Devs/',
+  //       ],
+  //       customLLMFiles: [
+  //         {
+  //           filename: 'llms-onboarding.txt',
+  //           includePatterns: [
+  //             'docs/README.md',
+  //             'docs/create-account.mdx',
+  //             'docs/Get Started/**'
+  //           ],
+  //           fullContent: true,
+  //           title: 'Skatehive Onboarding Guide',
+  //           description: 'Complete guide for new users: account creation, login, mobile app, and getting started with posting.',
+  //         },
+  //         {
+  //           filename: 'llms-features.txt',
+  //           includePatterns: ['docs/Features/**'],
+  //           fullContent: true,
+  //           title: 'Skatehive Platform Features',
+  //           description: 'Documentation for wallet, spot map, leaderboard, airdrop, video upload, bounties, and DAO governance.',
+  //         },
+  //         {
+  //           filename: 'llms-developers.txt',
+  //           includePatterns: ['docs/Devs/**', 'docs/Advance/**'],
+  //           fullContent: true,
+  //           title: 'Skatehive Developer Documentation',
+  //           description: 'Technical documentation for developers: forking Skatehive, app features, Hive management, witness setup, curation trails, and Zora integration.',
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // ],
   headTags: [
     // {
     //   tagName: 'link',

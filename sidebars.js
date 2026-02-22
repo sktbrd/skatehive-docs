@@ -50,6 +50,13 @@ module.exports = {
         'Devs/fork-skatehive',
         'Devs/app-features',
       ]
+    },
+    {
+      type: 'category',
+      label: '🤖 For Bots',
+      items: [
+        'skills',
+      ]
     }
   ]
 };

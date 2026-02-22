@@ -1,6 +1,8 @@
 ---
+title: DAO Governance
 sidebar_position: 7
-icon: landmark
+description: "Skatehive operates as a Nouns Builder DAO on Base network. Participate in governance, vote on proposals, and contribute to community decision-making through decentralized mechanisms."
+---
 ---
 
 # DAO & Governance

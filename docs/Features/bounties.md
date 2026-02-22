@@ -1,6 +1,8 @@
 ---
+title: Bounties
 sidebar_position: 6
-icon: crosshairs
+description: "Gamified trick challenges where users submit video clips to earn community rewards. Submit bounties as Snaps, claim via upvoting, and trigger automatic winner announcements and payouts."
+---
 ---
 
 # Bounties
