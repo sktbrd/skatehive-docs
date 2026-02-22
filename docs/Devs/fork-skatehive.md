@@ -1,8 +1,7 @@
 ---
-title: Fork Skatehive
+title: Fork Skatehive Guide
 sidebar_position: 1
-description: "Fork Skatehive open-source code to create your own skateboard community, skateshop frontend, or local crew website. Complete guide to cloning, customizing, and deploying Skatehive technology."
----
+icon: paste
 ---
 
 # Fork Skatehive 3.0 Guide (Beginner Friendly)

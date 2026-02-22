@@ -1,7 +1,5 @@
 ---
-sidebar_position: 3
-description: "Guide to creating engaging Skatehive posts: using Markdown, uploading images/GIFs, embedding videos, adding hashtags, setting beneficiaries, and publishing content to Hive blockchain for community rewards."
----
+icon: message-arrow-up-right
 ---
 
 # How to make your posts great

@@ -1,7 +1,6 @@
 ---
-sidebar_position: 1
-description: "Advanced Hive blockchain management: understanding Hive Power, Resource Credits, HBD savings, delegations, power up/down, and optimizing your Hive account for maximum engagement."
----
+sidebar_position: 3
+icon: hive
 ---
 
 # Learn Hive Tokens

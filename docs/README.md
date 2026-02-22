@@ -2,7 +2,6 @@
 position: 1
 title: Skatehive Intro
 icon: scroll
-description: "Revolutionary Web3 skateboarding platform where skaters own the network, create content, and earn rewards. Skatehive is a decentralized, community-owned alternative to corporate skateboard media and big tech platforms."
 ---
 
 import BrowserOnly from '@docusaurus/BrowserOnly';
