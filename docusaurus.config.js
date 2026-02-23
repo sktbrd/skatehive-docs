@@ -159,6 +159,52 @@ module.exports = {
       },
     },
   ],
+  plugins: [
+    [
+      'docusaurus-plugin-llms',
+      {
+        generateLLMsTxt: true,
+        generateLLMsFullTxt: true,
+        excludeImports: true,
+        removeDuplicateHeadings: true,
+        includeOrder: [
+          'docs/README.md',
+          'docs/create-account.mdx',
+          'docs/Get Started/',
+          'docs/Features/',
+          'docs/Advance/',
+          'docs/Devs/',
+        ],
+        customLLMFiles: [
+          {
+            filename: 'llms-onboarding.txt',
+            includePatterns: [
+              'docs/README.md',
+              'docs/create-account.mdx',
+              'docs/Get Started/**'
+            ],
+            fullContent: true,
+            title: 'Skatehive Onboarding Guide',
+            description: 'Complete guide for new users: account creation, login, mobile app, and getting started with posting.',
+          },
+          {
+            filename: 'llms-features.txt',
+            includePatterns: ['docs/Features/**'],
+            fullContent: true,
+            title: 'Skatehive Platform Features',
+            description: 'Documentation for wallet, spot map, leaderboard, airdrop, video upload, bounties, and DAO governance.',
+          },
+          {
+            filename: 'llms-developers.txt',
+            includePatterns: ['docs/Devs/**', 'docs/Advance/**'],
+            fullContent: true,
+            title: 'Skatehive Developer Documentation',
+            description: 'Technical documentation for developers: forking Skatehive, app features, Hive management, witness setup, curation trails, and Zora integration.',
+          },
+        ],
+      },
+    ],
+  ],
   themeConfig: {
     navbar: {
       title: 'Docs',
