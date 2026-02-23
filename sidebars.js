@@ -10,7 +10,10 @@ module.exports = {
           type: 'category',
           label: '🛹 Get Started',
           items: [
-            'Get Started/login',
+            'Get Started/create-account',
+            'Get Started/how-to-login',
+            'Get Started/invite-friends',
+            'Get Started/sponsorship',
             'Get Started/mobile-app',
             'Get Started/make-posts-great-again',
             'Get Started/nftskatehive',
