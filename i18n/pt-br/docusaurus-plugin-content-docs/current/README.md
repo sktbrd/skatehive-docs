@@ -18,7 +18,7 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 >
 <BrowserOnly>
   {() => {
-    const Animation = require('../src/components/frames.js').default;
+    const Animation = require('../../../../src/components/frames.js').default;
     return <Animation />;
   }}
 </BrowserOnly>
