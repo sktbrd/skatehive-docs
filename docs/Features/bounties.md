@@ -5,182 +5,118 @@ icon: crosshairs
 
 # Bounties
 
-Skatehive Bounties let community members challenge others to land specific tricks for rewards. Post a bounty, and skaters compete to claim the prize!
+Challenge skaters to land tricks. Put up crypto rewards. Winners get paid.
 
-View bounties at [skatehive.app/bounties](https://skatehive.app/bounties)
+View bounties: [skatehive.app/bounties](https://skatehive.app/bounties)
 
-***
+---
 
-## 🎯 Overview
+## 🎯 How It Works
 
-Bounties are trick challenges with crypto rewards:
+1. **Sponsor** posts bounty: "Kickflip BS boardslide - 50 HIVE"
+2. **Skaters** submit video clips landing the trick
+3. **Sponsor** picks 1-3 winners
+4. **Winners** get paid in HIVE/HBD
 
-1. A sponsor posts a bounty with a trick and reward
-2. Skaters submit video clips landing the trick
-3. The sponsor picks winners and distributes rewards
-4. Winners get paid in HIVE or HBD
+---
 
-***
+## 📝 Create a Bounty
 
-## 📝 Creating a Bounty
+1. Go to [skatehive.app/bounties](https://skatehive.app/bounties)
+2. Click **Create Bounty**
+3. Enter:
+   - Trick name
+   - Reward amount (HIVE or HBD)
+   - Deadline
+   - Optional rules
+4. Publish
 
-Use the **Bounty Composer** to create a new bounty:
+Bounty appears as a Hive post with special tag.
 
-### Required Fields
+---
 
-| Field             | Description                | Example                         |
-| ----------------- | -------------------------- | ------------------------------- |
-| **Trick Name**    | The trick to land          | "Kickflip frontside boardslide" |
-| **Reward Amount** | Total prize in HIVE or HBD | "50 HIVE"                       |
-| **Deadline**      | When entries close         | "Friday night" or "2024-12-31"  |
+## 🏆 Reward Winners
 
-### Posting Process
+After deadline:
 
-1. Click **Create Bounty** on the bounties page
-2. Enter the trick name
-3. Set the total reward amount
-4. Choose the token (HIVE or HBD)
-5. Set a deadline
-6. Add optional description/rules
-7. Click **Publish**
-
-The bounty is posted as a Hive post in the Skatehive community with a special bounty tag.
-
-***
-
-## 🏆 Rewarding Winners
-
-When the deadline passes, use the **Bounty Rewarder** to distribute prizes:
-
-### Selecting Winners
-
-1. Open the bounty post
-2. View submissions (replies with video clips)
-3. Select 1-3 winners
+1. Open bounty post
+2. View submissions (replies with clips)
+3. Select winners (1-3)
 4. Click **Reward Winners**
 
-### Reward Distribution
+**Reward split:**
+- 1 winner: 100%
+- 2 winners: 70% / 30%
+- 3 winners: 50% / 30% / 20%
 
-Rewards are split based on number of winners:
+Example: 100 HIVE bounty, 3 winners → 50 / 30 / 20 HIVE
 
-| Winners   | 1st Place | 2nd Place | 3rd Place |
-| --------- | --------- | --------- | --------- |
-| 1 winner  | 100%      | -         | -         |
-| 2 winners | 70%       | 30%       | -         |
-| 3 winners | 50%       | 30%       | 20%       |
+---
 
-Example: 100 HIVE bounty with 3 winners:
-
-* 1st: 50 HIVE
-* 2nd: 30 HIVE
-* 3rd: 20 HIVE
-
-***
-
-## 📤 Submitting to a Bounty
-
-To enter a bounty:
+## 📤 Submit to Bounty
 
 1. Land the trick on camera
-2. Open the bounty post
-3. Reply with your video clip
-4. Wait for the sponsor to pick winners
+2. Open bounty post
+3. Reply with video clip
+4. Wait for results
 
-### Tips for Submissions
+**Tips:**
+- Film clearly
+- Show full trick (setup → landing)
+- Follow bounty rules
 
-* Film the trick clearly
-* Include the full trick (setup to landing)
-* One submission per entry (can submit multiple)
-* Follow any rules in the bounty description
-
-***
+---
 
 ## 💰 Payment
 
-Winners are paid directly via Hive transfers:
+Winners receive Hive transfers automatically. Check your wallet!
 
-* HIVE or HBD depending on the bounty
-* Sent to your Hive wallet
-* Include memo referencing the bounty
+---
 
-***
+## 💡 Ideas for Bounties
 
-## 📋 Bounty Post Format
+- **Trick challenges:** "Hardflip down 5-stair"
+- **Spot challenges:** "Any trick at [specific spot]"
+- **Style challenges:** "Best line under 30 seconds"
+- **Team challenges:** "Best clip from your crew"
+- **Monthly contests:** "Best trick of December"
 
-When you create a bounty, the post includes:
+---
 
-```markdown
-🎯 **Bounty: [Trick Name]**
+## 🔥 Pro Tips
 
-💰 **Reward:** [Amount] [Token]
+**For Sponsors:**
+- Set clear rules upfront
+- Choose realistic deadlines
+- Engage with submissions
+- Pay winners promptly
 
-⏰ **Deadline:** [Date/Time]
+**For Participants:**
+- Read rules carefully
+- Film multiple angles if needed
+- Submit early (no last-minute uploads)
+- Tag your crew for support
 
-[Your description and rules]
-
-#skatehive #bounty #skateboardingchallenge
-```
-
-***
-
-## 🔍 Finding Bounties
-
-### Active Bounties
-
-* Visit [skatehive.app/bounties](https://skatehive.app/bounties)
-* See all open bounties with deadlines
-* Click to view details and submissions
-
-### Completed Bounties
-
-* Archived for reference
-* Winners displayed on the post
-* Proof of payment in comments
-
-***
-
-## 💡 Tips for Sponsors
-
-1. **Be specific** - Clear trick descriptions get better submissions
-2. **Set realistic deadlines** - Give skaters time to film
-3. **Choose fair rewards** - Match reward to trick difficulty
-4. **Judge fairly** - Pick based on clean execution
-5. **Pay promptly** - Distribute rewards when bounty ends
-
-***
-
-## 💡 Tips for Participants
-
-1. **Read carefully** - Understand exactly what trick is wanted
-2. **Film quality matters** - Clear video helps your chances
-3. **Land it clean** - Full completion, no sketchy landings
-4. **Submit early** - Don't wait until the last minute
-5. **Multiple attempts OK** - Submit your best one
-
-***
+---
 
 ## ❓ FAQ
 
-### Who can create bounties?
+**Can I sponsor multiple bounties?**  
+Yes, unlimited!
 
-Any Hive user with enough balance to cover the rewards.
+**What if no one lands it?**  
+You keep your crypto. Or extend the deadline.
 
-### What if no one lands the trick?
+**Can I enter my own bounty?**  
+Technically yes, but the community will roast you 😂
 
-The sponsor can extend the deadline or cancel/modify the bounty.
+**What currencies work?**  
+HIVE and HBD only (native Hive tokens).
 
-### Can I create multiple bounties?
+**Can I update bounty after posting?**  
+Edit the post, but rewards can't change after someone submits.
 
-Yes, you can have multiple active bounties.
+---
 
-### What tricks are allowed?
-
-Any skateboarding trick - street, transition, flatground, etc.
-
-### Is there a minimum reward?
-
-No minimum, but higher rewards attract more participants.
-
-***
-
-**Challenge the community and get rewarded for your skills! 🎯🛹**
+**Start a bounty:** [skatehive.app/bounties](https://skatehive.app/bounties)  
+**Need help?** [Discord #bounties](https://discord.gg/skatehive)

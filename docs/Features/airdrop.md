@@ -5,176 +5,135 @@ icon: gift
 
 # Airdrop System
 
-The Skatehive Airdrop System lets community members distribute tokens to other users based on leaderboard data. It supports both Hive and Ethereum tokens.
+Distribute tokens to community members based on leaderboard rankings.
 
 ---
 
-## 🎁 Overview
+## 🎁 What is it?
 
-Any connected user can:
-1. Select recipients from the leaderboard
-2. Choose a token to distribute
-3. Configure distribution settings
-4. Execute the airdrop
-
-The modal guides you through a 5-step process from token selection to confirmation.
+Reward top contributors with crypto airdrops:
+- Select recipients from leaderboard
+- Choose token (HIVE, HBD, USDC, HIGHER)
+- Set total amount
+- Execute distribution
 
 ---
 
 ## 💰 Supported Tokens
 
-### Base Network (ERC-20)
-- **HIGHER** - Default ERC-20 token
-- **USDC** - Stablecoin
+**Hive Blockchain:**
+- HIVE
+- HBD (stablecoin)
 
-### Hive Blockchain
-- **HIVE** - Native Hive token
-- **HBD** - Hive Backed Dollars (stablecoin)
+**Ethereum (Base Network):**
+- HIGHER
+- USDC (stablecoin)
 
-> The available tokens depend on which wallets you have connected (Hive, Ethereum, or both).
-
----
-
-## 📋 5-Step Workflow
-
-### Step 1: Token Selection
-
-Choose which token to airdrop:
-- View your connected wallet(s)
-- Select from available tokens based on your connections
-- See token information (network, symbol)
-
-### Step 2: Configuration
-
-Set up the airdrop parameters:
-
-| Setting | Description |
-|---------|-------------|
-| **Sort By** | How to rank recipients (points, HP, NFTs, etc.) |
-| **Limit** | Number of recipients (top N users) |
-| **Total Amount** | Total tokens to distribute |
-| **Include SkateHive** | Whether to include the official account |
-| **Weighted Distribution** | Split based on user scores vs equal split |
-| **Custom Message** | Optional message for the airdrop |
-
-### Step 3: Preview
-
-Review the distribution before executing:
-- List of recipients with their shares
-- Amount each user will receive
-- Total cost including gas fees (for ERC-20)
-
-### Step 4: Announcement Preview
-
-Configure the community announcement:
-- Preview the post that will be created
-- Optionally include a network visualization screenshot
-- Edit the message if needed
-
-### Step 5: Confirmation
-
-Execute the airdrop:
-- Approve token spending (ERC-20 only)
-- Sign and broadcast transactions
-- Monitor progress in real-time
-- See completion status
+**Connect your wallet to see available tokens.**
 
 ---
 
-## ⚖️ Distribution Methods
+## 🚀 How to Airdrop
 
-### Equal Distribution
+### 1. Select Token
 
-Each recipient gets the same amount:
+Choose which token to distribute.
+
+### 2. Configure
+
+Set parameters:
+- **Sort by:** Points, Hive Power, NFTs, etc.
+- **Limit:** How many users (top 10, 50, 100...)
+- **Total amount:** How much to distribute
+- **Distribution:** Equal split or weighted by score
+
+### 3. Preview
+
+Review:
+- Who gets how much
+- Total cost (including gas)
+
+### 4. Execute
+
+Sign the transactions and distribute!
+
+**Progress shown in real-time.**
+
+---
+
+## 📊 Distribution Methods
+
+**Equal:** Everyone gets same amount  
+**Weighted:** Higher-ranked users get more
+
+Example weighted (100 HIVE, 3 users):
 ```
-amount_per_user = total_amount / number_of_recipients
+User A (50 points) → 50 HIVE
+User B (30 points) → 30 HIVE  
+User C (20 points) → 20 HIVE
 ```
 
-### Weighted Distribution
+---
 
-Recipients get proportional shares based on their scores:
-```
-user_share = (user_score / total_score) × total_amount
-```
+## 🔔 Announcement
 
-Higher-ranked users receive more tokens.
+After airdrop, a post is automatically created announcing:
+- Total distributed
+- Number of recipients
+- Optional network visualization
+
+**Builds community engagement!**
 
 ---
 
-## 🔗 Technical Details
+## 💡 Use Cases
 
-### ERC-20 Airdrops (Base Network)
+**Weekly Rewards:**  
+"Top 20 contributors this week - 500 HIVE"
 
-Uses a bulk transfer contract for efficiency:
-- Contract: `0x8bD8F0D46c84feCBFbF270bac4Ad28bFA2c78F05`
-- Requires token approval before transfer
-- Single transaction for multiple recipients
-- Gas fees paid in ETH on Base
+**Contest Prizes:**  
+"Best clips of the month - 1000 HIGHER"
 
-### Hive Airdrops
+**Community Support:**  
+"Active community members - 200 HBD"
 
-Uses direct Hive transfers via Aioha:
-- Transfers sent sequentially
-- Memo includes airdrop information
-- No gas fees (resource credits used)
+**Special Events:**  
+"Contest winners - 500 USDC"
 
 ---
 
-## 📊 Recipient Selection
+## ⚠️ Notes
 
-Recipients are selected from the leaderboard based on:
+**Ethereum (Base):**
+- Requires gas fees (~$0.50)
+- Need to approve token spending first
+- Transactions batched for efficiency
 
-### Sort Options
-
-| Option | Description |
-|--------|-------------|
-| `points` | Overall leaderboard score |
-| `hp_balance` | Hive Power holdings |
-| `skatehive_nft_balance` | NFT count |
-| `gnars_votes` | Gnars voting power |
-| `hbd_savings_balance` | HBD in savings |
-| `post_count` | Activity score |
-
-### Filters
-
-- Minimum ETH wallet requirement (for ERC-20)
-- Exclude skatehive account (optional)
-- Top N users only
+**Hive:**
+- No gas fees
+- Instant transfers
+- Direct wallet-to-wallet
 
 ---
 
-## 📣 Announcement
+## ❓ FAQ
 
-After executing, an announcement post is created:
-- Posted to Skatehive community on Hive
-- Lists recipients and amounts
-- Includes optional message
-- Can include network visualization
+**Can I airdrop to specific users?**  
+Yes, use the leaderboard filters and limits.
 
----
+**What's the minimum amount?**  
+No minimum, but consider gas costs for Ethereum.
 
-## 💡 Tips
+**Can I undo an airdrop?**  
+No, transactions are permanent.
 
-1. **Check balances first** - Ensure you have enough tokens
-2. **Start small** - Test with a small amount first
-3. **Use weighted for fairness** - Rewards top contributors proportionally
-4. **Add a message** - Tell recipients why they're receiving tokens
-5. **Watch gas fees** - ERC-20 airdrops require ETH for gas
+**Do recipients get notified?**  
+Yes, via wallet notifications and the announcement post.
 
----
-
-## 🔐 Requirements
-
-### For ERC-20 Airdrops
-- Connected Ethereum wallet (wagmi)
-- Token balance on Base network
-- ETH for gas fees
-
-### For Hive Airdrops
-- Connected Hive account (Aioha)
-- HIVE or HBD balance
-- Sufficient resource credits
+**Can I schedule recurring airdrops?**  
+Not yet, but coming soon!
 
 ---
 
-**Reward your community with airdrops! 🎁🛹**
+**Start an airdrop:** [skatehive.app/airdrop](https://skatehive.app/airdrop)  
+**Need help?** [Discord #help](https://discord.gg/skatehive)

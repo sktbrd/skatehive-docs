@@ -24,52 +24,76 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 </BrowserOnly>
 </div>
 
-#### Overview
+## What is Skatehive?
 
-Skatehive is a revolutionary movement that shatters the outdated corporate-controlled media and sponsorship model, enabling skaters to self-sponsor, share, and collaborate as equals while building an independent, community-led network.
+**A decentralized magazine by skaters, for skaters.** No corporate overlords, no algorithm bs. Every skater owns Skatehive.
 
-Most importantly, **Skatehive has no owner—every skater owns Skatehive**. By design, this community exists for its members, with no central authority or corporate oversight. Every participant plays a role in its evolution, making it a true skater-owned and skater-driven initiative.
+When you post, you're writing a page in **Infinity Mag** — our collective digital zine. Your tricks, your spots, your voice. Forever.
 
-#### A History of Technology Revolutionizing Skateboarding
+---
 
-Throughout skateboarding history, certain technological advancements have redefined the sport. The iconic VX1000 camera brought high-quality filming to the streets, making it a staple of skate culture. The advent of DVDs allowed skate videos to be distributed to wider audiences, while early internet platforms like mIRC servers enabled skaters to share rare video clips globally. Then came video transcoding, which made it easier to edit and share digital footage, and finally, Web 2.0 introduced social media and the ubiquitous share button on platforms like Instagram, forever changing how skaters connect and promote their content.
+## Why It Matters
 
-![Image](https://ipfs.skatehive.app/ipfs/QmSt5VnN6P4k3ja1D723F46GtpEzZnxcaZwMHqpv7saPri)
+Skateboarding media has been controlled by corporations and Big Tech platforms that:
+- Take your content
+- Control the narrative
+- Keep the rewards
 
-#### Enter Skatehive: The Next Leap
+**Skatehive changes this.** You own your content. You earn from your posts. The community decides what's valuable.
 
-Now, Skatehive is taking the next step in this evolution by introducing a platform that not only allows skaters to create and share content but also rewards them for their contributions. With its decentralized model and innovative features, Skatehive is revolutionizing how skateboarders engage with media, offering a new way to interact, collaborate, and build together.
+---
 
-#### Public Goods and Community Support
+## How It Works
 
-Skatehive is designed to benefit everyone in the community. Whether you’re a skater uploading your latest trick, a videographer capturing unique moments, or a fan sharing feedback and ideas, your contributions are valued. Every interaction in the community—from creating content to engaging with others—adds value and helps strengthen the network of support that keeps the ecosystem thriving.
+### Post & Earn
+Share clips, photos, and stories. Get rewarded directly by the community through upvotes. No middlemen.
 
-#### Decentralized Sponsorship Through Post Rewards
+### Community-Owned
+Built on Hive blockchain. Open-source. Decentralized. Anyone can fork it, build on it, or create their own skateboard frontend.
 
-One of the standout features of Skatehive is its ability to offer decentralized sponsorship opportunities through post rewards. Skaters and content creators can gain support and recognition directly from the community, bypassing traditional sponsorship models. This approach ensures that any creator—no matter their location or following size—has the potential to receive support based on the value they bring to the community.
+### Infinity Mag
+Every post becomes a page in our living magazine. Skaters curate it, skaters read it, skaters own it.
 
-#### The Skatehive Magazine: "Infinity Mag"
+![Infinity Mag](https://ipfs.skatehive.app/ipfs/QmPvSv7iRDrHJTxBpqeoyi5utA8QmgEUCuAiQ2JsYCGz4m)
 
-The Skatehive App is more than just a platform; it’s a digital skateboard magazine where skaters contribute to the pages of its **Infinity Mag**. Each post, trick clip, or story shared within the app becomes part of a living, evolving publication created entirely by skaters, for skaters. This format not only allows contributors to build their own media presence but also rewards them for their contributions.
+---
 
-![Image](https://ipfs.skatehive.app/ipfs/QmPvSv7iRDrHJTxBpqeoyi5utA8QmgEUCuAiQ2JsYCGz4m)
+## A Legacy of Tech + Skateboarding
 
-Unlike traditional skateboard media, which is often controlled by a few large players, or big tech platforms like Instagram that prioritize algorithms over authenticity, Skatehive returns control to the skaters. Here, the community decides what deserves recognition, ensuring that creativity and passion are always prioritized over popularity metrics.
+Technology has always pushed skateboarding forward:
+- **VX1000** brought cinema to the streets
+- **DVDs** distributed skate videos globally
+- **mIRC servers** let us share rare clips
+- **Web 2.0** gave us the share button
 
-#### Challenging the Monopoly of Skateboard Media
+**Skatehive is the next evolution:** Own your content. Earn from your creativity. Build with your crew.
 
-For too long, the narrative in skateboarding has been shaped by a few centralized media outlets, while big tech platforms have commodified creators’ content without fairly compensating them. Skatehive aims to change this by offering a space where skaters can showcase their talent without needing to conform to the algorithms and restrictions of large platforms. Skaters on Skatehive become the storytellers, creators, and curators of their own magazine, ensuring that every voice has the opportunity to be heard and rewarded.
+![Tech Evolution](https://ipfs.skatehive.app/ipfs/QmSt5VnN6P4k3ja1D723F46GtpEzZnxcaZwMHqpv7saPri)
 
-#### Open-Source Technology and a Growing Network
+---
 
-Although Skatehive has its own app, the technology behind it is completely open-source, designed to be cloned and adapted by any other skateboard community, skateshop, or local crew. This empowers a growing number of unique skateboard websites and frontends that can be built using Skatehive’s code, allowing the skater community to create their own digital spaces and build their own versions of Skatehive.
+## Open-Source Network
 
-Everything created in these community-driven frontends is sent to Skatehive, which broadcasts it to multiple websites that read its blockchain. This ensures that no matter where a skater is contributing from, their content reaches the entire network, providing even more visibility and support opportunities.
+Skatehive is open-source. Any skate shop, crew, or community can:
+- Clone the code
+- Build their own frontend
+- Join the network
 
-![Image](https://ipfs.skatehive.app/ipfs/QmePbuFW6b86qDRbKXqpTr5rU8HKF6VRpboxiy9JH3Eujb)
+All posts broadcast across the network. More visibility, more support, more opportunities.
 
-#### Building Together
+![Network](https://ipfs.skatehive.app/ipfs/QmePbuFW6b86qDRbKXqpTr5rU8HKF6VRpboxiy9JH3Eujb)
 
-Skatehive isn’t just a platform; it’s a movement driven by the belief that skaters should have control over their own content and communities. Through collaborative projects, open communication, and shared goals, Skatehive empowers its members to build a vibrant ecosystem where skaters support skaters.
+---
 
-Whether you’re looking to find new connections, support emerging talent, or be part of a growing global community, Skatehive is the place to be. Join us, contribute, and help shape the future of skateboarding culture.
+## Join the Movement
+
+Skatehive isn't just a platform — it's skaters taking control of their own media.
+
+**Start today:**
+- [Create Account](./Get%20Started/create-account.md)
+- [Download Mobile App](./Get%20Started/mobile-app.md)
+- [Make Your First Post](./Get%20Started/make-posts-great-again.md)
+
+---
+
+*"Skateboarding is art. Make your post your page."*

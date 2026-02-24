@@ -5,206 +5,117 @@ icon: video
 
 # Video Upload
 
-Skatehive provides free video upload and transcoding for all skate content. Videos are transcoded to web-optimized formats and stored on IPFS for permanent access.
+Free video transcoding and IPFS hosting for all Skatehive members. Upload your clips, we handle the rest.
 
 ---
 
-## 🎬 Overview
+## 🎬 How It Works
 
-When you upload a video:
-1. Video is sent to a transcoding server
-2. Server converts it to web-optimized format
-3. **Real-time progress** is streamed back to you
-4. Transcoded video is uploaded to IPFS
-5. You receive an IPFS URL to use in your post
+1. Upload your video
+2. Our servers transcode it to web-optimized format
+3. Video is stored permanently on IPFS
+4. You get an IPFS URL to use in your post
 
-The service is **completely free** for Skatehive community members.
+**Completely free.** No file size limits. Permanent storage.
 
 ---
 
-## 🖥️ Transcoding Servers
+## 📊 Real-Time Progress
 
-Skatehive runs multiple transcoding servers with automatic fallback:
+Watch your upload in real-time:
 
-| Priority | Server | Location | Features |
-|----------|--------|----------|----------|
-| 1 | Oracle Cloud | Primary | SSE Progress |
-| 2 | Mac Mini M4 | Secondary | SSE Progress |
-| 3 | Raspberry Pi | Tertiary | SSE Progress |
+- 🔄 **Receiving** (5%) - Server receiving your file
+- 🎬 **Transcoding** (10-80%) - Converting to web format
+- ☁️ **Uploading** (80-100%) - Storing on IPFS
+- ✅ **Complete** (100%) - Done!
 
-If the primary server is unavailable, the system automatically tries the next one.
+**Skateboard progress bar 🛹** moves as your video processes.
 
----
-
-## 📊 Real-Time Progress Tracking
-
-The webapp now shows **real-time progress** during video processing:
-
-### Progress Stages
-
-| Stage | Progress | What's Happening |
-|-------|----------|-----------------|
-| 🔄 Receiving | 5% | Server receiving your file |
-| 🎬 Transcoding | 10-80% | FFmpeg converting video |
-| ☁️ Uploading | 80-100% | Uploading to IPFS |
-| ✅ Complete | 100% | Done! |
-
-### Visual Progress
-
-The upload terminal shows:
-- **Skateboard progress bar** 🛹 that moves with real progress
-- **Current stage** (receiving, transcoding, uploading)
-- **Percentage complete** based on actual video processing
-- **Server status** (which server is handling your upload)
-
-### Auto-Close on Success
-
-When your upload completes successfully:
-- Terminal shows **10-second countdown**
-- Click "**Keep Open**" to cancel auto-close
-- On errors, terminal **stays open** so you can see details
+**Auto-close:** Terminal closes after 10 seconds on success. Click "Keep Open" to cancel.
 
 ---
 
-## 📤 How It Works
+## 📤 Upload Methods
 
-### Webapp Upload
+### Web App
 
-1. Open the post composer
-2. Click the video upload button
-3. Select your video file
-4. Wait for transcoding and IPFS upload
-5. Video URL is inserted into your post
+1. Open post composer
+2. Click video upload button
+3. Select file
+4. Wait for processing
+5. URL inserted automatically
 
-### Mobile App Upload
+### Mobile App
 
-1. Record or select a video
-2. The app checks server status via the API
-3. Video is sent to the active transcoding server
-4. Progress is shown during upload
-5. IPFS URL is returned and used in your post
+1. Record or select video
+2. Tap upload
+3. Processing happens in background
+4. Post when ready
 
----
+### Direct Upload
 
-## 📊 Upload Details
+Use the API endpoint:
 
-When uploading, the following data is sent:
-
-| Field | Description |
-|-------|-------------|
-| `video` | The video file |
-| `username` | Your Hive username |
-| `deviceInfo` | Device type (webapp/mobile) |
-| `browser` | Browser information (webapp) |
-| `isIOS` | iOS flag for mobile |
-| `isAndroid` | Android flag for mobile |
-| `screenWidth` | Screen width |
-| `screenHeight` | Screen height |
-
-Device info helps with debugging and optimization.
-
----
-
-## 🔧 Server Status API
-
-The mobile app uses a status endpoint to get the active server:
-
-```
-GET https://api.skatehive.app/api/v1/status
+```bash
+curl -X POST https://oracle-api.skatehive.app/upload \
+  -F "file=@your-video.mp4" \
+  -F "username=yourname"
 ```
 
-Response includes the current active transcoding URL.
+Response includes IPFS URL.
 
 ---
 
-## 📁 Supported Formats
+## 🎥 Supported Formats
 
-### Input Formats
-- MP4, MOV, AVI, MKV
-- Most common video codecs
-- Max file size: ~500MB (recommended)
+**Input:** MP4, MOV, AVI, MKV, WEBM  
+**Output:** Web-optimized MP4 (H.264)
 
-### Output Format
-- MP4 with H.264 codec
-- Web-optimized for streaming
-- Compressed for fast loading
+**Max file size:** None (but large files take longer)  
+**Recommended:** Under 500MB for faster processing
 
 ---
 
-## 🌐 IPFS Storage
+## 🛠️ Advanced Options
 
-After transcoding, videos are stored on IPFS:
-- **Gateway**: `ipfs.skatehive.app`
-- **Pinning**: Via Pinata for permanence
-- **Access**: Videos remain available as long as they're pinned
+### API Response
 
-Video URLs look like:
-```
-https://ipfs.skatehive.app/ipfs/Qm...
+```json
+{
+  "ipfs_url": "https://ipfs.skatehive.app/ipfs/Qm...",
+  "thumbnail": "https://ipfs.skatehive.app/ipfs/Qm...",
+  "duration": 15.5,
+  "size": 12458965
+}
 ```
 
----
+### Thumbnail Generation
 
-## ⏱️ Processing Time
+Thumbnails auto-generated at 50% mark. Use in post previews.
 
-Processing time depends on:
-- Video length
-- Original file size
-- Server load
-- Your connection speed
+### Multiple Servers
 
-Typical times:
-- 30-second clip: ~1-2 minutes
-- 3-minute video: ~5-10 minutes
-- Longer videos: 15+ minutes
+Skatehive runs redundant servers with automatic failover. If one is down, another handles your upload seamlessly.
 
 ---
 
-## 💡 Tips for Best Results
+## ❓ FAQ
 
-1. **Trim before upload** - Remove unnecessary footage
-2. **Use good lighting** - Better input = better output
-3. **Horizontal preferred** - Standard 16:9 works best
-4. **Check connection** - Stable internet prevents failures
-5. **Be patient** - Large videos take time
+**How long does transcoding take?**  
+Usually 1-3 minutes for typical skate clips (30sec-2min).
 
----
+**Can I upload multiple videos?**  
+Yes! Upload as many as you want in parallel.
 
-## ⚠️ Troubleshooting
+**What if upload fails?**  
+Server automatically retries. Check your internet connection if it keeps failing.
 
-### Upload Failed
-- Check your internet connection
-- Try a smaller file
-- Wait and retry (server may be busy)
+**Can I delete videos?**  
+IPFS is permanent storage. Content stays forever (that's the point!).
 
-### Video Won't Play
-- Wait for transcoding to complete
-- Check the IPFS URL is correct
-- Try a different browser
-
-### Slow Processing
-- Large files take longer
-- Peak times may be slower
-- System auto-retries if needed
+**Does it work on mobile data?**  
+Yes, but WiFi recommended for large files.
 
 ---
 
-## 🔗 Technical Flow
-
-```
-Video File
-    ↓
-Transcoding Server (Oracle/Mac Mini/RPi)
-    ↓
-FFmpeg Processing (H.264 conversion)
-    ↓
-IPFS Upload (Pinata)
-    ↓
-IPFS URL Returned
-    ↓
-Embedded in Hive Post
-```
-
----
-
-**Upload your skate clips and share them forever on the blockchain! 🎬🛹**
+**Need help?** [Discord #help](https://discord.gg/skatehive)
