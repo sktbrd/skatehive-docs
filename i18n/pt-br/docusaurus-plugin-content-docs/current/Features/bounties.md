@@ -1,175 +1,97 @@
 ---
 sidebar_position: 6
-icon: target
+icon: crosshairs
 ---
 
 # Bounties
 
-Os Bounties do Skatehive permitem que membros da comunidade desafiem outros a acertar manobras específicas por recompensas. Poste um bounty e skatistas competem para ganhar o prêmio!
+Desafie skatistas a acertar manobras. Coloque recompensas em cripto. Vencedores recebem pagamento.
 
-Veja bounties em [skatehive.app/bounties](https://skatehive.app/bounties)
-
----
-
-## 🎯 Visão Geral
-
-Bounties são desafios de manobras com recompensas em crypto:
-1. Um patrocinador posta um bounty com uma manobra e recompensa
-2. Skatistas enviam clips de vídeo acertando a manobra
-3. O patrocinador escolhe vencedores e distribui recompensas
-4. Vencedores são pagos em HIVE ou HBD
+Veja bounties: [skatehive.app/bounties](https://skatehive.app/bounties)
 
 ---
 
-## 📝 Criando um Bounty
+## 🎯 Como Funciona
 
-Use o **Bounty Composer** para criar um novo bounty:
-
-### Campos Obrigatórios
-
-| Campo | Descrição | Exemplo |
-|-------|-----------|---------|
-| **Nome da Manobra** | A manobra para acertar | "Kickflip frontside boardslide" |
-| **Valor da Recompensa** | Prêmio total em HIVE ou HBD | "50 HIVE" |
-| **Prazo** | Quando as inscrições encerram | "Sexta à noite" ou "2024-12-31" |
-
-### Processo de Postagem
-
-1. Clique em **Criar Bounty** na página de bounties
-2. Digite o nome da manobra
-3. Defina o valor total da recompensa
-4. Escolha o token (HIVE ou HBD)
-5. Defina um prazo
-6. Adicione descrição/regras opcionais
-7. Clique em **Publicar**
-
-O bounty é postado como um post Hive na comunidade Skatehive com uma tag especial de bounty.
+1. **Patrocinador** posta bounty: "Kickflip BS boardslide - 50 HIVE"
+2. **Skatistas** submetem clipes de vídeo acertando a manobra
+3. **Patrocinador** escolhe 1-3 vencedores
+4. **Vencedores** recebem pagamento em HIVE/HBD
 
 ---
 
-## 🏆 Recompensando Vencedores
+## 📝 Criar um Bounty
 
-Quando o prazo passa, use o **Bounty Rewarder** para distribuir prêmios:
+1. Vá em [skatehive.app/bounties](https://skatehive.app/bounties)
+2. Clique **Create Bounty**
+3. Digite:
+   - Nome da manobra
+   - Valor da recompensa (HIVE ou HBD)
+   - Prazo
+   - Regras opcionais
+4. Publique
 
-### Selecionando Vencedores
-
-1. Abra o post do bounty
-2. Veja submissões (respostas com clips de vídeo)
-3. Selecione 1-3 vencedores
-4. Clique em **Recompensar Vencedores**
-
-### Distribuição de Recompensa
-
-Recompensas são divididas baseado no número de vencedores:
-
-| Vencedores | 1º Lugar | 2º Lugar | 3º Lugar |
-|------------|----------|----------|----------|
-| 1 vencedor | 100% | - | - |
-| 2 vencedores | 70% | 30% | - |
-| 3 vencedores | 50% | 30% | 20% |
-
-Exemplo: Bounty de 100 HIVE com 3 vencedores:
-- 1º: 50 HIVE
-- 2º: 30 HIVE  
-- 3º: 20 HIVE
+Bounty aparece como post Hive com tag especial.
 
 ---
 
-## 📤 Participando de um Bounty
+## 🏆 Recompensar Vencedores
 
-Para participar de um bounty:
+Depois do prazo:
+
+1. Abra post do bounty
+2. Veja submissões (respostas com clips)
+3. Selecione vencedores (1-3)
+4. Clique **Reward Winners**
+
+**Divisão de recompensa:**
+- 1 vencedor: 100%
+- 2 vencedores: 70% / 30%
+- 3 vencedores: 50% / 30% / 20%
+
+Exemplo: 100 HIVE bounty, 3 vencedores → 50 / 30 / 20 HIVE
+
+---
+
+## 📤 Submeter para Bounty
 
 1. Acerte a manobra na câmera
-2. Abra o post do bounty
-3. Responda com seu clip de vídeo
-4. Aguarde o patrocinador escolher os vencedores
+2. Abra post do bounty
+3. Responda com clip de vídeo
+4. Aguarde resultados
 
-### Dicas para Submissões
-- Filme a manobra claramente
-- Inclua a manobra completa (preparação até aterrissagem)
-- Uma submissão por entrada (pode submeter múltiplas)
-- Siga quaisquer regras na descrição do bounty
-
----
-
-## 💰 Pagamento
-
-Vencedores são pagos diretamente via transferências Hive:
-- HIVE ou HBD dependendo do bounty
-- Enviado para sua carteira Hive
-- Inclui memo referenciando o bounty
+**Dicas:**
+- Filme claramente
+- Mostre manobra completa (preparação → aterrissagem)
+- Siga regras do bounty
 
 ---
 
-## 📋 Formato do Post do Bounty
+## 💡 Ideias para Bounties
 
-Quando você cria um bounty, o post inclui:
-
-```markdown
-🎯 **Bounty: [Nome da Manobra]**
-
-💰 **Recompensa:** [Valor] [Token]
-
-⏰ **Prazo:** [Data/Hora]
-
-[Sua descrição e regras]
-
-#skatehive #bounty #skateboardingchallenge
-```
-
----
-
-## 🔍 Encontrando Bounties
-
-### Bounties Ativos
-- Visite [skatehive.app/bounties](https://skatehive.app/bounties)
-- Veja todos os bounties abertos com prazos
-- Clique para ver detalhes e submissões
-
-### Bounties Completados
-- Arquivados para referência
-- Vencedores exibidos no post
-- Prova de pagamento nos comentários
-
----
-
-## 💡 Dicas para Patrocinadores
-
-1. **Seja específico** - Descrições claras de manobras obtêm melhores submissões
-2. **Defina prazos realistas** - Dê aos skatistas tempo para filmar
-3. **Escolha recompensas justas** - Combine recompensa com dificuldade da manobra
-4. **Julgue com justiça** - Escolha baseado em execução limpa
-5. **Pague prontamente** - Distribua recompensas quando o bounty terminar
-
----
-
-## 💡 Dicas para Participantes
-
-1. **Leia com cuidado** - Entenda exatamente qual manobra é pedida
-2. **Qualidade da filmagem importa** - Vídeo claro ajuda suas chances
-3. **Acerte limpo** - Conclusão completa, sem aterrissagens duvidosas
-4. **Submeta cedo** - Não espere até o último minuto
-5. **Múltiplas tentativas OK** - Submeta sua melhor
+- **Desafios de manobra:** "Hardflip em escada de 5 degraus"
+- **Desafios de pico:** "Qualquer manobra em [pico específico]"
+- **Desafios de estilo:** "Melhor linha em menos de 30 segundos"
+- **Desafios de equipe:** "Melhor clip do seu crew"
+- **Concursos mensais:** "Melhor manobra de dezembro"
 
 ---
 
 ## ❓ FAQ
 
-### Quem pode criar bounties?
-Qualquer usuário Hive com saldo suficiente para cobrir as recompensas.
+**Posso patrocinar múltiplos bounties?**  
+Sim, ilimitado!
 
-### E se ninguém acertar a manobra?
-O patrocinador pode estender o prazo ou cancelar/modificar o bounty.
+**E se ninguém acertar?**  
+Você fica com sua cripto. Ou estenda o prazo.
 
-### Posso criar múltiplos bounties?
-Sim, você pode ter múltiplos bounties ativos.
+**Posso entrar no meu próprio bounty?**  
+Tecnicamente sim, mas a comunidade vai zoar você 😂
 
-### Quais manobras são permitidas?
-Qualquer manobra de skate - street, transição, chão, etc.
-
-### Há uma recompensa mínima?
-Sem mínimo, mas recompensas maiores atraem mais participantes.
+**Quais moedas funcionam?**  
+HIVE e HBD apenas (tokens nativos Hive).
 
 ---
 
-**Desafie a comunidade e seja recompensado pelas suas habilidades! 🎯🛹**
+**Inicie um bounty:** [skatehive.app/bounties](https://skatehive.app/bounties)  
+**Precisa de ajuda?** [Discord #bounties](https://discord.gg/skatehive)

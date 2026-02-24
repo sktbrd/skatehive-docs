@@ -5,175 +5,94 @@ icon: video
 
 # Upload de Vídeo
 
-O Skatehive oferece upload e transcoding de vídeo gratuito para todo conteúdo de skate. Os vídeos são transcodados para formatos otimizados para web e armazenados no IPFS para acesso permanente.
+Transcodificação de vídeo e hospedagem IPFS grátis para todos membros do Skatehive. Faça upload dos seus clips, nós cuidamos do resto.
 
 ---
 
-## 🎬 Visão Geral
+## 🎬 Como Funciona
 
-Quando você faz upload de um vídeo:
-1. Vídeo é enviado para um servidor de transcoding
-2. Servidor converte para formato otimizado para web
-3. Vídeo transcodado é enviado para IPFS
-4. Você recebe uma URL IPFS para usar no seu post
+1. Faça upload do seu vídeo
+2. Nossos servidores transcodam para formato otimizado web
+3. Vídeo armazenado permanentemente no IPFS
+4. Você recebe URL IPFS para usar no post
 
-O serviço é **completamente gratuito** para membros da comunidade Skatehive.
-
----
-
-## 🖥️ Servidores de Transcoding
-
-O Skatehive opera múltiplos servidores de transcoding com fallback automático:
-
-| Prioridade | Servidor | Localização |
-|------------|----------|-------------|
-| 1 | Oracle Cloud | Primário (146.235.239.243) |
-| 2 | Mac Mini M4 | Secundário (192.168.68.57) |
-| 3 | Raspberry Pi | Terciário (192.168.68.105) |
-
-Se o servidor primário estiver indisponível, o sistema automaticamente tenta o próximo.
+**Completamente grátis.** Sem limite de tamanho. Armazenamento permanente.
 
 ---
 
-## 📤 Como Funciona
+## 📊 Progresso em Tempo Real
 
-### Upload no Webapp
+Assista seu upload em tempo real:
 
-1. Abra o compositor de posts
-2. Clique no botão de upload de vídeo
-3. Selecione seu arquivo de vídeo
-4. Aguarde transcoding e upload IPFS
-5. URL do vídeo é inserida no seu post
+- 🔄 **Recebendo** (5%) - Servidor recebendo seu arquivo
+- 🎬 **Transcodificando** (10-80%) - Convertendo para formato web
+- ☁️ **Fazendo Upload** (80-100%) - Armazenando no IPFS
+- ✅ **Completo** (100%) - Pronto!
 
-### Upload no App Mobile
+**Barra de progresso skate 🛹** se move conforme seu vídeo processa.
 
-1. Grave ou selecione um vídeo
-2. O app verifica status do servidor via API
-3. Vídeo é enviado ao servidor de transcoding ativo
-4. Progresso é mostrado durante upload
-5. URL IPFS é retornada e usada no seu post
+**Auto-fecha:** Terminal fecha após 10 segundos no sucesso. Clique "Keep Open" para cancelar.
 
 ---
 
-## 📊 Detalhes do Upload
+## 📤 Métodos de Upload
 
-Ao fazer upload, os seguintes dados são enviados:
+### Web App
 
-| Campo | Descrição |
-|-------|-----------|
-| `video` | O arquivo de vídeo |
-| `username` | Seu username Hive |
-| `deviceInfo` | Tipo de dispositivo (webapp/mobile) |
-| `browser` | Informação do navegador (webapp) |
-| `isIOS` | Flag iOS para mobile |
-| `isAndroid` | Flag Android para mobile |
-| `screenWidth` | Largura da tela |
-| `screenHeight` | Altura da tela |
+1. Abra compositor de post
+2. Clique botão de upload de vídeo
+3. Selecione arquivo
+4. Aguarde processamento
+5. URL inserida automaticamente
 
-Info do dispositivo ajuda com debugging e otimização.
+### Mobile App
 
----
+1. Grave ou selecione vídeo
+2. Toque upload
+3. Processamento acontece em background
+4. Poste quando pronto
 
-## 🔧 API de Status do Servidor
+### Upload Direto
 
-O app mobile usa um endpoint de status para obter o servidor ativo:
+Use o endpoint da API:
 
-```
-GET https://api.skatehive.app/api/v1/status
+```bash
+curl -X POST https://oracle-api.skatehive.app/upload \
+  -F "file=@seu-video.mp4" \
+  -F "username=seunome"
 ```
 
-Resposta inclui a URL de transcoding ativa atual.
+Resposta inclui URL IPFS.
 
 ---
 
-## 📁 Formatos Suportados
+## 🎥 Formatos Suportados
 
-### Formatos de Entrada
-- MP4, MOV, AVI, MKV
-- Maioria dos codecs de vídeo comuns
-- Tamanho máximo: ~500MB (recomendado)
+**Entrada:** MP4, MOV, AVI, MKV, WEBM  
+**Saída:** MP4 otimizado para web (H.264)
 
-### Formato de Saída
-- MP4 com codec H.264
-- Otimizado para streaming web
-- Comprimido para carregamento rápido
+**Tamanho máximo:** Nenhum (mas arquivos grandes demoram mais)  
+**Recomendado:** Menos de 500MB para processamento rápido
 
 ---
 
-## 🌐 Armazenamento IPFS
+## ❓ FAQ
 
-Após transcoding, os vídeos são armazenados no IPFS:
-- **Gateway**: `ipfs.skatehive.app`
-- **Pinning**: Via Pinata para permanência
-- **Acesso**: Vídeos permanecem disponíveis enquanto estiverem pinned
+**Quanto tempo demora a transcodificação?**  
+Geralmente 1-3 minutos para clips típicos de skate (30seg-2min).
 
-URLs de vídeo ficam assim:
-```
-https://ipfs.skatehive.app/ipfs/Qm...
-```
+**Posso fazer upload de múltiplos vídeos?**  
+Sim! Faça upload de quantos quiser em paralelo.
 
----
+**E se o upload falhar?**  
+Servidor retenta automaticamente. Cheque sua conexão se continuar falhando.
 
-## ⏱️ Tempo de Processamento
+**Posso deletar vídeos?**  
+IPFS é armazenamento permanente. Conteúdo fica para sempre (esse é o ponto!).
 
-O tempo de processamento depende de:
-- Duração do vídeo
-- Tamanho original do arquivo
-- Carga do servidor
-- Velocidade da sua conexão
-
-Tempos típicos:
-- Clip de 30 segundos: ~1-2 minutos
-- Vídeo de 3 minutos: ~5-10 minutos
-- Vídeos mais longos: 15+ minutos
+**Funciona em dados móveis?**  
+Sim, mas WiFi recomendado para arquivos grandes.
 
 ---
 
-## 💡 Dicas para Melhores Resultados
-
-1. **Corte antes do upload** - Remova filmagem desnecessária
-2. **Use boa iluminação** - Melhor entrada = melhor saída
-3. **Horizontal preferido** - Padrão 16:9 funciona melhor
-4. **Verifique conexão** - Internet estável previne falhas
-5. **Seja paciente** - Vídeos grandes levam tempo
-
----
-
-## ⚠️ Solução de Problemas
-
-### Upload Falhou
-- Verifique sua conexão de internet
-- Tente um arquivo menor
-- Aguarde e tente novamente (servidor pode estar ocupado)
-
-### Vídeo Não Reproduz
-- Aguarde transcoding completar
-- Verifique se URL IPFS está correta
-- Tente um navegador diferente
-
-### Processamento Lento
-- Arquivos grandes levam mais tempo
-- Horários de pico podem ser mais lentos
-- Sistema faz retry automático se necessário
-
----
-
-## 🔗 Fluxo Técnico
-
-```
-Arquivo de Vídeo
-    ↓
-Servidor de Transcoding (Oracle/Mac Mini/RPi)
-    ↓
-Processamento FFmpeg (conversão H.264)
-    ↓
-Upload IPFS (Pinata)
-    ↓
-URL IPFS Retornada
-    ↓
-Incorporado no Post Hive
-```
-
----
-
-**Faça upload dos seus clips de skate e compartilhe para sempre na blockchain! 🎬🛹**
+**Precisa de ajuda?** [Discord #help](https://discord.gg/skatehive)

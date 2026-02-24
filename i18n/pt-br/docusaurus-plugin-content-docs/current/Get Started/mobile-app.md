@@ -1,165 +1,115 @@
 ---
 sidebar_position: 3
+icon: mobile
 ---
 
 # App Mobile
 
-O app mobile do Skatehive traz a comunidade para o seu bolso. Feito com Expo e React Native, está disponível para iOS e Android.
+Skatehive no seu bolso. iOS e Android.
 
 ---
 
-## 📱 Download
+## 📱 Baixar
 
-- **iOS**: [App Store](https://apps.apple.com/app/skatehive/id6738086962)
-- **Android**: [Google Play](https://play.google.com/store/apps/details?id=com.skatehive.app)
-
----
-
-## 🔐 Autenticação
-
-O app mobile usa armazenamento seguro de chaves com múltiplas opções de autenticação:
-
-### Métodos de Login
-
-1. **Conta Existente**: Digite seu usuário Hive e posting key
-2. **Biométrico/PIN**: Após primeiro login, use Face ID, Touch ID ou PIN
-3. **Usuários Salvos**: Alterne entre contas previamente logadas
-4. **Modo Espectador**: Navegue pelo conteúdo sem fazer login
-
-### Recursos de Segurança
-
-| Recurso | Descrição |
-|---------|-----------|
-| **Armazenamento Seguro** | Chaves guardadas no `expo-secure-store` |
-| **Auth Biométrico** | Suporte a Face ID / Touch ID |
-| **PIN Alternativo** | PIN de 4 dígitos se biometria indisponível |
-| **Criptografia de Chave** | Chaves privadas nunca expostas |
-
-### Primeiro Login
-
-1. Abra o app e toque em **Login**
-2. Digite seu usuário Hive
-3. Digite sua **posting key** (não sua master password!)
-4. Escolha ativar biométrico/PIN para logins futuros
-5. Sua chave é armazenada com segurança
-
-### Alternando Contas
-
-O app lembra contas previamente logadas:
-1. Toque no seu perfil ou logout
-2. Veja a lista de usuários salvos
-3. Toque para alternar (biométrico/PIN necessário)
-4. Ou adicione uma nova conta
+- **iOS:** [App Store](https://apps.apple.com/app/skatehive/id6738086962)
+- **Android:** Google Play (em breve)
 
 ---
 
-## 🎨 Funcionalidades
+## 🔐 Login
 
-### Atualmente Disponíveis
+### Primeira Vez
 
-| Funcionalidade | Descrição |
-|----------------|-----------|
-| **Feed** | Veja posts da comunidade Skatehive |
-| **Snaps** | Posts rápidos de foto (como stories) |
-| **Upload de Vídeo** | Grave e envie clips de skate |
-| **Perfil** | Veja seus posts e estatísticas |
-| **Votação** | Upvote conteúdo que você gosta |
-| **Comentários** | Responda a posts |
+1. Toque **Login**
+2. Digite nome de usuário Hive + posting key
+3. Ative Face ID / Touch ID (opcional mas recomendado)
+4. Pronto!
+
+**Não tem keys?** [Crie conta primeiro →](./create-account.md)
+
+### Próxima Vez
+
+Apenas use Face ID / Touch ID. Ou digite PIN de 4 dígitos.
 
 ### Modo Espectador
 
-Não está pronto para login? Use o Modo Espectador para:
-- Navegar pelo feed
+Navegue sem fazer login:
+- Ver feed
 - Assistir vídeos
 - Ver perfis
-- Conhecer a comunidade
 
-Você precisará fazer login para postar, votar ou comentar.
-
----
-
-## 🎬 Upload de Vídeo
-
-O app mobile conecta aos servidores de transcoding do Skatehive:
-
-1. Grave ou selecione um vídeo
-2. App verifica status do servidor via API
-3. Vídeo enviado ao servidor de transcoding ativo
-4. Vídeo transcodado armazenado no IPFS
-5. Pronto para postar!
-
-Vídeos são automaticamente comprimidos e otimizados para web.
+**Para postar/votar/comentar:** Precisa fazer login.
 
 ---
 
-## 🔗 Infraestrutura Compartilhada
+## 🎨 Recursos
 
-O app mobile usa o mesmo backend que o webapp:
+**Disponíveis Agora:**
+- ✅ Feed (posts da comunidade)
+- ✅ Snaps (posts rápidos de foto)
+- ✅ Upload de vídeo
+- ✅ Ver perfil
+- ✅ Upvote/comentar
+- ✅ Gravar clips direto no app
 
-| Serviço | Endpoint |
-|---------|----------|
-| **API** | `api.skatehive.app/api/v1` |
-| **Vídeo** | Dinâmico (Oracle/Mac Mini/RPi) |
-| **IPFS** | `ipfs.skatehive.app` |
-| **Hive** | Múltiplos nós RPC |
-
-Seu conteúdo aparece tanto no mobile quanto na web!
-
----
-
-## 📊 Comparação de Features com Webapp
-
-| Feature | Mobile | Webapp |
-|---------|--------|--------|
-| Navegação no Feed | ✅ | ✅ |
-| Upload de Vídeo | ✅ | ✅ |
-| Snaps | ✅ | ✅ |
-| Carteira | ❌ | ✅ |
-| Airdrop | ❌ | ✅ |
-| Leaderboard | ❌ | ✅ |
-| Bounties | ❌ | ✅ |
-| Página DAO | ❌ | ✅ |
-| Mapa de Picos | ❌ | ✅ |
+**Em Breve:**
+- Live streaming
+- Mensagens diretas
+- Notificações push
+- Integração de carteira
 
 ---
 
-## 🛠️ Stack Tecnológica
+## 📹 Upload de Vídeo
 
-- **Framework**: Expo / React Native
-- **Navegação**: Expo Router
-- **Armazenamento**: expo-secure-store
-- **Auth**: Biométrico + PIN
-- **Vídeo**: Gravação nativa
+1. Grave com câmera in-app OU selecione da galeria
+2. Toque upload
+3. Processamento acontece em background
+4. Poste quando pronto
 
----
-
-## 💡 Dicas
-
-1. **Use posting key** - Nunca digite sua master password
-2. **Ative biometria** - Logins mais rápidos e seguros
-3. **Mantenha atualizado** - Novos recursos adicionados regularmente
-4. **Verifique permissões** - Câmera/microfone necessários para vídeo
-5. **Boa conexão** - WiFi recomendado para uploads de vídeo
+Vídeos automaticamente transcodam e sobem para IPFS.
 
 ---
 
-## ❓ FAQ
+## 🔄 Múltiplas Contas
 
-### Minha chave está segura?
-Sim, chaves são armazenadas no enclave seguro do dispositivo usando `expo-secure-store`. São criptografadas e nunca saem do seu dispositivo.
+Troque entre contas facilmente:
 
-### Posso usar múltiplas contas?
-Sim, o app armazena múltiplas contas. Alterne entre elas na tela de login.
+1. Toque perfil → Logout
+2. Veja lista de contas salvas
+3. Toque para trocar (Face ID necessário)
+4. Ou adicione nova conta
 
-### Por que não encontro [feature]?
-Algumas features são exclusivas do webapp por enquanto. Paridade total está chegando!
-
-### Upload de vídeo falhou?
-Verifique sua conexão e tente novamente. O app seleciona automaticamente o melhor servidor disponível.
-
-### Como faço logout?
-Vá ao seu perfil e toque no botão de logout. Seus dados podem ser removidos ou mantidos para re-login fácil.
+Todas as keys armazenadas com segurança no keychain do dispositivo.
 
 ---
 
-**Baixe o app e ande de skate com o Skatehive em qualquer lugar! 📱🛹**
+## 🆘 Resolução de Problemas
+
+**Login não funciona?**  
+Certifique-se de usar **posting key**, não senha master.
+
+**Face ID não aparece?**  
+Ative em Configurações → Privacidade → Face ID.
+
+**Vídeos não sobem?**  
+Cheque conexão de internet. Arquivos grandes precisam WiFi.
+
+**App trava?**  
+Atualize para última versão. Reporte bugs no [Discord #bugs](https://discord.gg/skatehive).
+
+---
+
+## 🔒 Segurança
+
+- Keys armazenadas em keychain seguro do dispositivo
+- Autenticação biométrica
+- Keys nunca saem do seu dispositivo
+- Sem sync na nuvem (privacidade primeiro)
+
+**Perdeu dispositivo?** Keys ficam criptografadas. Troque sua posting key em [Hive.io](https://wallet.hive.io) imediatamente.
+
+---
+
+**Baixe agora:** [iOS App Store](https://apps.apple.com/app/skatehive/id6738086962)  
+**Precisa de ajuda?** [Discord #help](https://discord.gg/skatehive)

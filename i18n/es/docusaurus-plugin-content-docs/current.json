@@ -1,26 +1,26 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Actual",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Create Wallets": {
-    "message": "Create Wallets",
-    "description": "The label for category Create Wallets in sidebar tutorialSidebar"
+  "sidebar.docs.category.🛹 Onboarding": {
+    "message": "🛹 Inicio",
+    "description": "The label for category Onboarding in sidebar docs"
   },
-  "sidebar.tutorialSidebar.category.Create Wallets.link.generated-index.description": {
-    "message": "Wallets yo!",
-    "description": "The generated-index page description for category Create Wallets in sidebar tutorialSidebar"
+  "sidebar.docs.category.🛹 Get Started": {
+    "message": "🛹 Primeros Pasos",
+    "description": "The label for category Get Started in sidebar docs"
   },
-  "sidebar.tutorialSidebar.category.Skatehive App": {
-    "message": "Skatehive App",
-    "description": "The label for category Skatehive App in sidebar tutorialSidebar"
+  "sidebar.docs.category.🛹 Advance": {
+    "message": "🛹 Avanzado",
+    "description": "The label for category Advance in sidebar docs"
   },
-  "sidebar.tutorialSidebar.category.Skatehive App.link.generated-index.description": {
-    "message": "5 minutes to learn the most important Docusaurus concepts.",
-    "description": "The generated-index page description for category Skatehive App in sidebar tutorialSidebar"
+  "sidebar.docs.category.📱 Features": {
+    "message": "📱 Características",
+    "description": "The label for category Features in sidebar docs"
   },
-  "sidebar.tutorialSidebar.category.Tutorial - Dev": {
-    "message": "Tutorial - Dev",
-    "description": "The label for category Tutorial - Dev in sidebar tutorialSidebar"
+  "sidebar.docs.category.💻 Devs": {
+    "message": "💻 Desarrolladores",
+    "description": "The label for category Devs in sidebar docs"
   }
 }
