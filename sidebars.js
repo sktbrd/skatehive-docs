@@ -12,6 +12,7 @@ module.exports = {
           items: [
             'Get Started/create-account',
             'Get Started/how-to-login',
+            'Get Started/hive-wallets',
             'Get Started/invite-friends',
             'Get Started/sponsorship',
             'Get Started/mobile-app',
