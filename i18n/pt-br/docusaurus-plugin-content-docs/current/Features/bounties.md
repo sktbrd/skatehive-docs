@@ -225,10 +225,10 @@ R: **Hive:** Você fica com sua cripto. Estenda prazo ou reposte. | **POIDH:** C
 ## 📸 Screenshots
 
 ### Desktop
-![Bounties Hub](../static/img/bounties-desktop.png)
+![Bounties Hub](/img/bounties-desktop.png)
 
 ### Mobile
-![Mobile Bounties](../static/img/bounties-mobile.png)
+![Mobile Bounties](/img/bounties-mobile.png)
 
 ---
 

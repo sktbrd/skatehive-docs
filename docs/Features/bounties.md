@@ -225,10 +225,10 @@ A: **Hive:** You keep your crypto. Extend deadline or repost. | **POIDH:** Cance
 ## 📸 Screenshots
 
 ### Desktop View
-![Bounties Hub](../static/img/bounties-desktop.png)
+![Bounties Hub](/img/bounties-desktop.png)
 
 ### Mobile View
-![Mobile Bounties](../static/img/bounties-mobile.png)
+![Mobile Bounties](/img/bounties-mobile.png)
 
 ---
 

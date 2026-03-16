@@ -204,6 +204,22 @@ module.exports = {
         ],
       },
     ],
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        language: ["en", "pt", "es", "fr"],
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        docsRouteBasePath: "/docs",
+        searchResultLimits: 8,
+        searchResultContextMaxLength: 50,
+        explicitSearchResultPath: true,
+        highlightSearchTermsOnTargetPage: true,
+        searchBarShortcutHint: true,
+      },
+    ],
   ],
   themeConfig: {
     navbar: {
@@ -224,6 +240,7 @@ module.exports = {
         },
         { href: 'https://github.com/sktbrd/skatehive-docs/tree/main', label: 'GitHub', position: 'right' },
         { type: 'localeDropdown', position: 'right' },
+        { type: 'search', position: 'right' },
       ],
     },
     colorMode: {
