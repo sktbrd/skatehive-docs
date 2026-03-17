@@ -256,18 +256,4 @@ A: **Hive:** You keep your crypto (extend deadline or repost)
 | **Hive Keychain** | [Chrome Extension](https://chrome.google.com/webstore/detail/hive-keychain) |
 | **Help/Support** | [Telegram](https://t.me/skatehive) |
 
----
 
-## 🛠️ Technical Details
-
-For developers:
-
-- **Hive Indexer:** Posts with tags `skatehive` + `bounty`
-- **POIDH API:** [skatehive-api.vercel.app](https://skatehive-api.vercel.app)
-- **Supported Chains:** Base (8453), Arbitrum (42161)
-- **GitHub:** [github.com/skatehive/skatehive](https://github.com/skatehive/skatehive)
-
----
-
-**Start earning:** [skatehive.app/bounties](https://skatehive.app/bounties)  
-**Need help?** Join [Telegram](https://t.me/skatehive) | [Discord](https://discord.gg/skatehive)
