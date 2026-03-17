@@ -5,7 +5,7 @@ icon: crosshairs
 
 # Bounties
 
-**¡Gana haciendo trucos!** SkateHive Bounties es un sistema dual-blockchain donde skaters crean desafíos de trucos y ganan recompensas en cripto.
+**¡Gana haciendo trucos!** SkateHive Bounties permite crear desafíos de trucos y ganar recompensas en cripto en dos blockchains.
 
 🎯 **Ver bounties:** [skatehive.app/bounties](https://skatehive.app/bounties)
 
@@ -13,151 +13,170 @@ icon: crosshairs
 
 ## 🌐 Dos Sistemas Blockchain
 
+SkateHive soporta bounties en dos redes diferentes:
+
 ### Bounties Hive
 - **Moneda:** HBD o HIVE
-- **Plataforma:** Blockchain Hive (capa social)
-- **Claims:** Respuestas en posts con video
-- **Aprobación:** Creador elige ganadores manualmente
+- **Plataforma:** Blockchain Hive
+- **Pago:** Creador aprueba ganadores manualmente
+- **Mejor para:** Desafíos comunitarios, recompensas sociales
 
 ### Bounties POIDH (Ethereum)
 - **Moneda:** ETH
-- **Plataforma:** Base o Arbitrum (Ethereum L2s)
-- **Claims:** On-chain vía smart contract
-- **Aprobación:** Votación o instantáneo (depende de config)
-
-:::tip
-Ambos tipos aparecen juntos en [/bounties](https://skatehive.app/bounties) — filtra por pestañas **ALL / HIVE / POIDH**.
-:::
+- **Plataforma:** Base o Arbitrum (Layer 2)
+- **Pago:** Smart contract (verificación on-chain)
+- **Mejor para:** Verificación descentralizada, recompensas ETH
 
 ---
 
-## 🎯 Cómo Funciona
+## 📋 Cómo Navegar por Bounties
 
-### Para Claimers (Skaters)
+Ve a [skatehive.app/bounties](https://skatehive.app/bounties) y verás:
 
-1. **Navega bounties** en [skatehive.app/bounties](https://skatehive.app/bounties)
-2. **Elige un desafío** que quieras intentar
-3. **Logra el truco** y grábalo
-4. **Envía tu clip:**
-   - **Hive:** Click "CLAIM IT" → Sube prueba → Firma con Keychain
-   - **POIDH:** Conecta wallet → "SUBMIT CLAIM" → Sube → Aprueba transacción
-5. **Cobra** cuando sea aprobado! 💰
+![Página Principal de Bounties](/img/bounties/01-main-page.png)
 
-### Para Creadores (Patrocinadores)
+**Filtrar por origen:**
+- **ALL** — Muestra bounties de Hive y POIDH
+- **HIVE** — Solo bounties Hive (recompensas HBD/HIVE)
+- **POIDH** — Solo bounties Ethereum (recompensas ETH)
 
-1. **Click "+ CREATE BOUNTY"**
-2. **Elige blockchain:**
-   - **HIVE:** Para recompensas sociales/comunidad
-   - **ETH (POIDH):** Para recompensas Ethereum L2
-3. **Completa detalles:**
-   - Descripción del truco
-   - Monto de recompensa
-   - Fecha límite (opcional, solo Hive)
-   - Media (imagen/video)
-4. **Publica** y espera envíos
-5. **Aprueba ganadores** y ¡vélos cobrar!
+Cada card de bounty muestra:
+- 🟢 **OPEN** o 🔴 **CLOSED**
+- 💰 Valor de recompensa (+ equivalente en USD)
+- 📝 Descripción del truco
+- 📅 Fecha límite (si está definida)
+- 🎯 Botón **CLAIM IT** o **PROOF**
 
 ---
 
-## 📝 Crear Bounty Hive
+## 💎 Cómo Crear un Bounty
+
+### Paso 1: Haz clic en "+ CREATE BOUNTY"
+
+En la página principal de bounties, haz clic en el botón **"+ CREATE BOUNTY"** (esquina superior derecha).
+
+### Paso 2: Elige Tu Blockchain
+
+![Elegir Blockchain](/img/bounties/02-choose-blockchain.png)
+
+Verás dos opciones:
+
+- **HIVE** (izquierda) — Pagar en HBD o HIVE
+- **ETH** (derecha) — Pagar on-chain vía POIDH
+
+---
+
+### Creando un Bounty Hive
+
+![Formulario Hive](/img/bounties/03-hive-form.png)
 
 **Requisitos:**
 - Extensión Hive Keychain instalada
 - Cuenta con posting key
 
-**Pasos:**
+**Completa el formulario:**
 
-1. Ve a [skatehive.app/bounties](https://skatehive.app/bounties)
-2. Click **"+ CREATE BOUNTY"**
-3. Selecciona **"HIVE"**
-4. Completa formulario:
-   - **Título:** Descripción clara (ej: "Kickflip BS Boardslide")
-   - **Descripción:** Reglas, detalles del spot (soporta markdown)
-   - **Recompensa:** Monto + Moneda (HBD o HIVE)
-   - **Fecha límite:** Fecha opcional (¡crea urgencia!)
-   - **Imagen:** Sube thumbnail (opcional)
-5. Click **"PUBLISH BOUNTY"**
-6. Aprueba con **Hive Keychain**
-7. ¡Listo! Bounty aparece instantáneamente 🎉
+1. **Challenge** — Descripción corta del truco (ej: "Kickflip en 5 escalones")
+2. **Rules** — Requisitos detallados (soporta markdown)
+   - Ejemplo: "Debe ser en suelo plano, sin cortes, decir 'this is for skatehive' antes del truco"
+3. **Subir medios** (opcional):
+   - **Upload Image** — Miniatura del bounty
+   - **Upload Video** — Video de referencia
+4. **Reward:**
+   - Ingresa el monto
+   - Selecciona moneda (dropdown HBD o HIVE)
+5. **Deadline** (opcional) — Elige una fecha para crear urgencia
+6. **POST BOUNTY** — Aprueba con popup de Hive Keychain
 
-**Distribución de Recompensa (Hive):**
-- **1 ganador:** 100%
-- **2 ganadores:** 70% / 30%
-- **3 ganadores:** 50% / 30% / 20%
+**✅ ¡Listo!** Tu bounty se publica instantáneamente.
 
-:::info Ejemplo
-Bounty de 100 HIVE, 3 ganadores → 50 / 30 / 20 HIVE cada uno
-:::
+**División de Recompensa (Hive):**
+- 1 ganador: 100%
+- 2 ganadores: 70% / 30%
+- 3 ganadores: 50% / 30% / 20%
 
 ---
 
-## 💎 Crear Bounty POIDH
+### Creando un Bounty POIDH
 
 **Requisitos:**
-- Wallet con ETH en **Base** o **Arbitrum** (Ethereum L2s)
+- Wallet con ETH en Base o Arbitrum
 - MetaMask, Rainbow o wallet compatible
 
 **Pasos:**
 
-1. Ve a [skatehive.app/bounties](https://skatehive.app/bounties)
-2. Click **"+ CREATE BOUNTY"**
-3. Selecciona **"ETH (POIDH)"**
-4. **Conecta wallet** (si no está conectada)
-5. Completa formulario:
-   - **Nombre del bounty:** Título corto
-   - **Descripción:** Requisitos del truco
-   - **Recompensa:** Monto en ETH
-   - **Chain:** Base o Arbitrum (dropdown)
-6. Click **"CREATE BOUNTY"**
-7. **Aprueba transacción** en tu wallet
-8. Espera ~30 segundos para el indexador
-9. ¡Bounty en vivo! 🚀
+1. Haz clic **"+ CREATE BOUNTY"** → Selecciona **"ETH"**
+2. **Conecta wallet** (si no está conectada)
+3. Completa formulario:
+   - **Bounty name** — Título corto
+   - **Description** — Requisitos del truco
+   - **Reward** — Monto en ETH
+   - **Chain** — Base (gas menor) o Arbitrum
+4. **Create Bounty** → Aprueba transacción en wallet
+5. Espera ~30 segundos para el indexador
 
-:::tip Gas Fees
-Usa **Base** para tasas menores (~$0.01-0.05). Arbitrum también es barato pero un poco más caro.
+**✅ ¡Listo!** Bounty aparece en la lista 🚀
+
+:::tip Tarifas de Gas
+**Base** tiene tarifas menores (~$0.01-0.05). **Arbitrum** también es barato pero un poco más caro.
 :::
 
 ---
 
-## 🏆 Reclamar Bounty
+## 🏆 Cómo Reclamar un Bounty
 
-### Claim Hive
+### Reclamando Bounty Hive
 
-1. **Click en card** → Abre página de detalles
-2. **Click "CLAIM IT"**
-3. **Completa formulario:**
-   - **Título:** Nombre de tu claim
-   - **Descripción:** Link del video (YouTube, Streamable, IPFS)
-   - **Sube prueba:** Video o imagen
-4. **Firma con Hive Keychain**
-5. **Espera revisión** — Vuelve a la página del bounty
+![Detalle Bounty Hive](/img/bounties/05-hive-detail.png)
 
-### Claim POIDH
+**Pasos:**
 
-1. **Conecta wallet** (esquina superior derecha)
-2. **Click en card** → Abre página de detalles
-3. **Click "SUBMIT CLAIM"**
-4. **Completa formulario:**
-   - **Nombre:** Descripción corta
-   - **Descripción:** Link o subida
-   - **Adjunta media:** Subida IPFS automática
-5. **Aprueba transacción** en wallet
-6. **Fase de votación** (si está habilitada) o aprobación instantánea
-7. **¡Cobra** cuando sea aceptado! 💸
+1. **Haz clic en el card** → Se abre página de detalles
+2. Desplázate hasta **"CLAIM THIS BOUNTY TO SUBMIT YOUR PROOF"**
+3. **Haz clic "CLAIM IT"**
+4. Completa formulario:
+   - **Title** — Nombre de tu envío
+   - **Description** — Link del video (YouTube, Streamable, IPFS)
+   - **Upload proof** — Video o imagen tuya logrando el truco
+5. **Firma con Hive Keychain**
+6. **Espera revisión del creador** — Vuelve a la página del bounty
+
+**Bounties Hive se pagan después de que creador apruebe manualmente tu claim.**
 
 ---
 
-## 💰 Pago & Recompensas
+### Reclamando Bounty POIDH
 
-### Hive
-- Pagado vía **transferencias Hive** (automático)
-- Revisa tu **wallet Hive** (Keychain o [PeakD](https://peakd.com))
-- Aparece en historial de transacciones
+![Detalle Bounty POIDH](/img/bounties/04-poidh-detail.png)
 
-### POIDH
-- Pagado vía **smart contract** (instantáneo al aprobar)
-- Fondos van directo a tu wallet conectada
-- Ver en blockchain explorer (Basescan, Arbiscan)
+**Pasos:**
+
+1. **Conecta wallet** (esquina superior derecha)
+2. **Haz clic en el card** → Se abre página de detalles
+3. **Haz clic "SUBMIT PROOF"** (abajo)
+4. Completa formulario:
+   - **Claim name** — Descripción corta
+   - **Description** — Link del video o subida
+   - **Attach media** — Subida IPFS automática
+5. **Aprueba transacción** en wallet
+6. **Fase de votación** (si está habilitada) o aprobación instantánea
+7. **¡Recibe** cuando claim sea aceptado! 💸
+
+**Bounties POIDH se pagan automáticamente vía smart contract.**
+
+---
+
+## 💰 Cómo Funciona el Pago
+
+### Pago Hive
+- **Método:** Transferencias Hive (automático tras aprobación)
+- **Verificar:** Tu wallet Hive (Keychain o [PeakD](https://peakd.com))
+- **Aparece en:** Historial de transacciones
+
+### Pago POIDH
+- **Método:** Smart contract (instantáneo en aprobación)
+- **Verificar:** Tu wallet conectada
+- **Ver en:** Blockchain explorer (Basescan, Arbiscan)
 
 ---
 
@@ -175,18 +194,18 @@ Usa **Base** para tasas menores (~$0.01-0.05). Arbitrum también es barato pero 
 
 ### Para Patrocinadores
 
-✅ **Define reglas claras** — Especificidad evita disputas  
-✅ **Elige recompensas justas** — Mayor = más participantes  
-✅ **Interactúa con claims** — Comenta, anima a skaters  
+✅ **Define reglas claras** — Evita disputas con requisitos específicos  
+✅ **Elige recompensas justas** — Recompensas mayores = más participantes  
+✅ **Interactúa con claims** — Comenta y anima a skaters  
 ✅ **Paga rápido** — No dejes ganadores esperando  
 ✅ **Agrega fechas límite** (Hive) — Crea urgencia
 
 ### Para Participantes
 
 ✅ **Lee reglas con atención** — Sabe qué se espera  
-✅ **Filma con claridad** — Buena calidad = más chances  
+✅ **Filma con claridad** — Buena calidad aumenta tus posibilidades  
 ✅ **Muestra truco completo** — Setup → aterrizaje, sin cortes  
-✅ **Envía temprano** — Evita problemas de último minuto  
+✅ **Envía temprano** — Evita problemas técnicos de último minuto  
 ✅ **Sigue** — Revisa página del bounty para resultados
 
 ---
@@ -197,16 +216,56 @@ Usa **Base** para tasas menores (~$0.01-0.05). Arbitrum también es barato pero 
 R: No — bounties son para que otros skaters completen.
 
 **P: ¿Cuánto tiempo hasta recibir?**  
-R: **Hive:** Cuando creador apruebe | **POIDH:** Cuando votación pase o instantáneo.
+R: **Hive:** Cuando creador apruebe tu claim  
+**POIDH:** Cuando votación pase o instantáneo (depende de config)
 
 **P: ¿Y si mi claim es rechazado?**  
-R: Puedes intentar de nuevo si el bounty sigue abierto. Revisa las reglas y mejora tu envío.
+R: Intenta de nuevo si el bounty sigue abierto. Revisa las reglas y mejora tu envío.
 
 **P: ¿Puedo cancelar un bounty?**  
-R: **Hive:** Edita metadata del post para marcar como cerrado | **POIDH:** Usa función cancel en contrato (retorna ETH menos gas).
+R: **Hive:** Edita metadata del post para marcar como cerrado  
+**POIDH:** Usa función cancel en contrato (retorna ETH menos gas)
 
 **P: ¿Cuál es la diferencia entre Hive y POIDH?**  
-R: **Hive** = blockchain social con sentimiento comunidad, recompensas HBD/HIVE, aprobación manual. **POIDH** = smart contracts Ethereum, recompensas ETH, votación on-chain/aprobación instantánea.
+R: **Hive** = blockchain social, aprobación manual, sentimiento comunidad  
+**POIDH** = smart contracts Ethereum, verificación on-chain, pago automático
+
+**P: ¿Qué blockchain usar?**  
+R: **Hive** para compromiso comunitario  
+**POIDH** para usuarios Ethereum y verificación descentralizada
+
+**P: ¿Puedo patrocinar múltiples bounties?**  
+R: Sí, ilimitado en ambas plataformas!
+
+**P: ¿Qué monedas funcionan?**  
+R: **Hive:** Solo HBD o HIVE  
+**POIDH:** Solo ETH (en Base o Arbitrum)
+
+**P: ¿Y si nadie logra el truco?**  
+R: **Hive:** Quedas con tu cripto (extiende fecha o republica)  
+**POIDH:** Cancela bounty para recuperar ETH (menos gas)
+
+---
+
+## 🔗 Enlaces Rápidos
+
+| Recurso | URL |
+|---------|-----|
+| **Bounties En Vivo** | [skatehive.app/bounties](https://skatehive.app/bounties) |
+| **Protocolo POIDH** | [poidh.xyz](https://poidh.xyz) |
+| **Hive Keychain** | [Extensión Chrome](https://chrome.google.com/webstore/detail/hive-keychain) |
+| **Ayuda/Soporte** | [Telegram](https://t.me/skatehive) |
+
+---
+
+## 🛠️ Detalles Técnicos
+
+Para desarrolladores:
+
+- **Indexador Hive:** Posts con tags `skatehive` + `bounty`
+- **API POIDH:** [skatehive-api.vercel.app](https://skatehive-api.vercel.app)
+- **Chains Soportadas:** Base (8453), Arbitrum (42161)
+- **GitHub:** [github.com/skatehive/skatehive](https://github.com/skatehive/skatehive)
 
 ---
 
