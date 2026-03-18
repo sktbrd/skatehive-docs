@@ -5,7 +5,7 @@ title: Sponsorship
 
 # Account Sponsorship
 
-Upgrade email accounts to full Hive accounts. Community members pay ~$0.60 to sponsor newcomers.
+Upgrade email accounts to full Hive accounts. Community members pay 3 HIVE or 1 ACC to sponsor newcomers.
 
 ---
 
@@ -80,22 +80,10 @@ Total:                 3.0 HIVE (~$0.60)
 
 ## ❓ FAQ
 
-**How long does it take?**  
-Usually instant, max 24 hours.
-
 **Can I sponsor multiple people?**  
 Yes, unlimited!
 
-**Do I get my HIVE back?**  
-No, it goes to blockchain to create the account.
-
-**What if they never use it?**  
-You still get credit, but choose wisely!
-
-**Can I use Hive Power instead?**  
-Yes! RC Delegation method uses your HP.
-
 ---
 
-**Need sponsorship?** Post in [Discord #sponsorship](https://discord.gg/skatehive)  
+**Need sponsorship?** Post in [Discord #sponsorship](https://chat.discord.app)  
 **Ready to sponsor?** Check the channel for requests!
