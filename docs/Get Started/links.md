@@ -16,12 +16,12 @@ Here's a comprehensive collection of Skatehive resources and links organized by 
 
 ## 🌐 Social Media & Community
 
-| **Discord**   | [chat.skatehive.app](https://chat.skatehive.app)               | Join the Skatehive community Discord            |
-| ------------- | -------------------------------------------------------------- | ----------------------------------------------- |
-| **Twitter**   | [@skatehive\_](https://x.com/Skate_Hive)                       | Official Skatehive Twitter account              |
-| **Instagram** | [@skatehive](https://instagram.com)                            | We are here so skaters can find us, but we hate |
-| **GitHub**    | [github.com/sktbrd](https://github.com/sktbrd)                 | Skatehive open-source repositories              |
-| **Farcaster** | [nounspace.com/s/skatehive](https://nounspace.com/s/skatehive) | Skatehive Space                                 |
+| **Discord**   | [chat.skatehive.app](https://chat.skatehive.app)               | Join the Skatehive community Discord                  |
+| ------------- | -------------------------------------------------------------- | ----------------------------------------------------- |
+| **Twitter**   | [@skatehive\_](https://x.com/Skate_Hive)                       | Official Skatehive Twitter account                    |
+| **Instagram** | [@skatehive](https://instagram.com/skatehive)                  | We are here so skaters can find us                    |
+| **GitHub**    | [github.com/sktbrd](https://github.com/sktbrd)                 | Skatehive open-source repositories                    |
+| **Farcaster** | [nounspace.com/s/skatehive](https://nounspace.com/s/skatehive) | Skatehive Space                                       |
 
 ## 🔧 Developer Resources
 
@@ -44,10 +44,11 @@ Here's a comprehensive collection of Skatehive resources and links organized by 
 
 ## 📱 Mobile & Integration
 
-| **Farcaster Miniapp** | Available in Farcaster | Native miniapp integration |
-| --------------------- | ---------------------- | -------------------------- |
-| **Androi App**        | Soon                   | Soon                       |
-| _IOS App_             | Soon                   | Soon                       |
+| **Farcaster Miniapp** | Available in Farcaster                                               | Native miniapp integration         |
+| --------------------- | -------------------------------------------------------------------- | ---------------------------------- |
+| **Android App**       | [Google Play](https://play.google.com/store/apps/details?id=app.skatehive) | Native Android app                 |
+| **iOS App**           | [App Store](https://apps.apple.com/app/skatehive)                    | Native iOS app                     |
+| **Mobile Guide**      | [Mobile App Docs](./mobile-app.md)                                   | Setup and usage guide              |
 
 ## 💰 Treasure
 

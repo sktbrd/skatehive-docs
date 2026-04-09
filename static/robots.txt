@@ -1,0 +1,23 @@
+# Skatehive Documentation - robots.txt
+
+# Allow all bots
+User-agent: *
+Allow: /
+
+# LLM-friendly documentation (llmstxt.org standard)
+# Main index with links to all documentation
+User-agent: *
+Allow: /llms.txt
+
+# Complete documentation in one file
+User-agent: *
+Allow: /llms-full.txt
+
+# Section-specific files for targeted retrieval
+User-agent: *
+Allow: /llms-onboarding.txt
+Allow: /llms-features.txt
+Allow: /llms-developers.txt
+
+# Sitemap
+Sitemap: https://docs.skatehive.app/sitemap.xml

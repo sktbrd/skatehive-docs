@@ -11,7 +11,7 @@ icon: hive
 
 You can easily manage your Hive tokens directly from your wallet. When you click on your wallet, you will see five key terms: **Hive**, **Hive Power**, **Hive Dollars**, **Savings**, and **Estimated Account Value**.
 
-![Hive Tokens Overview](../../src/assets/Tuto-manage/1.png)
+![Hive Tokens Overview](../.gitbook/assets/1.png)
 
 ***
 

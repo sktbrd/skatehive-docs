@@ -10,7 +10,12 @@ module.exports = {
           type: 'category',
           label: '🛹 Get Started',
           items: [
-            'Get Started/login',
+            'Get Started/create-account',
+            'Get Started/how-to-login',
+            'Get Started/hive-wallets',
+            'Get Started/invite-friends',
+            'Get Started/sponsorship',
+            'Get Started/mobile-app',
             'Get Started/make-posts-great-again',
             'Get Started/nftskatehive',
             'Get Started/links'
@@ -27,6 +32,19 @@ module.exports = {
             'Advance/zora-coin',
           ]
         }
+      ]
+    },
+    {
+      type: 'category',
+      label: '📱 Features',
+      items: [
+        'Features/wallet',
+        'Features/spot-map',
+        'Features/leaderboard',
+        'Features/airdrop',
+        'Features/video-upload',
+        'Features/bounties',
+        'Features/dao-governance',
       ]
     },
     {

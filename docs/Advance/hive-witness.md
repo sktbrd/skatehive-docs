@@ -6,62 +6,54 @@ icon: server
 
 # How to Vote for the Skatehive Witness on the Hive Blockchain
 
-The Hive Blockchain is a decentralized platform that operates with witnesses to keep the network secure and functional. Voting for a witness, such as Skatehive, helps support initiatives that promote skateboarding culture and decentralization. This tutorial will guide you through the process.
+The Hive Blockchain is a decentralized platform that operates with witnesses to keep the network secure and functional. Voting for a witness, such as Skatehive, helps support initiatives that promote decentralization and creativity within the skateboarding community.
 
 ***
 
-#### Step 1: Log in to a Hive Client
+## Step 1: The Easiest Way—Vote with Skatehive App
 
-**To vote, you’ll need a Hive client, such as:**
+**New users can now vote for the Skatehive witness using a much simpler method:**
 
-* **Hive Keychain**: A browser extension for managing accounts.
-* **Ecency**: A user-friendly platform for interacting with Hive.
-* **PeakD**: An advanced interface for Hive users.
+1. Visit [skatehive.app/witness](https://skatehive.app/witness)
+2. Log in with your Hive account using your preferred sign-in method (Hive Keychain, Ecency, etc.).
+3. Click the vote button next to the Skatehive witness to cast your vote.
+4. Follow any prompts to authorize the transaction using Hive Keychain or your chosen wallet.
+5. Done! Verify your vote on the same page.
 
-Download and install the Hive Keychain extension (if you haven’t already) and log in with your credentials.
+> **Tip:** This method is recommended for new users because it’s streamlined, mobile-friendly, and guides you through the process directly.
 
 ***
 
-#### Step 2: Access the Witness Voting Page
+<img width="691" height="438" alt="image" src="https://github.com/user-attachments/assets/86df6408-d828-44ae-b77a-d72b083d6dbf" />
+
+
+## Alternative Methods
+
+If you prefer using other Hive platforms or clients, you can still vote for Skatehive witness via PeakD, Hive Blog, or directly with Hive Keychain.
+
+### Option A: Using PeakD or Hive Blog
 
 1. Go to [PeakD](https://peakd.com) or [Hive Blog](https://hive.blog).
 2. Click on the menu or look for the "Witnesses" option.
-   * On PeakD, it’s in the left-hand sidebar.
-   * On Hive Blog, you can directly access the link: [https://hive.blog/\~witnesses](https://hive.blog/~witnesses).
+    * On PeakD, it's in the left-hand sidebar.
+    * On Hive Blog, access [https://hive.blog/~witnesses](https://hive.blog/~witnesses)
+3. Search for "**skatehive**" in the witness list (Ctrl + F for quick search).
+4. Or use this direct link (must be logged in): [https://peakd.com/me/witnesses](https://peakd.com/me/witnesses)
+5. Click the vote button next to "skatehive" and confirm your action (Hive Keychain will prompt you to authorize).
+6. Verify your vote in your active witness votes.
 
-## ![](https://i.ibb.co/ZhFv3bY/image.png)
+### Option B: Hive Keychain Extension
 
-#### Step 3: Find the Skatehive Witness
-
-1. In the list of witnesses, search for **Skatehive**.
-   * Use the search bar (Ctrl + F on your keyboard) and type "skatehive."
-2. If you can’t find it, use the direct link to vote: [https://peakd.com/me/witnesses](https://peakd.com/me/witnesses) and manually add the witness name `skatehive`.
-3. ![](https://i.ibb.co/M7frCxC/image.png)
-
-***
-
-#### Step 4: Vote for Skatehive
-
-1. Click the vote button next to the Skatehive name.
-2. Confirm your action:
-   * If using Hive Keychain, it will prompt you to authorize the transaction.
-   * Confirm and enter your access key (if required).
-
-***
-
-#### Step 5: Verify Your Vote
-
-**After voting:**
-
-1. Check that Skatehive appears in your list of active votes.
-2. You can do this on the same witness page or in your account settings tab.
+- Download and install Hive Keychain (browser extension).
+- Log in and navigate to a witness voting platform (such as skatehive.app/witness, PeakD, or Hive Blog).
+- Search for "skatehive," click vote, and authorize via Hive Keychain.
 
 ***
 
 ### Final Tips
 
 * **Why vote for Skatehive?** Skatehive is a witness that promotes the skateboarding community on the Hive Blockchain, fostering decentralization and creativity.
-* **Vote limit**: Each account can vote for up to 30 witnesses. Use your votes wisely.
-* **Get involved**: Join the Skatehive community and help strengthen the project.
+* **Vote limit:** Each account can vote for up to 30 witnesses. Use your votes wisely.
+* **Get involved:** Join the Skatehive community and help strengthen the project.
 
 Now that you know how to vote, support Skatehive and become part of this amazing community! 🛹
