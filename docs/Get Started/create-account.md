@@ -3,65 +3,106 @@ sidebar_position: 1
 title: Create Account
 ---
 
-# Create Your Account
+# Create Your Skatehive Account
 
-Three ways to join Skatehive:
+The easiest way to join Skatehive is with **email**. You can start posting right away, then upgrade to your own Hive account later through sponsorship.
 
-## 📧 Email (Fastest)
+## 1. Sign up with email
 
-1. Click **Sign Up** on [skatehive.app](https://skatehive.app)
-2. Enter email + username + display name
-3. Check inbox for magic link
-4. Click link → Done!
+1. Open [skatehive.app](https://skatehive.app)
+2. Click **Sign Up**
+3. Choose **Email**
+4. Enter your email, username, and display name
+5. Open the magic link from your inbox
+6. You are in
 
-**No crypto needed.** Start posting immediately.
+That is it. No wallet, crypto, browser extension, or seed phrase is required to start skating the web.
 
 ![Homepage](https://ipfs.skatehive.app/ipfs/bafybeidmfbzvwsyhfnu5ih43a5qerk5obxj7uctmokn3rwymblgyxhrc3m?filename=homepage-full.png)
 
----
+## What email accounts can do
 
-## ⛓️ Hive Account
+Email accounts are made for new skaters who want the simplest path in.
 
-Already have Hive? Connect with Keychain:
+You can:
 
-1. Click **Login** → **Hive** → **Keychain**
-2. Enter username
-3. Approve in Keychain popup
-4. Done!
+- Create a Skatehive profile
+- Publish posts
+- Comment and participate
+- Build reputation before learning Hive wallets
 
----
+Behind the scenes, email accounts publish through Skatehive infrastructure while keeping your Skatehive identity attached to the post.
 
-## 💎 Ethereum Wallet
+## Why upgrade to a Hive account?
 
-Connect MetaMask or any Web3 wallet:
+A full Hive account gives you your own on-chain identity.
 
-1. Click **Login** → **Wallet**
-2. Choose wallet (MetaMask, Rainbow, WalletConnect)
-3. Sign message
-4. Done!
+With Hive you can:
 
----
+- Post from your own username instead of the shared email-user flow
+- Earn Hive rewards directly
+- Vote with your own account
+- Use Hive apps outside Skatehive
+- Keep full control of your keys and account
 
-## 🔗 Link Multiple Identities
+You do **not** need to upgrade on day one. Start with email first, then upgrade when you are ready.
 
-After signup, go to **Settings → Account** to link:
-- ✅ Hive account
-- ✅ Ethereum wallet
-- ✅ Farcaster profile
+## 2. Get sponsored for a Hive account
 
-Log in with any linked identity!
+Sponsorship is the recommended upgrade path for active Skatehive users.
 
----
+A sponsor pays the small Hive account creation cost for you, so you can receive a real Hive account without buying crypto first.
 
-## 🎓 Upgrade to Full Hive Account
+### How to request sponsorship
 
-Email accounts post via shared `@skateuser`. Want your own Hive account?
+1. Create your Skatehive account with email
+2. Post, comment, and show you are a real skater
+3. Go to **Settings → Account**
+4. Click **Upgrade to Hive Account**
+5. Choose **Request Sponsorship**
+6. Share your sponsorship link with the community
 
-**Option 1:** Get sponsored (~$0.60, free for you)  
-**Option 2:** Create yourself via [hive.io](https://signup.hive.io)
+A good request includes who you are, where you skate, and why you want to join the Hive side of Skatehive.
 
-[Learn more about sponsorship →](./sponsorship.md)
+[Read the full sponsorship guide →](./sponsorship.md)
 
----
+## 3. Sponsor someone else
 
-**Need help?** [Discord #help](https://discord.gg/skatehive)
+If you already have a Hive account, you can help onboard new skaters.
+
+To sponsor someone:
+
+1. Open their sponsorship request link
+2. Review their profile and activity
+3. Choose the sponsorship method shown in the app
+4. Approve the transaction with Hive Keychain
+
+Sponsoring usually costs around **3 HIVE** or **1 account creation ticket**, depending on the method available to your account.
+
+Sponsors help real skaters skip the confusing wallet setup and join the community faster.
+
+## 4. Already have Hive?
+
+If you already have a Hive account, you can log in directly.
+
+1. Install [Hive Keychain](https://hive-keychain.com/)
+2. Open [skatehive.app](https://skatehive.app)
+3. Click **Login → Hive → Keychain**
+4. Enter your Hive username
+5. Approve the login in Keychain
+
+## 5. Prefer Ethereum?
+
+You can also connect an Ethereum wallet.
+
+1. Click **Login → Wallet**
+2. Choose MetaMask, Rainbow, WalletConnect, or another supported wallet
+3. Sign the login message
+
+You can link multiple identities later in **Settings → Account**.
+
+## Need help?
+
+Join the [Skatehive Discord](https://discord.gg/skatehive) and ask in the help or sponsorship channels.
+
+Welcome to Skatehive 🛹

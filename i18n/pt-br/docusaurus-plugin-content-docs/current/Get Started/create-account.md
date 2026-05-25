@@ -3,65 +3,96 @@ sidebar_position: 1
 title: Criar Conta
 ---
 
-# Crie Sua Conta
+# Crie sua conta na Skatehive
 
-Três formas de entrar no Skatehive:
+O jeito mais fácil de entrar na Skatehive é com **email**. Você pode começar a postar na hora e depois fazer upgrade para uma conta Hive própria com patrocínio.
 
-## 📧 Email (Mais Rápido)
+## 1. Cadastre-se com email
 
-1. Clique em **Sign Up** em [skatehive.app](https://skatehive.app)
-2. Digite email + nome de usuário + nome de exibição
-3. Cheque o email para o link mágico
-4. Clique no link → Pronto!
+1. Abra [skatehive.app](https://skatehive.app)
+2. Clique em **Sign Up**
+3. Escolha **Email**
+4. Informe email, username e nome de exibição
+5. Abra o magic link no seu inbox
+6. Pronto, você entrou
 
-**Não precisa de cripto.** Comece a postar imediatamente.
+Não precisa de carteira, cripto, extensão ou seed phrase para começar.
 
 ![Homepage](https://ipfs.skatehive.app/ipfs/bafybeidmfbzvwsyhfnu5ih43a5qerk5obxj7uctmokn3rwymblgyxhrc3m?filename=homepage-full.png)
 
----
+## O que contas por email podem fazer
 
-## ⛓️ Conta Hive
+Você pode:
 
-Já tem Hive? Conecte com Keychain:
+- Criar perfil na Skatehive
+- Publicar posts
+- Comentar e participar
+- Construir reputação antes de aprender carteiras Hive
 
-1. Clique **Login** → **Hive** → **Keychain**
-2. Digite nome de usuário
-3. Aprove no popup do Keychain
-4. Pronto!
+Por trás dos panos, contas por email publicam pela infraestrutura da Skatehive mantendo sua identidade no post.
 
----
+## Por que fazer upgrade para Hive?
 
-## 💎 Carteira Ethereum
+Uma conta Hive completa dá uma identidade on-chain própria.
 
-Conecte MetaMask ou qualquer carteira Web3:
+Com Hive você pode:
 
-1. Clique **Login** → **Wallet**
-2. Escolha carteira (MetaMask, Rainbow, WalletConnect)
-3. Assine mensagem
-4. Pronto!
+- Postar com seu próprio username
+- Receber recompensas Hive diretamente
+- Votar com sua própria conta
+- Usar outros apps Hive
+- Controlar suas chaves e sua conta
 
----
+Você não precisa fazer upgrade no primeiro dia. Comece com email e evolua quando estiver pronto.
 
-## 🔗 Vincular Múltiplas Identidades
+## 2. Peça patrocínio para uma conta Hive
 
-Depois de criar conta, vá em **Settings → Account** para vincular:
-- ✅ Conta Hive
-- ✅ Carteira Ethereum
-- ✅ Perfil Farcaster
+Patrocínio é o caminho recomendado para usuários ativos da Skatehive.
 
-Faça login com qualquer identidade vinculada!
+Um sponsor paga o pequeno custo de criação da conta Hive para você receber uma conta real sem comprar cripto antes.
 
----
+### Como pedir patrocínio
 
-## 🎓 Upgrade para Conta Hive Completa
+1. Crie sua conta Skatehive com email
+2. Poste, comente e mostre que você é skatista de verdade
+3. Vá em **Settings → Account**
+4. Clique em **Upgrade to Hive Account**
+5. Escolha **Request Sponsorship**
+6. Compartilhe seu link de patrocínio com a comunidade
 
-Contas de email postam via `@skateuser` compartilhado. Quer sua própria conta Hive?
+Um bom pedido fala quem você é, onde anda de skate e por que quer entrar no lado Hive da Skatehive.
 
-**Opção 1:** Seja patrocinado (~$0.60, grátis pra você)  
-**Opção 2:** Crie você mesmo via [hive.io](https://signup.hive.io)
+[Leia o guia completo de patrocínio →](./sponsorship.md)
 
-[Saiba mais sobre patrocínio →](./sponsorship.md)
+## 3. Patrocine outra pessoa
 
----
+Se você já tem uma conta Hive, pode ajudar novos skatistas a entrar.
 
-**Precisa de ajuda?** [Discord #help](https://discord.gg/skatehive)
+1. Abra o link de pedido de patrocínio
+2. Revise o perfil e a atividade da pessoa
+3. Escolha o método mostrado no app
+4. Aprove a transação com Hive Keychain
+
+Normalmente custa cerca de **3 HIVE** ou **1 ticket de criação de conta**, dependendo do método disponível.
+
+## 4. Já tem Hive?
+
+1. Instale [Hive Keychain](https://hive-keychain.com/)
+2. Abra [skatehive.app](https://skatehive.app)
+3. Clique em **Login → Hive → Keychain**
+4. Informe seu username Hive
+5. Aprove o login no Keychain
+
+## 5. Prefere Ethereum?
+
+1. Clique em **Login → Wallet**
+2. Escolha MetaMask, Rainbow, WalletConnect ou outra carteira suportada
+3. Assine a mensagem de login
+
+Você pode conectar várias identidades depois em **Settings → Account**.
+
+## Precisa de ajuda?
+
+Entre no [Discord da Skatehive](https://discord.gg/skatehive) e peça ajuda nos canais de help ou sponsorship.
+
+Bem-vindo à Skatehive 🛹
