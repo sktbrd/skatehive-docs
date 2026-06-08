@@ -172,6 +172,7 @@ module.exports = {
           'docs/create-account.mdx',
           'docs/Get Started/',
           'docs/Features/',
+          'docs/Mobile/',
           'docs/Advance/',
           'docs/Devs/',
         ],
@@ -193,6 +194,13 @@ module.exports = {
             fullContent: true,
             title: 'Skatehive Platform Features',
             description: 'Documentation for wallet, spot map, leaderboard, airdrop, video upload, bounties, and DAO governance.',
+          },
+          {
+            filename: 'llms-mobile.txt',
+            includePatterns: ['docs/Mobile/**'],
+            fullContent: true,
+            title: 'Skatehive Mobile App FAQ',
+            description: 'Frequently asked questions for the Skatehive iOS and Android app: login, security, posting, videos, wallet, and troubleshooting.',
           },
           {
             filename: 'llms-developers.txt',

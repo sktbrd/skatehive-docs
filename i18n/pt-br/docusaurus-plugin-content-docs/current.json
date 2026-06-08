@@ -19,8 +19,32 @@
     "message": "📱 Recursos",
     "description": "The label for category Features in sidebar docs"
   },
+  "sidebar.docs.category.📱 Mobile App": {
+    "message": "📱 App Mobile",
+    "description": "The label for category Mobile App in sidebar docs"
+  },
   "sidebar.docs.category.💻 Devs": {
     "message": "💻 Desenvolvedores",
     "description": "The label for category Devs in sidebar docs"
+  },
+  "sidebar.docs.category.🙋 FAQ": {
+    "message": "🙋 Perguntas Frequentes",
+    "description": "The label for category FAQ in sidebar docs"
+  },
+  "sidebar.docs.category.🎬 Creating Content": {
+    "message": "🎬 Criando Conteúdo",
+    "description": "The label for category Creating Content in sidebar docs"
+  },
+  "sidebar.docs.category.🔒 Security": {
+    "message": "🔒 Segurança",
+    "description": "The label for category Security in sidebar docs"
+  },
+  "sidebar.docs.category.🛠️ Help": {
+    "message": "🛠️ Ajuda",
+    "description": "The label for category Help in sidebar docs"
+  },
+  "sidebar.docs.category.📖 Reference": {
+    "message": "📖 Referência",
+    "description": "The label for category Reference in sidebar docs"
   }
 }

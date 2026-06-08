@@ -49,6 +49,55 @@ module.exports = {
     },
     {
       type: 'category',
+      label: '📱 Mobile App',
+      items: [
+        {
+          type: 'category',
+          label: '🙋 FAQ',
+          items: [
+            'Mobile/faq/getting-started',
+            'Mobile/faq/login-security',
+            'Mobile/faq/creating-content',
+            'Mobile/faq/videos',
+            'Mobile/faq/wallet-rewards',
+            'Mobile/faq/features',
+            'Mobile/faq/troubleshooting-faq',
+          ],
+        },
+        {
+          type: 'category',
+          label: '🎬 Creating Content',
+          items: [
+            'Mobile/creator-guide',
+            'Mobile/app-vs-web',
+          ],
+        },
+        {
+          type: 'category',
+          label: '🔒 Security',
+          items: [
+            'Mobile/key-security',
+          ],
+        },
+        {
+          type: 'category',
+          label: '🛠️ Help',
+          items: [
+            'Mobile/troubleshooting',
+            'Mobile/changelog',
+          ],
+        },
+        {
+          type: 'category',
+          label: '📖 Reference',
+          items: [
+            'Mobile/glossary',
+          ],
+        },
+      ]
+    },
+    {
+      type: 'category',
       label: '💻 Devs',
       items: [
         'Devs/fork-skatehive',
