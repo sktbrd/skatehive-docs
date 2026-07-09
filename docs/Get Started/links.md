@@ -12,7 +12,6 @@ Here's a comprehensive collection of Skatehive resources and links organized by 
 | **Skatehive App**  | [skatehive.app](https://skatehive.app)           | Main Skatehive platform - community, posting, and features |
 | ------------------ | ------------------------------------------------ | ---------------------------------------------------------- |
 | **Skatehive Docs** | [docs.skatehive.app](https://docs.skatehive.app) | Official documentation and guides                          |
-| **My Skatehive**   | [my.skatehive.app](https://my.skatehive.app)     | Legacy Skatehive Website                                   |
 
 ## 🌐 Social Media & Community
 
@@ -20,7 +19,7 @@ Here's a comprehensive collection of Skatehive resources and links organized by 
 | ------------- | -------------------------------------------------------------- | ----------------------------------------------------- |
 | **Twitter**   | [@skatehive\_](https://x.com/Skate_Hive)                       | Official Skatehive Twitter account                    |
 | **Instagram** | [@skatehive](https://instagram.com/skatehive)                  | We are here so skaters can find us                    |
-| **GitHub**    | [github.com/sktbrd](https://github.com/sktbrd)                 | Skatehive open-source repositories                    |
+| **GitHub**    | [github.com/sktbrd](https://github.com/Skatehive)                 | Skatehive open-source repositories                    |
 | **Farcaster** | [nounspace.com/s/skatehive](https://nounspace.com/s/skatehive) | Skatehive Space                                       |
 
 ## 🔧 Developer Resources
