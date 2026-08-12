@@ -40,6 +40,8 @@ O caminho mais rápido pra quem cria conteúdo:
 4. Aprove a assinatura. A Magi converte o HBD da recompensa e envia BTC pro seu
    endereço.
 
+![O botão Earn in BTC / Claim to BTC no card de Recompensas da carteira](/img/earn-in-btc/01-claim-to-btc-button.png)
+
 Seu Hive Power continua em stake — só o seu **HBD líquido** é convertido.
 
 ---
@@ -54,6 +56,8 @@ solução pra cada item.
 | **Um endereço Bitcoin** | Adicione em **Configurações → Endereço Bitcoin** (ou pelo checklist). |
 | **Resource Credits (RC) da Magi** | Toda conta já começa com RC base suficiente pra um swap pequeno. Precisa de mais? A app oferece o **Enable Magi RC** (veja abaixo). |
 | **HBD líquido pra converter** | Dê claim nas recompensas dos seus posts — a parte em HBD é o que converte. |
+
+![O checklist do Claim to Bitcoin — endereço Bitcoin, RC da Magi e recompensa](/img/earn-in-btc/02-checklist.png)
 
 :::note
 Converter pra BTC exige sua própria conta Hive com acesso à active key (ex: Hive
@@ -81,6 +85,8 @@ Quando o RC é o gargalo, a app mostra o botão **Enable Magi RC**. Ele deposita
 quantia pequena de HBD na Magi pra levantar seu teto de RC. Esse HBD continua sendo
 o **seu próprio saldo na Magi** — é um stake de RC resgatável, não uma taxa.
 
+![O botão Enable Magi RC que aparece quando os Resource Credits estão baixos](/img/earn-in-btc/03-enable-magi-rc.png)
+
 :::tip Regra de bolso
 Mantenha na Magi mais ou menos o tanto de HBD do tamanho dos swaps que você quer
 fazer. Um swap de `X` HBD reserva cerca de `X × 1000` de RC, e a base de 10k cobre
@@ -98,6 +104,8 @@ Quer ir no sentido contrário e trazer Bitcoin **pra dentro** da Hive?
 3. A app mostra seu **endereço de depósito BTC pessoal** (com QR code).
 4. Envie qualquer quantia de BTC pra ele. A Magi converte e liquida HBD/HIVE na sua
    conta Hive depois das confirmações do Bitcoin.
+
+![O toggle de direção BTC → e seu endereço de depósito BTC pessoal com QR code](/img/earn-in-btc/04-buy-btc-deposit.png)
 
 Sem assinatura e sem RC — é só um envio de Bitcoin.
 

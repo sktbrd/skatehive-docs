@@ -40,6 +40,8 @@ The fastest path for creators:
 4. Approve the signature. Magi converts your reward HBD and sends BTC to your
    address.
 
+![The Earn in BTC / Claim to BTC button in the wallet Rewards card](/img/earn-in-btc/01-claim-to-btc-button.png)
+
 You keep your Hive Power staked — only your **liquid HBD** is converted.
 
 ---
@@ -54,6 +56,8 @@ for each item.
 | **A Bitcoin address** | Add it in **Settings → Bitcoin address** (or via the checklist). |
 | **Magi Resource Credits (RC)** | Every account starts with enough base RC for a small swap. Need more? The app offers **Enable Magi RC** (see below). |
 | **Liquid HBD to convert** | Claim your post rewards — the HBD portion is what converts. |
+
+![The Claim to Bitcoin checklist — Bitcoin address, Magi RC, and reward](/img/earn-in-btc/02-checklist.png)
 
 :::note
 Converting to BTC needs your own Hive account with active-key access (e.g. Hive
@@ -81,6 +85,8 @@ When RC is the blocker, the app shows an **Enable Magi RC** button. It deposits 
 small amount of HBD into Magi to lift your RC ceiling. That HBD stays **your own
 balance in Magi** — it's a refundable RC stake, not a fee.
 
+![The Enable Magi RC button shown when Resource Credits are low](/img/earn-in-btc/03-enable-magi-rc.png)
+
 :::tip Rule of thumb
 Keep roughly as much HBD parked in Magi as the size of the swaps you want to do.
 A swap of `X` HBD reserves about `X × 1000` RC, and the base 10k covers the rest.
@@ -97,6 +103,8 @@ Want to go the other way and bring Bitcoin **into** Hive?
 3. The app shows your **personal BTC deposit address** (with a QR code).
 4. Send any amount of BTC to it. Magi converts it and settles HBD/HIVE to your
    Hive account after Bitcoin confirmations.
+
+![The BTC → direction toggle and your personal BTC deposit address with QR code](/img/earn-in-btc/04-buy-btc-deposit.png)
 
 No signature and no RC needed — it's just a Bitcoin send.
 
