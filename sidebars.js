@@ -39,6 +39,7 @@ module.exports = {
       label: '📱 Features',
       items: [
         'Features/wallet',
+        'Features/earn-in-btc',
         'Features/spot-map',
         'Features/leaderboard',
         'Features/airdrop',
