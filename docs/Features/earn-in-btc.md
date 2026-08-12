@@ -85,8 +85,6 @@ When RC is the blocker, the app shows an **Enable Magi RC** button. It deposits 
 small amount of HBD into Magi to lift your RC ceiling. That HBD stays **your own
 balance in Magi** — it's a refundable RC stake, not a fee.
 
-![The Enable Magi RC button shown when Resource Credits are low](/img/earn-in-btc/03-enable-magi-rc.png)
-
 :::tip Rule of thumb
 Keep roughly as much HBD parked in Magi as the size of the swaps you want to do.
 A swap of `X` HBD reserves about `X × 1000` RC, and the base 10k covers the rest.

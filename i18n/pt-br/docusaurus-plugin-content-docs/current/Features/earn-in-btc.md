@@ -85,8 +85,6 @@ Quando o RC é o gargalo, a app mostra o botão **Enable Magi RC**. Ele deposita
 quantia pequena de HBD na Magi pra levantar seu teto de RC. Esse HBD continua sendo
 o **seu próprio saldo na Magi** — é um stake de RC resgatável, não uma taxa.
 
-![O botão Enable Magi RC que aparece quando os Resource Credits estão baixos](/img/earn-in-btc/03-enable-magi-rc.png)
-
 :::tip Regra de bolso
 Mantenha na Magi mais ou menos o tanto de HBD do tamanho dos swaps que você quer
 fazer. Um swap de `X` HBD reserva cerca de `X × 1000` de RC, e a base de 10k cobre
