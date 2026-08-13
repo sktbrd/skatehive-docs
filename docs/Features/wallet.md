@@ -11,13 +11,19 @@ The Skatehive wallet is your hub for managing all your crypto assets across mult
 
 ## 🏦 Overview
 
-The wallet page provides a unified dashboard with tabs for:
-- **Hive tokens** (HIVE, HBD, Hive Power)
-- **SkateBank** (HBD Savings with 15% APR)
-- **Ethereum assets** (ETH, ERC-20 tokens via connected wallet)
-- **NFTs** (your NFT collection)
-- **Swap** functionality
-- **PIX** integration (for Brazilian users)
+![The wallet overview with aggregated balances across Hive, EVM and Farcaster](/img/wallet/01-overview.png)
+
+The wallet has four tabs — **Wallet Overview · Art · SkateBank · PIX** — and the
+overview aggregates your balances across **Hive, EVM and Farcaster** into one
+portfolio (filter with the All Chains / Hive / EVM / Farcaster pills):
+
+- **Wallet Overview** — total value, every token across chains, send/receive, swap.
+- **Art** — your NFTs.
+- **SkateBank** — HBD savings (15% APR) and savings jars.
+- **PIX** — Brazilian fiat (BRL) transfers via PIX.
+
+You can also convert your rewards into **real Bitcoin** — see
+[Earn in Bitcoin](./earn-in-btc).
 
 ---
 
@@ -51,6 +57,8 @@ A stablecoin pegged to ~$1 USD:
 
 ## 🏦 SkateBank (HBD Savings)
 
+![The SkateBank savings tab](/img/wallet/02-skatebank.png)
+
 SkateBank is Skatehive's savings section where you earn **15% APR** on your HBD:
 
 ### How It Works
@@ -79,9 +87,29 @@ SkateBank is Skatehive's savings section where you earn **15% APR** on your HBD:
 
 ## 🔄 Swap
 
-Exchange between Hive tokens directly in Skatehive:
-- HIVE ↔ HBD conversions
-- Various Hive Engine tokens
+Swap right from the wallet, across chains:
+
+- **Hive** — HIVE ↔ HBD conversions.
+- **Bitcoin** — HBD/HIVE → real BTC, and BTC → HBD/HIVE, powered by Magi. See
+  [Earn in Bitcoin](./earn-in-btc).
+- **ERC-20** — cross-chain token swaps sourced from 150+ liquidity sources for the
+  best price (on Ethereum, Base and more).
+
+---
+
+## 🐷 Savings Jars
+
+Inside SkateBank you can create **savings jars (cofrinhos)** — goal-based buckets
+to set money aside for something specific (a new deck, a trip, an event). Allocate
+HBD to a jar and track progress toward your goal.
+
+---
+
+## 🇧🇷 PIX
+
+Brazilian skaters can move between crypto and **BRL via PIX** directly in the
+wallet. The **PIX** tab includes a transfer guide, an FAQ, and your PIX
+transaction history.
 
 ---
 

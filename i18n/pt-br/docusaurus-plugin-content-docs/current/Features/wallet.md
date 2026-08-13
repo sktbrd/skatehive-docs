@@ -11,10 +11,20 @@ A carteira Skatehive permite gerenciar seus tokens Hive e ativos Ethereum em um 
 
 ## 💰 Visão Geral
 
-A carteira mostra:
-- **Tokens Hive**: HIVE, Hive Power (HP) e HBD
-- **Ativos Ethereum**: Tokens ERC-20 conectados via seu wallet Ethereum
-- **Preços de Mercado**: Valores atuais de HIVE e HBD
+![A visão geral da carteira com saldos agregados de Hive, EVM e Farcaster](/img/wallet/01-overview.png)
+
+A carteira tem quatro abas — **Wallet Overview · Art · SkateBank · PIX** — e a visão
+geral **agrega seus saldos de Hive, EVM e Farcaster** num só portfólio (filtre com
+as pills All Chains / Hive / EVM / Farcaster):
+
+- **Wallet Overview** — valor total, todos os tokens de todas as chains,
+  enviar/receber, swap.
+- **Art** — seus NFTs.
+- **SkateBank** — HBD savings (15% APR) e cofrinhos.
+- **PIX** — transferências em reais (BRL) via PIX.
+
+Você também pode transformar suas recompensas em **Bitcoin de verdade** — veja
+[Ganhe em Bitcoin](./earn-in-btc).
 
 ---
 
@@ -48,6 +58,8 @@ Stablecoin do Hive atrelado ao USD:
 
 ## 🏦 SkateBank (HBD Savings)
 
+![A aba SkateBank de savings](/img/wallet/02-skatebank.png)
+
 Seção especial para HBD Savings com **15% APR**:
 
 ### Como Funciona
@@ -66,6 +78,34 @@ Seção especial para HBD Savings com **15% APR**:
 | **Cancelar Resgate** | Interrompe um resgate pendente |
 
 > 💡 O período de 3 dias de resgate é um recurso de segurança do blockchain.
+
+---
+
+## 🐷 Cofrinhos
+
+Dentro do SkateBank você cria **cofrinhos** — potinhos com meta pra separar dinheiro
+pra algo específico (um shape novo, uma viagem, um evento). Aloque HBD num cofrinho
+e acompanhe o progresso até a meta.
+
+---
+
+## 🇧🇷 PIX
+
+Skatistas brasileiros podem mover entre cripto e **BRL via PIX** direto na carteira.
+A aba **PIX** tem um guia de transferência, um FAQ e o seu histórico de transações
+PIX.
+
+---
+
+## 🔄 Swap
+
+Faça swap direto da carteira, entre chains:
+
+- **Hive** — conversões HIVE ↔ HBD.
+- **Bitcoin** — HBD/HIVE → BTC de verdade, e BTC → HBD/HIVE, via Magi. Veja
+  [Ganhe em Bitcoin](./earn-in-btc).
+- **ERC-20** — swaps cross-chain de tokens buscando o melhor preço em 150+ fontes de
+  liquidez (Ethereum, Base e mais).
 
 ---
 

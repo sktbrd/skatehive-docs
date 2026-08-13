@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # Skatehive 3.0 Application Overview
 
-Skatehive 3.0 is a comprehensive community platform for skaters, built with Next.js 15 and Tailwind CSS + Shadcn UI. The application enables users to publish content to the Hive blockchain while seamlessly integrating with Farcaster and Ethereum ecosystems. This overview showcases the key features and functionality available in the platform.
+Skatehive 3.0 is a comprehensive community platform for skaters, built with Next.js 15 and Chakra UI. The application enables users to publish content to the Hive blockchain while seamlessly integrating with Farcaster and Ethereum ecosystems. This overview showcases the key features and functionality available in the platform.
 
 ## Posting Composer
 
@@ -15,7 +15,7 @@ The posting composer allows users to create rich content using Markdown syntax, 
 
 ## Skate Spot Map
 
-An interactive map displays community-submitted skate spots through Snaps integration. The map uses dynamic loading to maintain optimal page performance until users access the feature. _Note: Current implementation requires manual input from web-gnar to transfer Snaps submissions to Google Maps - community contributions welcome._
+An interactive map displays community-submitted skate spots. Skaters submit a spot straight from the Snaps composer on a spot page, and it appears on the map. The map uses dynamic loading to maintain optimal page performance until users access the feature.
 
 ![Image](https://ipfs.skatehive.app/ipfs/QmcigkjTTHjm2PXHLzRCAFLBXbjdFyKgd9XVS9yMqQDzdj)
 

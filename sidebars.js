@@ -11,6 +11,7 @@ module.exports = {
           label: '🛹 Get Started',
           items: [
             'Get Started/create-account',
+            'Get Started/accounts-and-identities',
             'Get Started/how-to-login',
             'Get Started/hive-wallets',
             'Get Started/invite-friends',
@@ -40,6 +41,8 @@ module.exports = {
       items: [
         'Features/wallet',
         'Features/earn-in-btc',
+        'Features/snaps',
+        'Features/cross-posting',
         'Features/spot-map',
         'Features/leaderboard',
         'Features/airdrop',
