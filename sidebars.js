@@ -5,7 +5,6 @@ module.exports = {
       label: '🛹 Onboarding',
       items: [
         'README',
-        'create-account',
         {
           type: 'category',
           label: '🛹 Get Started',
